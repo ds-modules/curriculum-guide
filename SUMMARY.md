@@ -1,9 +1,9 @@
 # Summary
 
 * [Getting Started](README.md)
-  * [Instructors](/instructors.md)
-  * [Connector Associates](connector-associates.md)
-  * [Module Developers](module-developers.md)
+  * [Instructors](/getting-started/instructors.md)
+  * [Connector Associates](/getting-started/connector-associates.md)
+  * [Module Developers](/getting-started/module-developers.md)
 * DataHub Basics
   * [Creating Notebooks](/datahub-basics/submitting-notebooks.md)
   * [Distributing via Interact](/datahub-basics/distributing-via-interact.md)
