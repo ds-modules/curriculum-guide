@@ -12,6 +12,8 @@
 * Tools
   * [Jupyter Notebooks](jupyter-notebooks.md)
   * [JupyterHub](jupyterhub.md)
+    * [Python Packages](/tools/jupyterhub/python-packages.md)
+    * [Technical Details](/tools/jupyterhub/technical-details.md)
   * Git and GitHub
   * [Interact Links](/tools/interact-links.md)
   * datascience Package
