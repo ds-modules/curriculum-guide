@@ -21,6 +21,8 @@
   * Program FAQ
   * Links
   * Terms and Abbreviations
-  * People
+  * [People](/reference/people.md)
   * Contact
+
+
 
