@@ -18,7 +18,6 @@ To get started, select the role that best describes you.
 
 Or, here are some pages to get you started.
 
-* creating-notebooks
 * 
 
 
