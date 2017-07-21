@@ -6,5 +6,15 @@ Many Python packages have been pre-installed on JupyterHub and are available by 
 
 ## Installing New Packages
 
-You can \[install other packages\]\([https://github.com/data-8/connector-instructors/wiki/Python-Packages\](https://github.com/data-8/connector-instructors/wiki/Python-Packages%29\) that are not on this list. If you are only going to use the package
+You can also install other packages that are not on this list. There are two methods for installation:
+
+* Temporary installation in a notebook cell - Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install numpy. numpy will then be available for use while the notebook is running. However, this cell must be rerun every time the notebook is started. 
+
+```
+!pip install numpy
+```
+
+* Long-term installation on datahub - You can contact us on Piazza if you want to install packages on datahub. These packages will then be available by default and can be used with an `import` statement in all notebooks. **This is the recommend method for packages that will be used frequently.**
+
+
 
