@@ -22,7 +22,7 @@
   * Links
   * Terms and Abbreviations
   * [People](/reference/people.md)
-  * Contact
+  * [Contact](/reference/contact.md)
 
 
 
