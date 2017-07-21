@@ -10,7 +10,7 @@ The information in the guide is primarily for instructors who are teaching a cou
 
 ## Getting Started
 
-To get started, select the role that you want to learn more about.
+To get started, select the role that best describes you.
 
 * [Instructors](http://127.0.0.1:8000/pages/instructor.html)
 * [Connector Associates](http://127.0.0.1:8000/pages/connector-associate.html)
