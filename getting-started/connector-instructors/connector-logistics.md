@@ -1,25 +1,4 @@
-# Connector Instructors
-
-Welcome to DSEP! This goal of this guide is to provide you with the information needed to set up a course. The information is useful for both new and returning instructors as the program is constantly changing every semester.
-
-## First Steps
-
-### Instructors
-
-* Review your connector Syllabus with DSEP staff
-* Attend a 1 hour technology overview meeting
-* Set up your GitHub account and repo
-* Create a course website
-* Let us know if you want student help
-* Read through this guide
-* Develop assignments 
-
-### Returning Instructors
-
-* Attend a 1 hour technology overview meeting
-* Update your course website
-* Let us know if you want student help
-* Read through this guide
+# Connector Logistics
 
 ## Units
 
@@ -38,9 +17,15 @@ Connector courses are held on Mondays and Tuesdays in 105 Cory. Please discuss s
 
 ## Office Hours
 
-Instructors hold office hours for one hour each week. If you would like a space to hold your office hours, please contact Cathryn.
+Instructors hold office hours for one hour each week. If you would like a space to hold your office hours, please contact Cathryn. 
 
 ## bCourses
 
 For bCourses access, please contact the department under which your course is listed. If you are teaching an L&S connector course, you should contact Cathryn to receive bCourses access.
+
+## Getting Student Help
+
+DSEP can match you with an undergraduate connector assistant \(CA\) who can help you throughout the semester. CAs can help with a variety of tasks such as answer questions during lab and testing assignments. If you would like a CA for the semester, please contact Aspen Hsu. 
+
+
 
