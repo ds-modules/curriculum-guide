@@ -2,7 +2,7 @@
 
 ## What are interact links?
 
-Interact links allow you to obtain a file or folder in your personal JupyterHub account with one click. When you click an interact link for a particular assignment, all files for the assignment will show up in your personal JupyterHub account. You don't have to do the work of download the files from an external site and then uploading them to your JupyterHub account; the links take care of this for you.
+Interact links allow you to obtain a file or folder in your personal JupyterHub account with one click. When an interact link for a particular assignment is clicked, all files for the assignment will show up in the user's personal JupyterHub account. Files do not need to be download from an external site and then uploaded back to the JupyterHub account; interact links simplify this process. 
 
 Interact links must be used with content that is stored on a public GitHub repository. You must also specify which JupyterHub the content should be copied into. All of this information is encoded within the link. Here is the format for an interact link.
 
