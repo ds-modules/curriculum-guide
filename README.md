@@ -1,6 +1,6 @@
 # DataHub Guide
 
-&lt;img src="logo.png" width="640" height=360 /&gt;
+&lt;img src="assets/logo.png" width="640" height=360 /&gt;
 
 ## What is this site?
 
