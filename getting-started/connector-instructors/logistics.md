@@ -17,7 +17,7 @@ Connector courses are held on Mondays and Tuesdays in 105 Cory. Please discuss s
 
 ## Office Hours
 
-Instructors hold office hours for one hour each week. If you would like a space to hold your office hours, please contact Cathryn.
+Instructors hold office hours for one hour each week. If you would like to request a room for office hours, please contact Cathryn.
 
 ## bCourses
 
