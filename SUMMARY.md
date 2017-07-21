@@ -5,26 +5,19 @@
   * [Connector Associates](connector-associates.md)
   * [Module Developers](module-developers.md)
 * DataHub Basics
-
-  * [Creating Notebooks](/datahub-basics/creating-notebooks.md)
+  * [Creating Notebooks](/datahub-basics/submitting-notebooks.md)
   * [Distributing via Interact](/datahub-basics/distributing-via-interact.md)
-
   * [Pushing to GitHub](/datahub-basics/pushing-to-github.md)
-
   * [Submitting Notebooks](/datahub-basics/submitting-notebooks.md)
-
 * Tools
-
   * Jupyter Notebooks
   * JupyterHub
   * Git and GitHub
   * Interact Links
-  * datascience package
-  * connectortools module
+  * datascience Package
+  * connectortools Module
   * bCourses
-
-* [Reference](reference.md)
-
+* Reference
   * Program FAQ
   * Links
   * Terms and Abbreviations
