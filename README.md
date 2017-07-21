@@ -2,7 +2,7 @@
 
 ## What is this site?
 
-This site is a user guide for the undergraduate Data Science Education Program. It includes technical information on tools and nontechnical tips to help you get familiar with the program.
+A user guide for the undergraduate Data Science Education Program. It includes technical information on tools and nontechnical tips to help you get familiar with the program.
 
 ## Who is it for?
 
