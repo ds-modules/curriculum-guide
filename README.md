@@ -12,9 +12,9 @@ The information in the guide is primarily for instructors who are teaching a cou
 
 To get started, select the role that best describes you.
 
-* [Instructors](http://127.0.0.1:8000/pages/instructor.html)
-* [Connector Associates](http://127.0.0.1:8000/pages/connector-associate.html)
-* [Module Developers](http://127.0.0.1:8000/pages/module-developer.html)
+* [Instructors](/getting-started/connector-instructors.md)
+* [Connector Associates](/getting-started/connector-associates.md)
+* [Module Developers](/getting-started/module-developers.md)
 
 Or, here are some pages to get you started.
 
