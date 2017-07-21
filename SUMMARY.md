@@ -5,6 +5,9 @@
   * [Connector Associates](connector-associates.md)
   * [Module Developers](module-developers.md)
 * [DataHub Basics](datahub-basics.md)
+  * [Pushing to GitHub](/datahub-basics/pushing-to-github.md)
 * Tools
 * [Reference](reference.md)
+
+
 
