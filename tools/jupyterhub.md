@@ -16,11 +16,5 @@ Working on JupyterHub ensures that all students and instructors are using the sa
 
 Anyone with a berkeley.edu email address has access to the JupyterHub at datahub.berkeley.edu. If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
 
-## Pre-installed Python Packages
-
-Many Python packages have been pre-installed on JupyterHub and are available to students by default. You can find of these pre-installed packages \[here\]\([https://github.com/data-8/connector-instructors/wiki/Python-Packages\#pre-installed\](https://github.com/data-8/connector-instructors/wiki/Python-Packages#pre-installed%29\). You can also \[install other packages\]\([https://github.com/data-8/connector-instructors/wiki/Python-Packages\](https://github.com/data-8/connector-instructors/wiki/Python-Packages%29\) that are not on this list.
-
-
-
 
 
