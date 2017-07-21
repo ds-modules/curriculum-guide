@@ -1,5 +1,9 @@
 # DataHub Guide
 
+&lt;img src="logo.png" width="640" height=360 /&gt;
+
+![](/assets/logo.png)
+
 ## What is this site?
 
 This site is a user guide for the undergraduate Data Science Education Program. It includes technical information on tools and nontechnical tips to help you get familiar with the program.
