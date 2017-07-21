@@ -10,7 +10,7 @@
   * [Pushing to GitHub](/datahub-basics/pushing-to-github.md)
   * [Submitting Notebooks](/datahub-basics/submitting-notebooks.md)
 * Tools
-  * Jupyter Notebooks
+  * [Jupyter Notebooks](jupyter-notebooks.md)
   * JupyterHub
   * Git and GitHub
   * Interact Links
@@ -23,6 +23,4 @@
   * Terms and Abbreviations
   * People
   * Contact
-
-
 
