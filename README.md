@@ -1,4 +1,4 @@
-# Welcome to the DataHub Guide
+# Welcome to the DataHub Guide!
 
 ## What is this site?
 
