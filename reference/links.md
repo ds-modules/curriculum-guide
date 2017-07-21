@@ -12,13 +12,11 @@ This page is a consolidation of relevant links from this wiki and other sites.
 * \[\`datascience\` package\]\([http://data8.org/datascience/\](http://data8.org/datascience/%29\)
 * \[Patty Frontera's workflow\]\([https://github.com/data-8/geospatial-connector/blob/gh-pages/notes/new\_notebook.md\](https://github.com/data-8/geospatial-connector/blob/gh-pages/notes/new_notebook.md%29\) on using notebooks on the cluster
 
-Sample Notebooks
+Sample Notebooks 
 
-\* \[Tables Demo\]\([https://github.com/deculler/TableDemos\](https://github.com/deculler/TableDemos%29\)
-
-\* \[Data 8 textbook\]\([https://github.com/data-8/textbook/tree/gh-pages/notebooks\](https://github.com/data-8/textbook/tree/gh-pages/notebooks%29\)
-
-\* \[Jupyter Notebook documentation\]\([http://ipython.org/notebook.html\](http://ipython.org/notebook.html%29\)
+* \[Tables Demo\]\([https://github.com/deculler/TableDemos\](https://github.com/deculler/TableDemos%29\)
+* \[Data 8 textbook\]\([https://github.com/data-8/textbook/tree/gh-pages/notebooks\](https://github.com/data-8/textbook/tree/gh-pages/notebooks%29\)
+* \[Jupyter Notebook documentation\]\([http://ipython.org/notebook.html\](http://ipython.org/notebook.html%29\)
 
 ## Connector and DSEP Information
 
