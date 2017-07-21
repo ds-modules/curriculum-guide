@@ -13,7 +13,7 @@
   * [Jupyter Notebooks](jupyter-notebooks.md)
   * [JupyterHub](jupyterhub.md)
   * Git and GitHub
-  * Interact Links
+  * [Interact Links](/tools/interact-links.md)
   * datascience Package
   * connectortools Module
   * bCourses
