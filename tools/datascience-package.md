@@ -2,7 +2,7 @@
 
 ## What is the datascience package?
 
-The `datascience` Python package was written for use in Berkeley’s Data Science courses and contains useful functionality for investigating and graphically displaying data. One key component of the `datascience` package is the Tables abstraction, which is similar to a Pandas dataframe. The aim of this package is to provide a simple but powerful set of tools to introductory students.
+The `datascience` Python package was written for use in Berkeley’s Data Science courses and contains useful functionality for investigating and graphically displaying data. One key component of the `datascience` package is the Tables abstraction, which is similar to a Pandas dataframe. The package also contains useful functionality for drawing maps and plotting. The aim of this package is to provide a simple but powerful set of tools for introductory students. 
 
 ## Are students familiar with this package?
 
