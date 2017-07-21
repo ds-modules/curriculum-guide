@@ -6,7 +6,7 @@ This site is a user guide for the undergraduate Data Science Education Program. 
 
 ## Who is it for?
 
-Instructors who are teaching a course with DSEP, connector course associates, module developers, and anyone else who is interested in these roles or wants to learn more about the program.
+The information in the guide is primarily for instructors who are teaching a course with DSEP, connector course associates, module developers, and anyone else who is interested in these roles or wants to learn more about the program.
 
 ## Getting Started
 
