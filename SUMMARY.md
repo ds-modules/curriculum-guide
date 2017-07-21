@@ -1,9 +1,9 @@
 # Summary
 
 * [Getting Started](README.md)
-  * [First Chapter](chapter1.md)
+  * [Instructors](/instructors.md)
   * [Connector Associates](connector-associates.md)
-* [Module Developers](module-developers.md)
+  * [Module Developers](module-developers.md)
 
 
 
