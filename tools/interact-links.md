@@ -2,15 +2,21 @@
 
 ## What are interact links?
 
-Interact links simplify the assignment distribution process. Rather than downloading files from an external source and then uploading to their personal JupyterHub accounts, users can obtain all files for a given assignment with just one click. When a user clicks on an interact link for a particular assignment, all files for the assignment will show up in the user's personal JupyterHub account. Here is what an interact link looks like.
+Interact links simplify the assignment distribution process. Rather than downloading files from an external source and then uploading to their personal JupyterHub accounts, users can obtain all files for a given assignment with just one click. When a user clicks on an interact link for a particular assignment, all files for the assignment will show up in the user's personal JupyterHub account. 
+
+
 
 ![](/assets/interact-link.png)
 
-Interact links must be used with content that is stored on a public GitHub repository. You must also specify which JupyterHub the content should be copied into. All of this information is encoded within the link, as shown in the image.
+## Components
 
-## Can I use interact links with my own GitHub repo?
+Here is a brief description of the various components of an interact link, highlighted in different colors in the image. If you are new to GitHub you may want to familiarize yourself with the basics \(repositories, branches, etc.\) to better understand each component.
 
-Yes! Please contact us if you want to set this up. Links for repos in the \[data-8\]\([https://github.com/data-8\](https://github.com/data-8%29\) GitHub organization will work automatically, but we will need to do some setup for your personal repo.
+## Restrictions
+
+To use an interact link, files must be stored in a public GitHub repo. Currently, interact links are only supported for certain repositories. You can either store content in one of the allowed repositories or contact us on Piazza to add your repository to the list of approved ones. In the future, we will provide automatic interact link support for all repositories.
+
+
 
 ## Can I specify branches for interact links?
 
