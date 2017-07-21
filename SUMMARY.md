@@ -14,6 +14,7 @@
   * [Submitting Notebooks](/datahub-basics/submitting-notebooks.md)
 
 * Tools
+
   * Jupyter Notebooks
   * JupyterHub
   * Git and GitHub
@@ -21,7 +22,13 @@
   * `datascience` package
   * `connectortools` module
   * bCourses
+
 * [Reference](reference.md)
+  * Program FAQ
+  * Links
+  * Terms and Abbreviations
+  * People
+  * Contact
 
 
 
