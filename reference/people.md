@@ -1,6 +1,6 @@
 # People
 
-Names of people and a brief description of what they do.
+Names of people involved with DSEP and a brief description of what they do.
 
 | Name | Description |
 | :--- | :--- |
