@@ -8,15 +8,11 @@ Git is a version control software that tracks changes in files and allows multip
 
 Storing materials on the Data 8 GitHub allows you to use Interact Links for assignment distribution. It's also allows you to use the version control features that Git provides. In addition, it provides a central public location for connector course materials across semesters.
 
-## What are different ways to use GitHub?
-
-To store assignments on GitHub, you can use the GitHub web interface, a command line interface, or a desktop GUI \(graphical user interface\). You can learn more about how to use GitHub \[here\]\([https://github.com/data-8/connector-instructors/wiki/Using-GitHub\](https://github.com/data-8/connector-instructors/wiki/Using-GitHub\)\).
-
 ## Is my GitHub repository private?
 
 No. Don't store answer keys and other private materials on the GitHub repo.
 
 ## Getting Access
 
-Each connector course has its own repo on the \[Data 8 GitHub organization\]\([https://github.com/data-8\](https://github.com/data-8\)\). This repo is a place where you can store course materials such as Jupyter notebooks. Instructors and CAs should have full access to their connector's repo. If you don't have full access and want to request it, please post on \[Piazza\]\([https://piazza.com/berkeley/other/cs97/home\](https://piazza.com/berkeley/other/cs97/home\)\).
+Each connector course has its own repo on the \[Data 8 GitHub organization\]\([https://github.com/data-8\](https://github.com/data-8%29\). This repo is a place where you can store course materials such as Jupyter notebooks. Instructors and CAs should have full access to their connector's repo. If you don't have full access and want to request it, please post on \[Piazza\]\([https://piazza.com/berkeley/other/cs97/home\](https://piazza.com/berkeley/other/cs97/home%29\).
 
