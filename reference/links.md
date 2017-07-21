@@ -20,17 +20,13 @@ Sample Notebooks
 
 ## Connector and DSEP Information
 
-* \[List of current connectors\]\([http://data8.org/connector/\](http://data8.org/connector/%29\)
-* \[DSEP homepage\]\([http://data.berkeley.edu/education\](http://data.berkeley.edu/education%29\)
+* [List of current connectors](http://data8.org/connector/\)
+* [DSEP homepage](http://data.berkeley.edu/education\)
 
 ## Data 8 Information
 
-* \[Data 8 textbook\]\([https://www.inferentialthinking.com/\](https://www.inferentialthinking.com/%29\)
-* \[Current Data 8 course site\]\([http://data8.org\](http://data8.org%29\)
-* Older Data 8 course sites
-* \[2016 - Fall\]\([http://data8.org/fa16\](http://data8.org/fa16%29\)
-* \[2016 - Spring\]\([http://data8.org/sp16\](http://data8.org/sp16%29\)
-* \[2015 - Fall\]\([http://data8.org/fa15\](http://data8.org/fa15%29\)
+* [Data 8 textbook](https://www.inferentialthinking.com/\)
+* [Data 8 course site](http://data8.org\)
 
 
 
