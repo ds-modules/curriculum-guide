@@ -2,7 +2,7 @@
 
 # Using the Web Interface
 
-You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, \[download the notebook\]\([https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks\#download\](https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks#download\)\) onto your computer. Then, go to your connector's GitHub repository and click \`Upload Files\` on the right side.
+You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, \[download the notebook\]\([https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks\#download\](https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks#download%29\) onto your computer. Then, go to your connector's GitHub repository and click \`Upload Files\` on the right side.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23319695/89fa6484-fa8c-11e6-9d36-6b6782e2c383.png)
 
@@ -20,7 +20,7 @@ Once you've gone through the above steps, you can save your changes. A set of ch
 
 ## Using the Command Line
 
-GitHub can also be used via the command line. You can store your connector's Git repository locally and use a local terminal application to access the command line. You can also store the repository on \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu\)\) and use the terminal that is present on the JupyterHub site. The instructions below are tailored towards command line use over JupyterHub, but the commands listed can be run on a local terminal as well.
+GitHub can also be used via the command line. You can store your connector's Git repository locally and use a local terminal application to access the command line. You can also store the repository on \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu%29\) and use the terminal that is present on the JupyterHub site. The instructions below are tailored towards command line use over JupyterHub, but the commands listed can be run on a local terminal as well.
 
 You can access the terminal on JupyterHub by clicking on the \`New\` dropdown, and then clicking on \`Terminal\`.
 
@@ -42,7 +42,7 @@ For example, if your repository is called \`health-connector\`, you'd type:
     git clone https://github.com/data-8/health-connector
 ```
 
-After this step, you should be able to see your connector's folder at \[[https://datahub.berkeley.edu\]\(https://datahub.berkeley.edu\](https://datahub.berkeley.edu]%28https://datahub.berkeley.edu\)\). Create, upload, or move content \(Notebooks, datasets, etc.\) into the folder. For more information on creating Notebooks, see \[this page\]\([https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks\](https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks\)\). For more information on storing datasets, see \[this page\]\([https://github.com/data-8/connector-instructors/wiki/Storing-Datasets\](https://github.com/data-8/connector-instructors/wiki/Storing-Datasets\)\). Once you have your content in the newly created connector repository folder, you can follow the steps below on the terminal to push to GitHub.
+After this step, you should be able to see your connector's folder at \[[https://datahub.berkeley.edu\]\(https://datahub.berkeley.edu\](https://datahub.berkeley.edu]%28https://datahub.berkeley.edu%29%29. Create, upload, or move content %28Notebooks, datasets, etc.\) into the folder. For more information on creating Notebooks, see \[this page\]\([https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks\](https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks%29\). For more information on storing datasets, see \[this page\]\([https://github.com/data-8/connector-instructors/wiki/Storing-Datasets\](https://github.com/data-8/connector-instructors/wiki/Storing-Datasets%29\). Once you have your content in the newly created connector repository folder, you can follow the steps below on the terminal to push to GitHub.
 
 ```
     cd ~/&lt;repo\_name&gt;
@@ -60,7 +60,7 @@ You should see something that lists the files you've changed or added. If your f
     git push origin master
 ```
 
-If the push is successful, you should be able to go \[GitHub\]\([https://github.com/data-8\](https://github.com/data-8\)\) and see the newly uploaded file in the connector repo. If you run into something that looks the below error, contact us on \[Piazza\]\([https://piazza.com/berkeley/other/cs97\](https://piazza.com/berkeley/other/cs97\)\) and we will make sure you have the permissions needed.
+If the push is successful, you should be able to go \[GitHub\]\([https://github.com/data-8\](https://github.com/data-8%29\) and see the newly uploaded file in the connector repo. If you run into something that looks the below error, contact us on \[Piazza\]\([https://piazza.com/berkeley/other/cs97\](https://piazza.com/berkeley/other/cs97%29\) and we will make sure you have the permissions needed.
 
 ```
     ERROR: Permission to data-8/some-connector.git denied
@@ -86,17 +86,17 @@ Here are the above commands, consolidated. This workflow is intended for Git beg
 
 **Web Interface**
 
-* \[Managing Files\]\([https://help.github.com/categories/managing-files-in-a-repository/\](https://help.github.com/categories/managing-files-in-a-repository/\)\) - contains information under the "Managing Files on GitHub" section on how to perform many basic file operations using the GitHub web interface.
+* [Managing Files](https://help.github.com/categories/managing-files-in-a-repository/\) - contains information under the "Managing Files on GitHub" section on how to perform many basic file operations using the GitHub web interface.
 
-* \[Hello World Exercise\]\([https://guides.github.com/activities/hello-world/\](https://guides.github.com/activities/hello-world/\)\) - a short exercise that walks you through additional GitHub features such as branches and pull requests.
+* [Hello World Exercise](https://guides.github.com/activities/hello-world/\)[ ](https://guides.github.com/activities/hello-world/%29\)- a short exercise that walks you through additional GitHub features such as branches and pull requests.
 
 **Command Line**
 
-* \[Atlassian Tutorials\]\([https://www.atlassian.com/git/tutorials\](https://www.atlassian.com/git/tutorials\)\) - tutorials for different levels of Git Users.
+* [Atlassian Tutorials](https://www.atlassian.com/git/tutorials\) - tutorials for different levels of Git Users.
 
 **Desktop GUI**
 
-* \[Desktop GUI site\]\([https://desktop.github.com/\](https://desktop.github.com/\)\) - information on using a GitHub desktop GUI.
+* [Desktop GUI site](https://desktop.github.com/\) - information on using a GitHub desktop GUI.
 
 
 
