@@ -14,5 +14,10 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 
 ## Returning Instructors
 
+* Attend a 1 hour technology overview meeting
+* Update your course website
+* Let us know if you want student help
+* Read through this guide
+
 
 
