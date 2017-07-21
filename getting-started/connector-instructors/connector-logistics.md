@@ -17,7 +17,7 @@ Connector courses are held on Mondays and Tuesdays in 105 Cory. Please discuss s
 
 ## Office Hours
 
-Instructors hold office hours for one hour each week. If you would like a space to hold your office hours, please contact Cathryn. 
+Instructors hold office hours for one hour each week. If you would like a space to hold your office hours, please contact Cathryn.
 
 ## bCourses
 
@@ -25,7 +25,5 @@ For bCourses access, please contact the department under which your course is li
 
 ## Getting Student Help
 
-DSEP can match you with an undergraduate connector assistant \(CA\) who can help you throughout the semester. CAs can help with a variety of tasks such as answer questions during lab and testing assignments. If you would like a CA for the semester, please contact Aspen Hsu. 
-
-
+DSEP can match you with an undergraduate connector assistant \(CA\) who can help you throughout the semester. CAs can help with a variety of tasks such as answer questions during lab and testing assignments. If you would like a CA for the semester, please contact Aspen Hsu.
 
