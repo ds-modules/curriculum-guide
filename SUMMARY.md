@@ -11,7 +11,7 @@
   * [Submitting Notebooks](/datahub-basics/submitting-notebooks.md)
 * Tools
   * [Jupyter Notebooks](jupyter-notebooks.md)
-  * JupyterHub
+  * [JupyterHub](jupyterhub.md)
   * Git and GitHub
   * Interact Links
   * datascience Package
