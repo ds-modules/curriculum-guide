@@ -19,8 +19,8 @@
   * JupyterHub
   * Git and GitHub
   * Interact Links
-  * `datascience` package
-  * `connectortools` module
+  * datascience package
+  * connectortools module
   * bCourses
 
 * [Reference](reference.md)
