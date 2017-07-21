@@ -34,15 +34,13 @@ For students, one unit of work corresponds to three hours of work. The six hours
 
 ## Room Scheduling
 
-Connector courses are held on Mondays and Tuesdays in 105 Cory. Please discuss scheduling a time for your connector with Cathryn. 
+Connector courses are held on Mondays and Tuesdays in 105 Cory. Please discuss scheduling a time for your connector with Cathryn.
 
 ## Office Hours
 
 Instructors hold office hours for one hour each week. If you would like a space to hold your office hours, please contact Cathryn.
 
+## bCourses
 
-
-
-
-
+For bCourses access, please contact the department under which your course is listed. If you are teaching an L&S connector course, you should contact Cathryn to receive bCourses access.
 
