@@ -14,11 +14,10 @@
   * [JupyterHub](jupyterhub.md)
     * [Python Packages](/tools/jupyterhub/python-packages.md)
     * [Technical Details](/tools/jupyterhub/technical-details.md)
-  * Git and GitHub
+  * [Git and GitHub](/tools/git-and-github.md)
   * [Interact Links](/tools/interact-links.md)
-  * datascience Package
-  * connectortools Module
-  * bCourses
+  * [datascience Package](/tools/datascience-package.md)
+  * [connectortools Module](/tools/connectortools-module.md)
 * Reference
   * Program FAQ
   * Links
