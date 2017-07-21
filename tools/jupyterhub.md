@@ -2,11 +2,11 @@
 
 ## What is JupyterHub?
 
-The Jupyter notebooks mentioned above are used in conjunction with JupyterHub. The term JupyterHub refers to the infrastructure set up on \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu\)\). This site provides cloud-based internet storage for assignments. Instructors and students can work on and store assignments entirely through JupyterHub. It is essentially the equivalent of Google Drive for Jupyter notebooks.
+Jupyter notebooks can be used in conjunction with JupyterHub. The term JupyterHub refers to the infrastructure set up on [datahub.berkeley.edu](http://datahub.berkeley.edu\). This site provides cloud-based internet storage and computation power for assignments. Instructors and students can work on and store assignments entirely through JupyterHub. No local installation of Python, Jupyter, etc. is needed. All you need is a browser to get started!
 
 ## Do you need JupterHub to use notebooks?
 
-You don't need to use JupyterHub in order to use the Jupyter notebooks. Notebooks can be used and stored locally in your computer's filesystem. This requires some extra installation and setup that we have not provided directions for on this site. You don't need an internet connection in order to use and access the notebooks on your own computer. You do need an internet connection in order to use the \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu\)\) JupyterHub.
+You don't need to use JupyterHub in order to use the Jupyter notebooks. Notebooks can be used and stored locally in your computer's filesystem. This requires some extra installation and setup that we have not provided directions for on this site. You don't need an internet connection in order to use and access the notebooks on your own computer. You do need an internet connection in order to use the \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu%29\) JupyterHub.
 
 ## Why does JupyterHub exist?
 
@@ -14,21 +14,21 @@ Working on JupyterHub ensures that all students and instructors are using the sa
 
 ## Getting Access
 
-Anyone with a berkeley.edu email address has access to the JupyterHub at datahub.berkeley.edu. If anyone \(instructors, CAs, students\) is having trouble logging in, please make sure that the correct URL and a berkeley.edu email are being used for login. Please post on Piazza if you are unable to solve JupyterHub access issues.
+Anyone with a berkeley.edu email address has access to the JupyterHub at datahub.berkeley.edu. If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
 
 ## Pre-installed Python Packages
 
-Many Python packages have been pre-installed on JupyterHub and are available to students by default. You can find of these pre-installed packages \[here\]\([https://github.com/data-8/connector-instructors/wiki/Python-Packages\#pre-installed\](https://github.com/data-8/connector-instructors/wiki/Python-Packages#pre-installed\)\). You can also \[install other packages\]\([https://github.com/data-8/connector-instructors/wiki/Python-Packages\](https://github.com/data-8/connector-instructors/wiki/Python-Packages\)\) that are not on this list.
+Many Python packages have been pre-installed on JupyterHub and are available to students by default. You can find of these pre-installed packages \[here\]\([https://github.com/data-8/connector-instructors/wiki/Python-Packages\#pre-installed\](https://github.com/data-8/connector-instructors/wiki/Python-Packages#pre-installed%29\). You can also \[install other packages\]\([https://github.com/data-8/connector-instructors/wiki/Python-Packages\](https://github.com/data-8/connector-instructors/wiki/Python-Packages%29\) that are not on this list.
 
 ## Technical Overview
 
-JupyterHub is a cluster \(set of connected computers\) and each node \(computer\) in the cluster has several CPUs and a finite amount of memory. Each student also has disk space on JupyterHub. When people go to \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu\)\), JupyterHub will create an instance of Python + all class materials, and will reserve a CPU for them to run code. There are ~8 CPUs for each node, and they are shared by all the users currently logged-in to that node. Each user instance has roughly \*\*1 CPU, 10GB storage, and 2GB memory\*\*.
+JupyterHub is a cluster \(set of connected computers\) and each node \(computer\) in the cluster has several CPUs and a finite amount of memory. Each student also has disk space on JupyterHub. When people go to \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu%29\), JupyterHub will create an instance of Python + all class materials, and will reserve a CPU for them to run code. There are ~8 CPUs for each node, and they are shared by all the users currently logged-in to that node. Each user instance has roughly \*\*1 CPU, 10GB storage, and 2GB memory\*\*.
 
 ## CPU Restrictions
 
 While CPU will restrict how fast your code runs, it's usually not the bottleneck on the cluster. Obviously you want to limit the complexity of the analyses you'd like students to run, and a good rule of thumb is to try and simplify analyses / datasets, and then discuss how they'd be scaled up. For example, running simple machine learning on in-memory data is probably fine. Fitting a multi-layer neural network on multiple batches of data is probably going to take a long time.
 
-One thing that will tie up resources is running commands that request multiple CPUs. \*\*Please avoid using parallel computing in your code\*\* \(e.g., \`joblib\`, or \`n\_jobs &gt; 1\` in \`scikit-learn\`\). If you really want to do this, contact us on \[Piazza\]\([https://piazza.com/berkeley/other/cs97\](https://piazza.com/berkeley/other/cs97\)\) and we will try to set up something that works for you.
+One thing that will tie up resources is running commands that request multiple CPUs. \*\*Please avoid using parallel computing in your code\*\* \(e.g., \`joblib\`, or \`n\_jobs &gt; 1\` in \`scikit-learn\`\). If you really want to do this, contact us on \[Piazza\]\([https://piazza.com/berkeley/other/cs97\](https://piazza.com/berkeley/other/cs97%29\) and we will try to set up something that works for you.
 
 ## Memory Restrictions
 
