@@ -16,8 +16,5 @@ To get started, select the role that best describes you.
 * [Connector Associates](/getting-started/connector-associates.md)
 * [Module Developers](/getting-started/module-developers.md)
 
-Or, here are some pages to get you started.
-
-* 
 
 
