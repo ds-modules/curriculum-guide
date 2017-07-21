@@ -2,7 +2,7 @@
 
 ## Overview
 
-JupyterHub is a cluster \(set of connected computers\) and each node \(computer\) in the cluster has several CPUs and a finite amount of memory. Each student also has disk space on JupyterHub. When people go to \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu%29\), JupyterHub will create an instance of Python + all class materials, and will reserve a CPU for them to run code. There are ~8 CPUs for each node, and they are shared by all the users currently logged-in to that node. Each user instance has roughly \*\*1 CPU, 10GB storage, and 2GB memory\*\*.
+JupyterHub is a cluster \(set of connected computers\) and each node \(computer\) in the cluster has several CPUs and a finite amount of memory. Each student also has disk space on JupyterHub. When people go to [datahub.berkeley.edu](http://datahub.berkeley.edu\), JupyterHub will create an instance of Python + all class materials, and will reserve a CPU for them to run code. There are ~8 CPUs for each node, and they are shared by all the users currently logged-in to that node. Each user instance has roughly \*\*1 CPU, 10GB storage, and 2GB memory\*\*.
 
 ## CPU Restrictions
 
