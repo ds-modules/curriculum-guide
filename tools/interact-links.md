@@ -10,7 +10,7 @@ To use an interact link, files must be stored in a public GitHub repo. Currently
 
 ## Components
 
-Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting. Those will remain the same for each link. The colored portions will change for diffferent links. If you are new to GitHub you may want to familiarize yourself with the basics \(repositories, branches, etc.\) to better understand each component.
+Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting. Those will remain the same for each link. The colored portions will change for different links. If you are new to GitHub you may want to familiarize yourself with the basics \(repositories, branches, etc.\) to better understand each component.
 
 ![](/assets/interact-link.png)
 
