@@ -23,11 +23,11 @@ Working on JupyterHub provides a number of benefits, especially in an introducto
 | Limited resources \(disk and RAM\) | Unlimited resources \(limited only by your computer\) |
 | System-wide installation done by admins | You can install anything you want |
 | You can only access files in your account | You can maybe access all files \(if you are an admin\) |
-| If things break, we fix them! :\) | If things break, you have to fix them :\( |
+| If things break, we fix them :\) | If things break, you have to fix them :\( |
 
 ## Overview of the Internals
 
-The first time you logs in to JupyterHub, a personal account is created for you. You will get your own filesystem so you only have access to the files in your personal account. **Modifications to files in your personal account do not affect anyone else's files. **Unless you are an admin, you cannot access another account's files. This applies to everyone working on JupyterHub, which means a given student cannot access another student's work. 
+The first time you logs in to JupyterHub, a personal account is created for you. You will get your own filesystem so you only have access to the files in your personal account. **Modifications to files in your personal account do not affect anyone else's files. **Unless you are an admin, you cannot access another account's files. This applies to everyone working on JupyterHub, which means a given student cannot access another student's work.
 
 ## Getting Access
 
