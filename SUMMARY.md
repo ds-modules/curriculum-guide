@@ -2,7 +2,6 @@
 
 * [Getting Started](README.md)
   * [Connector Instructors](/getting-started/connector-instructors.md)
-    * [Connector Logistics](/getting-started/connector-instructors/logistics.md)
   * [Connector Associates](/getting-started/connector-associates.md)
   * [Module Developers](/getting-started/module-developers.md)
 * [DataHub Basics](datahub-basics.md)
@@ -10,6 +9,9 @@
   * [Distributing via Interact](/datahub-basics/distributing-via-interact.md)
   * [Pushing to GitHub](/datahub-basics/pushing-to-github.md)
   * [Submitting Notebooks](/datahub-basics/submitting-notebooks.md)
+* Connector Basics
+  * [Connector Logistics](/getting-started/connector-instructors/logistics.md)
+* Module Basics
 * Tools
   * [Jupyter Notebooks](jupyter-notebooks.md)
   * [JupyterHub](/tools/jupyterhub.md)
