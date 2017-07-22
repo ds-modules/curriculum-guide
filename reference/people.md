@@ -2,7 +2,7 @@
 
 Names of people involved with DSEP and a brief description of what they do.
 
-## General 
+## General
 
 | Name | Role | Email |
 | :--- | :--- | :--- |
@@ -12,7 +12,7 @@ Names of people involved with DSEP and a brief description of what they do.
 | Yuvi Panda |  |  |
 | Ryan Lovett |  |  |
 
-## Connectors 
+## Connectors
 
 | Name | Role | Email |
 | :--- | :--- | :--- |
