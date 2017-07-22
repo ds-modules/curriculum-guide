@@ -21,7 +21,7 @@
   * [Interact Links](/tools/interact-links.md)
   * [datascience Package](/tools/datascience-package.md)
   * [connectortools Module](/tools/connectortools-module.md)
-* [Reference](reference.md)
+* Reference
   * [Links](/reference/links.md)
   * [Terms and Abbreviations](/reference/terms-and-abbreviations.md)
   * [People](/reference/people.md)
