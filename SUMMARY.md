@@ -12,14 +12,14 @@
   * [Submitting Notebooks](/datahub-basics/submitting-notebooks.md)
 * Tools
   * [Jupyter Notebooks](jupyter-notebooks.md)
-  * [JupyterHub](jupyterhub.md)
+  * [JupyterHub](/tools/jupyterhub.md)
     * [Python Packages](/tools/jupyterhub/python-packages.md)
     * [Technical Details](/tools/jupyterhub/technical-details.md)
   * [Git and GitHub](/tools/git-and-github.md)
   * [Interact Links](/tools/interact-links.md)
   * [datascience Package](/tools/datascience-package.md)
   * [connectortools Module](/tools/connectortools-module.md)
-* Reference
+* [Reference](reference.md)
   * [Links](/reference/links.md)
   * [Terms and Abbreviations](/reference/terms-and-abbreviations.md)
   * [People](/reference/people.md)

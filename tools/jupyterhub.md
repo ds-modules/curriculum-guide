@@ -2,19 +2,30 @@
 
 ## What is JupyterHub?
 
-Jupyter notebooks can be used in conjunction with JupyterHub. The term JupyterHub refers to the infrastructure set up on [datahub.berkeley.edu](http://datahub.berkeley.edu\). This site provides cloud-based internet storage and computation power for assignments. Instructors and students can work on and store assignments entirely through JupyterHub. No local installation of Python, Jupyter, etc. is needed. All you need is a browser to get started!
+If you have worked with Jupyter notebooks before, you probably used a local installation. Jupyter notebooks can be created, run, and stored on your personal computer. In order to do all this, you have to install several different programs, such as Python, the Jupyter module, etc. The installation process can be very tedious and error-prone. Even after you have finished installing everything, you may still see errors in the future for various reasons \(versions of software become outdated, you install conflicting software, etc.\). To avoid the frustrations of setting up and maintaining the programming environment needed for Jupyter notebooks, we set up a JupyterHub for use in DSEP courses. 
 
-## Do you need JupterHub to use notebooks?
-
-You don't need to use JupyterHub in order to use the Jupyter notebooks. Notebooks can be used and stored locally in your computer's filesystem. This requires some extra installation and setup that we have not provided directions for on this site. You don't need an internet connection in order to use and access the notebooks on your own computer. You do need an internet connection in order to use the \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu%29\) JupyterHub.
+The term JupyterHub refers to the infrastructure set up on [datahub.berkeley.edu](http://datahub.berkeley.edu\). This site provides both cloud-based internet storage and computation power for notebooks. Instructors and students can work on and store assignments entirely through JupyterHub. No local installation of Python, Jupyter, etc. is needed. All you need is a browser to get started! This allows students in Data 8 and connector courses to start working on notebooks from day one. 
 
 ## Why does JupyterHub exist?
 
-Working on JupyterHub ensures that all students and instructors are using the same computing environment, reducing installation or compatibility issues that come up with different computers and operating systems. In addition, the work stored over the cloud can be accessed from anywhere. Students who don't have access to a personal computer can still access their work through library computers.
+Working on JupyterHub provides a number of benefits, especially in an introductory course:
+
+* Students never have to do any setup or installation. JupyterHub removes the burden of setting up and maintaining a development environment.
+* All students and instructors use the same computing environment.
+* Work stored in the cloud and can be accessed from any computer. 
+* All students have access to the same compute power, regardless of the machine they are using. For example, students without personal computers can use library computers without being at a disadvantage in the course. 
+
+## Differences from local installation?
+
+| **JupyterHub** | **Local Setup** |
+| :--- | :--- |
+| Needs an internet connection | Does not need an internet connection |
+| Limited resources \(disk and RAM\) | Unlimited resources \(limited only by your computer\) |
+| System-wide installation done by admins | You can install anything you want  |
+| You can only access files in your account | You can maybe access all files \(if you are an admin\) |
+| If things break, we fix them! :\) | If things break, you have to fix them :\( |
 
 ## Getting Access
 
 Anyone with a berkeley.edu email address has access to the JupyterHub at datahub.berkeley.edu. If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
-
-
 
