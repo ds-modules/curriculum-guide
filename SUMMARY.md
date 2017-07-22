@@ -1,7 +1,7 @@
 # Summary
 
 * [Getting Started](README.md)
-  * [Connector Instructors](/getting-started/instructors.md)
+  * [Connector Instructors](/getting-started/connector-instructors.md)
     * [Connector Logistics](/getting-started/connector-instructors/logistics.md)
   * [Connector Associates](/getting-started/connector-associates.md)
   * [Module Developers](/getting-started/module-developers.md)
