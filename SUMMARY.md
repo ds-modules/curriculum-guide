@@ -13,7 +13,7 @@
   * [Connector Logistics](/getting-started/connector-instructors/logistics.md)
 * Module Basics
 * Tools
-  * [Jupyter Notebooks](jupyter-notebooks.md)
+  * [Jupyter Notebooks](/tools/jupyter-notebooks.md)
   * [JupyterHub](/tools/jupyterhub.md)
     * [Python Packages](/tools/jupyterhub/python-packages.md)
     * [Technical Details](/tools/jupyterhub/technical-details.md)
