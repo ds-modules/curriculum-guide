@@ -9,10 +9,10 @@
   * [Distributing via Interact](/datahub-basics/distributing-via-interact.md)
   * [Pushing to GitHub](/datahub-basics/pushing-to-github.md)
   * [Submitting Notebooks](/datahub-basics/submitting-notebooks.md)
-* Connector Basics
+* [Connector Basics](connector-basics.md)
   * [Connector Logistics](/getting-started/connector-instructors/logistics.md)
 * [Module Basics](module-basics.md)
-* Tools
+* [Tools](tools.md)
   * [Jupyter Notebooks](/tools/jupyter-notebooks.md)
   * [JupyterHub](/tools/jupyterhub.md)
     * [Python Packages](/tools/jupyterhub/python-packages.md)
@@ -21,7 +21,7 @@
   * [Interact Links](/tools/interact-links.md)
   * [datascience Package](/tools/datascience-package.md)
   * [connectortools Module](/tools/connectortools-module.md)
-* Reference
+* [Reference](reference.md)
   * [Links](/reference/links.md)
   * [Terms and Abbreviations](/reference/terms-and-abbreviations.md)
   * [People](/reference/people.md)
