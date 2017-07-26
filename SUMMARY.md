@@ -11,7 +11,7 @@
   * [Submitting Notebooks](/datahub-basics/submitting-notebooks.md)
 * Connector Basics
   * [Connector Logistics](/getting-started/connector-instructors/logistics.md)
-* Module Basics
+* [Module Basics](module-basics.md)
 * Tools
   * [Jupyter Notebooks](/tools/jupyter-notebooks.md)
   * [JupyterHub](/tools/jupyterhub.md)
@@ -26,6 +26,4 @@
   * [Terms and Abbreviations](/reference/terms-and-abbreviations.md)
   * [People](/reference/people.md)
   * [Contact](/reference/contact.md)
-
-
 
