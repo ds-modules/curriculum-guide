@@ -12,9 +12,9 @@ The information in the guide is primarily for instructors who are teaching a cou
 
 To get started, select the role that best describes you.
 
-* [Instructors](/getting-started/connector-instructors.md)
-* [Connector Associates](/getting-started/connector-associates.md)
-* [Module Developers](/getting-started/module-developers.md)
+* [Instructors](/connector/instructor/connector-instructor.md)
+* [Connector Associates](/connector/associate/connector-associate.md)
+* [Module Developers](/module/developer/module-developer.md)
 
 
 
