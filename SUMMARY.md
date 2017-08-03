@@ -1,10 +1,13 @@
 # Summary
 
 * [Getting Started](README.md)
-  * [Connector Instructors](/getting-started/connector-instructors.md)
-  * [Connector Associates](/getting-started/connector-associates.md)
-  * [Module Developers](/getting-started/module-developers.md)
-* [DataHub Basics](datahub-basics.md)
+* [Connector Instructors](/connector/instructor/connector-instructor.md)
+* [Connector Associates](/connector/associate/connector-associate.md)
+* [Module Developers](/module/module-developer.md)
+* [Technology](/technology/README.md)
+* [Workflow](/workflow/README.md)
+* [Reference](/general/README.md)
+<!-- * [DataHub Basics](datahub-basics.md)
   * [Creating Notebooks](/datahub-basics/creating-notebooks.md)
   * [Distributing via Interact](/datahub-basics/distributing-via-interact.md)
   * [Pushing to GitHub](/datahub-basics/pushing-to-github.md)
@@ -26,4 +29,4 @@
   * [Terms and Abbreviations](/reference/terms-and-abbreviations.md)
   * [People](/reference/people.md)
   * [Contact](/reference/contact.md)
-
+ -->
