@@ -17,7 +17,7 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
 * Using the technology
 * [Requesting student help](/connector/instructor/student-help.md)
-* Joining communication channels
+* [Joining communication channels](/connector/instructor/connector-instructor.md)
 * [Pre-semester checklist](/connector/instructor/checklist.md)
 
 ### During the Course
