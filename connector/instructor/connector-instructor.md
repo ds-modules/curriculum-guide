@@ -4,6 +4,11 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 
 ## Suggested Pages to Read
 
+* [What is a connector course?](/connector/general/what-is-a-connector)
+* [What is a connector course?](../general/what-is-a-connector.md)
+* [What is a connector course?](../general/what-is-a-connector)
+
+
 ### Introduction
 
 * [What is a connector course?](/connector/general/what-is-a-connector.md)
