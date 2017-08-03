@@ -41,7 +41,7 @@ The links below point either to a syllabus of the course OR a course website tha
 ## Spring 2016
 * [CS88](http://cs88-website.github.io/) - Computational Structures in Data Science
 * [INFO88](http://data8.org/ethics-connector/) - Data and Ethics
-* CogSCI88 - Data Science and the Mind
+* COGSCI88 - Data Science and the Mind
 * CEE 88 - Data Science for Smart Cities
 * [ESPM 88B](http://data8.org/ecology-connector/) - Data Sciences in Ecology and the Environment
 * ESPM 88A - Exploring Geospatial Data
