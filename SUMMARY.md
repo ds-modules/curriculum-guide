@@ -4,6 +4,7 @@
   * [Connector Instructors](/getting-started/connector-instructors.md)
   * [Connector Associates](/getting-started/connector-associates.md)
   * [Module Developers](/getting-started/module-developers.md)
+  * [Program Introduction](getting-started/program-introduction.md)
 * [DataHub Basics](datahub-basics.md)
   * [Creating Notebooks](/datahub-basics/creating-notebooks.md)
   * [Distributing via Interact](/datahub-basics/distributing-via-interact.md)
