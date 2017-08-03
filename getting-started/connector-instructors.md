@@ -2,11 +2,6 @@
 
 Welcome to DSEP! This goal of this guide is to provide you with the information needed to set up a course. The information is useful for both new and returning instructors as the program is constantly changing every semester.
 
-## Getting Started
-
-* Read the suggested pages below
-* Go through this connector course checklist
-
 ## Suggested Pages
 
 ### Introduction
@@ -22,7 +17,7 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 * Using the technology
 * Requesting student help
 * Joining communication channels
-* Go through checklist
+* Pre-semester Checklist
 
 ### During the Course
 
