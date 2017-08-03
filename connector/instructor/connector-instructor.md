@@ -24,7 +24,7 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 
 * Creating, distributing, grading assignments
 * Working with large datasets
-* Using Additional Python Packages
+* [Using Additional Python Packages](/technology/jupyter/python-packages.md)
 * Fixing Technological Errors
 * Keeping up to speed With Data 8
 * Teaching Tips from Previous Instructors
