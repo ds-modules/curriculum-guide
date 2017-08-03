@@ -4,10 +4,6 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 
 ## Suggested Pages to Read
 
-* [What is a connector course?](/connector/general/what-is-a-connector)
-* [What is a connector course?](../general/what-is-a-connector.md)
-* [What is a connector course?](../general/what-is-a-connector)
-
 ### Introduction
 
 * [What is a connector course?](/connector/general/what-is-a-connector.md)
@@ -19,19 +15,19 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 
 * [Sorting out logistics](/connector/instructor/logistics.md)
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
-* [Using the technology]()
+* Using the technology
 * [Requesting student help](/connector/instructor/student-help.md)
-* [Joining communication channels]()
-* [Pre-semester checklist]()
+* Joining communication channels
+* [Pre-semester checklist](/connector/instructor/checklist.md)
 
 ### During the Course
 
-* [Creating, distributing, grading assignments]()
-* [Working with large datasets]()
-* [Using Additional Python Packages]()
-* [Fixing Technological Errors]()
-* [Keeping up to speed With Data 8]()
-* [Teaching Tips from Previous Instructors]()
+* Creating, distributing, grading assignments
+* Working with large datasets
+* Using Additional Python Packages
+* Fixing Technological Errors
+* Keeping up to speed With Data 8
+* Teaching Tips from Previous Instructors
 
 
 
