@@ -6,7 +6,7 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 
 ### Introduction
 
-* [What is a connector course?](/connector/general/what-is-a-connector.md)
+* [What is a connector course?](/../general/what-is-a-connector.md)
 * [Previous connector courses](/connector/general/previous-connectors.md)
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
 * [Terms and Abbreviations](/general/terms-and-abbreviations.md)
