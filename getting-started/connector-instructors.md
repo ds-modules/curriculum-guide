@@ -22,6 +22,7 @@ Welcome to DSEP! This goal of this guide is to provide you with the information 
 * Using the technology
 * Requesting student help
 * Joining communication channels
+* Go through checklist
 
 ### During the Course
 
