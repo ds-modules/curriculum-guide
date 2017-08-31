@@ -15,16 +15,22 @@ Introduction
 Before the Course
 
 * [Sorting out logistics](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/logistics.md)
-
 * [Designing your syllabus](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/syllabus-design.md)
 * Using the technology
+* [Pre-semester checklist](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/checklist.md)
 * [Requesting student help](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/student-help.md)
 * [Joining communication channels](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/connector-instructor.html)
-* [Pre-semester checklist](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/checklist.md)
 
 
 
 During the Course
+
+* Creating, distributing, grading assignments
+* Working with large datasets
+* Teaching Tips from Previous Instructors
+* [Using Additional Python Packages](https://gunjanbaid.gitbooks.io/datahub-guide/content/technology/jupyter/python-packages.md)
+* Keeping up to speed With Data 8
+* Fixing Technological Errors
 
 
 
