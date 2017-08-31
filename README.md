@@ -1,4 +1,4 @@
-# Welcome to the DataHub Guide!
+# Welcome to the DSEP Guide!
 
 ## What is this site?
 
@@ -13,5 +13,8 @@ The information in the guide is primarily for instructors who are teaching a cou
 To get started, select the role that best describes you.
 
 * [Instructors](/connector/instructor/connector-instructor.md)
-* [Connector Associates](/connector/associate/connector-associate.md)
-* [Module Developers](/module/developer/module-developer.md)
+
+
+
+
+
