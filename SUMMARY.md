@@ -20,7 +20,7 @@
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 
-## During the Course
+## The Basics
 
 * [Creating assignments](/workflow/creating-notebooks.md)
 * [Distributing assignments](/workflow/distributing-notebooks.md)
@@ -31,4 +31,6 @@
 * [Using additional python packages](/technology/jupyter/python-packages.md)
 * [Keeping up to speed With Data 8](/general/data8-summaries.md)
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
+
+
 
