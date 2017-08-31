@@ -10,4 +10,5 @@ DSEP can match you with an undergraduate connector assistant \(CA\) who can help
 
 ## Graders/Readers
 
-Grading is NOT the responsibility of student developers or connector associates. If you would like DSEP to match you with a paid student grader/reader, please discuss this with Cathryn Carson.
+Grading is NOT the responsibility of student developers or connector associates. If you would like a paid student grader/reader, please discuss this with Ryan Edwards.
+

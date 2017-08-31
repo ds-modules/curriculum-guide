@@ -16,7 +16,6 @@
 * [Sorting out logistics](/connector/instructor/logistics.md)
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
 * [Using the technology](/technology/README.md)
-* [Pre-semester checklist](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/checklist.md)
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 
@@ -27,17 +26,11 @@
 * [Collecting assignments](/workflow/collecting-assignments.md)
 * [Grading assignments](/workflow/grading-assignments.md)
 
-### During the Course:
+## During the Course:
 
 * [Working with large datasets](/technology/jupyter/large-datasets.md)
-
 * [Using additional python packages](/technology/jupyter/python-packages.md)
-
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
-
 * [Tips from previous instructors](https://www.gitbook.com/book/gunjanbaid/datahub-guide/edit#)
-
 * [Keeping up to speed With Data 8](/general/data8-summaries.md)
-
-
 
