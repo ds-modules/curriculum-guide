@@ -6,7 +6,7 @@ We have set up a Piazza site for any dicussion related to connectors. This page 
 
 ## Biweekly Instructor Meetings
 
-We will be having connector instructor meetings every two weeks. These meetings are announced through the mailing list. We will post notes for those who are not able to attend.
+We will be having connector instructor meetings every two weeks. These meetings are announced through the mailing list. We will post notes for those who are not able to attend. These meetings will focus on topics that are of interest to the connector instructors. 
 
 ## Mailing List
 
