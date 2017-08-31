@@ -26,7 +26,7 @@
 * Creating, distributing, grading assignments
 * Working with large datasets
 * Teaching Tips from Previous Instructors
-* [Using Additional Python Packages](https://gunjanbaid.gitbooks.io/datahub-guide/content/technology/jupyter/python-packages.md)
+* [Using Additional Python Packages](/technology/jupyter/python-packages.md)
 * Keeping up to speed With Data 8
 * Fixing Technological Errors
 
