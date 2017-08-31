@@ -1,12 +1,12 @@
 # Summary
 
-* [Getting Started](README.md)
-* [Connector Instructors](connector/instructor/connector-instructor.md)
+* [Getting started](README.md)
+* [Connector instructors](connector/instructor/connector-instructor.md)
 
 ## Introduction
 
 * [What is a connector course?](/connector/general/what-is-a-connector.md)
-* [Terms and Abbreviations](/general/terms-and-abbreviations.md)
+* [Terms and abbreviations](/general/terms-and-abbreviations.md)
 * [Previous connector courses](/connector/general/previous-connectors.md)
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
 * [Technology](/technology/README.md)
@@ -23,12 +23,15 @@
 
 ## During the Course
 
-* Creating, distributing, grading assignments
-* Working with large datasets
-* Teaching Tips from Previous Instructors
-* [Using Additional Python Packages](/technology/jupyter/python-packages.md)
-* Keeping up to speed With Data 8
-* Fixing Technological Errors
+* [Creating assignments](/workflow/creating-notebooks.md)
+* [Distributing assignments](/workflow/distributing-notebooks.md)
+* [Collecting assignments](/workflow/collecting-assignments.md)
+* [Grading assignments](/workflow/grading-assignments.md)
+* [Working with large datasets](/technology/jupyter/large-datasets.md)
+* [Tips from previous instructors](/connector/instructor/tips.md)
+* [Using additional python packages](/technology/jupyter/python-packages.md)
+* [Keeping up to speed With Data 8](/general/data8-summaries.md)
+* [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
 
 
 
