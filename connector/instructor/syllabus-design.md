@@ -6,8 +6,13 @@ We recommend that connector courses consider the Data 8 syllabus when designing 
 
 ## Things to Note
 
-* Delayed student enrollment - Many students do not enroll in a connector course until the first or second week of classes. It is likely that many people will miss the first few course meetings. You may want to consider how to best accommodate students who enroll in the first few weeks.
-* Since Data 8 covers Python during the first few weeks of the semester, previous connector instructors have found it helpful to keep the first few weeks light on the programming. Most students in Data 8 and connectors will not have a lot of prior programming experience. 
+**Delayed Student Enrollment **
+
+Many students do not enroll in a connector course until the first or second week of classes. It is likely that many people will miss the first few course meetings. You may want to consider how to best accommodate students who enroll in the first few weeks.
+
+**Programming Pace**
+
+Since Data 8 covers Python during the first few weeks of the semester, previous connector instructors have found it helpful to keep the first few weeks light on the programming. Most students in Data 8 and connectors will not have a lot of prior programming experience. 
 
 
 
