@@ -20,14 +20,16 @@
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 
-## The Basics
+## During the Course
+
+### The Basics
 
 * [Creating assignments](/workflow/creating-notebooks.md)
 * [Distributing assignments](/workflow/distributing-notebooks.md)
 * [Collecting assignments](/workflow/collecting-assignments.md)
 * [Grading assignments](/workflow/grading-assignments.md)
 
-## 
+### Further Topics
 
 * [Working with large datasets](/technology/jupyter/large-datasets.md)
 * [Tips from previous instructors](/connector/instructor/tips.md)
