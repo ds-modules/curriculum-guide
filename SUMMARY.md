@@ -20,7 +20,7 @@
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 
-## During the Course: The Baics
+## During the Course: The Basics
 
 ### The Basics
 
