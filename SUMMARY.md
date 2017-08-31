@@ -22,20 +22,21 @@
 
 ## During the Course: The Basics
 
-### The Basics
-
 * [Creating assignments](/workflow/creating-notebooks.md)
 * [Distributing assignments](/workflow/distributing-notebooks.md)
 * [Collecting assignments](/workflow/collecting-assignments.md)
 * [Grading assignments](/workflow/grading-assignments.md)
 
-### Further Topics
+### During the Course: 
 
 * [Working with large datasets](/technology/jupyter/large-datasets.md)
-* [Tips from previous instructors](/connector/instructor/tips.md)
+
 * [Using additional python packages](/technology/jupyter/python-packages.md)
-* [Keeping up to speed With Data 8](/general/data8-summaries.md)
+
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
+* [Tips from previous instructors](https://www.gitbook.com/book/gunjanbaid/datahub-guide/edit#)
+
+* [Keeping up to speed With Data 8](/general/data8-summaries.md)
 
 
 
