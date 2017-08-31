@@ -14,7 +14,7 @@
 
 ## Before the Course
 
-* [Sorting out logistics](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/logistics.md)
+* [Sorting out logistics](/connector/instructor/logistics.md)
 * [Designing your syllabus](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/syllabus-design.md)
 * Using the technology
 * [Pre-semester checklist](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/checklist.md)
