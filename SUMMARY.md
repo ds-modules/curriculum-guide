@@ -1,7 +1,6 @@
 # Summary
 
 * [Getting started](README.md)
-* [Connector instructors](connector/instructor/connector-instructor.md)
 
 ## Introduction
 
@@ -32,6 +31,4 @@
 * [Using additional python packages](/technology/jupyter/python-packages.md)
 * [Keeping up to speed With Data 8](/general/data8-summaries.md)
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
-
-
 
