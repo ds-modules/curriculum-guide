@@ -8,5 +8,6 @@
   * [Terms and Abbreviations](/general/terms-and-abbreviations.md)
 * [Technology](/technology/README.md)
 * [Reference](reference.md)
-* [TEST](/connector/general/what-is-a-connector.md)
+
+
 
