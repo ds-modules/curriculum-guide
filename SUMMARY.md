@@ -16,10 +16,10 @@
 
 * [Sorting out logistics](/connector/instructor/logistics.md)
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
-* Using the technology
+* [Using the technology](/technology/README.md)
 * [Pre-semester checklist](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/checklist.md)
-* [Requesting student help](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/student-help.md)
-* [Joining communication channels](https://gunjanbaid.gitbooks.io/datahub-guide/content/connector/instructor/connector-instructor.html)
+* [Requesting student help](/connector/instructor/student-help.md)
+* [Joining communication channels](/connector/instructor/communication-channels.md)
 
 ## During the Course
 
