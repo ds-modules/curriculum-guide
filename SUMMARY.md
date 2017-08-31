@@ -15,7 +15,6 @@
 
 * [Sorting out logistics](/connector/instructor/logistics.md)
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
-* [Using the technology](/technology/README.md)
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 
