@@ -12,17 +12,15 @@ Overview of what connector courses are, examples of previous courses, and an int
 
 **Before the Course**
 
-Sorting out administrative course logistics, tips on syllabus design, and how to stay in touch with DSEP staff. 
+Sorting out administrative course logistics, tips on syllabus design, and how to stay in touch with DSEP staff.
 
-The Essentials
+**The Essentials**
 
 How to complete steps in the assignment development workflow, such as creating, publishing, collecting, and grading assignments.
 
-During the Course
+**During the Course**
 
 Miscellaneous questions you may have during the semester, such as how to troubleshoot student errors and how to install new Python packages.
-
-
 
 * How do I use interact links?
 * 
