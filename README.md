@@ -2,11 +2,7 @@
 
 ![](/assets/hi.png)![](/assets/logo.png)
 
-## What is this site?
+## What is this site and who is it for?
 
-This site is a user guide for the undergraduate Data Science Education Program. It includes technical information on tools and tips to help you get familiar with the program.
-
-## Who is it for?
-
-The information in the guide is primarily for instructors who are teaching a course with DSEP, connector course associates, module developers, and students in DSEP. However, anyone else who is interested in these roles or wants to learn more about the program is encouraged to look through the guide.
+This site is a guide for the Data Science Education Program. The information in the guide is primarily for instructors who are teaching a course in the program. However, anyone else who wants to learn more about the program, the courses, and the technology is encouraged to look through the guide.
 
