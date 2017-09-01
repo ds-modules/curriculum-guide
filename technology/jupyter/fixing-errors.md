@@ -1,6 +1,6 @@
 # Fixing JupyterHub Errors
 
-For errors related to execution of code, such as a cell taking too long to run, you should try restarting the kernel. For errors related to login, you should try starting and stoping the server. If students are experiencing errors on JupyterHub, the first step is to try restarting their servers.
+For errors related to execution of code, such as a cell taking too long to run, you should try restarting the kernel. For errors related to login, you should try starting and stoping the server. Each of these methods is described below.
 
 ## Restarting the Kernel
 
