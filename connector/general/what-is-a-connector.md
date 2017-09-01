@@ -14,7 +14,7 @@ Connector courses have generally been two units in the past. There have not been
 
 * One two-hour class meeting per week, which includes both a lab and lecture portion. Instructors decide how they want to split up two hours between lab and lecture. Some instructors choose to spend the first hour on lecture and the second on lab. Others prefer a more fluid structure and switch between lecture and lab questions throughout the two hours.
 * Weekly office hours
-* Weekly lab assignment
+* Weekly in-class lab assignment
 * Additional projects and/or homeworks, depending on lab length/difficulty.
 
 ## Workload
