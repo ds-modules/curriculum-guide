@@ -4,7 +4,11 @@ For errors related to execution of code, such as a cell taking too long to run, 
 
 ## Restarting the Kernel
 
-## Restarting Student Servers
+
+
+## Restarting Servers
+
+
 
 Those with admin rights can access the Admin tab on the DataHub control panel. Through the admin panel, any user's server can be stopped and then restarted. To access the Admin tab, first click on `Control Panel` on `datahub.berkeley.edu`.
 
