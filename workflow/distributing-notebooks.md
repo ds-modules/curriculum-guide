@@ -1,6 +1,6 @@
 # Distributing Notebooks
 
-Two options for distributing notebooks are bCourses and interact links. To distribute notebooks through bCourses, you can upload the files
+We recommend using interact links to distribute notebooks to students. These links allow students to obtain all files and folders needed for an assignment with just one click. 
 
 ## Interact Links
 
