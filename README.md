@@ -22,7 +22,7 @@ How to complete steps in the assignment development workflow, such as creating, 
 
 Miscellaneous questions you may have during the semester, such as how to troubleshoot student errors and how to install new Python packages.
 
-* How do I use interact links?
-* 
+
+
 
 
