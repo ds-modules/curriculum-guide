@@ -18,6 +18,7 @@ The information is divided up into four sections:
 * How do I set up an interact link?
 * How do I install new Python packages on the JupyterHub?
 
-* 
+* How do I keep up to speed with Data 8?
+
 
 
