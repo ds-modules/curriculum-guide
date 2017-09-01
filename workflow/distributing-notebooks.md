@@ -10,11 +10,11 @@ If you do not wish to use interact links, you can distribute assignments through
 
 Interact links simplify the assignment distribution process. Rather than downloading files from an external source and then uploading to their personal JupyterHub accounts, users can obtain all files for a given assignment with just one click. When a user clicks on an interact link for a particular assignment, all files for the assignment will show up in the user's personal JupyterHub account.
 
-These links can be used with any content stored on GitHub in a public repository. Interact links can be generated for an entire repository, or a particular file or folder. 
+These links can be used with any content stored on GitHub in a public repository. Interact links can be generated for an entire repository, or a particular file or folder.
 
 ### How do the links work?
 
-Interact links are running a series of git commands from the user's JupyterHub account when they are clicked. This is why interact links must be used with content on GitHub. They cannot be used to pull arbitrary files from sources other than GitHub. 
+Interact links are running a series of git commands from the user's JupyterHub account when they are clicked. This is why interact links must be used with content on GitHub. They cannot be used to pull arbitrary files from sources other than GitHub. The benefit of
 
 Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting and will remain the same for each links. The colored portions will be different for each link. If you are new to GitHub you may want to familiarize yourself with the basics \(repositories, branches, etc.\) to better understand each component.
 
