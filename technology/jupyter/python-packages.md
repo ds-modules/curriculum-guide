@@ -10,7 +10,7 @@ You can also install other packages that are not on this list. There are two met
 
 ### Temporary installation
 
-Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install numpy into a user's personal account. Numpy will then be available for use while the notebook is running. This cell must be run every time the notebook is started. Note, this is not a system-wide installation. Running the cell below will only install numpy temporarily into your personal account.
+Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install numpy into a user's personal account. Numpy will then be available for use while the server is running. This cell must be run every time the user's server is restarted. Note, this is not a system-wide installation. Running the cell below will only install numpy temporarily into your personal account.
 
 ```
 !pip install numpy
