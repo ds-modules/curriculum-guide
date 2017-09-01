@@ -10,7 +10,7 @@ You can also install other packages that are not on this list. There are two met
 
 ### Temporary installation
 
-Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install numpy into a user's personal account. Numpy will then be available for use while the server is running. This cell must be run every time the user's server is restarted. Note, this is not a system-wide installation. Running the cell below will only install numpy temporarily into a user's personal account.
+Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install numpy into a user's personal account. `numpy` will then be available for use while the server is running. This cell must be run every time the user's server is restarted. Note, this is not a system-wide installation. Running the cell below will only install numpy temporarily into a user's personal account.
 
 ```
 !pip install numpy
@@ -19,10 +19,10 @@ import numpy
 
 ### **Long-term installation**
 
-You can contact us on Piazza if you want to install packages system-wide on DataHub. These packages will then be available to all users by default and can be used with an `import` statement in all notebooks. For example, `numpy` is pre-installed, you can just type the line below into a code cell, without first having to install numpy.
+You can contact us on Piazza if you want to install packages system-wide on DataHub. These packages will then be available to all users by default and can be used with an `import` statement in all notebooks. For example, `numpy` is pre-installed, you can just type the line below into a code cell, without first having to install `numpy`.
 
 ```
-import numpy 
+import numpy
 ```
 
 . **This is the recommend method for packages that will be used frequently. **
