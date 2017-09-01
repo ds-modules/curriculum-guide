@@ -1,10 +1,6 @@
 # Distributing Notebooks
 
-You can use interact links to distribute assignments that are stored in a public GitHub repository. To generate an interact link automatically, obtain a link to your assignment file or folder on GitHub and use [this application](https://url-to-interact.herokuapp.com/\).
-
-You can also use bCourses for assignment distribution.
-
-
+Two options for distributing notebooks are bCourses and interact links. To distribute notebooks through bCourses, you can upload the files  
 
 ## Interact Links
 
@@ -14,7 +10,7 @@ Interact links simplify the assignment distribution process. Rather than downloa
 
 **Restrictions**
 
-To use an interact link, files must be stored in a public GitHub repo. Currently, interact links are only supported for certain repositories. You can either store content in one of the allowed repositories or contact us on Piazza to add your repository to the list of approved ones. In the future, we will provide automatic interact link support for all repositories.
+To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories.
 
 **Components**
 
