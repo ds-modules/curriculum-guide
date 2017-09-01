@@ -14,7 +14,7 @@ These links can be used with any content stored on GitHub in a public repository
 
 ### How do the links work?
 
-Interact links are running a series of git commands from the user's JupyterHub account when they are clicked. This is why interact links must be used with content on GitHub. They cannot be used to pull arbitrary files from sources other than GitHub. The benefit of
+Interact links are running a series of git commands from the user's JupyterHub account when they are clicked. This is why interact links must be used with content on GitHub. They cannot be used to pull arbitrary files from sources other than GitHub. The benefit of using these links is that students are able to immediately work with publicly available content on GitHub, without first having to learn Git or perform tedious uploads and downloads.
 
 Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting and will remain the same for each links. The colored portions will be different for each link. If you are new to GitHub you may want to familiarize yourself with the basics \(repositories, branches, etc.\) to better understand each component.
 
