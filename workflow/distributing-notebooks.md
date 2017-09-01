@@ -1,6 +1,6 @@
 # Distributing Notebooks
 
-Two options for distributing notebooks are bCourses and interact links. To distribute notebooks through bCourses, you can upload the files  
+Two options for distributing notebooks are bCourses and interact links. To distribute notebooks through bCourses, you can upload the files
 
 ## Interact Links
 
@@ -8,15 +8,13 @@ Two options for distributing notebooks are bCourses and interact links. To distr
 
 Interact links simplify the assignment distribution process. Rather than downloading files from an external source and then uploading to their personal JupyterHub accounts, users can obtain all files for a given assignment with just one click. When a user clicks on an interact link for a particular assignment, all files for the assignment will show up in the user's personal JupyterHub account.
 
-**Restrictions**
-
-To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories.
-
 **Components**
 
 Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting and will remain the same for each links. The colored portions will be different for each link. If you are new to GitHub you may want to familiarize yourself with the basics \(repositories, branches, etc.\) to better understand each component.
 
-![](/assets/interact-link.png)
+![](/assets/interact-link.png)**Restrictions**
+
+To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories.
 
 **Interact Link Generator**
 
