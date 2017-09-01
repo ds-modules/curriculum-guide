@@ -20,5 +20,7 @@ The information is divided up into four sections:
 
 * How do I keep up to speed with Data 8?
 
+* What are things I can ask my CA to do?
+
 
 
