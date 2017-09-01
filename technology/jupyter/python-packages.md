@@ -25,5 +25,5 @@ You can contact us on Piazza if you want to install packages system-wide on Data
 import numpy
 ```
 
-. **This is the recommend method for packages that will be used frequently. **
+**This is the recommend method for packages that will be used frequently. **
 
