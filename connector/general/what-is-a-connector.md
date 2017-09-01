@@ -22,8 +22,7 @@ Connector courses have generally been two units in the past. There have not been
 For students, one unit of work corresponds to three hours of work. The six hours of work for a 2-unit connector can be broken down in the following way:
 
 * 2 hours of lab/lecture
-* 3-4 hours of outside work 
-* 1 hour of office hours
+* 4 hours of outside work 
 
 
 
