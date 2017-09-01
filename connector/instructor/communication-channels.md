@@ -10,5 +10,5 @@ We will be having connector instructor meetings every two weeks. These meetings 
 
 ## Mailing List
 
-
+You should have been added to the connector instructor mailing list/google group. If you are not sure whether you have been added, you can view all your memberships at [groups.google.com](/groups.google.com). To email all instructors on the mailing list, you can send an email to ds-connector-instructors@lists.berkeley.edu.
 

@@ -8,7 +8,6 @@
 * [Terms and abbreviations](/general/terms-and-abbreviations.md)
 * [Previous connector courses](/connector/general/previous-connectors.md)
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
-* [Reference](reference.md)
 
 ## Before the Course
 
