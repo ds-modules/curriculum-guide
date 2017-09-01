@@ -1,6 +1,6 @@
 # What is a Connector Course?
 
- ![](/assets/20748325_1438046242953038_1641278499141779477_o.jpg)
+![](/assets/hello.jpg)
 
 Connector courses allow students to apply theoretical concepts from Data 8 to a particular area of interest. Below are some details that characterize the average 2-unit connector course. This is just to give you a general idea of what connectors are like. Some connectors may not fully match this description.
 
