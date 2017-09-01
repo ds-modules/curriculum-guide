@@ -16,7 +16,7 @@
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 
-## The Essentials
+## The Workflow
 
 * [Creating assignments](/workflow/creating-notebooks.md)
 * [Distributing assignments](/workflow/distributing-notebooks.md)
@@ -30,4 +30,6 @@
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
 * [Tips from previous instructors](https://www.gitbook.com/book/gunjanbaid/datahub-guide/edit#)
 * [Keeping up to speed With Data 8](/general/data8-summaries.md)
+
+
 

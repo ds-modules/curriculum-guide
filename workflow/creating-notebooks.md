@@ -6,7 +6,7 @@ This section describes how to create a notebook on the JupyterHub infrastructure
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23236423/0ae83eb6-f90e-11e6-9c17-8d4f0eff9408.png)
 
-Click on the "New" dropdown on the right side of the page. Select the option for "Python 3" under "Notebooks." 
+Click on the "New" dropdown on the right side of the page. Select the option for "Python 3" under "Notebooks."
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23236478/4418c61a-f90e-11e6-8b2a-42c3ab52f423.png)
 
@@ -22,17 +22,17 @@ To set the type of this cell, click on "Cell" in the toolbar, then "Cell Type" a
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23236602/a1fc6f52-f90e-11e6-9749-c5dc2f73e172.png)
 
-Here is an example of what code and markdown cells with content will look like. 
+Here is an example of what code and markdown cells with content will look like.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23251037/8ede3e6c-f960-11e6-8699-cd0ff562e1e8.png)
 
-You will notice that there is no code output in the previous image. In addition, the text formatting is not properly displayed. To run code or see the formatted text, you must run the cell. An individual cell can be run by typing Shift-Enter from the cell. All cells can be run by clicking the play button in the toolbar \(triangle with a line\). You can also click on "Cell" in the toolbar for additional ways to run cells. Below is the output of running all cells. 
+You will notice that there is no code output in the previous image. In addition, the text formatting is not properly displayed. To run code or see the formatted text, you must run the cell. An individual cell can be run by typing Shift-Enter from the cell. All cells can be run by clicking the play button in the toolbar \(triangle with a line\). You can also click on "Cell" in the toolbar for additional ways to run cells. Below is the output of running all cells.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23251108/dcada876-f960-11e6-9629-ac8a1bdbe116.png)
 
 ## Run Code
 
-You can run code by either typing Shift-Enter from the cell or clicking the play button in the toolbar \(triangle with a line\). 
+You can run code by either typing Shift-Enter from the cell or clicking the play button in the toolbar \(triangle with a line\).
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23251184/2e1be7fe-f961-11e6-9c84-e1b966c3e06b.png)
 
@@ -48,7 +48,7 @@ Click on “File” in the toolbar, then “Download as”, then select ‘Noteb
 
 ## Develop Locally
 
-The above steps can also be done using a local installation of Jupyter Notebooks instead of the [datahub.berkeley.edu](https://datahub.berkeley.edu) infrastructure. If you choose to development assignments locally, we highly recommend that you upload and **test the assignments on **[**datahub.berkeley.edu**](https://datahub.berkeley.edu) as the local and cloud environments may be different. 
+The above steps can also be done using a local installation of Jupyter Notebooks instead of the [datahub.berkeley.edu](https://datahub.berkeley.edu) infrastructure. If you choose to development assignments locally, we highly recommend that you upload and **test the assignments on **[**datahub.berkeley.edu**](https://datahub.berkeley.edu) as the local and cloud environments may be different.
 
 ## Additional Resources
 
