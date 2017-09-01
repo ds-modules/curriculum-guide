@@ -18,5 +18,5 @@ Notebooks provide support for bash commands in code cells. The line below, when 
 
 ### **Long-term installation**
 
-You can contact us on Piazza if you want to install packages system-wide on datahub. These packages will then be available to all users by default and can be used with an `import` statement in all notebooks. You do not need to use the bash command shown above. **This is the recommend method for packages that will be used frequently. **
+You can contact us on Piazza if you want to install packages system-wide on DataHub. These packages will then be available to all users by default and can be used with an `import` statement in all notebooks. You do not need to use the bash command shown above. **This is the recommend method for packages that will be used frequently. **
 
