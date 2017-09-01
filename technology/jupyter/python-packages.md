@@ -2,7 +2,11 @@
 
 ## Pre-installed Packages
 
-Many Python packages have been pre-installed on JupyterHub and are available by default. You can `import` the desired package to start using it. [This file on GitHub](https://github.com/berkeley-dsep-infra/datahub/blob/prod/user-image/requirements.txt) contains a list of all the packages \(and corresponding versions\) that are available by default.
+Many Python packages have been pre-installed on JupyterHub and are available by default. [This file on GitHub](https://github.com/berkeley-dsep-infra/datahub/blob/prod/user-image/requirements.txt) contains a list of all the packages \(and corresponding versions\) that are available by default. To use a pre-installed package such as `numpy`, you can simply type the line below into a code cell.
+
+```
+import numpy
+```
 
 ## Installing New Packages
 
