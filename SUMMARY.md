@@ -8,7 +8,6 @@
 * [Terms and abbreviations](/general/terms-and-abbreviations.md)
 * [Previous connector courses](/connector/general/previous-connectors.md)
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
-* [Technology](/technology/README.md)
 * [Reference](reference.md)
 
 ## Before the Course
@@ -18,14 +17,14 @@
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 
-## During the Course: The Basics
+## The Essentials
 
 * [Creating assignments](/workflow/creating-notebooks.md)
 * [Distributing assignments](/workflow/distributing-notebooks.md)
 * [Collecting assignments](/workflow/collecting-assignments.md)
 * [Grading assignments](/workflow/grading-assignments.md)
 
-## During the Course:
+## During the Course
 
 * [Working with large datasets](/technology/jupyter/large-datasets.md)
 * [Using additional python packages](/technology/jupyter/python-packages.md)
