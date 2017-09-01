@@ -16,11 +16,11 @@ The information is divided up into four sections:
 ## Links to Common Questions
 
 * How do I set up an interact link?
-* How do I install new Python packages on the JupyterHub?
-
+* How do I install new Python packages on JupyterHub?
 * How do I keep up to speed with Data 8?
-
 * What are tasks I can ask my CA to do?
+
+
 
 
 
