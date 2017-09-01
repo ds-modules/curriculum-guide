@@ -24,18 +24,18 @@ Here is an interact link with the various components highlighted in different co
 
 ### **Important Note: Updated Behavior**
 
-Previously, interact links had a slightly different behavior. They used a sparse checkout to only pull the files specified after `path`. For the above link, this would mean that only the `lab01` folder is displayed in the `social-networks-connector` folder. Any other files in the `social-networks-connector` repo would not show up in the user's JupyterHub. This is no longer the behavior. The new behavior does not use sparse checkout. For the above link, in addition to the `lab01` folder, all other contents of the `social-networks-connector` repo will show up in the user's JupyterHub account. 
+Previously, interact links had a slightly different behavior. They used a sparse checkout to only pull the files specified after `path`. For the above link, this would mean that only the `lab01` folder is displayed in the `social-networks-connector` folder. Any other files in the `social-networks-connector` repo would not show up in the user's JupyterHub. This is no longer the behavior. The new behavior does not use sparse checkout. For the above link, in addition to the `lab01` folder, all other contents of the `social-networks-connector` repo will show up in the user's JupyterHub account.
 
 This new behavior means that **you should not store unfinished materials and answer keys in the same repo as published assignments**. Any interact link for a published assignment would also distribute the unfinished materials and answer keys to the students, which you probably do not want. Instead, **we recommend that you use a public repo for published assignments and a private repo for unfinished materials and answer keys**.
 
-Here is a demo showing both the new and old behavior of interact links. To understand the difference, compare the contents of the `lab` folder in each case. 
+Here is a demo showing both the new and old behavior of interact links. To understand the difference, compare the contents of the `lab` folder in each case.
 
 * [New behavior](http://datahub.berkeley.edu/user-redirect/interact?repo=data8assets&path=materials/sp17/lab/lab01 ) - all lab folders present at `~/data8assets/materials/sp17/lab`
 * [Old behavior](http://data8.haas.berkeley.edu/user-redirect/interact?repo=data8assets&path=materials/su17/lab/lab01 ) - just `lab01` folder present at `~/data8assets/materials/su17/lab`
 
 ### **Restrictions**
 
-To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories.
+To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories. Previously, content had to be stored in the `data-8` GitHub organization or in an approved account or organization. This no longer applies, interact links can be used with content stored in ANY public repository.
 
 ### **Interact Link Generator**
 
