@@ -16,7 +16,7 @@ Here is an interact link with the various components highlighted in different co
 
 To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories.
 
-**Interact Link Generator**
+### **Interact Link Generator**
 
 Interact links can be manually created in the format shown above, or can be automatically generated using [this](https://url-to-interact.herokuapp.com\) tool. The interact link generator tool allows users to specify a JupyterHub URL and GitHub url as inputs. The tool will generate an interact link for the specified GitHub content and JupyterHub.
 
