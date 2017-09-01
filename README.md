@@ -1,6 +1,6 @@
 # Welcome to the DSEP Guide!
 
-![](/assets/Updated Logo %281%29.png)
+![](/assets/hi.png)
 
 ## What is this site?
 
