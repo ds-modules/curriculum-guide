@@ -2,7 +2,7 @@
 
 ## Pre-installed Packages
 
-Many Python packages have been pre-installed on JupyterHub and are available by default. You can `import` the desired package to start using it. [This](https://github.com/berkeley-dsep-infra/datahub/blob/prod/user-image/requirements.txt) file on GitHub contains a list of all the packages that are available by default.
+Many Python packages have been pre-installed on JupyterHub and are available by default. You can `import` the desired package to start using it. [This](https://github.com/berkeley-dsep-infra/datahub/blob/prod/user-image/requirements.txt) file on GitHub contains a list of all the packages \(and corresponding versions\) that are available by default.
 
 ## Installing New Packages
 
