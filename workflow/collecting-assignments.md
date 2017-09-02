@@ -1,6 +1,6 @@
 # Collecting and Grading Assignments
 
-We recommend using [OK](https://www.gitbook.com/book/gunjanbaid/dsep-guide/edit#) for assignment submission and grading. OK is a great tool that allows students to submit notebooks by just running one cell, without having to do any uploads or downloads. More details on OK can be found below.
+We recommend using [OK](https://okpy.org) for assignment submission and grading. OK is a great tool that allows students to submit notebooks by just running one cell, without having to do any uploads or downloads. More details on OK can be found below.
 
 If you choose not to use OK, you can also have students submit assignments through bCourses. Students can download the assignments from JupyterHub in the original `.ipynb` format, or other formats such as PDF, and then upload them to bCourses.
 
@@ -51,9 +51,13 @@ Click on the `Create Assignment` button on the left side of the page and follow 
 
 #### 3-4. Create configuration file, tests folder
 
-For `lab01`, we will set up `lab01.ok`  and a `tests` folder with an `__init__.py` file and `q1.py`.
+For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init__.py` file and `q1.py`. Below, I have pasted the contents of the [template files](https://www.gitbook.com/book/gunjanbaid/dsep-guide/edit#) linked above. You can easily modify these templates for your own course.
 
+**`lab01.ok`**
 
+```
+
+```
 
 #### 5. Add OK code to notebook
 
