@@ -37,7 +37,7 @@ lab01/
 
 Note: Even if you are not using tests for your assignment, you will still need to have a tests folder with some placeholder files.
 
-While this process might be a bit tedious the first time, it gets much simpler. You usually do not need to create the configuration files from scratch. You can reuse old files and change a few of the lines. To help you get started, we have set up some template files [here](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02).
+While this process might be a bit tedious the first time, it gets much simpler. You usually do not need to create the configuration files from scratch. You can reuse old files and change a few of the lines. To help you get started, we have set up some [template files](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02).
 
 #### Creating an Assignment
 
