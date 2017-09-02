@@ -31,6 +31,8 @@ lab01/
     lab01.ipynb
     lab01.ok
     tests/
+        __init__.py
+        q1.py
 ```
 
 #### Creating an Assignment
