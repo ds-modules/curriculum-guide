@@ -6,7 +6,7 @@ We have outlined two methods below that you should try for each error type. For 
 
 ## Restarting the Kernel
 
-If your notebook becomes unresponsive, you can try to
+If your notebook becomes unresponsive, you can try to restart the kernel.
 
 ![](/assets/restart-kernel.png)
 
