@@ -1,6 +1,6 @@
 # Collecting and Grading Assignments
 
-We recommend using [OK](https://okpy.org) for assignment submission and grading. OK is a great tool that allows students to submit notebooks by just running one cell, without having to do any uploads or downloads, shown below.
+We recommend using [OK](https://okpy.org) for assignment submission and grading. OK is a great tool that allows students to submit notebooks by just running one cell, without having to do any uploads or downloads, as shown below.
 
 ![](/assets/ok-submit.png)
 
