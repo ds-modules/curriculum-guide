@@ -18,11 +18,9 @@ There are different methods for restarting your own and restarting another user'
 
 All users can restart their own servers. To do so, start by going to the control panel.
 
-![](/assets/control-link.png)
+![](/assets/control-link.png)Click the `Stop My Server` button.
 
-Then, click the `Stop My Server` button.
-
-![](/assets/stop-my-server.png)jhh
+![](/assets/stop-my-server.png)Once the server has stopped and the `Stop My Server` button is no longer visible, click the `My Server` button to restart the server.
 
 ![](/assets/start-my-server.png)
 
