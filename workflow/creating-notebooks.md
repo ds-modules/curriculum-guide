@@ -1,6 +1,6 @@
 # Creating Assignments
 
-Most courses in DSEP use Jupyter notebooks as the format in which assignments are completed.
+Most courses in DSEP use Jupyter notebooks for assignments. Jupyter Notebooks 
 
 ## Working with Jupyter Notebooks
 

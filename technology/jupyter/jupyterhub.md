@@ -31,4 +31,9 @@ The first time you logs in to JupyterHub, a personal account is created for you.
 
 ## Getting Access
 
-Anyone with a berkeley.edu email address has access to the JupyterHub at datahub.berkeley.edu. If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
+Anyone with a Berkeley credentials has access to the JupyterHub at datahub.berkeley.edu. If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
+
+### Technical Details
+
+
+
