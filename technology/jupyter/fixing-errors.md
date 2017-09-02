@@ -1,12 +1,12 @@
 # Fixing JupyterHub Errors
 
-You may run into different types of errors when you are using the JupyterHub. One common type of error is seen when running cells in Jupyter notebooks. A particular cell or the entire notebook might become unresponsive. Another type of error relates to login. A user may not be able to access some part of their JupyterHub account. 
+You may run into different types of errors when you are using the JupyterHub. One common error is when a Jupyter notebook becomes unresponsive. Another type of error relates to login. A user may not be able to access some part of their JupyterHub account.
 
 We have outlined two methods below that you should try for each error type. For errors related to execution of code, such as a cell taking too long to run, you should try restarting the kernel. For errors related to access, you should try starting and stoping the server.
 
 ## Restarting the Kernel
 
-## sjdhjs
+If your notebook becomes unresponsive, you can try to 
 
 ![](/assets/restart-kernel.png)
 
@@ -48,5 +48,5 @@ kdjfd
 
 ![](/assets/admin-panel.png)
 
-kdfjd
+kd
 
