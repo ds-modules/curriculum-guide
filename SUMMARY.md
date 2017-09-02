@@ -20,8 +20,9 @@
 ## The Workflow
 
 * [Creating assignments](/workflow/creating-notebooks.md)
+* [Uploading Files to GitHub](/workflow/pushing-to-github.md)
 * [Distributing assignments](/workflow/distributing-notebooks.md)
-* [Collecting and grading assignments](/workflow/collecting-assignments.md)
+* [Collecting and grading assignments](/workflow/collecting-grading-assignments.md)
 
 ## During the Course
 
