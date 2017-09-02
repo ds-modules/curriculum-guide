@@ -4,7 +4,7 @@ Below is an short introduction on how to Jupyter notebooks on `datahub.berkeley.
 
 ## Create a Blank Notebook
 
-This section describes how to create a notebook on the JupyterHub infrastructure. Go to [datahub.berkeley.edu](https://datahub.berkeley.edu). Click on the green `Start My Server` button.
+This section describes how to create a notebook on the JupyterHub infrastructure. Go to [datahub.berkeley.edu](https://datahub.berkeley.edu). Click on the green `Start My Server` button. You will not need to do this if you are working locally.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23236423/0ae83eb6-f90e-11e6-9c17-8d4f0eff9408.png)
 
