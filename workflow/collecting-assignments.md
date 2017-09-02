@@ -19,24 +19,23 @@ To get started with OK, you must first create a course on the OK website. Go to 
 After you have finished the initial course setup, below are the steps for setting up an assignment.
 
 1. Create an entry for the assignment on OK site
-2. Create a folder for the assignment
+2. Create a folder for the assignment. This folder will contain the files mentioned in steps 3-5.
 3. Create a `.ok` configuration file for the assignment
-4. Create a tests folder with atleast one test file and an `__init__.py` file
+4. Create a tests folder with at least one test file and an `__init__.py` file
 5. Add OK setup code to Jupyter notebook assignment
 
-If you are setting up `lab01`, for example, you should have a folder of content with the following structure: 
+If you are setting up `lab01`, for example, you should have a folder of content with the following structure:
 
 ```
 lab01/
     lab01.ipynb
     lab01.ok
     tests/
-        
 ```
 
 #### Creating an Assignment
 
-To 
+To
 
 #### Setting up Configuration Files
 
