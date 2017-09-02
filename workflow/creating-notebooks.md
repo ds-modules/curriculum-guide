@@ -1,6 +1,6 @@
 # Creating Notebooks
 
-Below is an short introduction on how to Jupyter notebooks on `datahub.berkeley.edu`. Assignment development can be done on `datahub.berkeley.edu` or locally, if you already have a local Jupyter setup. The below steps assume you are working on DataHub, but most of the steps can be done on a local setup as well. If you decide to work locally, we recommend you test your notebooks on `datahub.berkeley.edu` well in advance. The development environment on DataHub is probably different from your local environment, so it is possible that code may break. 
+Below is an short introduction on how to Jupyter notebooks on `datahub.berkeley.edu`. Assignment development can be done on `datahub.berkeley.edu` or locally, if you already have a local Jupyter setup. The below steps assume you are working on DataHub, but most of the steps can be done on a local setup as well. If you decide to work locally, we recommend you test your notebooks on `datahub.berkeley.edu` well in advance. The development environment on DataHub is probably different from your local environment, so it is possible that code may break.
 
 ## Create a Blank Notebook
 
@@ -44,13 +44,9 @@ Code that has been run in one cell is accessible by another cell.  If any change
 
 ## Download Notebooks
 
-Click on “File” in the toolbar, then “Download as”, then select ‘Notebook \(.ipynb\).” This will download the notebook to your computer in the standard Jupyter notebook format. You can also download notebooks in alternate formats, seen below.
+Click on `File` in the toolbar, then `Download as`, then select `Notebook (.ipynb)` . This will download the notebook to your computer in the standard Jupyter notebook format. You can also download notebooks in alternate formats, seen below.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23284842/8995ced4-f9e2-11e6-809e-2b46bd7833da.png)
-
-## Develop Locally
-
-The above steps can also be done using a local installation of Jupyter Notebooks instead of the [datahub.berkeley.edu](https://datahub.berkeley.edu) infrastructure. If you choose to development assignments locally, we highly recommend that you upload and **test the assignments on **[**datahub.berkeley.edu**](https://datahub.berkeley.edu) as the local and cloud environments may be different.
 
 ## Additional Resources
 
