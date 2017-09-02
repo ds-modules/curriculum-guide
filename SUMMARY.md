@@ -5,8 +5,10 @@
 ## Introduction
 
 * [What is a connector course?](/connector/general/what-is-a-connector.md)
-* [Terms and abbreviations](/general/terms-and-abbreviations.md)
+
 * [Previous connector courses](/connector/general/previous-connectors.md)
+* [Terms and abbreviations](https://www.gitbook.com/book/gunjanbaid/dsep-guide/edit#)
+
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
 
 ## Before the Course
@@ -29,4 +31,6 @@
 * [Working with large datasets](/technology/jupyter/large-datasets.md)
 * [Using additional python packages](/technology/jupyter/python-packages.md)
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
+
+
 
