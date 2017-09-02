@@ -1,6 +1,6 @@
 # Who are we?
 
-Names of people involved with DSEP and a brief description of what they do.
+Names and photos of people you will probably meet at some point.
 
 ## General
 
