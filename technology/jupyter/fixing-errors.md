@@ -20,7 +20,7 @@ All users can restart their own servers. To do so, start by going to the control
 
 ![](/assets/control-link.png)
 
-Then, click on 
+Then, click the `Stop My Server` button.
 
 ![](/assets/stop-my-server.png)jhh
 
