@@ -15,6 +15,7 @@
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
+* [Introduction to JupyterHub](/technology/jupyter/jupyterhub.md)
 
 ## The Workflow
 
@@ -29,4 +30,6 @@
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
 * [Tips from previous instructors](https://www.gitbook.com/book/gunjanbaid/datahub-guide/edit#)
 * [Keeping up to speed With Data 8](/general/data8-summaries.md)
+
+
 
