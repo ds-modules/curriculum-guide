@@ -26,13 +26,11 @@ All users can restart their own servers. To do so, start by going to the control
 
 ### Restarting Student Servers
 
-Those with admin rights can access the Admin tab on the DataHub control panel. Through the admin panel, any user's server can be stopped and then restarted. To access the Admin tab, first click on `Control Panel` on `datahub.berkeley.edu`.
+Users with admin privileges on DataHub can restart other users' servers. To restart a student's server, first go to the control panel. 
 
-kjk
+![](/assets/control-link.png)Click on the `Admin` button at the top of the page. If you do not see this button, you do not have admin rights. To request admin rights, please post on [Piazza](http://piazza.com/berkeley/other/cs97).
 
-![](/assets/control-link.png)jkjkj
-
-![](/assets/admin-link.png)nnk
+![](/assets/admin-link.png)After clicking the `Admin` button, you will see the admin panel. Usernames have been obfuscated here. To search for a user, you can use find \(type Control+F or Command+F\). When you have found the desired user, click the `stop server` button in the user's row.
 
 ![](/assets/admin-panel.png)
 
