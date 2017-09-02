@@ -51,7 +51,7 @@ Click on the `Create Assignment` button on the left side of the page and follow 
 
 #### 3-4. Create configuration file, tests folder
 
-For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init__.py` file and `q1.py`. Below, I have pasted the contents of the [template files](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02), mentioned above, with some added comments on which lines to modify. You can easily modify these templates for your own course.
+For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init__.py` file and `q1.py`. Below, I have pasted the contents of the [template files](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02), mentioned above, with some added comments on which lines to modify for use with your own course.
 
 `lab01.ok`
 
