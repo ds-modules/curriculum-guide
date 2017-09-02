@@ -2,7 +2,7 @@
 
 The links below point either to a PDF syllabus or to a course website that contains the syllabus.
 
-# Fall 2017
+## Fall 2017
 
 * [CIVENG 88](http://www.miladmemarzadeh.com/ce88.html) - Data Science for Smart Cities
 * DEMOG 88 - Immigration: What Do the Data Tell Us?
@@ -13,7 +13,7 @@ The links below point either to a PDF syllabus or to a course website that conta
 * L&S 88-5 - Rediscovering Texts as Data
 * STAT 88 - Probability and Mathematical Statistics in Data Science
 
-# Spring 2017
+## Spring 2017
 
 * [CIVENG 88B](https://gunjanbaid.github.io/connector-sites/assets/CE88B/Sp17Syllabus.pdf) - Time Series Analysis: Sea Level Rise and Coastal Flooding
 * [COGSCI 88](https://gunjanbaid.github.io/connector-sites/assets/COGSCI88/Sp17Syllabus.pdf) - Data Science and the Mind
@@ -27,7 +27,7 @@ The links below point either to a PDF syllabus or to a course website that conta
 * STAT 88 - Probability and Mathematical Statistics in Data Science
 * STAT 89A - Introduction to Matrices and Graphs in Data Science
 
-# Fall 2016
+## Fall 2016
 
 * [CIVENG 88](http://data8.org/smart-cities-connector/) - Data Science for Smart Cities
 * [COGSCI 88](http://linguistics.berkeley.edu/~yangxu/syllabus-dsm-f16.pdf) - Data Science and the Mind
@@ -42,7 +42,7 @@ The links below point either to a PDF syllabus or to a course website that conta
 * [L&S 88-6](http://data8.org/connector/demography/) - Data Science, Demography and Immigration
 * STAT 88 - Probability and Mathematical Statistics in Data Science
 
-# Spring 2016
+## Spring 2016
 
 * [CS88](http://cs88-website.github.io/) - Computational Structures in Data Science
 * [INFO88](http://data8.org/ethics-connector/) - Data and Ethics
@@ -56,7 +56,7 @@ The links below point either to a PDF syllabus or to a course website that conta
 * L&S 88-2 - Literature and Data
 * STAT 88 - Probability and Mathematical Statistics in Data Science
 
-# Fall 2015
+## Fall 2015
 
 * L&S 39F - Data Science and the Mind
 * L&S 39H - Geospatial Data Explorations
