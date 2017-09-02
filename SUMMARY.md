@@ -20,8 +20,7 @@
 
 * [Creating assignments](/workflow/creating-notebooks.md)
 * [Distributing assignments](/workflow/distributing-notebooks.md)
-* [Collecting assignments](/workflow/collecting-assignments.md)
-* [Grading assignments](/workflow/grading-assignments.md)
+* [Collecting and grading assignments](/workflow/collecting-assignments.md)
 
 ## During the Course
 
@@ -30,6 +29,4 @@
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
 * [Tips from previous instructors](https://www.gitbook.com/book/gunjanbaid/datahub-guide/edit#)
 * [Keeping up to speed With Data 8](/general/data8-summaries.md)
-
-
 
