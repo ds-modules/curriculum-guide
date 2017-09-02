@@ -112,5 +112,25 @@ test = {
 
 #### 5. Add OK code to notebook
 
+Below is the code needed to import OK, run the `q1.py` test shown above, and submit the assignment. 
+
+```
+# These lines load the autograder tests. 
+from client.api.notebook import Notebook
+ok = Notebook('hw02.ok')                     # change this line 
+_ = ok.auth(inline=True)
+```
+
+```
+# Test q1
+x = 91                                       # change this line
+_ = ok.grade("q1")                           # change this line
+```
+
+```
+# Submit the assignment.
+_ = ok.submit()
+```
+
 
 
