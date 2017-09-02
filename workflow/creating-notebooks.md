@@ -4,11 +4,11 @@ Below is an short introduction on how to Jupyter notebooks on `datahub.berkeley.
 
 ## Create a Blank Notebook
 
-This section describes how to create a notebook on the JupyterHub infrastructure. Go to [datahub.berkeley.edu](https://datahub.berkeley.edu). Click on the green "Start My Server" button.
+This section describes how to create a notebook on the JupyterHub infrastructure. Go to [datahub.berkeley.edu](https://datahub.berkeley.edu). Click on the green `Start My Server` button.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23236423/0ae83eb6-f90e-11e6-9c17-8d4f0eff9408.png)
 
-Click on the "New" dropdown on the right side of the page. Select the option for "Python 3" under "Notebooks."
+Click on the `New` dropdown on the right side of the page. Select the option for `Python 3` under `Notebooks`.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23236478/4418c61a-f90e-11e6-8b2a-42c3ab52f423.png)
 
@@ -16,11 +16,11 @@ You will see a blank notebook to which you can now add text and code. The notebo
 
 ## Add a New Cell
 
-You can add a new cell using eiher the "+" button on the left side or the "Insert" button on the toolbar.
+You can add a new cell using eiher the `+` button on the left side or the `Insert` button on the toolbar.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23236603/a1ff8b9c-f90e-11e6-947e-a99c33d9bbe4.png)
 
-To set the type of this cell, click on "Cell" in the toolbar, then "Cell Type" and then either "Code" or "Markdown." Code can be directly typed in. Text must be added in markdown format. This is a good reference for markdown syntax.
+To set the type of this cell, click on `Cell` in the toolbar, then `Cell Type` and then either `Code` or `Markdown`. Code can be directly typed in. Text must be added in markdown format.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23236602/a1fc6f52-f90e-11e6-9749-c5dc2f73e172.png)
 
