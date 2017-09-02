@@ -8,17 +8,7 @@ This site is a guide for the Data Science Education Program. The information in 
 
 The information is divided up into four sections: introduction, before the course, the workflow, and during the course. The first time you read through the material, we suggest going through the topics in order. If you want to learn more about a specific topic, you can use the search bar on the top right.
 
-## What information does it contain?
-
-The information is divided up into four sections: introduction, befou
-
-* **Introduction**
-
-* **Before the Course**
-
-* **During the Course**
-
-## Links to Common Questions
+## Quick links to Common Questions
 
 * How do I set up an interact link?
 * How do I install new Python packages on JupyterHub?
