@@ -12,5 +12,5 @@ Instructors generally hold office hours for one hour each week. If you would lik
 
 ## bCourses
 
-For bCourses access, please contact the department under which your course is listed. If you are teaching an L&S connector course, you should contact Cathryn Carson to receive bCourses access.
+For bCourses access, please contact the department under which your course is listed. If you are teaching an L&S connector course, you should contact Ryan Edwards to receive bCourses access.
 
