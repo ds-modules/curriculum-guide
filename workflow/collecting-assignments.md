@@ -35,9 +35,9 @@ lab01/
         q1.py
 ```
 
-#### Creating an Assignment
+Even if you are not using tests for your assignment, you will still need to have a tests folder with some placeholder files. 
 
-To
+#### Creating an Assignment
 
 #### Setting up Configuration Files
 
