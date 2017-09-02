@@ -4,7 +4,7 @@ Most courses in DSEP use Jupyter notebooks for assignments. Jupyter notebooks ar
 
 ## Working with Jupyter Notebooks
 
-Below is an short introduction on how to Jupyter notebooks on `datahub.berkeley.edu`. Assignment development can be done on `datahub.berkeley.edu` or locally, if you already have a local Jupyter setup. The below steps assume you are working on DataHub, but most of the steps can be done on a local setup as well. If you decide to work locally, we recommend you test your notebooks on `datahub.berkeley.edu` well in advance. The development environment on DataHub is probably different from your local environment, so it is possible that code may break.
+Below is an short introduction on how to use Jupyter notebooks on `datahub.berkeley.edu`. Assignment development can be done on `datahub.berkeley.edu` or locally, if you already have a local Jupyter setup. The below steps assume you are working on DataHub, but most of the steps can be done on a local setup as well. If you decide to work locally, we recommend you test your notebooks on `datahub.berkeley.edu` well in advance. The development environment on DataHub is probably different from your local environment, so it is possible that code may break.
 
 ### Create a Blank Notebook
 
