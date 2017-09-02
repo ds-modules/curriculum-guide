@@ -2,7 +2,7 @@
 
 ## What are Jupyter Notebooks?
 
-Data 8 and most connector courses use Jupyter notebooks for assignments. Jupyter notebooks are a tool used for in-browser computing that code, text, and visualizations to be included on the same page.
+Data 8 and most connector courses use Jupyter notebooks for assignments. Jupyter notebooks are a tool used for in-browser computing that allow code, text, and visualizations to be included on the same page. Students are able to analyze, document, and visualize their code, all in a single computational document. If you are new to Jupyter notebooks, you can read more about them on the [Project Jupyter website](http://jupyter.org/) and in this [blog post](http://data.berkeley.edu/news/coursefuture).
 
 ## What is JupyterHub?
 
