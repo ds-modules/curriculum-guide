@@ -6,7 +6,7 @@ If you choose not to use OK, you can also have students submit assignments throu
 
 ## OK
 
-[OK](https://okpy.org/) is a tool that contains functionality for submitting and grading notebooks.
+[OK](https://okpy.org/) is a tool that contains functionality for submitting and grading notebooks. OK can be used to test code in the notebooks, submit assignments by just running one cell, and grade submissions through the online interface. There are two parts that you will interact with when using OK for your classes: the OK web interface at okpy.org and configuration files that are needed for each assignment.
 
 ### Initial Course Setup
 
