@@ -18,7 +18,7 @@ To get started with OK, you must first create a course on the OK website. Go to 
 
 ![](/assets/create-course.png)
 
-### Using OK
+### Assignment Setup
 
 After you have finished the initial course setup, below are the steps for setting up an assignment.
 
