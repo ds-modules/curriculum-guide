@@ -1,4 +1,4 @@
-# People
+# Who are we?
 
 Names of people involved with DSEP and a brief description of what they do.
 
