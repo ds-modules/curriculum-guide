@@ -29,8 +29,4 @@
 * [Working with large datasets](/technology/jupyter/large-datasets.md)
 * [Using additional python packages](/technology/jupyter/python-packages.md)
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
-* [Tips from previous instructors](https://www.gitbook.com/book/gunjanbaid/datahub-guide/edit#)
-* [Keeping up to speed With Data 8](/general/data8-summaries.md)
-
-
 
