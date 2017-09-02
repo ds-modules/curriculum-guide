@@ -1,5 +1,7 @@
 # Creating Notebooks
 
+Below is an short introduction on how to Jupyter notebooks on `datahub.berkeley.edu`. Assignment development can be done on `datahub.berkeley.edu` or locally, if you already have a local Jupyter setup. The below steps assume you are working on DataHub, but most of the steps can be done on a local setup as well. If you decide to work locally, we recommend you test your notebooks on `datahub.berkeley.edu` well in advance. The development environment on DataHub is probably different from your local environment, so it is possible that code may break. 
+
 ## Create a Blank Notebook
 
 This section describes how to create a notebook on the JupyterHub infrastructure. Go to [datahub.berkeley.edu](https://datahub.berkeley.edu). Click on the green "Start My Server" button.
