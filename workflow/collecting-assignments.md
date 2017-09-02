@@ -10,7 +10,7 @@ If you choose not to use OK, you can also have students submit assignments throu
 
 ### Initial Course Setup
 
-To get started with OK, you must first create a course on the OK website. Go to [okpy.org](https://www.gitbook.com/book/gunjanbaid/dsep-guide/edit#), scroll to the bottom of the page, and click on the `REGISTER YOUR COURSE` button to follow the steps for creating a new course. The steps should be fairly straightforward, but as always, feel free to post on [Piazza](https://piazza.com/berkeley/other/cs97) if you run into any trouble.
+To get started with OK, you must first create a course on the OK website. Go to [okpy.org](https://okpy.org), scroll to the bottom of the page, and click on the `REGISTER YOUR COURSE` button to follow the steps for creating a new course. The steps should be fairly straightforward, but as always, feel free to post on [Piazza](https://piazza.com/berkeley/other/cs97) if you run into any trouble.
 
 ![](/assets/create-course.png)
 
@@ -51,9 +51,9 @@ Click on the `Create Assignment` button on the left side of the page and follow 
 
 #### 3-4. Create configuration file, tests folder
 
-For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init__.py` file and `q1.py`. Below, I have pasted the contents of the [template files](https://www.gitbook.com/book/gunjanbaid/dsep-guide/edit#) linked above. You can easily modify these templates for your own course.
+For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init__.py` file and `q1.py`. Below, I have pasted the contents of the [template files](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02), mentioned above. You can easily modify these templates for your own course.
 
-**`lab01.ok`**
+`lab01.ok`
 
 ```
 
