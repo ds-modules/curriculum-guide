@@ -6,7 +6,7 @@ Git is a version control software that tracks changes in files and allows multip
 
 ## Why should I store materials on GitHub?
 
-Storing materials on the Data 8 GitHub allows you to use Interact Links for assignment distribution. It's also allows you to use the version control features that Git provides. In addition, it provides a central public location for connector course materials across semesters.
+Storing materials on the GitHub allows you to use Interact Links for assignment distribution. It's also allows you to use the version control features that Git provides. In addition, it provides a central public location for connector course materials across semesters.
 
 ## Is my GitHub repository private?
 
