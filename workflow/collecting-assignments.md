@@ -58,9 +58,9 @@ For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init
 ```
 {
   "name": "Homework 2",                    # change this line
-  "endpoint": "cal/ds101/su17/hw02",       # change this line, see OK for endpoint name
+  "endpoint": "cal/ds101/su17/hw02",       # change this line with OK info for your course
   "src": [
-    "hw02.ipynb"                           # change this line
+    "hw02.ipynb"                           # change this line, this is the file to be submitted
   ],
   "tests": {
       "tests/q*.py": "ok_test"
@@ -112,19 +112,19 @@ test = {
 
 #### 5. Add OK code to notebook
 
-Below is the code needed to import OK, run the `q1.py` test shown above, and submit the assignment. 
+Below is the code needed to import OK, run the `q1.py` test shown above, and submit the assignment. You can change the marked lines to use this code for your own assignments. The original code is found in the `hw02.ipynb` file in the [template files](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02).
 
 ```
 # These lines load the autograder tests. 
 from client.api.notebook import Notebook
-ok = Notebook('hw02.ok')                     # change this line 
+ok = Notebook('hw02.ok')                     # change this line to correct .ok file
 _ = ok.auth(inline=True)
 ```
 
 ```
 # Test q1
-x = 91                                       # change this line
-_ = ok.grade("q1")                           # change this line
+x = 91                                       # change this line to desired test
+_ = ok.grade("q1")                           # change this line to desired test file
 ```
 
 ```
