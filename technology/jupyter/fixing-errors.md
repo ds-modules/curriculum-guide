@@ -12,6 +12,8 @@ If your notebook becomes unresponsive, you can try to restart the kernel.
 
 ## Restarting Servers
 
+There are different methods for restarting your own and restarting another user's server.
+
 ### Restarting Your Own Server
 
 ![](/assets/control-link.png)
