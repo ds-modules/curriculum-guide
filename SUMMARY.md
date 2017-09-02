@@ -5,11 +5,8 @@
 ## Introduction
 
 * [What is a connector course?](/connector/general/what-is-a-connector.md)
-
 * [Previous connector courses](/connector/general/previous-connectors.md)
-
 * [Terms and abbreviations](/general/terms-and-abbreviations.md)
-
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
 
 ## Before the Course
@@ -18,7 +15,7 @@
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
-* [Introduction to JupyterHub](/technology/jupyter/jupyterhub.md)
+* [Introduction to Jupyter](/technology/jupyter/jupyterhub.md)
 
 ## The Workflow
 
@@ -32,6 +29,4 @@
 * [Working with large datasets](/technology/jupyter/large-datasets.md)
 * [Using additional python packages](/technology/jupyter/python-packages.md)
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
-
-
 
