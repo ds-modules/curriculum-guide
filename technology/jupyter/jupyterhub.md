@@ -1,4 +1,4 @@
-# JupyterHub
+# Jupyter Notebooks and JupyterHub
 
 ## What are Jupyter Notebooks?
 
