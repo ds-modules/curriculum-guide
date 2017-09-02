@@ -1,8 +1,10 @@
 # Collecting Assignments
 
-We recommend using OK for assignment collection. More details on OK can be found below. If you choose not to use OK, you can also have students submit assignments through bCourses. 
+We recommend using OK for assignment collection. More details on OK can be found below. If you choose not to use OK, you can also have students submit assignments through bCourses.
 
 ## OK
+
+[OK](https://okpy.org/) is a tool that contains functionality for autograding, submitting and grading Jupyter notebooks. 
 
 ### Initial Course Setup
 
