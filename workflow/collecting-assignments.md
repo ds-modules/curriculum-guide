@@ -41,7 +41,7 @@ While this process might be a bit tedious the first time, it gets much simpler. 
 
 #### 1. Create an entry for the assignment on OK site
 
-Once you have created your course, you should be able to view it at [okpy.org/admin/course/](https://okpy.org/admin/course/). Go to this page and click on your course. 
+Once you have created your course, you should be able to view it at [okpy.org/admin/course/](https://okpy.org/admin/course/). Go to this page and click on your course.
 
 
 
