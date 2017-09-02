@@ -58,7 +58,7 @@ For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init
 ```
 {
   "name": "Homework 2",                    # change this line
-  "endpoint": "cal/ds101/su17/hw02",       # change this line, based on OK course name
+  "endpoint": "cal/ds101/su17/hw02",       # change this line, see OK for endpoint name
   "src": [
     "hw02.ipynb"                           # change this line
   ],
