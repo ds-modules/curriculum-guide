@@ -10,7 +10,7 @@ If you choose not to use OK, you can also have students submit assignments throu
 
 ### Initial Course Setup
 
-To get started with OK, you must first create a course on the OK website. Go to [okpy.org](https://www.gitbook.com/book/gunjanbaid/dsep-guide/edit#) and
+To get started with OK, you must first create a course on the OK website. Go to [okpy.org](https://www.gitbook.com/book/gunjanbaid/dsep-guide/edit#), scroll to the bottom of the page, and click on the `Register Your Course` button.
 
 ### Using OK
 
