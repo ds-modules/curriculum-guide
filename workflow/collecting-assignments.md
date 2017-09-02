@@ -39,7 +39,7 @@ Note: Even if you are not using tests for your assignment, you will still need t
 
 While this process might be a bit tedious the first time, it gets much simpler. You usually do not need to create the configuration files from scratch. You can reuse old files and change a few of the lines. To help you get started, we have set up some [template files](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02). Some of the steps above are outlined in more detail below.
 
-#### 1. Create an entry for the assignment on OK site
+#### Step 1: Create an entry for the assignment on OK site
 
 Once you have created your course, you should be able to view it at [okpy.org/admin/course/](https://okpy.org/admin/course/). Go to this page and click on your course.
 
@@ -49,7 +49,7 @@ Click on the `Create Assignment` button on the left side of the page and follow 
 
 ![](/assets/create-assignment.png)
 
-#### 3-4. Create configuration file, tests folder
+#### Steps 3-4: Create configuration file, tests folder
 
 For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init__.py` file and `q1.py`. Below, I have pasted the contents of the [template files](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02), mentioned above, with added comments on which lines to modify for use with your own course.
 
@@ -110,7 +110,7 @@ test = {
 }
 ```
 
-#### 5. Add OK code to notebook
+#### Step 5: Add OK code to notebook
 
 Below is the code needed to import OK, run the `q1.py` test shown above, and submit the assignment. You can change the marked lines to use this code for your own assignments. The original code is found in the `hw02.ipynb` file in the [template files](https://github.com/gunjanbaid/course-repo-example/tree/master/fa17/hw/hw02).
 
