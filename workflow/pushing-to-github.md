@@ -20,67 +20,15 @@ Once you've gone through the above steps, you can save your changes. A set of ch
 
 ## Using the Command Line
 
-GitHub can also be used via the command line. You can store your connector's Git repository locally and use a local terminal application to access the command line. You can also store the repository on \[datahub.berkeley.edu\]\([http://datahub.berkeley.edu\](http://datahub.berkeley.edu%29\) and use the terminal that is present on the JupyterHub site. The instructions below are tailored towards command line use over JupyterHub, but the commands listed can be run on a local terminal as well.
+GitHub can also be used via the command line. We will not go into the details of how to use Git in this guide as there are many online resources on this topic. One resource for using Git over the command line is linked at the bottom of this page. 
 
-You can access the terminal on JupyterHub by clicking on the \`New\` dropdown, and then clicking on \`Terminal\`.
+You can store your connector's Git repository locally and use a local terminal application to access the command line. You can also store the repository on datahub.berkeley.edu and use the terminal that is present on the JupyterHub. You can access the terminal on JupyterHub by clicking on the `New` dropdown, and then clicking on `Terminal`.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23319236/9ca1a018-fa8a-11e6-8c3d-e5d084317ccc.png)
 
 You will then see a terminal page in the browser.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23321085/a981a654-fa92-11e6-98e2-f64bf92600bc.png)
-
-In order to push to your connector's repository, you must have the repository downloaded \(aka cloned\). If you have not yet cloned the repository, type the below command into the terminal. The \`&lt;repo\_name&gt;\` is the name of the repository for your connector. The repository names are listed at [https://github.com/data-8](https://github.com/data-8). Once you run the below command, you will see a folder for your repository in your home directory on JupyterHub. \*\*You do not have to repeat this step again.\*\*
-
-```
-    git clone https://github.com/data-8/&lt;repo\_name&gt;
-```
-
-For example, if your repository is called \`health-connector\`, you'd type:
-
-```
-    git clone https://github.com/data-8/health-connector
-```
-
-After this step, you should be able to see your connector's folder at \[[https://datahub.berkeley.edu\]\(https://datahub.berkeley.edu\](https://datahub.berkeley.edu]%28https://datahub.berkeley.edu%29%29. Create, upload, or move content %28Notebooks, datasets, etc.\) into the folder. For more information on creating Notebooks, see \[this page\]\([https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks\](https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks%29\). For more information on storing datasets, see \[this page\]\([https://github.com/data-8/connector-instructors/wiki/Storing-Datasets\](https://github.com/data-8/connector-instructors/wiki/Storing-Datasets%29\). Once you have your content in the newly created connector repository folder, you can follow the steps below on the terminal to push to GitHub.
-
-```
-    cd ~/&lt;repo\_name&gt;
-
-    git status
-```
-
-You should see something that lists the files you've changed or added. If your files don't show up, ensure that they are in your repo's folder.
-
-```
-    git add -A
-
-    git commit -m "Update"
-
-    git push origin master
-```
-
-If the push is successful, you should be able to go \[GitHub\]\([https://github.com/data-8\](https://github.com/data-8%29\) and see the newly uploaded file in the connector repo. If you run into something that looks the below error, contact us on \[Piazza\]\([https://piazza.com/berkeley/other/cs97\](https://piazza.com/berkeley/other/cs97%29\) and we will make sure you have the permissions needed.
-
-```
-    ERROR: Permission to data-8/some-connector.git denied
-```
-
-Here are the above commands, consolidated. This workflow is intended for Git beginners. Git offers many additional features that are not demonstrated in these steps.
-
-```
-    git clone https://github.com/data-8/&lt;repo\_name&gt;
-
-    cd ~/&lt;repo\_name&gt;
-
-    git status
-
-    git add -A
-
-    git commit -m "Update"
-
-    git push origin master
-```
 
 ## Additional Resources
 
