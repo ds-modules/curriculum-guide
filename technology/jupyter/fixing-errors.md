@@ -16,11 +16,11 @@ There are different methods for restarting your own and restarting another user'
 
 ### Restarting Your Own Server
 
-All users can restart their own servers by first going to the control panel. 
+All users can restart their own servers. To do so, start by going to the control panel.
 
 ![](/assets/control-link.png)
 
-cdjf
+Then, click on 
 
 ![](/assets/stop-my-server.png)jhh
 
