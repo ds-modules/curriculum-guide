@@ -34,19 +34,5 @@ Users with admin privileges on DataHub can restart other users' servers. To rest
 
 ![](/assets/admin-panel.png)
 
-### jdhfj
-
-![](/assets/stop-my-server.png)
-
-### 
-
-![](/assets/control-link.png)
-
-kdjfd
-
-![](/assets/admin-link.png)jdnfjd
-
-![](/assets/admin-panel.png)
-
-kd
+After clicking the `stop server` button, you can click the `start server` button in the user's row. 
 
