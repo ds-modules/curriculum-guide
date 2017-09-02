@@ -1,6 +1,6 @@
 # Fixing JupyterHub Errors
 
-For errors related to execution of code, such as a cell taking too long to run, you should try restarting the kernel. For errors related to login, you should try starting and stoping the server. Each of these methods is described below.
+You may run into different types of errors when you are using the JupyterHub. One common type of error is seen when running cells in Jupyter notebooks. A particular cell or the entire notebook might become unresponsive. Another type of error relates to login. A user may not be able to access some part of their JupyterHub account. For errors related to execution of code, such as a cell taking too long to run, you should try restarting the kernel. For errors related to login, you should try starting and stoping the server. Each of these methods is described below.
 
 ## Restarting the Kernel
 
@@ -24,7 +24,7 @@ cdjf
 
 Those with admin rights can access the Admin tab on the DataHub control panel. Through the admin panel, any user's server can be stopped and then restarted. To access the Admin tab, first click on `Control Panel` on `datahub.berkeley.edu`.
 
-kjk 
+kjk
 
 ![](/assets/control-link.png)jkjkj
 
