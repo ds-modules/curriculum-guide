@@ -83,7 +83,7 @@ This should be blank.
 
 ##### `q1.py`
 
-The test in this file is checking whether the value of `x` is equal to 91. `x` is a variable defined somewhere in the notebook corresponding to this test file. You can change the two lines indicated to test for anything you would like.
+The test in this file is checking whether the value of `x` is equal to 91. `x` is a variable defined somewhere in the notebook corresponding to this test file. You can change the two lines indicated to create a different test.
 
 ```
 test = {
