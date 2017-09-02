@@ -2,6 +2,8 @@
 
 ## What are Jupyter Notebooks?
 
+Data 8 and most connector courses use Jupyter notebooks for assignments. Jupyter notebooks are a tool used for in-browser computing that code, text, and visualizations to be included on the same page.
+
 ## What is JupyterHub?
 
 If you have worked with Jupyter notebooks before, you probably used a local installation. Jupyter notebooks can be created, run, and stored on your personal computer. In order to do all this, you have to install several different programs and the installation process can be very tedious and error-prone. Even after you have finished installing everything, you may still see errors in the future for various reasons \(versions of software become outdated, you install conflicting software, etc.\). To avoid the frustrations of setting up and maintaining the programming environment needed for Jupyter notebooks, we set up a JupyterHub for use in DSEP courses.
