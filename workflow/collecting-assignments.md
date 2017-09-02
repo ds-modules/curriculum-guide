@@ -73,6 +73,41 @@ For `lab01`, you need to set up `lab01.ok`  and a `tests` folder with an `__init
 }
 ```
 
+##### `tests` folder
+
+Should contain at least `__init__.py` file and `q1.py` even if you are not using tests. These files are needed to ensure that OK does not error. You can add additional question files, such as `q2.py` and so on. 
+
+##### `__init__.py`
+
+This should be blank.
+
+##### `q1.py`
+
+```
+test = {
+  'name': '',
+  'points': 1,
+  'suites': [
+    {
+      'cases': [
+        {
+          'code': r"""
+          >>> x                          # change this line
+          91                             # change this line
+          """,
+          'hidden': False,
+          'locked': False
+        }
+      ],
+      'scored': True,
+      'setup': '',
+      'teardown': '',
+      'type': 'doctest'
+    }
+  ]
+}
+```
+
 #### 5. Add OK code to notebook
 
 
