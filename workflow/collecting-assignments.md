@@ -37,6 +37,8 @@ lab01/
 
 Note: Even if you are not using tests for your assignment, you will still need to have a tests folder with some placeholder files.
 
+The
+
 #### Creating an Assignment
 
 #### Setting up Configuration Files
