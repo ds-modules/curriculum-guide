@@ -41,9 +41,11 @@ While this process might be a bit tedious the first time, it gets much simpler. 
 
 #### 1. Create an entry for the assignment on OK site
 
-#### 2. Create configuration file, tests folder
+Once you have created your course, you should be able to view it at [okpy.org/admin/course/](https://okpy.org/admin/course/).
 
-#### 3. Add OK code to notebook
+#### 3-4. Create configuration file, tests folder
+
+#### 5. Add OK code to notebook
 
 
 
