@@ -1,4 +1,4 @@
-# Collecting Assignments
+# Collecting and Grading Assignments
 
 We recommend using OK for assignment collection. More details on OK can be found below. If you choose not to use OK, you can also have students submit assignments through bCourses.
 
