@@ -1,8 +1,10 @@
 # JupyterHub
 
+## What are Jupyter Notebooks?
+
 ## What is JupyterHub?
 
-If you have worked with Jupyter notebooks before, you probably used a local installation. Jupyter notebooks can be created, run, and stored on your personal computer. In order to do all this, you have to install several different programs, such as Python, the Jupyter module, etc. The installation process can be very tedious and error-prone. Even after you have finished installing everything, you may still see errors in the future for various reasons \(versions of software become outdated, you install conflicting software, etc.\). To avoid the frustrations of setting up and maintaining the programming environment needed for Jupyter notebooks, we set up a JupyterHub for use in DSEP courses.
+If you have worked with Jupyter notebooks before, you probably used a local installation. Jupyter notebooks can be created, run, and stored on your personal computer. In order to do all this, you have to install several different programs and the installation process can be very tedious and error-prone. Even after you have finished installing everything, you may still see errors in the future for various reasons \(versions of software become outdated, you install conflicting software, etc.\). To avoid the frustrations of setting up and maintaining the programming environment needed for Jupyter notebooks, we set up a JupyterHub for use in DSEP courses.
 
 The term JupyterHub refers to the infrastructure set up on datahub.berkeley.edu. This site provides both cloud-based internet storage and computation power for notebooks. Instructors and students can work on and store assignments entirely through JupyterHub. No local installation of Python, Jupyter, etc. is needed. All you need is a browser to get started! This allows students in Data 8 and connector courses to start working on notebooks from day one.
 
@@ -32,6 +34,4 @@ The first time you logs in to JupyterHub, a personal account is created for you.
 ## Getting Access
 
 Anyone with a Berkeley credentials has access to the JupyterHub at `datahub.berkeley.edu`. If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
-
-
 
