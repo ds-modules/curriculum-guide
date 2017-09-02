@@ -2,11 +2,13 @@
 
 ## Room Scheduling
 
-Connector courses are held on Mondays and Tuesdays in 105 Cory. Please discuss scheduling a time for your connector with Cathryn Carson.
+### Lecture/Lab
 
-## Office Hours
+Connector courses are held on Mondays and Tuesdays in 105 Cory. Please discuss scheduling a time for your connector with Ryan Edwards.
 
-Instructors generally hold office hours for one hour each week. If you would like to request a room for office hours, please contact Cathryn Carson.
+### Office Hours
+
+Instructors generally hold office hours for one hour each week. If you would like to request a room for office hours, please contact Ryan Edwards.
 
 ## bCourses
 
