@@ -21,7 +21,7 @@ After you have finished the initial course setup, below are the steps for settin
 1. Create an entry for the assignment on OK site
 2. Create a folder for the assignment. This folder will contain the files mentioned in steps 3-5.
 3. Create a `.ok` configuration file for the assignment
-4. Create a tests folder with at least one test file and an `__init__.py` file
+4. Create a `tests` folder with at least one test file and an `__init__.py` file
 5. Add OK setup code to Jupyter notebook assignment
 
 If you are setting up `lab01`, for example, you should have a folder of content with the following structure:
@@ -43,11 +43,17 @@ While this process might be a bit tedious the first time, it gets much simpler. 
 
 Once you have created your course, you should be able to view it at [okpy.org/admin/course/](https://okpy.org/admin/course/). Go to this page and click on your course.
 
-
+![](/assets/ok-courses.png)
 
 Click on the `Create Assignment` button on the left side of the page and follow the steps listed.
 
+![](/assets/create-assignment.png)
+
 #### 3-4. Create configuration file, tests folder
+
+For `lab01`, we will set up `lab01.ok`  and a `tests` folder with an `__init__.py` file and `q1.py`.
+
+
 
 #### 5. Add OK code to notebook
 
