@@ -1,8 +1,12 @@
 # Creating Assignments
 
+Most courses in DSEP use Jupyter notebooks as the format in which assignments are completed.
+
+## Working with Jupyter Notebooks
+
 Below is an short introduction on how to Jupyter notebooks on `datahub.berkeley.edu`. Assignment development can be done on `datahub.berkeley.edu` or locally, if you already have a local Jupyter setup. The below steps assume you are working on DataHub, but most of the steps can be done on a local setup as well. If you decide to work locally, we recommend you test your notebooks on `datahub.berkeley.edu` well in advance. The development environment on DataHub is probably different from your local environment, so it is possible that code may break.
 
-## Create a Blank Notebook
+### Create a Blank Notebook
 
 This section describes how to create a notebook on the JupyterHub infrastructure. Go to [datahub.berkeley.edu](https://datahub.berkeley.edu). Click on the green `Start My Server` button. You will not need to do this if you are working locally.
 
@@ -14,7 +18,7 @@ Click on the `New` dropdown on the right side of the page. Select the option for
 
 You will see a blank notebook to which you can now add text and code. The notebook consists of sections called cells. There are different types of cells that can be used. Code is part of the "code" cell type and text is part of the "markdown" cell types.
 
-## Add a New Cell
+### Add a New Cell
 
 You can add a new cell using eiher the `+` button on the left side or the `Insert` button on the toolbar.
 
@@ -32,7 +36,7 @@ You will notice that there is no code output in the previous image. In addition,
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23251108/dcada876-f960-11e6-9629-ac8a1bdbe116.png)
 
-## Run Code
+### Run Code
 
 You can run code by either typing Shift-Enter from the cell or clicking the play button in the toolbar \(triangle with a line\).
 
@@ -42,7 +46,7 @@ Code that has been run in one cell is accessible by another cell.  If any change
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23251192/394dfd9c-f961-11e6-8bef-d1aa93c18dec.png)
 
-## Download Notebooks
+### Download Notebooks
 
 Click on `File` in the toolbar, then `Download as`, then select `Notebook (.ipynb)` . This will download the notebook to your computer in the standard Jupyter notebook format. You can also download notebooks in alternate formats, seen below.
 
