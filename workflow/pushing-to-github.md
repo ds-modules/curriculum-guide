@@ -1,6 +1,6 @@
-# Pushing to GitHub
+# Uploading Files to GitHub
 
-# Using the Web Interface
+## Using the Web Interface
 
 You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, \[download the notebook\]\([https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks\#download\](https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks#download%29\) onto your computer. Then, go to your connector's GitHub repository and click \`Upload Files\` on the right side.
 
