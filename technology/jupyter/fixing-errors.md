@@ -26,11 +26,11 @@ All users can restart their own servers. To do so, start by going to the control
 
 ### Restarting Student Servers
 
-Users with admin privileges on DataHub can restart other users' servers. To restart a student's server, first go to the control panel. 
+Users with admin privileges on DataHub can restart other users' servers. To restart a student's server, first go to the control panel.
 
 ![](/assets/control-link.png)Click on the `Admin` button at the top of the page. If you do not see this button, you do not have admin rights. To request admin rights, please post on [Piazza](http://piazza.com/berkeley/other/cs97).
 
-![](/assets/admin-link.png)After clicking the `Admin` button, you will see the admin panel. Usernames have been obfuscated here. To search for a user, you can use find \(type Control+F or Command+F\). When you have found the desired user, click the `stop server` button in the user's row.
+![](/assets/admin-link.png)After clicking the `Admin` button, you will see the admin panel. Usernames have been obfuscated here. To search for a user, you can use find \(type Control+F or Command+F\). An individual's username is the same as their CalNet ID. When you have found the desired user, click the `stop server` button in the user's row.
 
 ![](/assets/admin-panel.png)
 
