@@ -4,7 +4,7 @@ We recommend using OK for assignment collection. More details on OK can be found
 
 ## OK
 
-[OK](https://okpy.org/) is a tool that contains functionality for autograding, submitting and grading Jupyter notebooks. 
+[OK](https://okpy.org/) is a tool that contains functionality for submitting and grading notebooks.
 
 ### Initial Course Setup
 
