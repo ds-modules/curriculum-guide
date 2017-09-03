@@ -4,7 +4,7 @@ The technology used in the Data Science Education Program \(DSEP\) was chosen to
 
 ### Jupyter Notebooks and JupyterHub
 
-Jupyter Notebooks and JupyterHub are the tools that enable this student experience. You may have experience using Jupyter Notebooks on your own computer. Students in DSEP run their notebooks entirely in the cloud, on a JupyterHub. Python and common packages are preinstalled on each student's account, which is created when the student first logs in with an approved email. A lot of work goes into the maintenance of the infrastructure and many students, TAs, and staff members are regularly monitoring and fixing issues that come up.
+Jupyter Notebooks and JupyterHub are the tools that enable this student experience. You may have experience using Jupyter Notebooks on your own computer. Students in DSEP run their notebooks on a JupyterHub in the cloud. Python and common packages are preinstalled on each student's account, which is created when the student first logs in with an approved email. A lot of work goes into the maintenance of the infrastructure and many students, TAs, and staff members are regularly monitoring and fixing issues that come up.
 
 ### `datascience` package
 
