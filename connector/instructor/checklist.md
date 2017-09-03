@@ -12,7 +12,7 @@
 
 * Read through this guide
 * Meet with Gunjan Baid to discuss the infrastructure
-* Create/update public and private GitHub repos for your course in data-8
+* Create/update public and private GitHub repos for your course in the data-8 organization
 * Create/update your course website
 * [Sign up for connector instructor Piazza](https://piazza.com/berkeley/other/cs97) 
 * [Post on Piazza](https://piazza.com/berkeley/other/cs97) if you need any Python packages installed on `datahub.berkeley.edu`
