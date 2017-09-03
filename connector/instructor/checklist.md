@@ -12,7 +12,7 @@
 
 * Read through this guide
 * Meet with Gunjan Baid to discuss the infrastructure
-* Create public and private GitHub repos
+* Create public and private GitHub repos for your course 
 * Create/update your course website
 * [Sign up for connector instructor Piazza](https://piazza.com/berkeley/other/cs97) 
 * [Post on Piazza](https://piazza.com/berkeley/other/cs97) if you need any Python packages installed on `datahub.berkeley.edu`
