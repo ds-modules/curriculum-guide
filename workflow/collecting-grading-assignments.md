@@ -138,7 +138,9 @@ _ = ok.submit()
 
 ### Additional Resources
 
-
+* [Video on how to use OK with Jupyter notebooks](https://www.youtube.com/watch?v=PFTm7hmnKho&rel=0)
+* [OK documentation](https://okpy.github.io/documentation/)
+* [Publications and talks on OK](https://okpy.org/about/publications/)
 
 
 
