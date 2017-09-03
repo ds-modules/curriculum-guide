@@ -6,9 +6,9 @@ Here are the people in DSEP who are involved with connector courses.
 
 | Name | Role |
 | :--- | :--- |
-| Cathryn Carson |  |
-| Ryan Edwards |  |
-| Anthony Suen |  |
+| Cathryn Carson | ? |
+| Ryan Edwards | ? |
+| Anthony Suen | ? |
 
 ## Connectors
 
