@@ -12,7 +12,7 @@ The information is divided up into four sections: introduction, before the cours
 
 ## Not able to find what you are looking for?
 
-Try using the** search bar at** the top right of the page!
+Try using the** search bar** at the top right of the page!
 
 If you still have questions or concerns that are not addressed in this guide, you can post on the [connector instructor Piazza site](https://piazza.com/berkeley/other/cs97). This site is monitored by DSEP staff and we will get back to you promptly with a response.
 
