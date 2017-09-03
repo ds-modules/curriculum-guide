@@ -34,8 +34,7 @@
 
 * [People](/general/people.md)
 * [Terms and abbreviations](/general/terms-and-abbreviations.md)
-
-
+* [Contact](/general/contact.md)
 
 
 
