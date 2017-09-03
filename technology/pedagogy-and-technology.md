@@ -14,7 +14,7 @@ The package contains useful functionality for investigating and graphically disp
 
 ### Other Tools
 
-Other tools used in DSEP courses, such as OK, interact links, and the [interactive Data 8 textbook](https://www.inferentialthinking.com/), were also designed with the goal of reducing the technical burden on students. These tools simplify steps of the student workflow, such as downloading and uploading files, which can often be tedious. Using these tools, especially in introductory classes, allows students to focus on the core concepts in the class and build up the confidence to use more advanced tools, such as Git and Pandas.
+Other tools used in DSEP courses, such as OK, interact links, and the [interactive Data 8 textbook](https://www.inferentialthinking.com/), were also designed with the goal of reducing the technical burden on students. These tools simplify steps of the student workflow, such as downloading and uploading files, which can often be tedious. Using these tools, especially in introductory classes, allows students to focus on the core concepts in the class. These tools also act as stepping stones, allowing students to build up the confidence to use more advanced tools, such as Git and Pandas.
 
 We are very proud of the technology used in DSEP courses and have shared our approach with larger development and educational communities. Most recently, we spoke at [JupyterCon 2017](https://conferences.oreilly.com/jupyter/jup-ny) about some of this technology. If you want to learn more, check out our [presentation](https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/60131).
 
