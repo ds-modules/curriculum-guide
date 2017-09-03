@@ -5,7 +5,7 @@
 * [Schedule a class time](/connector/instructor/logistics.md)
 * [Request rooms for class, office hours](/connector/instructor/logistics.md)
 * [Request student help](/connector/instructor/student-help.md) \(development, CAs, graders\)
-* Develop your syllabus
+* [Develop your syllabus](/connector/instructor/syllabus-design.md)
 * Get access to bCourses
 
 ### Technical
