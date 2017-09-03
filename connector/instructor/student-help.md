@@ -12,9 +12,8 @@ If you are teaching a new connector and want some additional help developing the
 
 DSEP can match you with one or more undergraduate connector assistants \(CAs\) who can help you throughout the semester. CAs can help with a variety of tasks such as answer questions during lab and testing assignments. All CAs are enrolled in a two unit decal course, _Teaching Data Science - Connectors_. This decal will provide them with the training needed to assist with the connectors. The decal consists of 90 hours of work for the semester, 39 hours of which will be spent on training and outside work for the decal course. The remaining 51 hours will be spent on any work related to the connector. Here is how we have broken down these 51 hours:
 
-* 9 hours of meetings with the connector instructor
+* 9 hours of meetings with the connector instrutor
 * 15 weeks x 2 hours weekly = 30 hours of connector course labs
-
 * 15 weeks x 1 hour weekly = 15 hours of lab prep
 
 If you would like a CA for the semester, please contact Aspen Hsu or post on [Piazza](http://piazza.com/berkeley/other/cs97).
