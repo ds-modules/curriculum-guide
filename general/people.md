@@ -2,8 +2,6 @@
 
 Here are the people in DSEP who are involved with connector courses.
 
-## General
-
 | Name | Role |
 | :--- | :--- |
 | Cathryn Carson | ? |
