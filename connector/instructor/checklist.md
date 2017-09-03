@@ -1,6 +1,6 @@
 # Getting Started Checklist
 
-## New Instructors
+### Administrative
 
 * Review your connector Syllabus with DSEP staff
 * Attend a 1 hour technology overview meeting
@@ -10,9 +10,13 @@
 * Read through this guide
 * Develop assignments 
 
-### Returning Instructors
+### Technical
 
-* Attend a 1 hour technology overview meeting
+* Meet with Gunjan to discuss the infrastructure
+* Create a public course repo
+* Create a private course repo
+* Create a course website
+
 * Update your course website
 * Let us know if you want student help
 * Read through this guide
