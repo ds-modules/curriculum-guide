@@ -20,7 +20,7 @@ You can drag and drop your desired files onto the page. Then, write a short sent
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23319707/9a4d26b4-fa8c-11e6-91e7-72eeef8bce86.png)
 
-You will then see an option to select the branch for your changes. The default for most repositories will be the \`master\` branch. If you are a Git beginner, you can stick to the default and add your changes to the \`master\` branch. If you are a more advanced Git user and want to use different branches, you may want to select the option to create a new branch. Please see the additional GitHub resources on this page to learn more about branching.
+You will then see an option to select the branch for your changes. The default for most repositories will be the `master` branch. If you are a Git beginner, you can stick to the default and add your changes to the `master` branch. If you are a more advanced Git user and want to use different branches, you may want to select the option to create a new branch. Please see the additional GitHub resources on this page to learn more about branching.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23319711/9cf7b2da-fa8c-11e6-818e-c231b29a5040.png)
 
