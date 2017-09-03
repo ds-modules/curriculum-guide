@@ -12,7 +12,7 @@ Instructors and CAs should have full access to their connector's repo. If you do
 
 ### Using the Web Interface
 
-You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, \[download the notebook\]\([https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks\#download\](https://github.com/data-8/connector-instructors/wiki/Creating-Notebooks#download%29\) onto your computer. Then, go to your connector's GitHub repository and click \`Upload Files\` on the right side.
+You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, download the notebook onto your computer. Then, go to your connector's GitHub repository and click \`Upload Files\` on the right side.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23319695/89fa6484-fa8c-11e6-9d36-6b6782e2c383.png)
 
