@@ -8,11 +8,11 @@ Jupyter Notebooks and JupyterHub are the tools that enable this student experien
 
 ### `datascience` package
 
-In addition to the computing infrastructure, another piece of the technology is the `datascience` package. While traditional libraries such as `pandas` and `matplotlib` are powerful, they are also quite complicated, and the verbose code and documentation can intimidate those who are new to programming. The `datascience` Python package was written for use in Berkeley’s Data Science courses and aims to provide a simple but powerful set of tools for introductory students. Students that are in or have taken Data 8 will be familiar with this package as it is used throughout the course. 
+In addition to the computing infrastructure, another piece of the technology is the `datascience` package. While traditional libraries such as `pandas` and `matplotlib` are powerful, they are also quite complicated, and the verbose code and documentation can intimidate those who are new to programming. The `datascience` Python package was written for use in Berkeley’s Data Science courses and aims to provide a simple but powerful set of tools for introductory students. Students that are in or have taken Data 8 will be familiar with this package as it is used throughout the course.
 
 The package contains useful functionality for investigating and graphically displaying data. One key component of the `datascience` package is the `Tables` abstraction, which is similar to a Pandas dataframe. The package also contains useful functionality for drawing maps and plotting.
 
 ### Other Tools
 
-Many of the other tools used in DSEP courses such as OK, interact links, and the interactive Data 8 textbook were designed in the same way, with the goal of reducing 
+The other tools used in DSEP courses, such as OK, interact links, and the [interactive Data 8 textbook](https://www.inferentialthinking.com/), were also designed with the goal with the goal of reducing the technical burden on students. These tools simplify steps of the student workflow, such as downloading and uploading files, can often be tedious. Using these tools as a stepping stone, especially in introductory classes, allows students to focus on the core concepts in the class, but also built up the confidence to use more advanced tools, such as Git and Pandas.
 
