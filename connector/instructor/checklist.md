@@ -19,7 +19,7 @@
 
 * Sign up for connector instructor [Piazza](https://piazza.com/berkeley/other/cs97)
 
-* Let us know on [Piazza](https://piazza.com/berkeley/other/cs97) if you need any Python packages installed on `datahub.berkeley.edu`
+* Post on [Piazza](https://piazza.com/berkeley/other/cs97) if you need any Python packages installed on `datahub.berkeley.edu`
 
 
 
