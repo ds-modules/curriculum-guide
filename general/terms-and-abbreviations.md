@@ -10,7 +10,7 @@ A list of the many acronyms and terms that you will see in this guide.
 * JupyterHub - datahub.berkeley.edu
 * The cluster/cloud - datahub.berkeley.edu
 * Foundations course - Data 8
-* Repo - Git repository, can be stored locally or on GitHub
+* Repo - Git repository, either local or on GitHub
 
 
 
