@@ -1,4 +1,4 @@
-# Getting Started Checklist
+# [connector/instructor/logistics.md](/connector/instructor/logistics.md)Getting Started Checklist
 
 ### Administrative
 
