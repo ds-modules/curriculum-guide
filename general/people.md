@@ -4,26 +4,25 @@ Here are the people in DSEP who are involved with connector courses.
 
 ## General
 
-| Name | Role | Email |
-| :--- | :--- | :--- |
-| Cathryn Carson |  |  |
-| Ryan Edwards |  |  |
-| Anthony Suen |  |  |
-| Yuvi Panda |  |  |
-| Ryan Lovett |  |  |
+| Name | Role |
+| :--- | :--- |
+| Cathryn Carson |  |
+| Ryan Edwards |  |
+| Anthony Suen |  |
 
 ## Connectors
 
-| Name | Role | Email |
-| :--- | :--- | :--- |
-| Gunjan Baid | Work with connector instructors to address technical and infrastructure needs. | gunjan\_baid@berkeley.edu |
-| Aspen Hsu |  |  |
+| Name | Role |
+| :--- | :--- |
+| Gunjan Baid | Work with connector instructors to address technical and infrastructure needs. |
+| Aspen Hsu | Manage the CA team, instructor for the _Teaching Data Science - Connectors_ Decal that all CAs take. |
 
-## Modules
+## Infrastructure
 
-| Name | Role | Email |
-| :--- | :--- | :--- |
-
+| Name | Roler |
+| :--- | :--- |
+| Ryan Lovett |  |
+| Yuvi Panda |  |
 
 
 
