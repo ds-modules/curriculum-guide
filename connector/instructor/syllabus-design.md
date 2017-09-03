@@ -6,9 +6,9 @@ We recommend that connector courses consider the Data 8 syllabus when designing 
 
 ### Things to Note
 
-##### Delayed Student Enrollment 
+##### Delayed Student Enrollment
 
-Many students do not enroll in a connector course until the first or second week of classes. It is likely that many people will miss the first few course meetings. You may want to consider how to best accommodate students who enroll in the first few weeks.
+In the past, many students have not enrolled in a connector course until the first or second week of classes. It is likely that many people will miss the first few course meetings. You may want to consider how to best accommodate students who enroll in the first few weeks.
 
 ##### Programming Pace
 
