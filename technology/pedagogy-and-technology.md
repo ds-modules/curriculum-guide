@@ -1,6 +1,6 @@
 # Pedagogy and Technology
 
-The technology used in the Data Science Education Program \(DSEP\) was chosen to support the needs and goals of the program. In order to make the courses accessible to students of all majors requires, we wanted to use technology that was simple but powerful. We did not want students to deal with the frustrations of setting up and maintaining a development environment, which are often experienced in introductory computing courses. In Data 8, students do not have to waste any time on installation or setup, which means they are able to write and run code from the start.
+The technology used in the Data Science Education Program \(DSEP\) was chosen to support the needs and goals of the program. In order to make the courses accessible to students of all majors, we wanted to use technology that was simple but powerful. We did not want students to deal with the frustrations of setting up and maintaining a development environment, which are often experienced in introductory computing courses. In Data 8, students do not have to waste any time on installation or setup, which means they are able to write and run code from the start.
 
 ### Jupyter Notebooks and JupyterHub
 
