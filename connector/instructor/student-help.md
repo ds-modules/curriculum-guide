@@ -1,5 +1,7 @@
 # Getting Student Help
 
+There are three main types of student help that you can request.
+
 ### Student Developer
 
 For new connectors, DSEP can match you with a student developer who can help create labs. These students have experience working with Python, Jupyter notebooks, and basic data science libaries. They can help with brainstorming ideas and translating them into Python code. In the past, student developers have worked with instructors over the summer or in the early weeks of the semester. If you are teaching a new connector and want some additional help developing the initial content, please contact Gunjan Baid.
