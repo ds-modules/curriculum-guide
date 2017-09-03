@@ -1,6 +1,6 @@
 # Getting Student Help
 
-There are three main types of student help that you can request.
+There are three main roles through which students can assist with your courses. You may choose to work with students in all, none, or some of the roles. A brief description of each of the student roles is below.
 
 ### Student Developer
 
