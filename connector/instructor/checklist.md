@@ -7,12 +7,15 @@
 * Request student help \(development, CAs, graders\)
 * Develop your syllabus
 * Get access to bCourses
-* ### Technical
+
+### Technical
+
 * Read through this guide
 
 * Meet with Gunjan Baid to discuss the infrastructure
 
 * Create public and private GitHub repos
+
 * Create/update your course website
 
 * Sign up for connector instructor [Piazza](https://piazza.com/berkeley/other/cs97)
