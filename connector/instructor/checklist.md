@@ -1,4 +1,4 @@
-# Getting Started Checklist
+# Pre-Semester Checklist
 
 ### Administrative
 
