@@ -4,7 +4,7 @@ There are three main roles through which students can assist with your courses. 
 
 ### Student Developer
 
-For new connectors, DSEP can match you with a student developer who can help create labs. These students have experience working with Python, Jupyter notebooks, and basic data science libaries. They can help with brainstorming ideas and translating them into Python code. In the past, student developers have worked with instructors over the summer or in the early weeks of the semester. If you are teaching a new connector and want some additional help developing the initial content, please contact Gunjan Baid.
+For new connectors, DSEP can match you with a student developer who can help create labs. These students have experience working with Python, Jupyter notebooks, and basic data science libaries. They can help with brainstorming ideas and translating them into Python code. In the past, student developers have worked with instructors over the summer or in the early weeks of the semester. The time commitments for this role will vary based on student availability and instructor need. If you are teaching a new connector and want some additional help developing the initial content, please contact Gunjan Baid.
 
 ### Connector Associates
 
