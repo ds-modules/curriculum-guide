@@ -6,10 +6,12 @@
 * Request rooms for class, office hours
 * Request student help \(development, CAs, graders\)
 * Develop your syllabus
+* Get access to bCourses
 * ### Technical
 * Read through this guide
 
 * Meet with Gunjan Baid to discuss the infrastructure
+
 * Create public and private GitHub repos
 * Create/update your course website
 
