@@ -6,9 +6,5 @@ The best way to contact us is by [posting on Piazza](https://piazza.com/berkeley
 
 This Piazza is intended for connector instructors and CAs. DSEP staff are monitoring the Piazza and will respond to all questions promptly.
 
-### Email
-
-
-
 
 
