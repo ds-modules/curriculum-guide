@@ -2,14 +2,10 @@
 
 ### Administrative
 
-* Review your connector Syllabus with DSEP staff
-* Attend a 1 hour technology overview meeting
-* Set up your GitHub account and repo
-* Create a course website
-* Let us know if you want student help
-* Read through this guide
-* Develop assignments 
-
+* Schedule a class time
+* Request rooms for class, office hours
+* Request student help \(development, CAs, graders\)
+* 
 ### Technical
 
 * Read through this guide
