@@ -1,4 +1,4 @@
-# Connector Sites
+# Previous Connector Sites
 
 The links below point either to a PDF syllabus or to a course website that contains the syllabus.
 
