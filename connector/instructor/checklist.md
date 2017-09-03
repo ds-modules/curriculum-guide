@@ -17,8 +17,6 @@
 * Create a private course repo
 * Create/update your course website
 
-* Let us know if you want student help
-
 * Read through this guide
 
 
