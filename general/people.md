@@ -1,6 +1,6 @@
 # Who are we?
 
-Here are a few of the people in DSEP who are involved with connector courses. 
+Here are some of the people in DSEP who are involved with connector courses.
 
 ## General
 
