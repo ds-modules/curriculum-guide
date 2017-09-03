@@ -6,7 +6,7 @@ There are three main roles through which students can assist with your courses. 
 
 For new connectors, DSEP can match you with a student developer who can help create labs. These students have experience working with Python, Jupyter notebooks, and basic data science libaries. They can help with brainstorming ideas and translating them into Python code. In the past, student developers have worked with instructors over the summer or in the early weeks of the semester. The time commitments for this role will vary based on student availability and instructor need.
 
-If you are teaching a new connector and want some additional help developing the initial content, please contact Gunjan Baid.
+If you are teaching a new connector and want some additional help developing the initial content, please post on [Piazza](https://http://piazza.com/berkeley/other/cs97).
 
 ### Connector Associates
 
@@ -17,7 +17,7 @@ DSEP can match you with one or more undergraduate connector assistants \(CAs\) w
 
 * 15 weeks x 1 hour weekly = 15 hours of lab prep
 
-If you would like a CA for the semester, please contact Aspen Hsu.
+If you would like a CA for the semester, please post on [Piazza](http://piazza.com/berkeley/other/cs97).
 
 ### Graders/Readers
 
