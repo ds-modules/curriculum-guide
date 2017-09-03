@@ -21,7 +21,7 @@ Here are the people in DSEP who are involved with connector courses.
 
 | Name | Role |
 | :--- | :--- |
-| Ryan Lovett, Yuvi Panda | JupyterHub Infrastructure gurus. |
+| Ryan Lovett, Yuvi Panda | JupyterHub Infrastructure gurus |
 
 
 
