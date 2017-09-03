@@ -4,7 +4,7 @@
 
 * Schedule a class time
 * Request rooms for class, office hours
-* Request student help \(development, CAs, graders\)
+* [Request student help](/connector/instructor/student-help.md) \(development, CAs, graders\)
 * Develop your syllabus
 * Get access to bCourses
 
