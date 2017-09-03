@@ -20,7 +20,7 @@ Here is an interact link with the various components highlighted in different co
 * Checkout to the `gh-pages` branch
 * Redirect the user to the `lab01` folder on `datahub.berkeley.edu`. The full path of this folder on the user's JupyterHub account would be `~/social-networks-connector/lab01`.
 
-##### **Restrictions**
+### Restrictions
 
 To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories. Previously, content had to be stored in the `data-8` GitHub organization or in an approved account or organization. This no longer applies, interact links can be used with content stored in ANY public repository.
 
