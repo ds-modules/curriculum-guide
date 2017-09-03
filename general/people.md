@@ -15,7 +15,7 @@ Here are the people in DSEP who are involved with connector courses.
 | Name | Role |
 | :--- | :--- |
 | Gunjan Baid | Provide technical support for connector instructors. |
-| Aspen Hsu | Manage the CA team, instructor for the _Teaching Data Science - Connectors_ course for CAs. |
+| Aspen Hsu | Manage the CA team, teach the _Teaching Data Science - Connectors_ course for CAs. |
 
 ## Infrastructure
 
