@@ -2,9 +2,9 @@
 
 We recommend using interact links to distribute notebooks to students. Interact links are described in detail below. If you do not wish to use interact links, you can distribute assignments through bCourses as well. In this case, after you have uploaded the files to bCourses, students will need to download them and then upload them to their own JupyterHub accounts.
 
-## Interact Links
+### Interact Links
 
-### What are interact links?
+##### What are interact links?
 
 Interact links simplify the assignment distribution process. Rather than downloading files from an external source and then uploading to their personal JupyterHub accounts, users can obtain all files for a given assignment with just one click. When a user clicks on an interact link for a particular assignment, all files for the assignment will show up in the user's personal JupyterHub account.
 
@@ -12,7 +12,7 @@ These links can be used with any content stored on GitHub in a public repository
 
 Using these links enables users to immediately interact with publicly available content on GitHub. This is valuable for easy assignment distribution, but also in the broader context of using the open-source content that is available on GitHub. Learning Git is no longer a barrier to interacting with this content.
 
-### How do the links work?
+##### How do the links work?
 
 Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting and will remain the same for each links. The colored portions will be different for each link. If you are new to GitHub you may want to familiarize yourself with the basics \(repositories, branches, etc.\) to better understand each component.
 
@@ -21,6 +21,10 @@ Here is an interact link with the various components highlighted in different co
 * Clone the `social-networks-connector` repo from the `data-8` GitHub organization into the user's account on `datahub.berkeley.edu`
 * Checkout to the `gh-pages` branch
 * Redirect the user to the `lab01` folder on `datahub.berkeley.edu`. The full path of this folder on the user's JupyterHub account would be `~/social-networks-connector/lab01`.
+
+##### **Restrictions**
+
+To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories. Previously, content had to be stored in the `data-8` GitHub organization or in an approved account or organization. This no longer applies, interact links can be used with content stored in ANY public repository.
 
 ### **Important Note: Updated Behavior**
 
@@ -33,10 +37,6 @@ Here is a demo showing both the new and old behavior of interact links. To under
 * [New behavior](http://datahub.berkeley.edu/user-redirect/interact?repo=data8assets&path=materials/sp17/lab/lab01 ) - all lab folders present at `~/data8assets/materials/sp17/lab`
 * [Old behavior](http://data8.haas.berkeley.edu/user-redirect/interact?repo=data8assets&path=materials/su17/lab/lab01 ) - just `lab01` folder present at `~/data8assets/materials/su17/lab`
 
-### **Restrictions**
-
-To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories. Previously, content had to be stored in the `data-8` GitHub organization or in an approved account or organization. This no longer applies, interact links can be used with content stored in ANY public repository.
-
 ### **Interact Link Generator**
 
 Interact links can be manually created in the format shown above, or can be automatically generated using [this](https://url-to-interact.herokuapp.com\) tool. The interact link generator tool allows users to specify a JupyterHub URL and GitHub url as inputs. The tool will generate an interact link for the specified GitHub content and JupyterHub.
@@ -48,6 +48,4 @@ For example, to pull [this](https://github.com/data-8/mcb-88-connector/tree/gh-p
 * Hit the convert button 
 
 The output should be [https://datahub.berkeley.edu/user-redirect/interact?account=data-8&repo=mcb-88-connector&branch=gh-pages&path=exercises/lab5](https://datahub.berkeley.edu/user-redirect/interact?account=data-8&repo=mcb-88-connector&branch=gh-pages&path=exercises/lab5). This link will copy the desired folder into your JupyterHub account.
-
-
 
