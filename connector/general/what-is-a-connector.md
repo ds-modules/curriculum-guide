@@ -6,7 +6,7 @@ Connector courses allow students to apply theoretical concepts from Data 8 to a 
 
 ## Prerequisites
 
-Data 8 is usually the only prerequisite/corequisite. Students can take connectors at the same time as or anytime after Data 8. There is no limit to how many connectors a student can take.
+Data 8 is usually the only prerequisite/corequisite. Students can take connectors at the same time as or anytime after taking Data 8. There is no limit to how many connectors a student can take.
 
 ## Units
 
