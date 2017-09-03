@@ -2,8 +2,8 @@
 
 ### Administrative
 
-* Schedule a class time
-* Request rooms for class, office hours
+* [Schedule a class time](/connector/instructor/logistics.md)
+* [Request rooms for class, office hours](/connector/instructor/logistics.md)
 * [Request student help](/connector/instructor/student-help.md) \(development, CAs, graders\)
 * Develop your syllabus
 * Get access to bCourses
