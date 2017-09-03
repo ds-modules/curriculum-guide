@@ -15,10 +15,10 @@
 * Meet with Gunjan to discuss the infrastructure
 * Create a public course repo
 * Create a private course repo
-* Create a course website
+* Create/update your course website
 
-* Update your course website
 * Let us know if you want student help
+
 * Read through this guide
 
 
