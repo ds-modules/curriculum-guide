@@ -1,12 +1,11 @@
 # Summary
 
-* [Getting started](README.md)
+* [Home](README.md)
 
 ## Introduction
 
 * [What is a connector course?](/connector/general/what-is-a-connector.md)
 * [Previous connector courses](/connector/general/previous-connectors.md)
-
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
 
 ## Before the Course
@@ -16,7 +15,7 @@
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 * [Introduction to Jupyter](/technology/jupyter/jupyterhub.md)
-* [Pre-semester Checklist](/connector/instructor/checklist.md)
+* [Pre-Semester Checklist](/connector/instructor/checklist.md)
 
 ## The Workflow
 
@@ -36,6 +35,4 @@
 * [People](/general/people.md)
 * [Terms and abbreviations](/general/terms-and-abbreviations.md)
 * [Contact](/general/contact.md)
-
-
 
