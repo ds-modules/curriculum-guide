@@ -16,6 +16,7 @@
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
 * [Introduction to Jupyter](/technology/jupyter/jupyterhub.md)
+* [Pre-semester Checklist](/connector/instructor/checklist.md)
 
 ## The Workflow
 
