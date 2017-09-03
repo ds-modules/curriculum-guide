@@ -19,10 +19,9 @@ Here are the people in DSEP who are involved with connector courses.
 
 ## Infrastructure
 
-| Name | Roler |
+| Name | Role |
 | :--- | :--- |
-| Ryan Lovett |  |
-| Yuvi Panda |  |
+| Ryan Lovett, Yuvi Panda | Infrastructure gurus, the masterminds behind DataHub. |
 
 
 
