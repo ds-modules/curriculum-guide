@@ -4,17 +4,17 @@ You may run into different types of errors when you are using the JupyterHub. On
 
 We have outlined two methods below that you should try for each error type. For errors related to execution of code, such as the notebook not running properly, you should try restarting the kernel. For errors related to access, you should try restarting the server. If these methods do not solve the issue you are facing, please [post on Piazza](http://piazza.com/berkeley/other/cs97).
 
-## Restarting the Kernel
+### Restarting the Kernel
 
 If your notebook becomes unresponsive, you can try to restart the kernel.
 
 ![](/assets/restart-kernel.png)
 
-## Restarting Servers
+### Restarting Servers
 
 There are different methods for restarting your own and restarting another user's server.
 
-### Restarting Your Own Server
+##### Restarting Your Own Server
 
 All users can restart their own servers. To do so, start by going to the control panel.
 
@@ -24,7 +24,7 @@ All users can restart their own servers. To do so, start by going to the control
 
 ![](/assets/start-my-server.png)
 
-### Restarting Student Servers
+##### Restarting Student Servers
 
 Users with admin privileges on DataHub can restart other users' servers. To restart a student's server, first go to the control panel.
 
