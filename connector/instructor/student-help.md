@@ -17,7 +17,7 @@ DSEP can match you with one or more undergraduate connector assistants \(CAs\) w
 
 * 15 weeks x 1 hour weekly = 15 hours of lab prep
 
-If you would like to be match with CA\(s\) for the semester, please contact Aspen Hsu.
+If you would like a CA for the semester, please contact Aspen Hsu.
 
 ### Graders/Readers
 
