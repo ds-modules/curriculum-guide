@@ -17,7 +17,7 @@
 * [Introduction to Jupyter](/technology/jupyter/jupyterhub.md)
 * [Pre-Semester Checklist](/connector/instructor/checklist.md)
 
-## The Workflow
+## Your Workflow
 
 * [Creating assignments](/workflow/creating-notebooks.md)
 * [Uploading Files to GitHub](/workflow/pushing-to-github.md)
