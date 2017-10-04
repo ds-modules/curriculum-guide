@@ -6,9 +6,7 @@ We recommend using [OK](https://okpy.org) for assignment submission and grading.
 
 If you choose not to use OK, you can also have students submit assignments through bCourses. Students can download the assignments from JupyterHub in the original `.ipynb` format, or other formats such as PDF, and then upload them to bCourses.
 
-### What is OK?
-
-
+### What is OK? \("okpy"\)
 
 [OK](https://okpy.org/) is a tool that contains functionality for submitting and grading notebooks. OK can be used to test code in the notebooks, submit assignments by just running one cell, and grade submissions through the online interface.
 
