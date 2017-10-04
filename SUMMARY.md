@@ -10,7 +10,7 @@
 
 ## Before the Course
 
-* [Sorting out logistics](/connector/instructor/logistics.md)
+* [Logistics, rooms, technology](/connector/instructor/logistics.md)
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)

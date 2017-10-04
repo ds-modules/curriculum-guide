@@ -18,3 +18,7 @@ Other tools used in DSEP courses, such as OK, interact links, and the [interacti
 
 We are very excited about the technology used in DSEP courses and have shared our approach with larger development and educational communities. Most recently, we spoke at [JupyterCon 2017](https://conferences.oreilly.com/jupyter/jup-ny) about some of this technology. If you want to learn more, check out our [presentation](https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/60131).
 
+### Other Technology
+
+Other tools used
+
