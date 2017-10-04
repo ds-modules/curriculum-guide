@@ -4,7 +4,7 @@ We recommend using interact links to distribute notebooks to students. Interact 
 
 ### The Steps
 
-Here are the basic steps you will need to go through to distribute notebooks and other files. To learn more about the details of each step, please read through the rest of this page.
+Here are the basic steps you will need to go through to distribute notebooks and other files. To learn more about the details of the process, please read through the rest of this page.
 
 1. Create a folder with all files for the assignment \(notebook, datasets, etc.\)
 2. [Upload folder to a public GitHub repository](/workflow/pushing-to-github.md)
