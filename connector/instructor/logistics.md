@@ -4,13 +4,17 @@
 
 ##### Lecture/Lab
 
-Connector courses are held on Mondays and Tuesdays. Please discuss scheduling a time for your connector with the DSEP Curriculum Coordinator, [Ryan Edwards](/window.location.href = "mailto:ryanedw@berkeley.edu";).
+Connector courses are held on Mondays and Tuesdays. Please discuss scheduling a time for your connector with the DSEP Curriculum Coordinator, [Ryan Edwards](mailto:ryanedw@berkeley.edu).
 
 ##### Office Hours
 
-Instructors generally hold office hours for one hour each week. If you would like to request a room for office hours, please contact Ryan Edwards.
+Instructors generally hold office hours for one hour each week. If you would like to request a computer lab for your office hours, please contact [Ryan Edwards](mailto:ryanedw@berkeley.edu).
 
 ### bCourses
 
-For bCourses access, please contact the department under which your course is listed. If you are teaching an L&S connector course, you should contact Ryan Edwards to receive bCourses access.
+[bCourses.berkeley.edu](https://bcourses.berkeley.edu/) is Berkeley's secure gateway tool for posting course content and grades in a [FERPA](http://registrar.berkeley.edu/academic-policies-procedures/ferpa)-consistent way. It is similar to [Blackboard](http://www.blackboard.com/), produced and maintained by a for-profit company, with which faculty and students coming from other schools might be more familiar. For bCourses access, please contact the department under which your course is listed. If you are teaching an L&S connector course, you should contact [Ryan Edwards](mailto:ryanedw@berkeley.edu) to receive bCourses access.
+
+### Piazza
+
+[piazza.com](https://piazza.com/) is a useful platform for students to share 
 
