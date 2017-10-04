@@ -1,4 +1,4 @@
-# Welcome to the DSEP Guide!
+# Welcome to the Connector Guide!
 
 ## What is this guide and who is it for?
 
