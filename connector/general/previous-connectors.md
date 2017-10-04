@@ -59,6 +59,7 @@ The links below point either to a PDF syllabus or to a course website that conta
 ### Fall 2015
 
 * L&S 39F - Data Science and the Mind
+* [L&S 39G](http://u.demog.berkeley.edu/~redwards/ls39g.html) - Health, Human Behavior, and Data
 * L&S 39H - Geospatial Data Explorations
 * L&S 39C - How does History Count? Reading and Writing History in the Age of Big Data
 * L&S 39E - Probability and Mathematical Statistics in Data Science

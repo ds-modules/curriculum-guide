@@ -4,7 +4,7 @@
 
 ##### Lecture/Lab
 
-Connector courses are held on Mondays and Tuesdays. Please discuss scheduling a time for your connector with Ryan Edwards.
+Connector courses are held on Mondays and Tuesdays. Please discuss scheduling a time for your connector with the DSEP Curriculum Coordinator, [Ryan Edwards](mailto:ryanedw@berkeley.edu).
 
 ##### Office Hours
 
