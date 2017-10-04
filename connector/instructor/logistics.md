@@ -1,4 +1,4 @@
-# Logistics, room, technology
+# Logistics, rooms, technology
 
 ### Room Scheduling
 
