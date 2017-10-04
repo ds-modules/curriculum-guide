@@ -4,7 +4,7 @@
 
 ##### Classrooms
 
-DSEP has access to three classrooms that are also state-of-the-art computer labs: 
+DSEP has access to three classrooms that are also state-of-the-art computer labs:
 
 * **Cory 105**, accessible through the west side of Cory; there are 4 tables with 8 seats each for a total of 32 seats
 * **Evans B6**, a basement lab \(one floor below Evans 6\) with 4 tables with 8 seats each for a total of 32 seats
@@ -16,7 +16,7 @@ Connector courses are held on Mondays and Tuesdays. Please discuss scheduling a 
 
 ##### Office Hours
 
-Instructors generally hold office hours for one hour each week. If you would like to request a computer lab for your office hours, please contact [Ryan Edwards](mailto:ryanedw@berkeley.edu).
+Instructors generally hold office hours for one hour each week. You are welcome to hold office hours wherever you find convenient. If you would like to request a computer lab for your office hours, please contact [Ryan Edwards](mailto:ryanedw@berkeley.edu).
 
 ### bCourses
 
