@@ -24,5 +24,5 @@ Instructors generally hold office hours for one hour each week. You are welcome 
 
 ### Piazza
 
-[piazza.com](https://piazza.com/) is a useful platform for students and instructors to discuss course content. Each class can have its own Piazza website. Piazza functions best when the user base is active, which often is easier to achieve when the user base is large. The [connector instructor Piazza site](https://piazza.com/berkeley/other/cs97) is a good example.
+[piazza.com](https://piazza.com/) is a useful platform for students and instructors to discuss course content. Each class can have its own Piazza website. Piazza functions best when the user base is active, which often is easier to achieve when the user base is large. The [connector instructor Piazza site](https://piazza.com/berkeley/other/cs97) is a good example. Some instructors use Piazza exclusively and do not use bCourses.
 
