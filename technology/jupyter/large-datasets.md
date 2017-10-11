@@ -1,6 +1,6 @@
 # Storing Datasets
 
-A few methods of storing datasets are outlined below. The choice of method depends on your preference and the size of the dataset. Keep in mind, regardless of the size of your dataset, each account on DataHub is provided with ~1GB RAM, so this will limit the amount of data that you can read in at any time. If you want to increase this limit on RAM, please contact us on [Piazza](https://piazza.com/berkeley/other/cs97).
+A few methods of storing datasets are outlined below. The choice of method depends on your preference and the size of the dataset. Keep in mind, regardless of the size of your dataset, each account on DataHub is provided with ~1GB RAM, so this will limit the amount of data that you can read in at any time. If you want to temporarily increase this limit on RAM, please contact us on [Piazza](https://piazza.com/berkeley/other/cs97).
 
 ### Small Datasets \(a few MBs\)
 
