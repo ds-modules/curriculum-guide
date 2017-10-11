@@ -6,7 +6,11 @@ Connector courses allow students to apply theoretical concepts from Data 8 to a 
 
 ### Prerequisites
 
-Data 8 is usually the only prerequisite/corequisite. Students can take connectors at the same time as Data 8 or anytime after taking Data 8. There is no limit to how many connectors a student can take.
+Data 8 is a pre-requisite or co-requisite for connector courses. Students should have already completed Data 8 or be taking it concurrently.
+
+Although this expectation is stated in the official course description, instructors should note that students are formally able to enroll in a connector without having met it. This can create challenges for individual students, and for the range of preparation represented in the whole class. Previous instructors have found it helpful to announce the expectations about Data 8 in their first class and suggest that students find a different class or wait to take the connector until they have met the expectations.
+
+Of course, instructors have the discretion to consider a student's enrollment on a case-by-case basis. If you are thinking about waiving the Data 8 pre-/co-requisite for a particular student, you will want to consider their other preparation, what Data 8 material they will be missing, and the overall effect it may have on the class.
 
 ### Units
 
