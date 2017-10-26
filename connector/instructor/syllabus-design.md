@@ -6,7 +6,7 @@ We recommend that connector courses consider the Data 8 syllabus when designing 
 
 ### Using External Software
 
-Students in connector courses can [borrow Chromebook laptops](/technology/computer-resources.md) through the library, but these laptops will not support downloading external software. Therefore, using external software that must be installed is not recommended.
+Students in connector courses can [borrow Chromebook laptops](/technology/computer-resources.md) through the library, but these laptops will not support external software that must be downloaded and installed. Therefore, using such external software is not recommended.
 
 ### Things to Note
 
