@@ -4,7 +4,7 @@ A list of the many acronyms and terms that you will see in this guide.
 
 * DSEP - Data Science Education Program
 * BIDS - Berkeley Institute of Data Science
-* CI - connector instructor
+* CI - Connector instructor
 * CA - Connector assistant
 * DataHub - datahub.berkeley.edu 
 * JupyterHub - datahub.berkeley.edu
