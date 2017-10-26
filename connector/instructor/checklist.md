@@ -6,7 +6,7 @@
 * [Request rooms for class, office hours](/connector/instructor/logistics.md)
 * [Request student help](/connector/instructor/student-help.md): student developers, Connector Assistants \(CAs\), graders
 * [Develop your syllabus](/connector/instructor/syllabus-design.md)
-* [Get access to bCourses](/connector/instructor/logistics.md) if you want to use it
+* [Get access to bCourses](/connector/instructor/logistics.md) if you would like to use it
 
 ### Technical
 
