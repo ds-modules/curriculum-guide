@@ -29,10 +29,13 @@
 * [Working with large datasets](/technology/jupyter/large-datasets.md)
 * [Using additional python packages](/technology/jupyter/python-packages.md)
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
+* [Computer resources for students](/technology/computer-resources.md)
 
 ## Reference
 
 * [People](/general/people.md)
 * [Terms and abbreviations](/general/terms-and-abbreviations.md)
 * [Contact](/general/contact.md)
+
+
 
