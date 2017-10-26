@@ -16,5 +16,5 @@ Students can go to the circulation desk at Moffitt Library. To borrow a Chromebo
 
 ### Using External Software
 
-Chromebooks will not support external software that must be downloaded and installed. Therefore, using such external software is not recommended.
+Chromebooks will not support software that must be downloaded and installed. Therefore, using such external software is not recommended.
 
