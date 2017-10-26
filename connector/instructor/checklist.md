@@ -4,7 +4,7 @@
 
 * [Schedule a class time](/connector/instructor/logistics.md)
 * [Request rooms for class, office hours](/connector/instructor/logistics.md)
-* [Request student help](/connector/instructor/student-help.md): student developers, Connector Associates \(CAs\), graders
+* [Request student help](/connector/instructor/student-help.md): student developers, Connector Assistants \(CAs\), graders
 * [Develop your syllabus](/connector/instructor/syllabus-design.md)
 * [Get access to bCourses](/connector/instructor/logistics.md) if you want to use it
 
