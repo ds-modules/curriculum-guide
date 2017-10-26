@@ -8,13 +8,11 @@ We recommend that connector courses consider the Data 8 syllabus when designing 
 
 Students in connector courses can [borrow Chromebook laptops](/technology/computer-resources.md) through the library, but these laptops will not support software that must be downloaded and installed. Therefore, using such external software is not recommended.
 
-### Things to Note
-
-##### Delayed Student Enrollment
+### Delayed Student Enrollment
 
 In the past, many students have not enrolled in a connector course until the first or second week of classes. It is possible that many people will miss the first few course meetings. You may want to consider how to best accommodate students who enroll in the first few weeks.
 
-##### Programming Pace
+### Programming Pace
 
 Since Data 8 covers Python during the first few weeks of the semester, previous connector instructors have found it helpful to keep the first few weeks light on the programming. Most students in Data 8 and connectors will not have a lot of prior programming experience.
 
