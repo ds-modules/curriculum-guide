@@ -2,6 +2,12 @@
 
 Connector course classrooms do NOT have computers for student use. Students who need access to a computer can borrow a Chromebook from Moffitt Library for the semester. You can read more about this program [here](https://data.berkeley.edu/news/data-science-students-can-borrow-laptops-semester).
 
+As of 10/30/17, we have 26 total machines. Of these:
+
+* 9 are available
+* 12 are checked out
+* 5 are in repair
+
 ### Check Availability
 
 To check the availability of laptops:
