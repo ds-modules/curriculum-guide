@@ -10,7 +10,7 @@ As of 10/30/17, we have 26 total machines. Of these:
 * 12 are checked out
 * 5 are in repair
 
-To check the availability of laptops at the current time:
+The above estimates may be out of date. To check the availability of laptops at the current time:
 
 1. Go to [http://oskicat.berkeley.edu/search/r](http://oskicat.berkeley.edu/search/r)
 2. Search for "CS C8"
