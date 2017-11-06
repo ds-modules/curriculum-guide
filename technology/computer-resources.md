@@ -14,7 +14,7 @@ The above estimates may be out of date. To check the availability of laptops at 
 
 1. Go to [http://oskicat.berkeley.edu/search/r](http://oskicat.berkeley.edu/search/r)
 2. Search for "CS C8"
-3. Scroll to the bottom of the page to check which laptops are available
+3. Scroll down to the see the list; individual laptops are marked either AVAILABLE or otherwise
 
 ### Borrow Chromebooks
 
