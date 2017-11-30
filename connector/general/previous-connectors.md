@@ -5,7 +5,7 @@ The links below point either to a PDF syllabus or to a course website that conta
 ### Fall 2017
 
 * [CIVENG 88](http://www.miladmemarzadeh.com/ce88.html) - Data Science for Smart Cities
-* DEMOG 88 - Immigration: What Do the Data Tell Us?
+* [DEMOG 88](http://courses.demog.berkeley.edu/mason88/) - Immigration: What Do the Data Tell Us?
 * [L&S 88-1](http://dennisfeehan.org/teaching/2017fa_ls88.html) - Social Networks
 * L&S 88-2 - Web Data Visualization 
 * [L&S 88-3](http://data8.org/cogneuro-connector/Fa17/) - Data Science for Cognitive Neuroscience
