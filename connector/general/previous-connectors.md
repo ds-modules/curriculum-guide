@@ -7,9 +7,9 @@ The links below point either to a PDF syllabus or to a course website that conta
 * [CIVENG 88](http://www.miladmemarzadeh.com/ce88.html) - Data Science for Smart Cities
 * [DEMOG 88](http://courses.demog.berkeley.edu/mason88/) - Immigration: What Do the Data Tell Us?
 * [L&S 88-1](http://dennisfeehan.org/teaching/2017fa_ls88.html) - Social Networks
-* L&S 88-2 - Web Data Visualization 
+* [L&S 88-2](https://yasmina85.github.io/WDV-LS88-F17/) - Web Data Visualization 
 * [L&S 88-3](http://data8.org/cogneuro-connector/Fa17/) - Data Science for Cognitive Neuroscience
-* L&S 88-4 - Behind the Curtain in Economic Development
+* [L&S 88-4](https://gunjanbaid.github.io/connector-sites/assets/L&S88-4/Fa17Syllabus.pdf) - Behind the Curtain in Economic Development
 * L&S 88-5 - Rediscovering Texts as Data
 * STAT 88 - Probability and Mathematical Statistics in Data Science
 
