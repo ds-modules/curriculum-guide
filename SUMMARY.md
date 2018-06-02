@@ -32,6 +32,7 @@
 * [Using additional python packages](/technology/jupyter/python-packages.md)
 * [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
 * [Computer resources for students](/technology/computer-resources.md)
+* [Data Peers](data-peers.md)
 
 ## Reference
 

@@ -4,13 +4,7 @@ Connector course classrooms do NOT have computers for student use. Students who 
 
 ### Availability
 
-As of 10/30/17, we have 26 total machines. Of these:
-
-* 9 are available
-* 12 are checked out
-* 5 are in repair
-
-The above estimates may be out of date. To check the availability of laptops at the current time:
+To check the availability of laptops at the current time:
 
 1. Go to [http://oskicat.berkeley.edu/search/r](http://oskicat.berkeley.edu/search/r)
 2. Search for "CS C8"
@@ -23,4 +17,8 @@ Students can go to the circulation desk at Moffitt Library. To borrow a Chromebo
 ### Using External Software
 
 Chromebooks will not support software that must be downloaded and installed. Therefore, using such external software is not recommended.
+
+## 
+
+
 
