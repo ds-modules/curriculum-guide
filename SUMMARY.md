@@ -4,8 +4,9 @@
 
 ## Introduction
 
-* [What is a connector course?](/connector/general/what-is-a-connector.md)
-* [Previous connector courses](/connector/general/previous-connectors.md)
+* [What is a Connector course?](/connector/general/what-is-a-connector.md)
+* [What is a Data ScienceModule](connector/general/what-is-a-module.md)
+* [Previous Connector courses](/connector/general/previous-connectors.md)
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
 
 ## Before the Course
@@ -36,6 +37,4 @@
 * [People](/general/people.md)
 * [Terms and abbreviations](/general/terms-and-abbreviations.md)
 * [Contact](/general/contact.md)
-
-
 
