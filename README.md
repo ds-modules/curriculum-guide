@@ -1,8 +1,8 @@
-# Welcome to the Connector Guide!
+# Welcome to the UC Berkeley Data Science Curriculum Guide!
 
 ## What is this guide and who is it for?
 
-The information in the guide is primarily intended for instructors who either currently are or will be teaching a course in the Data Science Education Program. However, anyone else who wants to learn more about the program, the courses, and the technology is encouraged to look through the guide.
+The information in the guide is primarily intended for instructors who either currently are or will be teaching a course in the UC Berkeley Data Science Education Program: either a connector course, a data-enabled course, or a course featuring a data science module. However, anyone else who wants to learn more about the program, the courses, and the technology is encouraged to look through the guide.
 
 ## How should I use this guide?
 
@@ -12,7 +12,7 @@ The information is divided up into four sections: **Introduction**, **Before the
 
 Try using the** search bar** at the top right of the page!
 
-If you still have questions or concerns that are not addressed in this guide, you can post on the [connector instructor Piazza site](https://piazza.com/berkeley/other/cs97). This site is monitored by DSEP staff and we will get back to you promptly with a response. 
+If you still have questions or concerns that are not addressed in this guide, you can post on the [connector instructor Piazza site](https://piazza.com/berkeley/other/cs97). This site is monitored by DSEP staff and we will get back to you promptly with a response.
 
 You can also email your questions to the DSEP Curriculum Coordinator, [Ryan Edwards](mailto:ryanedw@berkeley.edu).
 
