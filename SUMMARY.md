@@ -5,8 +5,9 @@
 ## Introduction
 
 * [What is a Connector course?](/connector/general/what-is-a-connector.md)
-* [What is a Data ScienceModule](connector/general/what-is-a-module.md)
 * [Previous Connector courses](/connector/general/previous-connectors.md)
+* [What is a Data ScienceModule](connector/general/what-is-a-module.md)
+* [What is a Data-Enabled Course](connector/general/what-is-a-data-enabled-course.md)
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
 
 ## Before the Course
