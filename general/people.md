@@ -11,7 +11,7 @@ Here are the people in DSEP who are involved with connector courses.
 | [Aspen Hsu](/aspenhsu@berkeley.edu) | Manages the CA team, teaches the _Teaching Data Science - Connectors_ course for CAs |
 | [Ryan Lovett](mailto:rylo@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Yuvi Panda](mailto:yuvipanda@berkeley.edu) | Manages JupyterHub Infrastructure |
-| Keeley Takimoto | Manages modules developer student resources |
+| [Keeley Takimoto](mailto:ktakimoto@berkeley.edu) | Manages modules developer student resources |
 
 
 

@@ -10,10 +10,7 @@ DECs typically require Data-8 as a prerequisite. Instructors may also recommend 
 
 ## Data-Enabled Courses - previous and planned
 
-* Economics 101B
-* Legal Studies 190
-* Public Health 142
-* UGBA 96
+You can find a list of the currently offered DECs [here](https://data.berkeley.edu/education/courses/data-enabled-courses).
 
 
 
