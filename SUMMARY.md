@@ -7,6 +7,7 @@
 * [What is a Data Science Module?](connector/general/what-is-a-module.md)
 * [What is a Data-Enabled Course?](connector/general/what-is-a-data-enabled-course.md)
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
+  * [Introduction to Jupyter](technology/pedagogy-and-technology/introduction-to-jupyter.md)
 
 ## Before the Course
 
@@ -14,7 +15,6 @@
 * [Designing your syllabus](/connector/instructor/syllabus-design.md)
 * [Requesting student help](/connector/instructor/student-help.md)
 * [Joining communication channels](/connector/instructor/communication-channels.md)
-* [Introduction to Jupyter](/technology/jupyter/jupyterhub.md)
 * [Pre-Semester Checklist](/connector/instructor/checklist.md)
 
 ## During the Course
