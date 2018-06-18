@@ -6,7 +6,7 @@ Here are the people in DSEP who are involved with connector courses.
 | :--- | :--- |
 | Cathryn Carson | Faculty Lead, DSEP |
 | [Ryan Edwards](mailto:ryanedw@berkeley.edu) | Curriculum Coordinator for Connectors, works with instructors on pedagogy and program logistics |
-| Eric Van Dusen | Curriculum Coordinator for Modules |
+| [Eric Van Dusen](mailto:ericvd@berkeley.edu) | Curriculum Coordinator for Modules |
 | [Anthony Suen](mailto:anthonysuen@berkeley.edu) | Student Relations Coordinator, manages student teams and connect to other programs |
 | [Aspen Hsu](/aspenhsu@berkeley.edu) | Manages the CA team, teaches the _Teaching Data Science - Connectors_ course for CAs |
 | [Ryan Lovett](mailto:rylo@berkeley.edu) | Manages JupyterHub Infrastructure |

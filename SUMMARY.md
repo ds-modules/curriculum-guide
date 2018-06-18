@@ -1,12 +1,11 @@
 # Summary
 
-* [Home](README.md)
-
 ## Introduction
 
+* [Home](README.md)
 * [What is a Connector course?](/connector/general/what-is-a-connector.md)
-* [What is a Data ScienceModule](connector/general/what-is-a-module.md)
-* [What is a Data-Enabled Course](connector/general/what-is-a-data-enabled-course.md)
+* [What is a Data Science Module?](connector/general/what-is-a-module.md)
+* [What is a Data-Enabled Course?](connector/general/what-is-a-data-enabled-course.md)
 * [Pedagogy and technology](/technology/pedagogy-and-technology.md)
 
 ## Before the Course
@@ -18,20 +17,21 @@
 * [Introduction to Jupyter](/technology/jupyter/jupyterhub.md)
 * [Pre-Semester Checklist](/connector/instructor/checklist.md)
 
+## During the Course
+
+* [Working with large datasets](/technology/jupyter/large-datasets.md)
+* [Using additional python packages](/technology/jupyter/python-packages.md)
+* [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
+* [Resources for students](/technology/computer-resources.md)
+  * [Computers](technology/computer-resources/office-hours.md)
+  * [Office Hours](technology/computer-resources/laptop-lending.md)
+
 ## Your Workflow
 
 * [Creating assignments](/workflow/creating-notebooks.md)
 * [Uploading Files to GitHub](/workflow/pushing-to-github.md)
 * [Distributing assignments](/workflow/distributing-notebooks.md)
 * [Collecting and grading assignments](/workflow/collecting-grading-assignments.md)
-
-## During the Course
-
-* [Working with large datasets](/technology/jupyter/large-datasets.md)
-* [Using additional python packages](/technology/jupyter/python-packages.md)
-* [Fixing JupyterHub errors](/technology/jupyter/fixing-errors.md)
-* [Computer resources for students](/technology/computer-resources.md)
-* [Data Peers](data-peers.md)
 
 ## Reference
 
