@@ -6,7 +6,15 @@ The information in the guide is primarily intended for instructors who either cu
 
 ## How should I use this guide?
 
-The information is divided up into four sections: **Introduction**, **Before the Course**, **Your Workflow**, and **During the Course**. The first time you read through the material, you might go through the topics in order. After the first read, you could refer back to specific sections when seeking answers to questions.
+The information is divided up into six sections:
+1. **Introduction**: An overview of the different Data Science Education course types and technology
+2. **Creating a Connector**: A guide to the pre-course set-up for a Connector course
+3. **Making a Module**: A guide to the pre-course set-up for a Module
+4. **Workflow Basics**: Helpful information around creating, distributing, and grading assignments
+5. **During The Course**: Guides to frequent issues that pop up during data science courses
+6. **Reference**: Useful people, terms, and contact information to know.
+
+The first time you read through the material, you might go through the topics in order. After the first read, you could refer back to specific sections when seeking answers to questions.
 
 ## Not able to find what you are looking for?
 
@@ -15,4 +23,3 @@ Try using the** search bar** at the top right of the page!
 If you still have questions or concerns that are not addressed in this guide, you can post on the [connector instructor Piazza site](https://piazza.com/berkeley/other/cs97). This site is monitored by DSEP staff and we will get back to you promptly with a response.
 
 You can also email your questions to the DSEP Curriculum Coordinator, [Ryan Edwards](mailto:ryanedw@berkeley.edu).
-
