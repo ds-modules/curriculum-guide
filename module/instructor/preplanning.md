@@ -1,4 +1,4 @@
-# Pre-Planning: So You Want To Make A Module
+# Pre-Planning
 
 Most modules begin when an instructor gets interested in adding a data science component to their course. At this early stage, it's common to be unsure what the module will look like or to have questions about how much can reasonable accomplished during it. The next three sections will go over how a module gets made and provide tips for creating your own.
 
