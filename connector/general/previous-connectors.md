@@ -20,7 +20,11 @@ The links below point either to a PDF syllabus or to a course website that conta
 * LEGALST 88 - Crime and Punishment
 * L&S 88-1 - Children in the Developing World
 * L&S 88-2 - Sports Analytics
-* STAT 88 - Probability and Mathematical Statistics in Data Science
+* MCELLBI 88 - Immunotherapy of Cancer
+* PSYCH 88 - Data Science for Cognitive Neuroscience
+* STAT 88 - Probability and Mathematical Statistics
+* STAT 89A - Linear Algebra for Data Science
+* UGBA 96-4 and -5 - Data and Decisions
 
 ### Fall 2017
 
