@@ -2,6 +2,26 @@
 
 The links below point either to a PDF syllabus or to a course website that contains the syllabus.
 
+### Fall 2018
+
+* CIVENG 88 - Data Science for Smart Cities
+* COMPSCI 88
+* [DEMOG 88](http://courses.demog.berkeley.edu/mason88/) - Immigration: What Do the Data Tell Us?
+* L&S 88-1 - Aesthetics and Data
+* L&S 88-2 - Broken down by age and sex: data science and demography 
+* L&S 88-3 - Sports Analytics
+* STAT 88 - Probability and Mathematical Statistics in Data Science
+
+### Spring 2018
+
+* COGSCI 88 - Data Science and the Mind
+* COMPSCI 88 - Computational Structures in Data Science
+* GEOG 88 - Data Science and Applications in Geography
+* LEGALST 88 - Crime and Punishment
+* L&S 88-1 - Children in the Developing World
+* L&S 88-2 - Sports Analytics
+* STAT 88 - Probability and Mathematical Statistics in Data Science
+
 ### Fall 2017
 
 * [CIVENG 88](http://www.miladmemarzadeh.com/ce88.html) - Data Science for Smart Cities
