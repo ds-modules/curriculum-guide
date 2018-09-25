@@ -23,11 +23,15 @@ import numpy
 
 ##### **Long-term installation**
 
-You can contact us on Piazza if you want to install packages system-wide on DataHub. These packages will then be available to all users by default and can be used with an `import` statement in all notebooks. For example, `numpy` is pre-installed, you can just type the line below into a code cell, without first having to install `numpy`. **This is the recommend method for packages that will be used frequently. **
+Our JupyterHub is deployed from the [berkeley-dsep-infra/datahub](https://github.com/berkeley-dsep-infra/datahub) GitHub repository. To request additional libraries in the [user environment,](https://github.com/berkeley-dsep-infra/datahub/tree/staging/deployments/datahub/image) fork the repository, make changes in your fork, then [create a pull request](https://help.github.com/articles/about-pull-requests/). The choice for `base` in the GitHub PR user interface should be the staging branch of the datahub repo, while the choice for `head` is your fork.
 
-```
-import numpy
-```
+Once this is complete and if there are no problems, you can request that someone review the PR before merging, or you can merge yourself if you are confident. This merge will trigger a continuous integration process on CircleCI that can be [observed live](https://circleci.com/gh/berkeley-dsep-infra/datahub/). This process upgrades the deployment on staging.datahub.berkeley.edu. Test your changes there when it is complete because we do not want unverified changes to linger in staging. For example if you updated a library, make sure that a new user server instance has the new version. 
+
+If staging fails, _never_ update production. Revert your change or call in help if necessary. If your change is successful, you will need to merge the change from staging branch to production. Create another PR, this time with the `base` set to prod and the `head` set to staging. This PR will trigger a similar continuous integration process. Test your change on production for good measure.
+
+ **This is the recommend method for packages that will be used frequently. **
+
+
 
 
 
