@@ -31,19 +31,20 @@ Here is an interact link with the various components highlighted in different co
 
 ### Restrictions
 
-To use an interact link, files must be stored in a public GitHub repo. Interact links will not work with private repositories. Previously, content had to be stored in the `data-8` GitHub organization or in an approved account or organization. This no longer applies, interact links can be used with content stored in ANY public repository.
+To use an interact link, files must be stored in a public git repo. Interact links will not work with private repositories.
 
 ### **Interact Link Generator**
 
-Interact links can be manually created in the format shown above, or can be automatically generated using [this](https://url-to-interact.herokuapp.com\) tool. The interact link generator tool allows users to specify a JupyterHub URL and GitHub url as inputs. The tool will generate an interact link for the specified GitHub content and JupyterHub.
+Interact links can be manually created in the format shown above, or can be automatically generated using [an online tool](https://jupyterhub.github.io/nbgitpuller/link). The interact link generator tool allows users to specify a JupyterHub URL and GitHub url as inputs. The tool will generate an interact link for the specified GitHub content and JupyterHub.
 
-For example, to pull [this](https://github.com/data-8/mcb-88-connector/tree/gh-pages/exercises/lab5) folder into a JupyterHub account on `datahub.berkeley.edu:`
+For example, to pull [https://github.com/data-8/mcb-88-connector/tree/gh-pages/exercises/lab5](https://github.com/data-8/mcb-88-connector/tree/gh-pages/exercises/lab5)  into a JupyterHub account on `datahub.berkeley.edu:`
 
-* Select `datahub.berkeley.edu` as the desired hub
-* Paste the GitHub url [https://github.com/data-8/mcb-88-connector/tree/gh-pages/exercises/lab5](https://github.com/data-8/mcb-88-connector/tree/gh-pages/exercises/lab5) into the generator
-* Hit the convert button 
+* Enter `https://datahub.berkeley.edu` as the desired hub
+* Enter `https://github.com/data-8/mcb-88-connector` as the repo.
+* Enter `tree/mcb-88-connector/exercises/lab5]` as the url path.
+* Enter `gh-pages` as the git branch. 
 
-The output should be [https://datahub.berkeley.edu/user-redirect/interact?account=data-8&repo=mcb-88-connector&branch=gh-pages&path=exercises/lab5](https://datahub.berkeley.edu/user-redirect/interact?account=data-8&repo=mcb-88-connector&branch=gh-pages&path=exercises/lab5). This link will copy the desired folder into your JupyterHub account.
+The output should be [http://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmcb-88-connector&branch=gh-pages&urlpath=tree%2Fmcb-88-connector%2Fexercises%2Flab5](http://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmcb-88-connector&branch=gh-pages&urlpath=tree%2Fmcb-88-connector%2Fexercises%2Flab5). This link will copy the desired folder into the person's account and open a notebook session to the directory.
 
 ### **Important Note: Updated Behavior**
 
