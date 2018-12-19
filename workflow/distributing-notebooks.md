@@ -23,11 +23,13 @@ Using these links enables users to immediately interact with publicly available 
 
 Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting and will remain the same for each links. The colored portions will be different for each link. If you are new to GitHub you may want to familiarize yourself with the basics \(repositories, branches, etc.\) to better understand each component.
 
-![](/assets/interact-link.png)The above link does the following:
+![link components](./link-components.svg)
 
-* Clone the `social-networks-connector` repo from the `data-8` GitHub organization into the user's account on `datahub.berkeley.edu`
+The above link does the following:
+
+* Clone the `github.com/data-8/materials-fa18` repo into the user's account on `datahub.berkeley.edu`
 * Checkout to the `gh-pages` branch
-* Redirect the user to the `lab01` folder on `datahub.berkeley.edu`. The full path of this folder on the user's JupyterHub account would be `~/social-networks-connector/lab01`.
+* Redirect the user to the `lab5` folder on `datahub.berkeley.edu`. The full path of this folder on the user's JupyterHub account would be `~/mcb-88-connector/exercises/lab5`.
 
 ### Restrictions
 
