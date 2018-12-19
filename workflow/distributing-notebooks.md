@@ -6,10 +6,10 @@ We recommend using interact links to distribute notebooks to students. Interact 
 
 Here are the basic steps you will need to go through to distribute notebooks and other files. To learn more about the details of the process, please read through the rest of this page.
 
-1. Create a folder with all files for the assignment \(notebook, datasets, etc.\)
-2. [Upload folder to a public GitHub repository](/workflow/pushing-to-github.md)
-3. Generate an interact link for the folder using the [interact link generator](https://url-to-interact.herokuapp.com)
-4. Distribute the link to students through some web page
+1. Create a folder with all files for the assignment \(notebook, datasets, etc.\).
+2. [Upload the folder](/workflow/pushing-to-github.md) to a public GitHub repository.
+3. Generate an interact link for the folder using the [link generator](https://jupyterhub.github.io/nbgitpuller/link).
+4. Distribute the link to students through some web page.
 
 ### What are interact links?
 
