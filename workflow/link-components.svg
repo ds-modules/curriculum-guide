@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" 
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="600" height="125"
+>
+  <text font-size="24" x="10" y="25">
+    <tspan fill="red">https://datahub.berkeley.edu</tspan><tspan fill="grey">/user-redirect/interact?</tspan>
+  </text>
+  <text font-size="24" x="40" y="50">
+    <tspan fill="green">repo=https://github.com/data-8/materials-fa18</tspan><tspan fill="grey">&amp;</tspan>
+  </text>
+  <text font-size="24" x="40" y="75">
+    <tspan fill="orange">branch=gh-pages</tspan><tspan fill="grey">&amp;</tspan>
+  </text>
+  <text font-size="24" x="40" y="100">
+    <tspan fill="purple">urlpath=tree/mcb-88-connector/exercises/lab5</tspan>
+  </text>
+</svg>
