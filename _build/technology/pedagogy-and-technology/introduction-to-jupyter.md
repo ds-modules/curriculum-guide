@@ -41,9 +41,9 @@ Working on JupyterHub provides a number of benefits, especially in an introducto
 
 ### Overview of the Internals
 
-The first time you logs in to JupyterHub, a personal account is created for you. You will get your own filesystem so you only have access to the files in your personal account. **Modifications to files in your personal account do not affect anyone else's files. **Unless you are an admin, you cannot access another account's files. This applies to everyone working on JupyterHub, which means a given student cannot access another student's work.
+The first time you logs in to JupyterHub, a personal account is created for you. You will get your own filesystem so you only have access to the files in your personal account. **Modifications to files in your personal account do not affect anyone else's files.** Unless you are an admin, you cannot access another account's files. This applies to everyone working on JupyterHub, which means a given student cannot access another student's work.
 
 ### Getting Access
 
-Anyone with Berkeley credentials has access to the JupyterHub at `datahub.berkeley.edu`. If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
+Anyone with Berkeley credentials has access to the JupyterHub at [datahub.berkeley.edu](https://datahub.berkeley.edu). If you are having difficulties with logging in, please make sure that you are using the correct JupyterHub URL and a berkeley.edu email to login. Please post on Piazza if you are unable to solve JupyterHub access issues.
 

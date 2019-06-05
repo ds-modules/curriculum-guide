@@ -14,6 +14,8 @@ A Data Science Module is a short exploration of data science designed to fit int
 
 Each module is designed by a team of DSEP curriculum developers, working closely with the course instructor, and may be taught by either the DSEP team or the instructors themselves.
 
+<!-- add modules textbook link instead below? -->
+
 An overview page is available [here](https://ds-modules.github.io/DS-Modules/).
 
 ![](/assets/modules.jpg)
@@ -43,4 +45,4 @@ In the past, modules have been taught to everyone from freshmen with no coding o
 * Linguistics
 * Education
 
-You can browse past module materials on the [program’s Github page.](https://github.com/ds-modules)
+You can browse past module materials on the [program’s Github page](https://github.com/ds-modules).

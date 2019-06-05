@@ -23,7 +23,7 @@
 
 # Top-level page
 - title: Home
-  url: README
+  url: intro
   not_numbered: true
   expand_sections: false
 
@@ -52,6 +52,8 @@
     - title: Introduction to Jupyter
       url: technology/pedagogy-and-technology/introduction-to-jupyter
       not_numbered: true
+
+### ALL ABOVE UPDATED
 
 - divider: true
 

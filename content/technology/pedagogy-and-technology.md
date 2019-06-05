@@ -6,7 +6,7 @@ The technology used in the Data Science Education Program \(DSEP\) was chosen to
 
 Jupyter Notebooks and JupyterHub are the tools that enable this student experience. You may have experience using Jupyter Notebooks on your own computer. Students in DSEP run their notebooks on a JupyterHub in the cloud. Python and common packages are preinstalled on each student's account, which is created when the student first logs in. A lot of work goes into the maintenance of the infrastructure and many students, TAs, and staff members are regularly monitoring and fixing issues that come up.
 
-### `datascience` package
+### The `datascience` Package
 
 In addition to the computing infrastructure, another piece of the technology is the [`datascience` package](http://data8.org/datascience/). While traditional libraries such as `pandas` and `matplotlib` are powerful, they are also quite complicated, and the verbose code and documentation can intimidate those who are new to programming. The `datascience` Python package was written for use in Berkeley’s Data Science courses and aims to provide a simple but powerful set of tools for introductory students. Students that are in or have taken Data 8 will be familiar with this package as it is used throughout the course.
 
@@ -20,5 +20,5 @@ We are very excited about the technology used in DSEP courses and have shared ou
 
 ### Other Technology
 
-For notes on class website tools, please see [Logistics, rooms, and technology](https://dsep.gitbooks.io/connector-guide/content/connector/instructor/logistics.html) in **Before the Course**.
+For notes on class website tools, please see [Logistics, rooms, and technology](../connector/instructor/logistics).
 

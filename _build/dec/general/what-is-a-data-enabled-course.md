@@ -16,11 +16,11 @@ Some DECs are adapted from existing courses to use data science pedagogy through
 
 ## Prerequisites
 
-DECs typically require Data-8 as a prerequisite. Instructors may also recommend or require other foundational math, statistics, or computer science courses, as well as the necessary domain-specific courses.
+DECs typically require Data 8 as a prerequisite. Instructors may also recommend or require other foundational math, statistics, or computer science courses, as well as the necessary domain-specific courses.
 
 ## Data-Enabled Courses - previous and planned
 
-You can find a list of the currently offered DECs [here](https://data.berkeley.edu/education/courses/data-enabled-courses).
+You can find a list of the currently offered DECs [on the DS course list](https://data.berkeley.edu/education/courses) under the **Data Enabled Courses** header.
 
 
 

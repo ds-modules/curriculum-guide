@@ -1,7 +1,7 @@
 ---
 title: 'What is a Connector course?'
 prev_page:
-  url: /README
+  url: /intro
   title: 'Home'
 next_page:
   url: /connector/general/previous-connectors
