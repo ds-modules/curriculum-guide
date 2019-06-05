@@ -1,0 +1,136 @@
+# This file contains the order and numbering for all sections in the book.
+#
+# It is a sample TOC file to help you get started. Fill it out with entries
+# for your own content.
+#
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or section
+#   url: /myurl  # URL of section relative to the /content/ folder.
+#   sections:  # Contains a list of more entries that make up the chapter's sections
+#   not_numbered: true  # if the section shouldn't have a number in the sidebar
+#     (e.g. Introduction or appendices)
+#   expand_sections: true  # if you'd like the sections of this chapter to always
+#     be expanded in the sidebar.
+#   external: true  # Whether the URL is an external link or points to content in the book
+#
+# Below are some special values that trigger specific behavior:
+# - search: true  # Will provide a link to a search page
+# - divider: true  # Will insert a divider in the sidebar
+# - header: My Header  # Will insert a header with no link in the sidebar
+#
+# See the links below for an example.
+
+# Top-level page
+- title: Home
+  url: README
+  not_numbered: true
+  expand_sections: false
+
+- divider: true
+
+# Introduction
+- header: Introduction
+- title: What is a Connector course?
+  url: connector/general/what-is-a-connector
+  not_numbered: true
+  expand_sections: false
+  sections:
+    - title: Previous Connectors
+      url: connector/general/previous-connectors
+- title: What is a Data Science Module?
+  url: module/general/what-is-a-module
+  not_numbered: true
+- title: What is a Data-Enabled Course?
+  url: dec/general/what-is-a-data-enabled-course
+  not_numbered: true
+- title: Pedagogy and Technology
+  url: technology/pedagogy-and-technology
+  not_numbered: true
+  expand_sections: false
+  sections:
+    - title: Introduction to Jupyter
+      url: technology/pedagogy-and-technology/introduction-to-jupyter
+      not_numbered: true
+
+- divider: true
+
+# Creating a Connector
+- header: Creating a Connector
+- title: Logistics, Rooms, and Technology
+  url: connector/instructor/logistics
+  not_numbered: true
+- title: Designing Your Syllabus
+  url: connector/instructor/syllabus-design
+  not_numbered: true
+- title: Requesting Student Help
+  url: connector/instructor/student-help
+  not_numbered: true
+- title: Joining Communication Channels
+  url: connector/instructor/communication-channels
+  not_numbered: true
+- title: Pre-Semester Checklist
+  url: connector/instructor/checklist
+  not_numbered: true
+
+- divider: true
+
+# Making a Module
+- header: Making a Module
+- title: Pre-Planning
+  url: module/instructor/preplanning
+  not_numbered: true
+- title: Developing the Module
+  url: module/instructor/develop
+  not_numbered: true
+- title: Requesting Deployment Help
+  url: module/instructor/deploy-help
+  not_numbered: true
+
+- divider: true
+
+# Workflow Basics
+- header: Workflow Basics
+- title: Creating Assignments
+  url: workflow/creating-notebooks
+  not_numbered: true
+- title: Uploading Files to Github
+  url: workflow/pushing-to-github
+  not_numbered: true
+- title: Distributing Assignments
+  url: workflow/distributing-notebooks
+  not_numbered: true
+- title: Collecting and Grading Assignments
+  url: workflow/collecting-grading-assignments
+  not_numbered: true
+
+- divider: true
+
+# During the Course
+- header: During the Course
+- title: Working with Large Datasets
+  url: technology/jupyter/large-datasets
+  not_numbered: true
+- title: Using Additional Python Packages
+  url: technology/jupyter/python-packages
+  not_numbered: true
+- title: Fixing JupyterHub Errors
+  url: technology/jupyter/fixing-errors
+  not_numbered: true
+- title: Resources for Students
+  url: technology/resources
+  not_numbered: true
+  
+- divider: true
+
+# Reference
+- header: Reference
+- title: People
+  url: general/people
+  not_numbered: true
+- title: Terms and Abbreviations
+  url: general/terms-and-abbreviations
+  not_numbered: true
+- title: Contact
+  url: general/contact
+  not_numbered: true

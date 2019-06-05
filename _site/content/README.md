@@ -18,14 +18,8 @@ The first time you read through the material, you might go through the topics in
 
 ## Not able to find what you are looking for?
 
-<!-- 
-
 Try using the** search bar** at the top right of the page!
-
--->
 
 If you still have questions or concerns that are not addressed in this guide, you can post on the [connector instructor Piazza site](https://piazza.com/berkeley/other/cs97). This site is monitored by DSEP staff and we will get back to you promptly with a response.
 
 You can also email your questions to the DSEP Curriculum Coordinator, [Eric Van Dusen](mailto:ericvd@berkeley.edu).
-
-<!-- old URL: https://berkeley-data.gitbook.io/curriculum-guide/ -->
