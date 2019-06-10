@@ -140,6 +140,7 @@ exclude:
 - vendor/gems/
 - vendor/ruby/
 - README.md
+- build.md
 
 plugins:
 - jekyll-redirect-from
