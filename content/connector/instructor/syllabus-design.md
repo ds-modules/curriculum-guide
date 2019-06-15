@@ -2,7 +2,7 @@
 
 ### Order of Topics
 
-We recommend that connector courses consider the Data 8 syllabus when designing their own. It is helpful to cover topics in the same order as Data 8. For example, if Data 8 covers histograms in week four, connectors may want to cover them in week five. This model allows connector instructors to avoid spending too much time on the fundamentals that will be taught in Data 8 and also gives students a more cohesive experience between the courses. To see the order of topics for Data 8 this semester, take a look at the [course site](http://data8.org/fa17/).
+We recommend that connector courses consider the Data 8 syllabus when designing their own. It is helpful to cover topics in the same order as Data 8. For example, if Data 8 covers histograms in week four, connectors may want to cover them in week five. This model allows connector instructors to avoid spending too much time on the fundamentals that will be taught in Data 8 and also gives students a more cohesive experience between the courses. To see the order of topics for Data 8 this semester, take a look at the [course site](http://data8.org/sp19/).
 
 ### Using External Software
 

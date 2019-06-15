@@ -53,8 +53,6 @@
       url: technology/pedagogy-and-technology/introduction-to-jupyter
       not_numbered: true
 
-### ALL ABOVE UPDATED
-
 - divider: true
 
 # Creating a Connector
@@ -74,6 +72,9 @@
 - title: Pre-Semester Checklist
   url: connector/instructor/checklist
   not_numbered: true
+
+  ### ALL ABOVE UPDATED
+
 
 - divider: true
 

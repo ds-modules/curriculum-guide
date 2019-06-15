@@ -16,7 +16,11 @@ There are three main roles through which students can assist with your courses. 
 
 For new connectors, modules, or DECs, DSEP can match you with student developers who can help create materials. These students have experience working with Python, Jupyter notebooks, and basic data science libaries. They can help with brainstorming ideas and translating them into Python code. In the past, student developers have worked with instructors over the summer or in the early weeks of the semester. The time commitments for this role will vary based on student availability and instructor need.
 
+<!-- 
+
 If you are teaching a new connector and want some additional help developing the initial content, please contact Gunjan Baid or post on [Piazza](https://http://piazza.com/berkeley/other/cs97).
+
+-->
 
 ### Connector Assistants
 
@@ -30,7 +34,7 @@ All CAs are enrolled in a two unit decal course, _Teaching Data Science - Connec
 
 Our **default policy** is that DSEP staff will recruit and assign 1 Connector Assistant per 30 seats in the connector. _Instructors are free to decline the help._
 
-The **default tasks **of the CA will be to attend class and hold 1 office hour per week. _Instructors are fully encouraged to work out alternative arrangements with their CAs that fit their needs better._
+The **default tasks** of the CA will be to attend class and hold 1 office hour per week. _Instructors are fully encouraged to work out alternative arrangements with their CAs that fit their needs better._
 
 ### Graders/Readers
 
