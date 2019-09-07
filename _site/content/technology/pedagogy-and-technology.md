@@ -20,5 +20,5 @@ We are very excited about the technology used in DSEP courses and have shared ou
 
 ### Other Technology
 
-For notes on class website tools, please see [Logistics, rooms, and technology](../connector/instructor/logistics) in **Before the Course**.
+For notes on class website tools, please see [Logistics, rooms, and technology](../connector/instructor/logistics).
 

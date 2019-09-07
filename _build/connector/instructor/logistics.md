@@ -1,8 +1,8 @@
 ---
 title: 'Logistics, Rooms, and Technology'
 prev_page:
-  url: /technology/pedagogy-and-technology/introduction-to-jupyter
-  title: 'Introduction to Jupyter'
+  url: /technology/r-datahub
+  title: 'R DataHub'
 next_page:
   url: /connector/instructor/syllabus-design
   title: 'Designing Your Syllabus'

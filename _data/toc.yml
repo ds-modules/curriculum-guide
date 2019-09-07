@@ -52,6 +52,9 @@
     - title: Introduction to Jupyter
       url: technology/pedagogy-and-technology/introduction-to-jupyter
       not_numbered: true
+    - title: R DataHub
+      url: technology/r-datahub
+      not_numbered: true
 
 - divider: true
 

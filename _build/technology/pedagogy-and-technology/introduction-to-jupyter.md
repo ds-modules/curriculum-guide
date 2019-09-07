@@ -4,8 +4,8 @@ prev_page:
   url: /technology/pedagogy-and-technology
   title: 'Pedagogy and Technology'
 next_page:
-  url: /connector/instructor/logistics
-  title: 'Logistics, Rooms, and Technology'
+  url: /technology/r-datahub
+  title: 'R DataHub'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Jupyter Notebooks and JupyterHub
