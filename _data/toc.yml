@@ -52,7 +52,10 @@
     - title: Introduction to Jupyter
       url: technology/pedagogy-and-technology/introduction-to-jupyter
       not_numbered: true
-    - title: R Datahub
+    - title: Notebook Zero
+      url: technology/pedagogy-and-technology/notebook-zero
+      not_numbered: true
+    - title: R DataHub
       url: technology/r-datahub
       not_numbered: true
 

@@ -1,1 +1,0 @@
-# Tips from Previous Instructors
