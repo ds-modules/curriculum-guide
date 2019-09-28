@@ -10,12 +10,33 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 # Previous Connector Courses
 
-The links below point either to a PDF syllabus or to a course website that contains the syllabus.
+Below is a list of all of the past connector courses offered; links go to course websites or syllabi. We also have a "legacy" [GitHub org](https://github.com/ds-connectors) with repositories for past connectors.
+
+### Fall 2019
+
+* [COMPSCI 88](https://cs88.org) - Computational Structures in Data Science
+* [DEMOG 88](http://courses.demog.berkeley.edu/mason88/) - Immigration: What Do the Data Tell Us?
+* EPS 88 - PyEarth: A Python Introduction to Earth Science
+* HIST 88 - How does History Count?
+* PHYSICS 88 - Data Science Applications in Physics
+* UGBA 88-1 - Data and Decisions
+* UGBA 88-2 - Data and Decisions
+
+### Spring 2019
+
+* COGSCI 88 - Data Science and the Mind
+* [COMPSCI 88](https://cs88.org) - Computational Structures in Data Science
+* [L&S 88-1](https://tinyurl.com/ls88website) - Reproducibility and Open Science
+* L&S 88-2 - Children in the Developing World
+* L&S 88-3 Reading and Writing the Digital Age
+* PHYSICS 88 - Data Science Applications in Physics
+* STAT 88 - Probability and Mathematical Statistics in Data Science
+* STAT 89A - Linear Algebra for Data Science
 
 ### Fall 2018
 
 * CIVENG 88 - Data Science for Smart Cities
-* COMPSCI 88
+* [COMPSCI 88](https://cs88.org) - Computational Structures in Data Science
 * [DEMOG 88](http://courses.demog.berkeley.edu/mason88/) - Immigration: What Do the Data Tell Us?
 * L&S 88-1 - Aesthetics and Data
 * L&S 88-2 - Broken down by age and sex: data science and demography 
@@ -25,7 +46,7 @@ The links below point either to a PDF syllabus or to a course website that conta
 ### Spring 2018
 
 * COGSCI 88 - Data Science and the Mind
-* COMPSCI 88 - Computational Structures in Data Science
+* [COMPSCI 88](https://cs88.org) - Computational Structures in Data Science
 * GEOG 88 - Data Science and Applications in Geography
 * LEGALST 88 - Crime and Punishment
 * L&S 88-1 - Children in the Developing World

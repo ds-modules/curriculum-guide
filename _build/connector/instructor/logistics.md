@@ -22,6 +22,11 @@ DSEP has access to three classrooms:
 * **Evans B6**, a basement lab \(one floor below Evans 6\) with 4 tables with 8 seats each for a total of 32 seats
 * **Evans 458**, a fourth-floor lab with 3 tables of 8 seats plus 2 tables of 4 for a total of 32 seats
 
+<!-- need details for below rooms
+* **Morgan 109**
+* **Barrows 581**
+-->
+
 
 <!-- 
 
