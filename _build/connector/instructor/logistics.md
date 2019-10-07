@@ -1,10 +1,10 @@
 ---
 title: 'Logistics, Rooms, and Technology'
 prev_page:
-  url: /technology/r-datahub.html
+  url: /technology/r-datahub
   title: 'R DataHub'
 next_page:
-  url: /connector/instructor/syllabus-design.html
+  url: /connector/instructor/syllabus-design
   title: 'Designing Your Syllabus'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

@@ -1,10 +1,10 @@
 ---
 title: 'Fixing JupyterHub Errors'
 prev_page:
-  url: /technology/jupyter/python-packages.html
+  url: /technology/jupyter/python-packages
   title: 'Using Additional Python Packages'
 next_page:
-  url: /technology/resources.html
+  url: /technology/resources
   title: 'Resources for Students'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

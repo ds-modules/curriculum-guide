@@ -1,10 +1,10 @@
 ---
 title: 'Designing Your Syllabus'
 prev_page:
-  url: /connector/instructor/logistics.html
+  url: /connector/instructor/logistics
   title: 'Logistics, Rooms, and Technology'
 next_page:
-  url: /connector/instructor/student-help.html
+  url: /connector/instructor/student-help
   title: 'Requesting Student Help'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

@@ -1,10 +1,10 @@
 ---
 title: 'Collecting and Grading Assignments'
 prev_page:
-  url: /workflow/distributing-notebooks.html
+  url: /workflow/distributing-notebooks
   title: 'Distributing Assignments'
 next_page:
-  url: /technology/jupyter/large-datasets.html
+  url: /technology/jupyter/large-datasets
   title: 'Working with Large Datasets'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

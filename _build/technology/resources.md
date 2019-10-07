@@ -1,10 +1,10 @@
 ---
 title: 'Resources for Students'
 prev_page:
-  url: /technology/jupyter/fixing-errors.html
+  url: /technology/jupyter/fixing-errors
   title: 'Fixing JupyterHub Errors'
 next_page:
-  url: /general/people.html
+  url: /general/people
   title: 'People'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

@@ -1,10 +1,10 @@
 ---
 title: 'Using Additional Python Packages'
 prev_page:
-  url: /technology/jupyter/large-datasets.html
+  url: /technology/jupyter/large-datasets
   title: 'Working with Large Datasets'
 next_page:
-  url: /technology/jupyter/fixing-errors.html
+  url: /technology/jupyter/fixing-errors
   title: 'Fixing JupyterHub Errors'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

@@ -1,10 +1,10 @@
 ---
 title: 'Distributing Assignments'
 prev_page:
-  url: /workflow/pushing-to-github.html
+  url: /workflow/pushing-to-github
   title: 'Uploading Files to Github'
 next_page:
-  url: /workflow/collecting-grading-assignments.html
+  url: /workflow/collecting-grading-assignments
   title: 'Collecting and Grading Assignments'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

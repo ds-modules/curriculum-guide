@@ -1,10 +1,10 @@
 ---
 title: 'Working with Large Datasets'
 prev_page:
-  url: /workflow/collecting-grading-assignments.html
+  url: /workflow/collecting-grading-assignments
   title: 'Collecting and Grading Assignments'
 next_page:
-  url: /technology/jupyter/python-packages.html
+  url: /technology/jupyter/python-packages
   title: 'Using Additional Python Packages'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
