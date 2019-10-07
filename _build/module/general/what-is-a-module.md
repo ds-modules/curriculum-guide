@@ -1,10 +1,10 @@
 ---
 title: 'What is a Data Science Module?'
 prev_page:
-  url: /connector/general/previous-connectors.html
+  url: /connector/general/previous-connectors
   title: 'Previous Connectors'
 next_page:
-  url: /dec/general/what-is-a-data-enabled-course.html
+  url: /dec/general/what-is-a-data-enabled-course
   title: 'What is a Data-Enabled Course?'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

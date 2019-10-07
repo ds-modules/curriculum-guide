@@ -1,10 +1,10 @@
 ---
 title: 'What is a Connector course?'
 prev_page:
-  url: /intro.html
+  url: /intro
   title: 'Home'
 next_page:
-  url: /connector/general/previous-connectors.html
+  url: /connector/general/previous-connectors
   title: 'Previous Connectors'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

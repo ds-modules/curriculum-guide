@@ -1,10 +1,10 @@
 ---
 title: 'What is a Data-Enabled Course?'
 prev_page:
-  url: /module/general/what-is-a-module.html
+  url: /module/general/what-is-a-module
   title: 'What is a Data Science Module?'
 next_page:
-  url: /technology/pedagogy-and-technology.html
+  url: /technology/pedagogy-and-technology
   title: 'Pedagogy and Technology'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

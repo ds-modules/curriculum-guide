@@ -1,10 +1,10 @@
 ---
 title: 'Previous Connectors'
 prev_page:
-  url: /connector/general/what-is-a-connector.html
+  url: /connector/general/what-is-a-connector
   title: 'What is a Connector course?'
 next_page:
-  url: /module/general/what-is-a-module.html
+  url: /module/general/what-is-a-module
   title: 'What is a Data Science Module?'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
