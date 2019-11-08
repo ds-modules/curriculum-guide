@@ -1,0 +1,88 @@
+---
+title: |-
+  Fixing JupyterHub Errors
+prev_page:
+  url: /technology/jupyter/python-packages.html
+  title: |-
+    Using Additional Python Packages
+next_page:
+  url: /technology/resources.html
+  title: |-
+    Resources for Students
+suffix: .md
+
+comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
+---
+
+    <main class="jupyter-page">
+    <div class="jb_cell">
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Fixing-Errors">Fixing Errors<a class="anchor-link" href="#Fixing-Errors"> </a></h1><p>You may run into different types of errors when you are using the JupyterHub or Jupyter notebooks. The majority of errors come from a few common causes and can be solved using the following methods.</p>
+<h2 id="Interact-Link-Errors">Interact Link Errors<a class="anchor-link" href="#Interact-Link-Errors"> </a></h2><p>Interact link errors are usually due to one of three issues:</p>
+<h4 id="1.-The-interact-link-was-clicked-in-an-incompatible-browser-(Microsoft-Edge)">1. The interact link was clicked in an incompatible browser (Microsoft Edge)<a class="anchor-link" href="#1.-The-interact-link-was-clicked-in-an-incompatible-browser-(Microsoft-Edge)"> </a></h4><p>Unfortunately, the nbgitpuller software does not support the Microsoft Edge browser. If you click an interact link in Edge, you will likely be taken to your datahub.berkeley.edu dashboard, but you won't see your desired files there.</p>
+<p>Solution: open intereact links in Chrome, Firefox, or Safari</p>
+<h4 id="2.-The-interact-link-was-generated-incorrectly">2. The interact link was generated incorrectly<a class="anchor-link" href="#2.-The-interact-link-was-generated-incorrectly"> </a></h4><p>If the interact link was not generated correctly, you'll see a red loading bar with an error message that says "Error: Command '['git', 'fetch']' returned non-zero exit status 128." An example screenshot is below:</p>
+<p><img src="../../assets/broken-interact-link.png" alt=""></p>
+<p>Solution: re-generate the interact link. Make sure that you've filled in the correct Jupyter hub URL, Github URL, branch, and file. Some tips:</p>
+<ul>
+<li>URLS should NOT end with forward slashes. "<a href="http://github.com/ds-modules">http://github.com/ds-modules</a>" is okay; "<a href="http://github.com/ds-modules/">http://github.com/ds-modules/</a>" will break</li>
+<li>The Git repository url should go to the base repo that contains the materials you want. For example, if you want to link to the "lab01.ipynb" in the fall19 repository of the data-8 organization, the Git URL should be "<a href="https://github.com/data-8/fall19">https://github.com/data-8/fall19</a>", not "<a href="https://github.com/data-8/fall19/blob/master/lab01">https://github.com/data-8/fall19/blob/master/lab01</a>"</li>
+<li>The File to Open needs to include the full path of the file from the base repository. For example, if the "lab01" file is in a folder called "labs", the File to Open needs to be "labs/lab01"</li>
+</ul>
+<h4 id="3.-The-interact-link-has-been-used-before,-and-some-of-the-content-was-changed-in-both-Datahub-and-Github">3. The interact link has been used before, and some of the content was changed in both Datahub and Github<a class="anchor-link" href="#3.-The-interact-link-has-been-used-before,-and-some-of-the-content-was-changed-in-both-Datahub-and-Github"> </a></h4><p>If you make changes to an assignment on Github after students have started working on it, students that click the interact link again may see a red loading bar and a message about a <em>merge conflict</em>. This occurs if the instructor and the student both change the same parts of the notebook: nbgitpuller doesn't know how to integrate the instructor's changes without overwriting student work, so it refuses to proceed. You can read <a href="https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html">more about nbgitpuller's automatic merging behavior here</a>.</p>
+<p>Solution: the easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the interact link again. If the file or folder is renamed to anything else (e.g. "SOC-5-old"), nbgitpuller will clone a fresh copy of the problematic files to the student's Jupyterhub. They can then copy over any work from the old version of the file.</p>
+<p>The best advice, however, is to avoid making changes to assignments once they've been released to students if at all possible.</p>
+<h2 id="Code-Cell-Errors">Code Cell Errors<a class="anchor-link" href="#Code-Cell-Errors"> </a></h2><p>This category describes errors that occur when running code cells. This list is not exhaustive, but it details some of the most frequent errors that new Notebook users encounter.</p>
+<h4 id="NameError">NameError<a class="anchor-link" href="#NameError"> </a></h4><p>By far the most common errors that new students encounter are NameErrors. NameErrors occur when a code cell refers to a name that has not yet been defined. This usually happens when:</p>
+<ul>
+<li>a student forgets to run a cell, runs cells out of order, or restarts work on another day</li>
+<li>a student misspells a variable name</li>
+<li>a student forgets to put quotation marks around a string (i.e. for text data or the name of a Table column)</li>
+</ul>
+<p>Solutions:</p>
+<ul>
+<li>for each discrete notebook work session, run all cells in order (especially the dependencies cell that imports the software). If you pick up work on a different day from when you started it, re-run all the cell above the point where you stopped</li>
+<li>double-check spelling, capitalization, punctuation, and spaces in variable names</li>
+<li>make sure that if you're referring to a string, you enclose it in quotation marks</li>
+</ul>
+<h4 id="Cells-never-stop-running">Cells never stop running<a class="anchor-link" href="#Cells-never-stop-running"> </a></h4><p>Sometimes, cells can get "stuck" running: the square brackets to the left of the cell contain an asterisk for several minutes, the open circle next to kernel type at the top right will stay solid grey, and the expected output never appears. This may happen when:</p>
+<ul>
+<li>the kernel isn't working properly</li>
+<li>the cell contains code that generates an 'infinite loop'- that is, it's executing instructions that don't have any stopping point</li>
+<li>the cell is performing a particularly complex operation. In this case, the cell is not really "stuck"- it will just take several minutes (or more) to finish</li>
+</ul>
+<p>Solution:</p>
+<ul>
+<li>try stopping the cell with the square "stop" button at the top toolbar, then attempt to run the cell again</li>
+<li>try restarting the kernel by going to the "Kernel" menu and clicking "Restart". Note: all current variables will be lost and will need to be redefined after the kernel restarts by running the appropriate cells</li>
+<li>check the code to make sure it doesn't execute an infinite loop</li>
+</ul>
+<h2 id="Jupyter-Hub-Errors">Jupyter Hub Errors<a class="anchor-link" href="#Jupyter-Hub-Errors"> </a></h2><p>One common error is a Jupyter notebook becoming unresponsive. You will know that a notebook is unresponsive Another type of error is a user not being able to access some part of their JupyterHub account.</p>
+<p>We have outlined two methods below that you should try for each error type. For errors related to execution of code, such as the notebook not running properly, you should try restarting the kernel. For errors related to access, you should try restarting the server.</p>
+<h3 id="Restarting-the-Kernel">Restarting the Kernel<a class="anchor-link" href="#Restarting-the-Kernel"> </a></h3><p>If your notebook becomes unresponsive, you can try to restart the kernel.</p>
+<p><img src="../../assets/restart-kernel.png" alt=""></p>
+<h3 id="Restarting-Servers">Restarting Servers<a class="anchor-link" href="#Restarting-Servers"> </a></h3><p>There are different methods for restarting your own and restarting another user's server.</p>
+<h5 id="Restarting-Your-Own-Server">Restarting Your Own Server<a class="anchor-link" href="#Restarting-Your-Own-Server"> </a></h5><p>All users can restart their own servers. To do so, start by going to the control panel.</p>
+<p><img src="../../assets/control-link.png" alt="">Click the <code>Stop My Server</code> button.</p>
+<p><img src="../../assets/stop-my-server.png" alt="">Once the server has stopped and the <code>Stop My Server</code> button is no longer visible, click the <code>My Server</code> button to restart the server.</p>
+<p><img src="../../assets/start-my-server.png" alt=""></p>
+<h5 id="Restarting-Student-Servers">Restarting Student Servers<a class="anchor-link" href="#Restarting-Student-Servers"> </a></h5><p>Users with admin privileges on DataHub can restart other users' servers. To restart a student's server, first go to the control panel.</p>
+<p><img src="../../assets/control-link.png" alt=""></p>
+<p>Click on the <code>Admin</code> button at the top of the page. If you do not see this button, you do not have admin rights. To request admin rights, please <a href="http://piazza.com/berkeley/other/cs97">post on Piazza</a>.</p>
+<p><img src="../../assets/admin-link.png" alt=""></p>
+<p>After clicking the <code>Admin</code> button, you will see the admin panel. Usernames have been obfuscated here. To search for a user, you can use find (type Control+F or Command+F). An individual's username is the same as their CalNet ID. When you have found the desired user, click the <code>stop server</code> button in the user's row.</p>
+<p><img src="../../assets/admin-panel.png" alt=""></p>
+<p>After clicking the <code>stop server</code> button, you can click the <code>start server</code> button in the user's row.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+
+    </main>
+    
