@@ -1,10 +1,10 @@
 ---
 title: 'Developing the Module'
 prev_page:
-  url: /module/instructor/preplanning
+  url: /module/instructor/preplanning.html
   title: 'Pre-Planning'
 next_page:
-  url: /module/instructor/deploy-help
+  url: /module/instructor/deploy-help.html
   title: 'Requesting Deployment Help'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

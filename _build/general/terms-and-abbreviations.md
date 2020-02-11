@@ -1,10 +1,10 @@
 ---
 title: 'Terms and Abbreviations'
 prev_page:
-  url: /general/people
+  url: /general/people.html
   title: 'People'
 next_page:
-  url: /general/contact
+  url: /general/contact.html
   title: 'Contact'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

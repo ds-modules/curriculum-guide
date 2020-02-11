@@ -1,12 +1,13 @@
 ---
 interact_link: content/technology/r-datahub.ipynb
 kernel_name: ir
+has_widgets: false
 title: 'R DataHub'
 prev_page:
-  url: /technology/pedagogy-and-technology/notebook-zero
+  url: /technology/pedagogy-and-technology/notebook-zero.html
   title: 'Notebook Zero'
 next_page:
-  url: /connector/instructor/logistics
+  url: /connector/instructor/logistics.html
   title: 'Logistics, Rooms, and Technology'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

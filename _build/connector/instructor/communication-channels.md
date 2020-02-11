@@ -1,10 +1,10 @@
 ---
 title: 'Joining Communication Channels'
 prev_page:
-  url: /connector/instructor/student-help
+  url: /connector/instructor/student-help.html
   title: 'Requesting Student Help'
 next_page:
-  url: /connector/instructor/checklist
+  url: /connector/instructor/checklist.html
   title: 'Pre-Semester Checklist'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

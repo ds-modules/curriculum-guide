@@ -1,10 +1,10 @@
 ---
 title: 'Pedagogy and Technology'
 prev_page:
-  url: /dec/general/what-is-a-data-enabled-course
+  url: /dec/general/what-is-a-data-enabled-course.html
   title: 'What is a Data-Enabled Course?'
 next_page:
-  url: /technology/pedagogy-and-technology/introduction-to-jupyter
+  url: /technology/pedagogy-and-technology/introduction-to-jupyter.html
   title: 'Introduction to Jupyter'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

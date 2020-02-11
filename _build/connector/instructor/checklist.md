@@ -1,10 +1,10 @@
 ---
 title: 'Pre-Semester Checklist'
 prev_page:
-  url: /connector/instructor/communication-channels
+  url: /connector/instructor/communication-channels.html
   title: 'Joining Communication Channels'
 next_page:
-  url: /module/instructor/preplanning
+  url: /module/instructor/preplanning.html
   title: 'Pre-Planning'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

@@ -1,10 +1,10 @@
 ---
 title: 'Introduction to Jupyter'
 prev_page:
-  url: /technology/pedagogy-and-technology
+  url: /technology/pedagogy-and-technology.html
   title: 'Pedagogy and Technology'
 next_page:
-  url: /technology/pedagogy-and-technology/notebook-zero
+  url: /technology/pedagogy-and-technology/notebook-zero.html
   title: 'Notebook Zero'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

@@ -1,10 +1,10 @@
 ---
 title: 'Creating Assignments'
 prev_page:
-  url: /module/instructor/deploy-help
+  url: /module/instructor/deploy-help.html
   title: 'Requesting Deployment Help'
 next_page:
-  url: /workflow/pushing-to-github
+  url: /workflow/pushing-to-github.html
   title: 'Uploading Files to Github'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

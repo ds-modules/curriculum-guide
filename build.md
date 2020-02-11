@@ -10,14 +10,15 @@ This is a guide intended to demonstrate how you can make edits to the curriculum
 4. Build the site from your terminal. If you're currently in the curriculum guide directory, run
 
 ```bash
-jupyter-book build .
+make book
+make build
 ```
 
 5. \(Optional\) Run a docker server locally to view the changes before pushing. This can be run using the following terminal command from the curriculum guide directory:
 
 ```bash
 $ rm Gemfile.lock
-$ docker run --rm --security-opt label:disable -v /path/to/curriculum-guide:/srv/jekyll -p 4000:4000 -it -u 1000:1000 emdupre/jupyter-book bundle exec jekyll serve --host 0.0.0.0
+make serve
 ```
 
 6. Commit the changes and push to Github.

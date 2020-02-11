@@ -1,10 +1,10 @@
 ---
 title: 'Requesting Deployment Help'
 prev_page:
-  url: /module/instructor/develop
+  url: /module/instructor/develop.html
   title: 'Developing the Module'
 next_page:
-  url: /workflow/creating-notebooks
+  url: /workflow/creating-notebooks.html
   title: 'Creating Assignments'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

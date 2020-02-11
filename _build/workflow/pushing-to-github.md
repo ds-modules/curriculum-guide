@@ -1,10 +1,10 @@
 ---
 title: 'Uploading Files to Github'
 prev_page:
-  url: /workflow/creating-notebooks
+  url: /workflow/creating-notebooks.html
   title: 'Creating Assignments'
 next_page:
-  url: /workflow/distributing-notebooks
+  url: /workflow/distributing-notebooks.html
   title: 'Distributing Assignments'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

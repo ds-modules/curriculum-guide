@@ -1,10 +1,10 @@
 ---
 title: 'Requesting Student Help'
 prev_page:
-  url: /connector/instructor/syllabus-design
+  url: /connector/instructor/syllabus-design.html
   title: 'Designing Your Syllabus'
 next_page:
-  url: /connector/instructor/communication-channels
+  url: /connector/instructor/communication-channels.html
   title: 'Joining Communication Channels'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

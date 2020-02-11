@@ -1,10 +1,10 @@
 ---
 title: 'People'
 prev_page:
-  url: /technology/resources
+  url: /technology/resources.html
   title: 'Resources for Students'
 next_page:
-  url: /general/terms-and-abbreviations
+  url: /general/terms-and-abbreviations.html
   title: 'Terms and Abbreviations'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

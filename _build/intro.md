@@ -4,7 +4,7 @@ prev_page:
   url: 
   title: ''
 next_page:
-  url: /connector/general/what-is-a-connector
+  url: /connector/general/what-is-a-connector.html
   title: 'What is a Connector course?'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

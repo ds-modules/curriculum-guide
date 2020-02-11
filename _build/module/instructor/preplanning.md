@@ -1,10 +1,10 @@
 ---
 title: 'Pre-Planning'
 prev_page:
-  url: /connector/instructor/checklist
+  url: /connector/instructor/checklist.html
   title: 'Pre-Semester Checklist'
 next_page:
-  url: /module/instructor/develop
+  url: /module/instructor/develop.html
   title: 'Developing the Module'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

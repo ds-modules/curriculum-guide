@@ -1,10 +1,10 @@
 ---
 title: 'Notebook Zero'
 prev_page:
-  url: /technology/pedagogy-and-technology/introduction-to-jupyter
+  url: /technology/pedagogy-and-technology/introduction-to-jupyter.html
   title: 'Introduction to Jupyter'
 next_page:
-  url: /technology/r-datahub
+  url: /technology/r-datahub.html
   title: 'R DataHub'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

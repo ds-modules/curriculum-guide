@@ -1,7 +1,7 @@
 ---
 title: 'Contact'
 prev_page:
-  url: /general/terms-and-abbreviations
+  url: /general/terms-and-abbreviations.html
   title: 'Terms and Abbreviations'
 next_page:
   url: 
