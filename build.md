@@ -17,7 +17,6 @@ make build
 5. \(Optional\) Run a docker server locally to view the changes before pushing. This can be run using the following terminal command from the curriculum guide directory:
 
 ```bash
-$ rm Gemfile.lock
 make serve
 ```
 
