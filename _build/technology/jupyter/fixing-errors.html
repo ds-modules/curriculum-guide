@@ -1,20 +1,19 @@
 ---
 title: |-
   Fixing JupyterHub Errors
+pagenum: 23
 prev_page:
   url: /technology/jupyter/python-packages.html
-  title: |-
-    Using Additional Python Packages
 next_page:
   url: /technology/resources.html
-  title: |-
-    Resources for Students
 suffix: .md
+search: link server errors assets png not error interact cell kernel button restarting click example github file admin solution notebook users stop restart should students student code cells column function try run below com data work running name type different using jupyterhub jupyter common nbgitpuller open sure url lab changes after string check case servers control panel methods edge datahub git screenshot correct repository contains fall folder again e another variable table value top clicking unresponsive user own start usually incompatible browser microsoft software likely berkeley desired files generated red loading bar message re hub ds modules base want needs labs
 
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
     <main class="jupyter-page">
+    <div id="page-info"></div>
     <div class="jb_cell">
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
@@ -35,7 +34,9 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <p>Solution: the easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the interact link again. If the file or folder is renamed to anything else (e.g. "SOC-5-old"), nbgitpuller will clone a fresh copy of the problematic files to the student's Jupyterhub. They can then copy over any work from the old version of the file.</p>
 <p>The best advice, however, is to avoid making changes to assignments once they've been released to students if at all possible.</p>
 <h2 id="Code-Cell-Errors">Code Cell Errors<a class="anchor-link" href="#Code-Cell-Errors"> </a></h2><p>This category describes errors that occur when running code cells. This list is not exhaustive, but it details some of the most frequent errors that new Notebook users encounter.</p>
-<h4 id="NameError">NameError<a class="anchor-link" href="#NameError"> </a></h4><p>By far the most common errors that new students encounter are NameErrors. NameErrors occur when a code cell refers to a name that has not yet been defined. This usually happens when:</p>
+<h4 id="NameError">NameError<a class="anchor-link" href="#NameError"> </a></h4><p>By far the most common errors that new students encounter are NameErrors.<br>
+An example screenshot is below:
+<img src="../../assets/name-error.png" alt=""> NameErrors occur when a code cell refers to a name that has not yet been defined. This usually happens when:</p>
 <ul>
 <li>a student forgets to run a cell, runs cells out of order, or restarts work on another day</li>
 <li>a student misspells a variable name</li>
@@ -47,7 +48,26 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <li>double-check spelling, capitalization, punctuation, and spaces in variable names</li>
 <li>make sure that if you're referring to a string, you enclose it in quotation marks</li>
 </ul>
-<h4 id="Cells-never-stop-running">Cells never stop running<a class="anchor-link" href="#Cells-never-stop-running"> </a></h4><p>Sometimes, cells can get "stuck" running: the square brackets to the left of the cell contain an asterisk for several minutes, the open circle next to kernel type at the top right will stay solid grey, and the expected output never appears. This may happen when:</p>
+<h4 id="ValueError">ValueError<a class="anchor-link" href="#ValueError"> </a></h4><p>Common when dealing with table data, ValueErrors arise when misspelled column labels are used.<br>
+An example screenshot is below:
+<img src="../../assets/column-name-error.png" alt="">
+Solution:</p>
+<ul>
+<li>The most likely solution is to review the column headers and ensure that the correct value is selected for. Python is case-sensitive, so it's important to check the spelling and capitalization of your strings/variable names.  </li>
+</ul>
+<h4 id="TypeError">TypeError<a class="anchor-link" href="#TypeError"> </a></h4><p>When using a function, e.g for table manipulation, it is possible to use the incorrect kind of value. In the example below, the column relabeling function is misused, causing errors in two different ways.</p>
+<p>In this error, the function was given too many values:
+<img src="../../assets/many-args-error.png" alt=""></p>
+<p>In this example, the function was given a boolean (in this case, the value True) rather than a string:
+<img src="../../assets/wrong-args-error.png" alt=""></p>
+<p>Solutions:</p>
+<ul>
+<li>If you see an error relating to the <em>number</em> of arguments, check that you are using the correct number. If you aren't sure, refer to prior uses of the function for reference, or ask a friend.</li>
+<li>If you see an error relating to the type, ensure that the values you use in the function call are appropriate. For example, in the case above, renaming the column requires a string, not a boolean.</li>
+</ul>
+<h4 id="Cells-never-stop-running">Cells never stop running<a class="anchor-link" href="#Cells-never-stop-running"> </a></h4><p>Sometimes, cells can get "stuck" running: 
+<img src="../../assets/kernel-busy.png" alt=""></p>
+<p>When this issue occurs, the square brackets to the left of the cell contain an asterisk for several minutes, the open circle next to kernel type at the top right will stay solid grey, and the expected output never appears. This may happen when:</p>
 <ul>
 <li>the kernel isn't working properly</li>
 <li>the cell contains code that generates an 'infinite loop'- that is, it's executing instructions that don't have any stopping point</li>
