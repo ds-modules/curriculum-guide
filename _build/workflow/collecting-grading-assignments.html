@@ -7,7 +7,7 @@ prev_page:
 next_page:
   url: /technology/jupyter/large-datasets.html
 suffix: .md
-search: ok course assignment tests create file py files change okpy test hw q org submit folder line code steps lab assignments setup notebook grading using notebooks below not configuration should com init lines assets png ipynb needed example github x students just through interface initial run page click add need template gunjanbaid repo tree master fa above tool running cell any shown bcourses jupyterhub original such used grade website web get started button follow piazza setting entry site contain mentioned least jupyter even set step admin own name additional false true import desired documentation publications collecting recommend submission great allows
+search: ok course assignment tests create file py files change okpy test hw code q org submit assets png folder notebook line click steps lab assignments notebooks pdf setup should grading using cell below not ipynb configuration com init lines students through needed example need github above x just download interface initial run page button add template gunjanbaid repo tree master fa view import cells toolbar include tool running any shown choose bcourses jupyterhub original such uploading used grade website web get started follow piazza setting entry site contain mentioned least jupyter following even set step once able admin own name
 
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
@@ -20,7 +20,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Collecting-and-Grading-Assignments">Collecting and Grading Assignments<a class="anchor-link" href="#Collecting-and-Grading-Assignments"> </a></h1><p>We recommend using <a href="https://okpy.org">OK</a> for assignment submission and grading. OK is a great tool that allows students to submit notebooks by just running one cell, without having to do any uploads or downloads, as shown below.</p>
 <p><img src="/assets/ok-submit.png" alt=""></p>
-<p>If you choose not to use OK, you can also have students submit assignments through bCourses. Students can download the assignments from JupyterHub in the original <code>.ipynb</code> format, or other formats such as PDF, and then upload them to bCourses.</p>
+<p>If you choose not to use OK, you can also have students submit assignments through bCourses. Students can download the assignments from JupyterHub in the original <code>.ipynb</code> format, or <a href="###PDF-Uploading">other formats such as PDF</a>, and then upload them to bCourses.</p>
 <h3 id="What-is-OK?-(&quot;okpy&quot;)">What is OK? ("okpy")<a class="anchor-link" href="#What-is-OK?-(&quot;okpy&quot;)"> </a></h3><p><a href="https://okpy.org/">OK</a> is a tool that contains functionality for submitting and grading notebooks. OK can be used to test code in the notebooks, submit assignments by just running one cell, and grade submissions through the online interface.</p>
 <p>OK has many advanced features that you can learn more about through their website. This guide will cover just the basics of using the system. There are two parts that you will interact with when using OK for your classes: the OK web interface at <code>okpy.org</code> and configuration files that are needed for each assignment. The web interface will be used for initial course setup, adding assignments to OK, and grading. The configuration files are needed to run tests and submit notebooks from JupyterHub.</p>
 <h3 id="Initial-Course-Setup">Initial Course Setup<a class="anchor-link" href="#Initial-Course-Setup"> </a></h3><p>To get started with OK, you must first create a course on the OK website. Go to <a href="https://okpy.org">okpy.org</a>, scroll to the bottom of the page, and click on the <code>REGISTER YOUR COURSE</code> button to follow the steps for creating a new course. The steps should be fairly straightforward, but as always, feel free to post on <a href="https://piazza.com/berkeley/other/cs97">Piazza</a> if you run into any trouble.</p>
@@ -108,6 +108,23 @@ _ = ok.submit()</code></pre>
 <li><a href="https://okpy.github.io/documentation/">OK documentation</a></li>
 <li><a href="https://okpy.org/about/publications/">Publications and talks on OK</a></li>
 </ul>
+<h3 id="PDF-Uploading">PDF Uploading<a class="anchor-link" href="#PDF-Uploading"> </a></h3><p>In order to prepare notebooks for students to download, you'll need to start by tagging all cells you want to be included in the PDF (all cells that output graphs are automatically included):<br>
+1) Click the View Button:
+<img src="../assets/toolbar.png" alt=""></p>
+<p>2) Click Cell Toolbar:<br>
+<img src="../assets/view_dropdown.png" alt=""></p>
+<p>3) From the dropdown, click Tags
+4) At this point, you should be able to see a bar above each cell like so:
+<img src="../assets/tag_toolbar.png" alt=""></p>
+<p>5) Type &lt;#include&gt; in all cells you want to include.
+<img src="../assets/include_tag.png" alt=""></p>
+<p>6) To export to PDF, include the following cell:<br>
+<code>
+from otter import Notebook
+Notebook.export("NOTEBOOKTITLE.ipynb", filter_type='tags')
+</code>
+7) (For Chrome users) to download the PDF, right click on the link and choose "Save Link As".
+8) Once development is complete, turn off the tag view through the same toolbar.</p>
 
 </div>
 </div>

@@ -4,7 +4,7 @@ We recommend using [OK](https://okpy.org) for assignment submission and grading.
 
 ![](/assets/ok-submit.png)
 
-If you choose not to use OK, you can also have students submit assignments through bCourses. Students can download the assignments from JupyterHub in the original `.ipynb` format, or other formats such as PDF, and then upload them to bCourses.
+If you choose not to use OK, you can also have students submit assignments through bCourses. Students can download the assignments from JupyterHub in the original `.ipynb` format, or [other formats such as PDF](###PDF-Uploading), and then upload them to bCourses.
 
 ### What is OK? \("okpy"\)
 
@@ -143,4 +143,25 @@ _ = ok.submit()
 * [Publications and talks on OK](https://okpy.org/about/publications/)
 
 
+### PDF Uploading
+In order to prepare notebooks for students to download, you'll need to start by tagging all cells you want to be included in the PDF (all cells that output graphs are automatically included):  
+1) Click the View Button:
+![](../assets/toolbar.png)
 
+2) Click Cell Toolbar:  
+![](../assets/view_dropdown.png)
+
+3) From the dropdown, click Tags
+4) At this point, you should be able to see a bar above each cell like so:
+![](../assets/tag_toolbar.png)
+
+5) Type <#include> in all cells you want to include.
+![](../assets/include_tag.png)
+
+6) To export to PDF, include the following cell:  
+<code>
+from otter import Notebook
+Notebook.export("NOTEBOOKTITLE.ipynb", filter_type='tags')
+</code>
+7) (For Chrome users) to download the PDF, right click on the link and choose "Save Link As".
+8) Once development is complete, turn off the tag view through the same toolbar.
