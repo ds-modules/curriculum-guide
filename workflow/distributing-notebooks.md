@@ -41,7 +41,7 @@ For example, to pull [https://github.com/data-8/mcb-88-connector/tree/gh-pages/e
 
 * Enter `https://datahub.berkeley.edu` as the desired hub
 * Enter `https://github.com/data-8/mcb-88-connector` as the repo.
-* Enter `tree/mcb-88-connector/exercises/lab5]` as the url path.
+* Enter `tree/mcb-88-connector/exercises/lab5` as the url path.
 * Enter `gh-pages` as the git branch. 
 
 The output should be [http://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmcb-88-connector&branch=gh-pages&urlpath=tree%2Fmcb-88-connector%2Fexercises%2Flab5](http://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdata-8%2Fmcb-88-connector&branch=gh-pages&urlpath=tree%2Fmcb-88-connector%2Fexercises%2Flab5). This link will copy the desired folder into the person's account and open a notebook session to the directory.
