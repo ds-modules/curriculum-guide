@@ -1,0 +1,39 @@
+format: jb-book
+root: build
+chapters:
+- file: README
+- file: SUMMARY
+- file: content/intro
+  sections:
+  - file: content/LICENSE
+  - file: content/SUMMARY
+  - file: content/general/contact
+    sections:
+    - file: content/general/links
+    - file: content/general/people
+    - file: content/general/terms-and-abbreviations
+  - file: content/technology/connectortools-module
+    sections:
+    - file: content/technology/datascience-package
+    - file: content/technology/faq
+    - file: content/technology/git-and-github
+    - file: content/technology/interact-links
+    - file: content/technology/pedagogy-and-technology
+    - file: content/technology/README
+    - file: content/technology/resources
+    - file: content/technology/jupyter/fixing-errors
+      sections:
+      - file: content/technology/jupyter/jupyter-notebooks
+      - file: content/technology/jupyter/jupyterhub
+      - file: content/technology/jupyter/large-datasets
+      - file: content/technology/jupyter/python-packages
+      - file: content/technology/jupyter/technical-details
+    - file: content/technology/pedagogy-and-technology/git-intro
+      sections:
+      - file: content/technology/pedagogy-and-technology/introduction-to-jupyter
+      - file: content/technology/pedagogy-and-technology/notebook-zero
+  - file: content/workflow/collecting-grading-assignments
+    sections:
+    - file: content/workflow/creating-notebooks
+    - file: content/workflow/distributing-notebooks
+    - file: content/workflow/pushing-to-github
