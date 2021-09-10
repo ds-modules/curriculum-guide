@@ -1,5 +1,6 @@
 format: jb-book
 root: build
+title: ds-curriculum
 chapters:
 - file: README
 - file: SUMMARY
