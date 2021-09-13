@@ -1,7 +1,7 @@
 # Each entry has the following schema:
 #
 # - title: mytitle   # Title of chapter or section
-#   url: /myurl  # URL of section relative to the /content/ folder.
+#   file: /myurl  # URL of section relative to the /content/ folder.
 #   sections:  # Contains a list of more entries that make up the chapter's sections
 #   not_numbered: true  # if the section shouldn't have a number in the sidebar
 #     (e.g. Introduction or appendices)
@@ -16,59 +16,107 @@
 #
 # See the links below for an example.
 
-
 format: jb-book
-root: build
+root: intro
+title: Home
 chapters:
-- file: intro
-- file: LICENSE
-- file: README
-- file: redirect
-- file: SUMMARY
-- file: general/contact
+- file: connector/general/what-is-a-connector
+  title: What is a Connector course?
   sections:
-  - file: general/links
-  - file: general/people
-  - file: general/terms-and-abbreviations
-- file: technology/connectortools-module
-  sections:
-  - file: technology/datascience-package
-  - file: technology/git-and-github
-  - file: technology/interact-links
+  - file: connector/general/previous-connectors
+    title: Previous Connectors
+  - file: module/general/what-is-a-module
+    title: What is a Data Science Module?
+  - file: dec/general/what-is-a-data-enabled-course
+    title: What is a Data-Enabled Course?
   - file: technology/pedagogy-and-technology
+    title: Pedagogy and Technology
+  sections:
+  - file: technology/pedagogy-and-technology/introduction-to-jupyter
+    title: Introduction to Jupyter
+  - file: technology/pedagogy-and-technology/notebook-zero
+    title: Notebook Zero
+    not_numbered: true
+  - file: technology/r-datahub
+    title: R DataHub
+    not_numbered: true
 
-  - file: technology/README
-  - file: technology/resources
-    title: Resources for Students
-  - file: technology/jupyter/fixing-errors
-    title: Fixing JupyterHub Errors
-    sections:
-    - file: technology/jupyter/jupyter-notebooks
-    - file: technology/jupyter/jupyterhub
-    - file: technology/jupyter/large-datasets
-      title: Working with Large Datasets
-    - file: technology/jupyter/python-packages
-      title: Using Additional Python Packages
-    - file: technology/jupyter/technical-details
-  - file: technology/pedagogy-and-technology/git-intro
-    sections:
-    - file: technology/pedagogy-and-technology/introduction-to-jupyter
-    - file: technology/pedagogy-and-technology/notebook-zero
-  - file: faq/jupyterhub-intro
-    title: FAQ's to set up JupyterHub 
-    sections:
-    - file: faq/onboarding
-    - file: faq/changerequirements
-    - file: faq/admin
-    - file: faq/troubleshoot
-    - file: faq/features
-    - file: faq/share
+  # Creating a Connector
+
+  sections:
+ # title: Creating a Connector
+  - file: connector/instructor/logistics
+    title: Logistics, Rooms, and Technology
+  - file: connector/instructor/syllabus-design
+    title: Designing Your Syllabus
+  - file: connector/instructor/student-help
+    title: Requesting Student Help
+  - file: connector/instructor/communication-channels
+    title: Joining Communication Channels
+  - file:  connector/instructor/checklist
+    title: Pre-Semester Checklist
+  
+  # Making a Module
+
+  sections:
+  title: Creating a Connector
+  - file: module/instructor/preplanning
+    title: Pre-Planning
+    not_numbered: true
+  - file: module/instructor/develop
+    title: Developing the Module
+    not_numbered: true
+  - file: module/instructor/deploy-help
+    title: Requesting Deployment Help
+    not_numbered: true
+  
+  # Workflow Basics
+  sections: 
+- file: workflow/creating-notebooks
+  title: Creating Assignments
+  not_numbered: true
+- file: workflow/pushing-to-github
+  title: Uploading Files to Github
+  not_numbered: true
+- file: workflow/distributing-notebooks
+  title: Distributing Assignments
+  not_numbered: true
 - file: workflow/collecting-grading-assignments
   title: Collecting and Grading Assignments
+  not_numbered: true
+
+  # During the Course
+  sections: 
+- file: technology/jupyter/large-datasets
+  title: Working with Large Datasets
+  not_numbered: true
+- file: technology/jupyter/python-packages
+  title: Using Additional Python Packages
+  not_numbered: true
+- file: faq/jupyterhub-intro
+  title: FAQ's to set up JupyterHub 
   sections:
-  - file: workflow/creating-notebooks
-    title: Creating Assignments
-  - file: workflow/distributing-notebooks
-    title: Distributing Assignments
-  - file: workflow/pushing-to-github
-    title: Uploading Files to Github
+   - file: faq/onboarding   
+   - file: faq/changerequirements
+   - file: faq/admin
+   - file: faq/troubleshoot
+   - file: technology/jupyter/fixing-errors
+     title: JupyterHub Frequently Asked Questions
+   - file: faq/features
+   - file: faq/share
+  not_numbered: true
+- file: technology/resources
+  title: Resources for Students
+  not_numbered: true
+  
+  # Reference
+- sections:
+- file: general/people
+  title: People
+  not_numbered: true
+- file: general/terms-and-abbreviations
+  title: Terms and Abbreviations
+  not_numbered: true
+- file: general/contact
+  title: Contact
+  not_numbered: true
