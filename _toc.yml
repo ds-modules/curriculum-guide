@@ -1,0 +1,74 @@
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or section
+#   url: /myurl  # URL of section relative to the /content/ folder.
+#   sections:  # Contains a list of more entries that make up the chapter's sections
+#   not_numbered: true  # if the section shouldn't have a number in the sidebar
+#     (e.g. Introduction or appendices)
+#   expand_sections: true  # if you'd like the sections of this chapter to always
+#     be expanded in the sidebar.
+#   external: true  # Whether the URL is an external link or points to content in the book
+#
+# Below are some special values that trigger specific behavior:
+# - search: true  # Will provide a link to a search page
+# - divider: true  # Will insert a divider in the sidebar
+# - header: My Header  # Will insert a header with no link in the sidebar
+#
+# See the links below for an example.
+
+
+format: jb-book
+root: build
+chapters:
+- file: intro
+- file: LICENSE
+- file: README
+- file: redirect
+- file: SUMMARY
+- file: general/contact
+  sections:
+  - file: general/links
+  - file: general/people
+  - file: general/terms-and-abbreviations
+- file: technology/connectortools-module
+  sections:
+  - file: technology/datascience-package
+  - file: technology/git-and-github
+  - file: technology/interact-links
+  - file: technology/pedagogy-and-technology
+
+  - file: technology/README
+  - file: technology/resources
+    title: Resources for Students
+  - file: technology/jupyter/fixing-errors
+    title: Fixing JupyterHub Errors
+    sections:
+    - file: technology/jupyter/jupyter-notebooks
+    - file: technology/jupyter/jupyterhub
+    - file: technology/jupyter/large-datasets
+      title: Working with Large Datasets
+    - file: technology/jupyter/python-packages
+      title: Using Additional Python Packages
+    - file: technology/jupyter/technical-details
+  - file: technology/pedagogy-and-technology/git-intro
+    sections:
+    - file: technology/pedagogy-and-technology/introduction-to-jupyter
+    - file: technology/pedagogy-and-technology/notebook-zero
+  - file: faq/jupyterhub-intro
+    title: FAQ's to set up JupyterHub 
+    sections:
+    - file: faq/onboarding
+    - file: faq/changerequirements
+    - file: faq/admin
+    - file: faq/troubleshoot
+    - file: faq/features
+    - file: faq/share
+- file: workflow/collecting-grading-assignments
+  title: Collecting and Grading Assignments
+  sections:
+  - file: workflow/creating-notebooks
+    title: Creating Assignments
+  - file: workflow/distributing-notebooks
+    title: Distributing Assignments
+  - file: workflow/pushing-to-github
+    title: Uploading Files to Github

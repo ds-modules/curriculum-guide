@@ -20,11 +20,10 @@ title: Curriculum Guide
 author: Christopher pyles
 email: cpyles@berkeley.edu
 description: >-
-  This is a guide to building courses at UC Berkeley leveraging the Division of Data
-  Sciences
+  This is a guide to building courses at UC Berkeley leveraging the Division of Data Sciences
 
 baseurl: /curriculum-guide # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: https://ds-modules.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://balajialg.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
