@@ -17,10 +17,9 @@
 #######################################################################################
 # Jekyll site settings
 title: Curriculum Guide
-author: Christopher pyles
-email: cpyles@berkeley.edu
-description: >-
-  This is a guide to building courses at UC Berkeley leveraging the Division of Data Sciences
+author: Christopher pyles and Balaji Alwar
+email: balajialwar@berkeley.edu
+description: This is a guide to building courses at UC Berkeley leveraging the Division of Data Sciences
 
 baseurl: /curriculum-guide # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
 url: https://balajialg.github.io # the base hostname & protocol for your site, e.g. http://example.com
@@ -143,10 +142,6 @@ exclude:
 - build.md
 - SUMMARY.md
 - redirect.md
-
-plugins:
-- jekyll-redirect-from
-- jekyll-scholar
 
 # Jupyter Book version - DO NOT CHANGE THIS. It is generated when a new book is created
 jupyter_book_version: 0.6.3

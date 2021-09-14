@@ -36,14 +36,10 @@ chapters:
     title: Introduction to Jupyter
   - file: technology/pedagogy-and-technology/notebook-zero
     title: Notebook Zero
-    numbered: true
   - file: technology/r-datahub
-    title: R DataHub
-    numbered: true
-  # Creating a Connector
-
+    title: R DataHub  
   sections:
- # title: Creating a Connector
+          #caption: Creating a Connector
   - file: connector/instructor/logistics
     title: Logistics, Rooms, and Technology
   - file: connector/instructor/syllabus-design
@@ -52,50 +48,36 @@ chapters:
     title: Requesting Student Help
   - file: connector/instructor/communication-channels
     title: Joining Communication Channels
-  - file:  connector/instructor/checklist
+  - file: connector/instructor/checklist
     title: Pre-Semester Checklist
-  
-  # Making a Module
-
   sections:
-  title: Creating a Connector
+          #caption: Creating a Connector
   - file: module/instructor/preplanning
     title: Pre-Planning
-    not_numbered: true
   - file: module/instructor/develop
     title: Developing the Module
-    not_numbered: true
   - file: module/instructor/deploy-help
     title: Requesting Deployment Help
-    numbered: true
-  
   # Workflow Basics
-  sections: 
+  sections:
   - file: workflow/creating-notebooks
     title: Creating Assignments
-    numbered: true
   - file: workflow/pushing-to-github
     title: Uploading Files to Github
-    numbered: true
   - file: workflow/distributing-notebooks
     title: Distributing Assignments
-    numbered: true
   - file: workflow/collecting-grading-assignments
     title: Collecting and Grading Assignments
-    numbered: true
-
-  # During the Course
-  sections: 
+ # During the Course
+  sections:
   - file: technology/jupyter/large-datasets
     title: Working with Large Datasets
-    numbered: true
   - file: technology/jupyter/python-packages
     title: Using Additional Python Packages
-    numbered: true
   - file: faq/jupyterhub-intro
-    title: FAQ's to set up JupyterHub 
+    title: FAQ's to set up JupyterHub
     sections:
-    - file: faq/onboarding   
+    - file: faq/onboarding
     - file: faq/changerequirements
     - file: faq/admin
     - file: faq/troubleshoot
@@ -103,70 +85,13 @@ chapters:
       title: JupyterHub Frequently Asked Questions
     - file: faq/features
     - file: faq/share
-    numbered: true
-    - file: technology/resources
-    title: Resources for Students
-    not_numbered: true
-  
-  # Reference
-   sections:
-   - file: general/people
-     title: People
-     numbered: true
-   - file: general/terms-and-abbreviations
-     title: Terms and Abbreviations
-     numbered: true
-   - file: general/contact
-     title: Contact
-     numbered: true
- 
-  # Workflow Basics
-    sections: 
-    - file: workflow/creating-notebooks
-      title: Creating Assignments
-      numbered: true
-    - file: workflow/pushing-to-github
-      title: Uploading Files to Github
-      numbered: true
-    - file: workflow/distributing-notebooks
-      title: Distributing Assignments
-      numbered: true
-    - file: workflow/collecting-grading-assignments
-      title: Collecting and Grading Assignments
-      numbered: true
-
-  # During the Course
-    sections: 
-    - file: technology/jupyter/large-datasets
-    title: Working with Large Datasets
-    numbered: true
-    - file: technology/jupyter/python-packages
-    title: Using Additional Python Packages
-    numbered: true
-    - file: faq/jupyterhub-intro
-    title: FAQ's to set up JupyterHub 
-    sections:
-    - file: faq/onboarding   
-    - file: faq/changerequirements
-    - file: faq/admin
-    - file: faq/troubleshoot
-    - file: technology/jupyter/fixing-errors
-      title: JupyterHub Frequently Asked Questions
-    - file: faq/features
-    - file: faq/share
-      numbered: true
     - file: technology/resources
       title: Resources for Students
-      not_numbered: true
- 
   # Reference
     sections:
     - file: general/people
       title: People
-      numbered: true
-   - file: general/terms-and-abbreviations
-     title: Terms and Abbreviations
-     numbered: true
-   - file: general/contact
-     title: Contact
-     numbered: true
+    - file: general/terms-and-abbreviations
+      title: Terms and Abbreviations
+    - file: general/contact
+      title: Contact
