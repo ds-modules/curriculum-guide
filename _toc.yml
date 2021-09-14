@@ -36,18 +36,10 @@ chapters:
     title: Introduction to Jupyter
   - file: technology/pedagogy-and-technology/notebook-zero
     title: Notebook Zero
-<<<<<<< HEAD
     numbered: true
   - file: technology/r-datahub
     title: R DataHub
     numbered: true
-=======
-    not_numbered: true
-  - file: technology/r-datahub
-    title: R DataHub
-    not_numbered: true
-
->>>>>>> b42167607a9edd49f7a957fc96d4ea9a1157209c
   # Creating a Connector
 
   sections:
@@ -75,7 +67,6 @@ chapters:
     not_numbered: true
   - file: module/instructor/deploy-help
     title: Requesting Deployment Help
-<<<<<<< HEAD
     numbered: true
   
   # Workflow Basics
@@ -128,57 +119,54 @@ chapters:
    - file: general/contact
      title: Contact
      numbered: true
-=======
-    not_numbered: true
-  
+ 
   # Workflow Basics
-  sections: 
-- file: workflow/creating-notebooks
-  title: Creating Assignments
-  not_numbered: true
-- file: workflow/pushing-to-github
-  title: Uploading Files to Github
-  not_numbered: true
-- file: workflow/distributing-notebooks
-  title: Distributing Assignments
-  not_numbered: true
-- file: workflow/collecting-grading-assignments
-  title: Collecting and Grading Assignments
-  not_numbered: true
+    sections: 
+    - file: workflow/creating-notebooks
+      title: Creating Assignments
+      numbered: true
+    - file: workflow/pushing-to-github
+      title: Uploading Files to Github
+      numbered: true
+    - file: workflow/distributing-notebooks
+      title: Distributing Assignments
+      numbered: true
+    - file: workflow/collecting-grading-assignments
+      title: Collecting and Grading Assignments
+      numbered: true
 
   # During the Course
-  sections: 
-- file: technology/jupyter/large-datasets
-  title: Working with Large Datasets
-  not_numbered: true
-- file: technology/jupyter/python-packages
-  title: Using Additional Python Packages
-  not_numbered: true
-- file: faq/jupyterhub-intro
-  title: FAQ's to set up JupyterHub 
-  sections:
-   - file: faq/onboarding   
-   - file: faq/changerequirements
-   - file: faq/admin
-   - file: faq/troubleshoot
-   - file: technology/jupyter/fixing-errors
-     title: JupyterHub Frequently Asked Questions
-   - file: faq/features
-   - file: faq/share
-  not_numbered: true
-- file: technology/resources
-  title: Resources for Students
-  not_numbered: true
-  
+    sections: 
+    - file: technology/jupyter/large-datasets
+    title: Working with Large Datasets
+    numbered: true
+    - file: technology/jupyter/python-packages
+    title: Using Additional Python Packages
+    numbered: true
+    - file: faq/jupyterhub-intro
+    title: FAQ's to set up JupyterHub 
+    sections:
+    - file: faq/onboarding   
+    - file: faq/changerequirements
+    - file: faq/admin
+    - file: faq/troubleshoot
+    - file: technology/jupyter/fixing-errors
+      title: JupyterHub Frequently Asked Questions
+    - file: faq/features
+    - file: faq/share
+      numbered: true
+    - file: technology/resources
+      title: Resources for Students
+      not_numbered: true
+ 
   # Reference
-- sections:
-- file: general/people
-  title: People
-  not_numbered: true
-- file: general/terms-and-abbreviations
-  title: Terms and Abbreviations
-  not_numbered: true
-- file: general/contact
-  title: Contact
-  not_numbered: true
->>>>>>> b42167607a9edd49f7a957fc96d4ea9a1157209c
+    sections:
+    - file: general/people
+      title: People
+      numbered: true
+   - file: general/terms-and-abbreviations
+     title: Terms and Abbreviations
+     numbered: true
+   - file: general/contact
+     title: Contact
+     numbered: true
