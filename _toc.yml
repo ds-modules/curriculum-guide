@@ -25,12 +25,12 @@ chapters:
   sections:
   - file: connector/general/previous-connectors
     title: Previous Connectors
-  - file: module/general/what-is-a-module
-    title: What is a Data Science Module?
-  - file: dec/general/what-is-a-data-enabled-course
-    title: What is a Data-Enabled Course?
-  - file: technology/pedagogy-and-technology
-    title: Pedagogy and Technology
+- file: module/general/what-is-a-module
+  title: What is a Data Science Module?
+- file: dec/general/what-is-a-data-enabled-course
+  title: What is a Data-Enabled Course?
+- file: technology/pedagogy-and-technology
+  title: Pedagogy and Technology
   sections:
   - file: technology/pedagogy-and-technology/introduction-to-jupyter
     title: Introduction to Jupyter
@@ -38,60 +38,59 @@ chapters:
     title: Notebook Zero
   - file: technology/r-datahub
     title: R DataHub  
-  sections:
+chapters:        #caption: Creating a Connector
+- file: connector/instructor/logistics
+  title: Logistics, Rooms, and Technology
+- file: connector/instructor/syllabus-design
+  title: Designing Your Syllabus
+- file: connector/instructor/student-help
+  title: Requesting Student Help
+- file: connector/instructor/communication-channels
+  title: Joining Communication Channels
+- file: connector/instructor/checklist
+  title: Pre-Semester Checklist
+chapters:
           #caption: Creating a Connector
-  - file: connector/instructor/logistics
-    title: Logistics, Rooms, and Technology
-  - file: connector/instructor/syllabus-design
-    title: Designing Your Syllabus
-  - file: connector/instructor/student-help
-    title: Requesting Student Help
-  - file: connector/instructor/communication-channels
-    title: Joining Communication Channels
-  - file: connector/instructor/checklist
-    title: Pre-Semester Checklist
-  sections:
-          #caption: Creating a Connector
-  - file: module/instructor/preplanning
-    title: Pre-Planning
-  - file: module/instructor/develop
-    title: Developing the Module
-  - file: module/instructor/deploy-help
-    title: Requesting Deployment Help
+- file: module/instructor/preplanning
+  title: Pre-Planning
+- file: module/instructor/develop
+  title: Developing the Module
+- file: module/instructor/deploy-help
+  title: Requesting Deployment Help
   # Workflow Basics
-  sections:
-  - file: workflow/creating-notebooks
-    title: Creating Assignments
-  - file: workflow/pushing-to-github
-    title: Uploading Files to Github
-  - file: workflow/distributing-notebooks
-    title: Distributing Assignments
-  - file: workflow/collecting-grading-assignments
-    title: Collecting and Grading Assignments
+chapters:
+- file: workflow/creating-notebooks
+  title: Creating Assignments
+- file: workflow/pushing-to-github
+  title: Uploading Files to Github
+- file: workflow/distributing-notebooks
+  title: Distributing Assignments
+- file: workflow/collecting-grading-assignments
+  title: Collecting and Grading Assignments
  # During the Course
+chapters:
+- file: technology/jupyter/large-datasets
+  title: Working with Large Datasets
+- file: technology/jupyter/python-packages
+  title: Using Additional Python Packages
+- file: faq/jupyterhub-intro
+  title: FAQ's to set up JupyterHub
   sections:
-  - file: technology/jupyter/large-datasets
-    title: Working with Large Datasets
-  - file: technology/jupyter/python-packages
-    title: Using Additional Python Packages
-  - file: faq/jupyterhub-intro
-    title: FAQ's to set up JupyterHub
-    sections:
-    - file: faq/onboarding
-    - file: faq/changerequirements
-    - file: faq/admin
-    - file: faq/troubleshoot
-    - file: technology/jupyter/fixing-errors
-      title: JupyterHub Frequently Asked Questions
-    - file: faq/features
-    - file: faq/share
-    - file: technology/resources
-      title: Resources for Students
+  - file: faq/onboarding
+  - file: faq/changerequirements
+  - file: faq/admin
+  - file: faq/troubleshoot
+  - file: technology/jupyter/fixing-errors
+    title: JupyterHub Frequently Asked Questions
+  - file: faq/features
+  - file: faq/share
+  - file: technology/resources
+    title: Resources for Students
   # Reference
-    sections:
-    - file: general/people
-      title: People
-    - file: general/terms-and-abbreviations
-      title: Terms and Abbreviations
-    - file: general/contact
-      title: Contact
+chapters:
+- file: general/people
+  title: People
+- file: general/terms-and-abbreviations
+  title: Terms and Abbreviations
+- file: general/contact
+  title: Contact
