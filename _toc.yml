@@ -77,18 +77,24 @@ parts:
   - file: technology/jupyter/python-packages
     title: Using Additional Python Packages
   - file: faq/jupyterhub-intro
-    title: FAQ's to set up JupyterHub
+    title: Datahub Frequently Asked Questions (FAQ)
     sections:
     - file: faq/onboarding
-    - file: faq/changerequirements
+      title: Onboarding new users into the Hub
     - file: faq/admin
+      title: Exploring admin privileges in the Hub
+    - file: faq/changerequirements
+      title: Changing existing requirements in the Hub  
     - file: faq/troubleshoot
+      title: Troubleshooting issues in the Hub (part 1)  
     - file: technology/jupyter/fixing-errors
-      title: JupyterHub Frequently Asked Questions
+      title: Troubleshooting issues in the Hub (part 2)
     - file: faq/features
+      title: Requesting new features in the Hub
     - file: faq/share
-    - file: technology/resources
-      title: Resources for Students
+      title: Sharing information about the Hub
+  - file: technology/resources
+    title: Resources for Students
 - caption: Reference
   chapters:
   - file: general/people

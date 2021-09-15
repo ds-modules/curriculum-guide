@@ -27,7 +27,7 @@ Datahub has a memory limit of 1 GB of RAM, which should meet the teaching/resear
 - Look at the top right corner of your Python/R notebook for the term memory. It will highlight the amount of memory you had consumed by the amount of memory provided to your instance. 
 - If your consumed memory is greater than the available memory for your instance, You may require an increase in RAM,
 
-```{figure} images/memory.png
+```{figure} ../images/memory.png
 :width: 500px
 :align: center
 :name: Available Memory

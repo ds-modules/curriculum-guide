@@ -15,23 +15,43 @@
 # in the templates via {{ site.myvariable }}.
 
 #######################################################################################
-# Jekyll site settings
 title: Curriculum Guide
+logo: images/logo/logo.png
 author: Christopher pyles and Balaji Alwar
 email: balajialwar@berkeley.edu
-description: This is a guide to building courses at UC Berkeley leveraging the Division of Data Sciences
-
-#baseurl: ""  # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-#baseurl: https://balajialg.github.io # the base hostname & protocol for your site, e.g. http://example.com
-
+description: >-
+        This is a guide to building courses at UC Berkeley leveraging the Division of Data Sciences
 
 #######################################################################################
-# Jupyter Book settings
+# Jupyter book extensions and additional features
+
+# Bibliography and citation settings. See https://github.com/inukshuk/jekyll-scholar#configuration for options
+scholar:
+  style: apa
+
+#######################################################################################
+# Option to add a Goggle analytics tracking code
+
+# Navigate to https://analytics.google.com, add a new property for your jupyter book and copy the tracking id here.
+html:
+  google_analytics:
+  mytrackingcode: ''
+  content_folder_name: content           # The folder where your raw content (notebooks/markdown files) are located
+  images_url: /assets/images                   # Path to static image files
+  css_url: /assets/css                      # Path to static CSS files
+  js_url: /assets/js                       # Path to JS files
+  custom_static_url: /assets/custom            # Path to user's custom CSS/JS files
+  baseurl: "https://balajialg.github.io/curriculum"  # The base URL where your book will be hosted. Used for cr
+
+#######################################################################################
+repository:
+  url                       : https://github.com/balajialg/curriculum-guide  # The URL to your book's repository
+  branch                    : newbranch
+  
 
 # Main page settings
 footer_text: This page was created by <a href="https://github.com/jupyter/jupyter-book/graphs/contributors">The
   Jupyter Book Community</a>
-
 # Sidebar settings
 show_sidebar: true                # Show the sidebar. Only set to false if your only wish to host a single page.
 collapse_inactive_chapters: true  # Whether to collapse the inactive chapters in the sidebar
@@ -77,35 +97,6 @@ use_download_button: false               # If 'true', display a button to downlo
 download_button_text: Download                # The text that download buttons will contain
 download_page_header: Made with Jupyter Book                # A header that will be displayed at the top of and PDF-printed page
 
-#######################################################################################
-# Jupyter book extensions and additional features
-
-# Bibliography and citation settings. See https://github.com/inukshuk/jekyll-scholar#configuration for options
-scholar:
-  style: apa
-
-#######################################################################################
-# Option to add a Goggle analytics tracking code
-
-# Navigate to https://analytics.google.com, add a new property for your jupyter book and copy the tracking id here.
-html:
-  google_analytics:
-  mytrackingcode: ''
-  content_folder_name: content           # The folder where your raw content (notebooks/markdown files) are located
-  images_url: /assets/images                   # Path to static image files
-  css_url: /assets/css                      # Path to static CSS files
-  js_url: /assets/js                       # Path to JS files
-  custom_static_url: /assets/custom            # Path to user's custom CSS/JS files
-  baseurl: "https://balajialg.github.io/curriculum-new"  # The base URL where your book will be hosted. Used for cr
-
-#######################################################################################
-repository:
-  url                       : https://github.com/balajialg/curriculum-guide  # The URL to your book's repository
-  branch                    : newbranch
-
-sphinx:
-  config:
-    html_extra_path: ['assets']
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
