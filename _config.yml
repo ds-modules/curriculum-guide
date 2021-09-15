@@ -21,8 +21,8 @@ author: Christopher pyles and Balaji Alwar
 email: balajialwar@berkeley.edu
 description: This is a guide to building courses at UC Berkeley leveraging the Division of Data Sciences
 
-baseurl: /curriculum-guide # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: https://balajialg.github.io # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: ""  # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
+#baseurl: https://balajialg.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
@@ -88,51 +88,30 @@ scholar:
 # Option to add a Goggle analytics tracking code
 
 # Navigate to https://analytics.google.com, add a new property for your jupyter book and copy the tracking id here.
-google_analytics:
+html:
+  google_analytics:
   mytrackingcode: ''
-content_folder_name: content           # The folder where your raw content (notebooks/markdown files) are located
-images_url: /assets/images                   # Path to static image files
-css_url: /assets/css                      # Path to static CSS files
-js_url: /assets/js                       # Path to JS files
-custom_static_url: /assets/custom            # Path to user's custom CSS/JS files
-
+  content_folder_name: content           # The folder where your raw content (notebooks/markdown files) are located
+  images_url: /assets/images                   # Path to static image files
+  css_url: /assets/css                      # Path to static CSS files
+  js_url: /assets/js                       # Path to JS files
+  custom_static_url: /assets/custom            # Path to user's custom CSS/JS files
+  baseurl: "https://balajialg.github.io/curriculum-new"  # The base URL where your book will be hosted. Used for cr
 
 #######################################################################################
-# Jekyll build settings (only modify if you know what you're doing)
+repository:
+  url                       : https://github.com/balajialg/curriculum-guide  # The URL to your book's repository
+  branch                    : newbranch
 
-# Site settings
-defaults:
-- scope:
-    path: ''
-  values:
-    layout: default
-    toc: true
-    toc_label: '  On this page'
-    toc_icon: list-ul
-
-favicon_path: images/logo/favicon.ico
-
-# Markdown Processing
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-sass:
-  style: compressed
-
-collections:
-  build:
-    output: true
-    permalink: /:path.html
+sphinx:
+  config:
+    html_extra_path: ['assets']
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
 - scripts/
-- Gemfile
-- Gemfile.lock
 - node_modules
 - vendor/bundle/
 - vendor/cache/
