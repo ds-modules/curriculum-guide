@@ -19,78 +19,81 @@
 format: jb-book
 root: intro
 title: Home
-chapters:
-- file: connector/general/what-is-a-connector
-  title: What is a Connector course?
-  sections:
-  - file: connector/general/previous-connectors
-    title: Previous Connectors
-- file: module/general/what-is-a-module
-  title: What is a Data Science Module?
-- file: dec/general/what-is-a-data-enabled-course
-  title: What is a Data-Enabled Course?
-- file: technology/pedagogy-and-technology
-  title: Pedagogy and Technology
-  sections:
-  - file: technology/pedagogy-and-technology/introduction-to-jupyter
-    title: Introduction to Jupyter
-  - file: technology/pedagogy-and-technology/notebook-zero
-    title: Notebook Zero
-  - file: technology/r-datahub
-    title: R DataHub  
-chapters:        #caption: Creating a Connector
-- file: connector/instructor/logistics
-  title: Logistics, Rooms, and Technology
-- file: connector/instructor/syllabus-design
-  title: Designing Your Syllabus
-- file: connector/instructor/student-help
-  title: Requesting Student Help
-- file: connector/instructor/communication-channels
-  title: Joining Communication Channels
-- file: connector/instructor/checklist
-  title: Pre-Semester Checklist
-chapters:
-          #caption: Creating a Connector
-- file: module/instructor/preplanning
-  title: Pre-Planning
-- file: module/instructor/develop
-  title: Developing the Module
-- file: module/instructor/deploy-help
-  title: Requesting Deployment Help
-  # Workflow Basics
-chapters:
-- file: workflow/creating-notebooks
-  title: Creating Assignments
-- file: workflow/pushing-to-github
-  title: Uploading Files to Github
-- file: workflow/distributing-notebooks
-  title: Distributing Assignments
-- file: workflow/collecting-grading-assignments
-  title: Collecting and Grading Assignments
- # During the Course
-chapters:
-- file: technology/jupyter/large-datasets
-  title: Working with Large Datasets
-- file: technology/jupyter/python-packages
-  title: Using Additional Python Packages
-- file: faq/jupyterhub-intro
-  title: FAQ's to set up JupyterHub
-  sections:
-  - file: faq/onboarding
-  - file: faq/changerequirements
-  - file: faq/admin
-  - file: faq/troubleshoot
-  - file: technology/jupyter/fixing-errors
-    title: JupyterHub Frequently Asked Questions
-  - file: faq/features
-  - file: faq/share
-  - file: technology/resources
-    title: Resources for Students
-  # Reference
-chapters:
-- file: general/people
-  title: People
-- file: general/terms-and-abbreviations
-  title: Terms and Abbreviations
-- file: general/contact
-  title: Contact
+parts:
+- caption: Getting started
+  chapters:
+  - file: connector/general/what-is-a-connector
+    title: What is a Connector course?
+    sections:
+    - file: connector/general/previous-connectors
+      title: Previous Connectors
+  - file: module/general/what-is-a-module
+    title: What is a Data Science Module?
+  - file: dec/general/what-is-a-data-enabled-course
+    title: What is a Data-Enabled Course?
+  - file: technology/pedagogy-and-technology
+    title: Pedagogy and Technology
+    sections:
+    - file: technology/pedagogy-and-technology/introduction-to-jupyter
+      title: Introduction to Jupyter
+    - file: technology/pedagogy-and-technology/notebook-zero
+      title: Notebook Zero
+    - file: technology/r-datahub
+      title: R DataHub
+- caption: Creating a Connector
+  chapters:        
+  - file: connector/instructor/logistics
+    title: Logistics, Rooms, and Technology
+  - file: connector/instructor/syllabus-design
+    title: Designing Your Syllabus
+  - file: connector/instructor/student-help
+    title: Requesting Student Help
+  - file: connector/instructor/communication-channels
+    title: Joining Communication Channels
+  - file: connector/instructor/checklist
+    title: Pre-Semester Checklist
+- caption: Creating a Connector 
+  chapters:          
+  - file: module/instructor/preplanning
+    title: Pre-Planning
+  - file: module/instructor/develop
+    title: Developing the Module
+  - file: module/instructor/deploy-help
+    title: Requesting Deployment Help
+- caption: Workflow Basics
+  chapters:
+  - file: workflow/creating-notebooks
+    title: Creating Assignments
+  - file: workflow/pushing-to-github
+    title: Uploading Files to Github
+  - file: workflow/distributing-notebooks
+    title: Distributing Assignments
+  - file: workflow/collecting-grading-assignments
+    title: Collecting and Grading Assignments
+- caption: During the Course
+  chapters:
+  - file: technology/jupyter/large-datasets
+    title: Working with Large Datasets
+  - file: technology/jupyter/python-packages
+    title: Using Additional Python Packages
+  - file: faq/jupyterhub-intro
+    title: FAQ's to set up JupyterHub
+    sections:
+    - file: faq/onboarding
+    - file: faq/changerequirements
+    - file: faq/admin
+    - file: faq/troubleshoot
+    - file: technology/jupyter/fixing-errors
+      title: JupyterHub Frequently Asked Questions
+    - file: faq/features
+    - file: faq/share
+    - file: technology/resources
+      title: Resources for Students
+- caption: Reference
+  chapters:
+  - file: general/people
+    title: People
+  - file: general/terms-and-abbreviations
+    title: Terms and Abbreviations
+  - file: general/contact
+    title: Contact
