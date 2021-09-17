@@ -8,11 +8,9 @@ Git is a version control software that tracks changes in files and allows multip
 
 Storing materials on the GitHub allows you to use interact links for assignment distribution. It's also allows you to use the version control features that Git provides. Most connector courses have a public and private repo for their courses in the data-8 GitHub organization, which acts a centralized location for the material across semesters.
 
-Instructors and CAs should have full access to their connector's repo. If you don't have full access and want to request it, please post on [Piazza](https://piazza.com/berkeley/other/cs97).
-
 ### Using the Web Interface
 
-You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, [download the notebook](https://gunjanbaid.gitbooks.io/dsep-guide/content/workflow/creating-notebooks.html#download-notebooks) onto your computer. Then, go to your connector's GitHub repository and click `Upload Files` on the right side.
+You can perform many actions such as uploads and downloads directly through GitHub's web interface directly, without having to use the command line interface. Here are some directions on how to upload assignments to GitHub. If you did your development on JupyterHub, download the notebook onto your computer. Then, go to your connector's GitHub repository and click `Upload Files` on the right side.
 
 ![](https://cloud.githubusercontent.com/assets/8205702/23319695/89fa6484-fa8c-11e6-9d36-6b6782e2c383.png)
 
@@ -44,9 +42,9 @@ You will then see a terminal page in the browser.
 
 ##### **Web Interface**
 
-* [Managing Files](https://help.github.com/categories/managing-files-in-a-repository/\) - contains information under the "Managing Files on GitHub" section on how to perform many basic file operations using the GitHub web interface.
+* [Managing Files](https://help.github.com/categories/managing-files-in-a-repository) - contains information under the "Managing Files on GitHub" section on how to perform many basic file operations using the GitHub web interface.
 
-* [Hello World Exercise](https://guides.github.com/activities/hello-world/\)[ ](https://guides.github.com/activities/hello-world/%29\)- a short exercise that walks you through additional GitHub features such as branches and pull requests.
+* [Hello World Exercise](https://guides.github.com/activities/hello-world) is a short exercise that walks you through additional GitHub features such as branches and pull requests.
 
 ##### Command Line
 
