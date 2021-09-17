@@ -1,12 +1,12 @@
 # Storing Datasets
 
-A few methods of storing datasets are outlined below. The choice of method depends on your preference and the size of the dataset. Keep in mind, regardless of the size of your dataset, each account on DataHub is provided with ~1GB RAM, so this will limit the amount of data that you can read in at any time. If you want to temporarily increase this limit on RAM, please contact us on [Piazza](https://piazza.com/berkeley/other/cs97).
+A few methods of storing datasets are outlined below. The choice of method depends on your preference and the size of the dataset. Keep in mind, regardless of the size of your dataset, each account on DataHub is provided with ~1GB RAM, so this will limit the amount of data that you can read in at any time. If you want to temporarily increase this limit on RAM, please raise a [github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X).
 
 ### Small Datasets \(a few MBs\)
 
 ##### GitHub
 
-Datasets and the corresponding Jupyter Notebook can be stored in a folder on GitHub. You can then create an interact link for the entire folder. When students click this link, the entire folder will appear on their JupyterHub account.
+Datasets and the corresponding Jupyter Notebook can be stored in a folder on GitHub. You can then create a nbgitpuller link for the entire folder. When students click this link, the entire folder will appear on their JupyterHub account.
 
 ##### Outside Hosts
 
@@ -20,7 +20,7 @@ Students can directly upload data files to their JupyterHub account. This method
 
 ##### Shared Copy on JupyterHub
 
-Contact us on [Piazza](https://piazza.com/berkeley/other/cs97\) if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.
+Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md)if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.
 
 ##### Outside Hosts
 

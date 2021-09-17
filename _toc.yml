@@ -86,7 +86,7 @@ parts:
     title: Joining Communication Channels
   - file: connector/instructor/checklist
     title: Pre-Semester Checklist
-- caption: Creating a Connector 
+- caption: Creating a Module
   chapters:          
   - file: module/instructor/preplanning
     title: Pre-Planning
