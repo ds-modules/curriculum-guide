@@ -14,7 +14,7 @@ New to Datahub? Interested to learn more about the services offered by the hub? 
 
 **What languages are supported by the hub?**
 
-Datahub primarily supports three languages - **Python, R and, Julia**. However, We can also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, Share your exact requirement over an email to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) or raise a Github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
+Datahub primarily supports three languages - **Python, R and, Julia**. However, We can also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, Share your exact requirement over an email to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) or raise a Github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
 
 **How many hubs across the campus exist? Which courses use them extensively?**
 
@@ -117,20 +117,20 @@ We can’t allow non UC Berkeley users as our authentication system only allows 
 We recommend that you use the following options,
  
 - **For Jupyter Notebooks:** Select File -> Download as -> PDF via HTML(.pdf) to get the PDF version of your notebook. 
-```{figure} ../images/Download via HTML.png
+```{figure} ../images/downloadhtml.PNG
 :width: 500px
 :align: center
 :name: Downloading notebook as a PDF 
 Here is where you can find the option to download the Python notebook as a PDF!
 ```
 - **For R files:** Select File -> Knit Document -> Select the target folder -> Select the Output Format as PDF to save the PDF version of the file
- ```{figure} ../images/Download via Knitting.png
+ ```{figure} ../images/knitting.PNG
 :width: 500px
 :align: center
 :name: Downloading R notebook as a PDF
 Here is where you can find the option to download the R file!
 ```
-```{figure} ../images/Download via Knitting Select PDF.png
+```{figure} ../images/knittingpdf.PNG
 :width: 500px
 :align: center
 :name: Downloading notebook as a PDF

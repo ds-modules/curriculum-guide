@@ -13,8 +13,6 @@
 * Read through this guide
 * Create/update public and private GitHub repos for your course in the [data-8 organization](https://github.com/data-8)
 * Create/update your course website
-* [Sign up for connector instructor Piazza](https://piazza.com/berkeley/other/cs97) 
-* [Post on Piazza](https://piazza.com/berkeley/other/cs97) if you need any Python packages installed on DataHub
 
 
 

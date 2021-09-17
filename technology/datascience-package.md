@@ -10,5 +10,5 @@ Yes! Students who are in Data 8 or have taken Data 8 will use this package exten
 
 ## Documentation
 
-There is detailed [documentation](http://data8.org/datascience/\) available on Tables, Maps, and other components of the `datascience` package.
+There is detailed [documentation](http://data8.org/datascience) available on Tables, Maps, and other components of the `datascience` package.
 
