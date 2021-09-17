@@ -25,6 +25,9 @@ Check this image to know your privileges for the admin option
 
 Here is how the admin dashboard looks like!
 ```
+```{note}
+If you are an undergrad student you'll not get admin access in any non-course-specific datahub
+```
 
 **How do I get access to the admin option?** 
 

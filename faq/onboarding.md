@@ -44,9 +44,24 @@ We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across differen
 
 Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
 
-```{note}
-Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed across hubs. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed across hubs.
+If you want to check the list of packages installed, 
+
+- You can use the below option for Python,
+ 
+```python
+!pip list
 ```
+- You can use the below option for R,
+
+```
+installed.packages()
+```
+- You can check the packages installed in Julia by accessing the [Julia Hub](http://julia.datahub.berkeley.edu/)
+
+```{note}
+Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed in Datahub. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed in Datahub.
+```
+
 
 **What is the process to raise Github issues? How can I track the raised issues?**
 
@@ -93,4 +108,31 @@ We expect that all course members log in using their UC Berkeley email id. We al
 
 **What if I have a student outside UC Berkeley?**
 
-We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, We recommend using [Binder service](https://mybinder.org/) to solve for the immediate needs.
+We can’t allow non UC Berkeley users as our authentication system only allows users with UC Berkeley email id. For such users, there are couple of options we recommend below, 
+
+- Use the [Calnet Sponsored Guests](https://calnetweb.berkeley.edu/calnet-departments/calnet-sponsored-guests) option to get temporary access to bcourses which will allow you to access the Datahub service.
+- Use [Binder service](https://mybinder.org/) to solve for the immediate needs.
+
+**How do my students download their submissions as a PDF?**
+We recommend that you use the following options,
+ 
+- **For Jupyter Notebooks:** Select File -> Download as -> PDF via HTML(.pdf) to get the PDF version of your notebook. 
+```{figure} ../images/Download via HTML.png
+:width: 500px
+:align: center
+:name: Downloading notebook as a PDF 
+Here is where you can find the option to download the Python notebook as a PDF!
+```
+- **For R files:** Select File -> Knit Document -> Select the target folder -> Select the Output Format as PDF to save the PDF version of the file
+ ```{figure} ../images/Download via Knitting.png
+:width: 500px
+:align: center
+:name: Downloading R notebook as a PDF
+Here is where you can find the option to download the R file!
+```
+```{figure} ../images/Download via Knitting Select PDF.png
+:width: 500px
+:align: center
+:name: Downloading notebook as a PDF
+Here is where you can find the option to specify the download format as PDF!
+```

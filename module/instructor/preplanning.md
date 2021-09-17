@@ -9,9 +9,9 @@ When thinking about adding a module to your course, there are four important que
 1. What do you want **students to take away** from the module? This might include a particular coding or analysis skill, like ‘calculating the correlation coefficient’ or ‘interpreting histograms’
 2. How much **instruction time and resources** do you want to devote to the module? Modules that teach more programming skill tend to require more class or lab time.
 3. How much **time for development** is there before the course? Ideally, the majority of module development takes place in the semester before the course starts, with additional lead time for larger modules.
-4. What **data set** do you want to use? Having students collect data themselves and aggregate it into a class data set can be engaging but difficult for a short module or a small course. Conversely, data sets available on the internet may need hours of pre-processing to become usable for analysis. The data sets that are easiest to use right away are usually in a spreadsheet-like format, such as a csv or xlsx file. DSEP staff can assist with finding interesting data for you to use, but note that this will extend the necessary development time.
+4. What **data set** do you want to use? Having students collect data themselves and aggregate it into a class data set can be engaging but difficult for a short module or a small course. Conversely, data sets available on the internet may need hours of pre-processing to become usable for analysis. The data sets that are easiest to use right away are usually in a spreadsheet-like format, such as a csv or xlsx file. CDSS staff can assist with finding interesting data for you to use, but note that this will extend the necessary development time.
 
-The clearer your answers to these questions, the faster your module can get up and running. If you have questions or would like support with the pre-planning stage, feel free to contact DSEP modules staff.
+The clearer your answers to these questions, the faster your module can get up and running. If you have questions or would like support with the pre-planning stage, feel free to contact CDSS modules staff.
 
 ### Ideas For Modules
 

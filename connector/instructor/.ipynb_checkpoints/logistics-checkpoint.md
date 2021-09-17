@@ -4,7 +4,7 @@
 
 #### Classrooms
 
-DSEP has access to three classrooms:
+CDSS has access to three classrooms:
 
 <!-- are these all the classrooms --> <!-- no -->
 
@@ -21,7 +21,7 @@ These classrooms do not have computers, but students who need access to a comput
 
 #### Lecture/Lab
 
-Connector courses are held on Mondays and Tuesdays. Please discuss scheduling a time for your connector with the DSEP Curriculum Coordinator, [Eric Van Dusen](mailto:ericvd@berkeley.edu).
+Connector courses are held on Mondays and Tuesdays. Please discuss scheduling a time for your connector with the CDSS Curriculum Coordinator, [Eric Van Dusen](mailto:ericvd@berkeley.edu).
 
 #### Office Hours
 

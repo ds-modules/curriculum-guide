@@ -18,10 +18,10 @@ Sample Notebooks
 * [Data 8 textbook](https://github.com/data-8/textbook/tree/gh-pages/notebooks\)
 * [Jupyter Notebook documentation](http://ipython.org/notebook.html\)
 
-## Connector and DSEP Information
+## Connector and CDSS Information
 
 * [List of current connectors](http://data8.org/connector/\)
-* [DSEP homepage](http://data.berkeley.edu/education\)
+* [CDSS homepage](http://data.berkeley.edu/education\)
 
 ## Data 8 Information
 

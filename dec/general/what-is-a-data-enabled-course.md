@@ -2,7 +2,7 @@
 
 A Data-Enabled Course \(DEC\) is a semester-long course exploring higher-level data-driven methods in a particular domain. DECs enable students with basic data science experience to expand and apply their skills in their chosen field.
 
-Some DECs are adapted from existing courses to use data science pedagogy throughout. Others are created from the ground up. In either case, a DSEP curriculum development team partners with faculty to create the necessary in-class exercises, homeworks, labs, and other materials.
+Some DECs are adapted from existing courses to use data science pedagogy throughout. Others are created from the ground up. In either case, a CDSS curriculum development team partners with faculty to create the necessary in-class exercises, homeworks, labs, and other materials.
 
 ## Prerequisites
 
