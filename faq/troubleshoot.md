@@ -110,8 +110,8 @@ Kernel deaths are a common cause for your server running out of memory. As soon 
 Please follow this workaround until a fix can be identified and implemented. Workaround involves renaming or removing ~/.rstudio via the terminal. To do so while bypassing the typical rstudio session startup:
 
 1. Go to this [link](https://r.datahub.berkeley.edu/user-redirect/tree)
-2. Click New->Terminal
-3. In the terminal, type: mv .rstudio .rstudio.$(date +%s) and press return
+2. Click New -> Terminal
+3. In the terminal, type: ```mv .rstudio .rstudio.$(date +%s)``` and press return
 4. Try to launch rstudio as you normally would and it should now work.
 
 **What should I do if R Studio times out and kicks me out every 5 minutes or so?**

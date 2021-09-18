@@ -7,7 +7,7 @@ Interested to be our evangelist? See below!
 
 **How do I spread the word about the hub?**
 
-We are always interested in getting case studies of how different teaching teams used their hub and tweaked it according to their needs. So reach out to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) if you are interested in sharing your experience using hub over the past semesters!
+We are always interested in getting case studies of how different teaching teams used their hub and tweaked it according to their needs. So reach out to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) if you are interested in sharing your experience using hub over the past semesters!
 
 **What are the collaterals that I can use to share the information about this initiative?**
 

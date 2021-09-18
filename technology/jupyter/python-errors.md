@@ -1,4 +1,4 @@
-## Code Cell Errors
+## Troubleshooting Code Cell Errors
 
 This category describes errors that occur when running code cells. This list is not exhaustive, but it details some of themost frequent errors that new Notebook users encounter.
 

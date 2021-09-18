@@ -7,7 +7,6 @@ Here are the people in CDSS who are involved with connector courses.
 | Cathryn Carson | Faculty Lead, CDSS |
 | [Eric Van Dusen](mailto:ericvd@berkeley.edu) | Curriculum Coordinator |
 | [Anthony Suen](mailto:anthonysuen@berkeley.edu) | Student Relations Coordinator, manages student teams and connect to other programs |
-| [Robert Sweeney Blanco](mailto:robertsweeneyblanco@berkeley.edu ) | Manages the CA team, teaches the _Teaching Data Science - Connectors_ course for CAs |
 | [Ryan Lovett](mailto:rylo@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Yuvi Panda](mailto:yuvipanda@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Jonathan Felder](mailto:felder@berkeley.edu) | Manages JupyterHub Infrastructure |

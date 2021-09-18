@@ -86,4 +86,4 @@ We generally prefer using our existing hubs for teaching your courses. Our guidi
 
 **As an instructor, Can I request a custom image with different installation requirements?**
 
-It depends on your requirement. Please do send an email to Eric Van Dusen (ericvd@berkeley.edu)/Balaji Alwar (balajialwar@berkeley.edu) with your detailed requirement.
+It depends on your requirement. Please do send an email to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) with your detailed requirement.

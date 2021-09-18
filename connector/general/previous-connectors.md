@@ -2,6 +2,35 @@
 
 The links below point either to a PDF syllabus or to a course website that contains the syllabus.
 
+### Fall 2021
+
+* [COMPSCI 88](https://classes.berkeley.edu/content/2021-fall-compsci-88-001-lec-001) - Computational Structures in Data Science
+* [DATA 88E](https://classes.berkeley.edu/content/2021-fall-data-88e-001-lec-001) - Economic Models
+* [EPS 88](https://classes.berkeley.edu/content/2021-fall-eps-88-001-lec-001) - Python & Earth Science	
+* [PHYSICS 88](https://classes.berkeley.edu/content/2021-fall-physics-88-001-lec-001) - Data Science Applications in Physics
+* [POLSCI 88](https://classes.berkeley.edu/content/2021-fall-polsci-88-001-lec-001) - Scientific Study of Politics
+* [STAT 88](https://classes.berkeley.edu/search/class/88?f%5B0%5D=im_field_term_name%3A2208&f%5B1%5D=im_field_subject_area%3A25&retain-filters=1) - Probability and Mathematical Statistics in Data Science
+* [UGBA 88](https://classes.berkeley.edu/search/class/88?f%5B0%5D=im_field_term_name%3A2208&f%5B1%5D=im_field_subject_area%3A103&retain-filters=1) - Data and Decisions
+
+### Spring 2021
+* [CIVENG C88](https://classes.berkeley.edu/content/2021-spring-civeng-c88-001-lec-001) - Data Science for Smart Cities	
+* [CYPLAN 88](https://classes.berkeley.edu/content/2021-spring-cyplan-c88-001-lec-001) - Data Science for Smart Cities	
+* [COMPSCI 88](https://classes.berkeley.edu/content/2021-spring-compsci-88-001-lec-001) - Computational Structures in Data Science	
+* [DATA 88 SEM 1](https://classes.berkeley.edu/content/2021-spring-data-88-001-sem-001) - Writing Data Stories	
+* [DATA 88 SEM 2](https://classes.berkeley.edu/content/2021-spring-data-88-002-sem-002) - Broken Down by Age and Sex: Data Science and Demography	
+* [DATA 88E](https://classes.berkeley.edu/content/2021-spring-data-88e-001-lec-001) - Economic Models	
+* [PHYSICS 88](https://classes.berkeley.edu/content/2021-spring-physics-88-001-lec-001) - Data Science Applications in Physics	
+* [SOCIOL 88](https://classes.berkeley.edu/content/2021-spring-sociol-88-001-lec-001) - Data Science for Social Impact	
+* [STAT 88](https://classes.berkeley.edu/content/2021-spring-stat-88-001-lec-001) - Probability and Mathematical Statistics in Data Science	
+* [UGBA 88](https://classes.berkeley.edu/content/2021-spring-ugba-88-001-lec-001) - Data and DecisioNS
+
+### FALL 2020
+
+* [EPS 88](https://classes.berkeley.edu/content/2021-fall-eps-88-001-lec-001) - Python & Earth Science
+* [PHYSICS 88](https://classes.berkeley.edu/content/2021-fall-physics-88-001-lec-001) - Data Science Applications in Physics
+* [DATA 88E](https://classes.berkeley.edu/content/2021-fall-data-88e-001-lec-001) - Economic Models
+
+
 ### Fall 2018
 
 * CIVENG 88 - Data Science for Smart Cities
