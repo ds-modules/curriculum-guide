@@ -5,21 +5,11 @@ This is a guide intended to demonstrate how you can make edits to the curriculum
 ## Step-By-Step
 
 1. Begin by cloning the repository locally.
-2. Make changes to files in the `content` folder. Pages and corresponding files can be found in [`data/_toc.yml`](data/_toc.yml). 
-3. Add any new pages to [`data/_toc.yml`](data/_toc.yml).
+2. Make changes to files in the `content` folder. Pages and corresponding files can be found in [`_toc.yml`](_toc.yml). 
+3. Add any new pages to [`_toc.yml`](_toc.yml).
 4. Build the site from your terminal. If you're currently in the curriculum guide directory, run
 
 ```bash
-make book
-make build
+jupyter-book build curriculum-guide
 ```
-
-5. \(Optional\) Run a docker server locally to view the changes before pushing. This can be run using the following terminal command from the curriculum guide directory:
-
-```bash
-make serve
-```
-
-6. Commit the changes and push to Github.
-
-More info on the docker server is on the [Jupyter Book website](https://jupyter.org/jupyter-book/guide/03_build.html#building-your-site-locally-with-containers-docker).
+5. Commit the changes and push to Github.

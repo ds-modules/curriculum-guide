@@ -16,3 +16,6 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# Jupyter Book build assets
+_build/
