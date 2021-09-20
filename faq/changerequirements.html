@@ -1,0 +1,556 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Changing existing requirements &#8212; Curriculum Guide</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Troubleshooting issues in the Hub" href="troubleshoot.html" />
+    <link rel="prev" title="Hub Admin Privileges" href="admin.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Curriculum Guide</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to the UC Berkeley Data Science Curriculum Guide!
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting started about the Campus Jupyterhub
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../technology/pedagogy-and-technology.html">
+   Pedagogy and Technology
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/pedagogy-and-technology/introduction-to-jupyter.html">
+     Introduction to Jupyter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/pedagogy-and-technology/notebook-zero.html">
+     Notebook Zero
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/r-datahub.html">
+     R DataHub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="jupyterhub-intro.html">
+     Datahub Frequently Asked Questions (FAQ)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="onboarding.html">
+     Onboarding new users into the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="admin.html">
+     Exploring admin privileges in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Changing existing requirements in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="troubleshoot.html">
+     Troubleshooting issues in the JupyterHub service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/jupyter/troubleshoot-nbgitpuller.html">
+     Troubleshooting issues in the nbgitpuller service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/jupyter/python-errors.html">
+     Troubleshooting issues in the Python Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="features.html">
+     Requesting new features in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="share.html">
+     Sharing information about the Hub
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../technology/jupyter/large-datasets.html">
+   Working with Large Datasets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../technology/jupyter/python-packages.html">
+   Using Additional Python Packages
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Workflow Basics
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/creating-notebooks.html">
+   Creating Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/pushing-to-github.html">
+   Uploading Files to Github
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/distributing-notebooks.html">
+   Distributing Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/collecting-grading-assignments.html">
+   Collecting and Grading Assignments
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting Started with Modules and Connectors
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../connector/general/what-is-a-connector.html">
+   What is a Connector course?
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../connector/general/previous-connectors.html">
+     Previous Connectors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/general/what-is-a-module.html">
+   What is a Data Science Module?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../dec/general/what-is-a-data-enabled-course.html">
+   What is a Data-Enabled Course?
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Connector
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/logistics.html">
+   Logistics, Rooms, and Technology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/syllabus-design.html">
+   Designing Your Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/student-help.html">
+   Requesting Student Help
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/communication-channels.html">
+   Joining Communication Channels
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/checklist.html">
+   Pre-Semester Checklist
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Module
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/preplanning.html">
+   Pre-Planning
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/develop.html">
+   Developing the Module
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/deploy-help.html">
+   Requesting Deployment Help
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Additional Resources for Students
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../technology/resources.html">
+   Resources for Students
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Reference
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/people.html">
+   People
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/terms-and-abbreviations.html">
+   Terms and Abbreviations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/faq/changerequirements.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="changing-existing-requirements">
+<h1>Changing existing requirements<a class="headerlink" href="#changing-existing-requirements" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Interested to learn more about how to change the default requirements for your hub? If yes, read below!</p>
+</div>
+<p><strong>What should I do if I want to install more packages?</strong></p>
+<ul class="simple">
+<li><p>Use your datahub instance to install the required version of the package. Self installation of packages in your instance of hub is a temporary measure to identify dependencies. If you require a permanent solution then you need to <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">request</a> us to install the required package(s) in your hub.</p></li>
+<li><p>If you want to install packages for Python in your instance, then use the following syntax,</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">&lt;</span><span class="n">package</span><span class="o">-</span><span class="n">name</span><span class="o">&gt;</span>
+<span class="n">Eg</span><span class="p">:</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">numpy</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>If you want to install packages for R in your instance, then use the following syntax,</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&quot;&lt;package-name&gt;&quot;</span><span class="p">)</span>
+<span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&quot;ggplot2&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Check if there are specific dependencies for the installed package. Highlight the package name along with their version and dependencies as part of your <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">request</a>.</p></li>
+<li><p>Raise a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>!</p></li>
+</ul>
+<p><strong>What should I do if I want to increase the RAM size/CPU power in my hub?</strong></p>
+<p>We recommend instructors to adapt the materials to the 1GB requirement of the Datahub as it is convenient for most usecases. However, If you have a compelling reason to request for more RAM/CPU, use this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=higher-resources.md&amp;title=Request+more+RAM+for+class+X">template</a>. Provide rationale for this upgrade as it has cost implications for the service.</p>
+<p><strong>As an instructor, What should I do if I want to conduct a workshop? Are there any existing hubs that I could repurpose?</strong></p>
+<p>Yes. We certainly do support using our hubs for workshops. For example, <a class="reference external" href="https://dlab.berkeley.edu/">D-Lab</a> uses Datahub to run its R workshops for students regularly.</p>
+<p>Please send an email to Eric Van Dusen (<a class="reference external" href="mailto:ericvd&#37;&#52;&#48;berkeley&#46;edu">ericvd<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)/Balaji Alwar (<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a>) with the specific request you have in mind.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We would like to know</p>
+<ul class="simple">
+<li><p>Your exact need</p></li>
+<li><p>Memory/CPU requirement</p></li>
+<li><p>Total number of participants</p></li>
+<li><p>Dataset size, and</p></li>
+<li><p>Language required</p></li>
+</ul>
+</div>
+<p><strong>As a researcher, What is the process to request a hub focused on research?</strong></p>
+<p>Our primary motive for the hubs is to support the teaching practices of our instructors. However, if you are interested in doing core research, we recommend contacting the team at <a class="reference external" href="https://research-it.berkeley.edu/">Research IT</a>, who may support you with your specific use-case.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You might benefit from checking out their High Performance Computing Cluster <a class="reference external" href="https://research-it.berkeley.edu/services-projects/high-performance-computing-savio">Savio</a> and <a class="reference external" href="https://research-it.berkeley.edu/services-projects/aeod-virtual-machines">On Demand Virtual Machines</a>.</p>
+</div>
+<p><strong>I am going to run a large dataset for my class. What are the steps I can take to ensure that the hub has the required compute power?</strong></p>
+<p>As a rule of thumb, we recommend the following steps. If these steps are not helpful, reach out to us separately,</p>
+<ul class="simple">
+<li><p>Github has a file upload limit of 100 MB. Considering this, We recommend that you keep the dataset size below 100 MB. You could either create a subset of the dataset or find another dataset that fits the size limits for overcoming this constraint.</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Most of the issues with the dataset arise due to the programming practices used while operating the dataset, such as a lot of machine time spent reading/writing to the disk or single-threaded executions that can max the allocated CPU.</p>
+</div>
+<ul class="simple">
+<li><p>If resizing the dataset is not feasible, Profile your system to understand the CPU/Memory consumption while operating on the dataset. Use this data to take modify your programming practices so that you are within the allocated CPU/RAM size. If you are using python, this <a class="reference external" href="https://docs.python.org/3/library/debug.html">resource</a> will be helpful to understand your memory/CPU conusmption. If you are using R, this <a class="reference external" href="https://support.rstudio.com/hc/en-us/articles/218221837-Profiling-R-code-with-the-RStudio-IDE">resource</a> may be helpful with profiling.</p></li>
+</ul>
+<p><strong>What should I do If I want to switch from an existing hub to an R hub?</strong></p>
+<p>You can directly use the <a class="reference external" href="http://r.datahub.berkeley.edu/">R Datahub</a> dedicated to serving courses using R. If you have other specific requirements, please do reach out to us.</p>
+<p><strong>When can I create a new hub?</strong></p>
+<p>We generally prefer using our existing hubs for teaching your courses. Our guiding principles for allowing the creation of new hub are,</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>When the course has a large user base</p></li>
+<li><p>When there is a need for undergrad students to have admin access</p></li>
+<li><p>When there is a specific technical/architectural reasons</p></li>
+<li><p>When there is a strong institutional/strategic reason</p></li>
+</ul>
+</div>
+<p><strong>As an instructor, Can I request a custom image with different installation requirements?</strong></p>
+<p>It depends on your requirement. Please do send an email to <a class="reference external" href="mailto:ericvd&#37;&#52;&#48;berkeley&#46;edu">Eric Van Dusen</a>/<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">Balaji Alwar</a> with your detailed requirement.</p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./faq"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="admin.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Hub Admin Privileges</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="troubleshoot.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Troubleshooting issues in the Hub</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Christopher pyles and Balaji Alwar<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

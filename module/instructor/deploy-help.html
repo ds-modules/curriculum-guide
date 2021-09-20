@@ -1,0 +1,532 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Requesting Deployment Help &#8212; Curriculum Guide</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Resources For Students" href="../../technology/resources.html" />
+    <link rel="prev" title="Development" href="develop.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Curriculum Guide</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   Welcome to the UC Berkeley Data Science Curriculum Guide!
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting started about the Campus Jupyterhub
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../technology/pedagogy-and-technology.html">
+   Pedagogy and Technology
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../technology/pedagogy-and-technology/introduction-to-jupyter.html">
+     Introduction to Jupyter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../technology/pedagogy-and-technology/notebook-zero.html">
+     Notebook Zero
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../technology/r-datahub.html">
+     R DataHub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/jupyterhub-intro.html">
+     Datahub Frequently Asked Questions (FAQ)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/onboarding.html">
+     Onboarding new users into the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/admin.html">
+     Exploring admin privileges in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/changerequirements.html">
+     Changing existing requirements in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/troubleshoot.html">
+     Troubleshooting issues in the JupyterHub service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../technology/jupyter/troubleshoot-nbgitpuller.html">
+     Troubleshooting issues in the nbgitpuller service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../technology/jupyter/python-errors.html">
+     Troubleshooting issues in the Python Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/features.html">
+     Requesting new features in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/share.html">
+     Sharing information about the Hub
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../technology/jupyter/large-datasets.html">
+   Working with Large Datasets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../technology/jupyter/python-packages.html">
+   Using Additional Python Packages
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Workflow Basics
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../workflow/creating-notebooks.html">
+   Creating Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../workflow/pushing-to-github.html">
+   Uploading Files to Github
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../workflow/distributing-notebooks.html">
+   Distributing Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../workflow/collecting-grading-assignments.html">
+   Collecting and Grading Assignments
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting Started with Modules and Connectors
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../connector/general/what-is-a-connector.html">
+   What is a Connector course?
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../connector/general/previous-connectors.html">
+     Previous Connectors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/what-is-a-module.html">
+   What is a Data Science Module?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../dec/general/what-is-a-data-enabled-course.html">
+   What is a Data-Enabled Course?
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Connector
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/logistics.html">
+   Logistics, Rooms, and Technology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/syllabus-design.html">
+   Designing Your Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/student-help.html">
+   Requesting Student Help
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/communication-channels.html">
+   Joining Communication Channels
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/checklist.html">
+   Pre-Semester Checklist
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Module
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="preplanning.html">
+   Pre-Planning
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="develop.html">
+   Developing the Module
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Requesting Deployment Help
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Additional Resources for Students
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../technology/resources.html">
+   Resources for Students
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Reference
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../general/people.html">
+   People
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../general/terms-and-abbreviations.html">
+   Terms and Abbreviations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../general/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/module/instructor/deploy-help.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#office-hours-peer-consulting">
+   Office Hours (Peer Consulting)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gsi-training">
+   GSI Training
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lab-assistants">
+   Lab Assistants
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#student-presenters">
+   Student Presenters
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="requesting-deployment-help">
+<h1>Requesting Deployment Help<a class="headerlink" href="#requesting-deployment-help" title="Permalink to this headline">¶</a></h1>
+<p>Not every instructor has the coding and math experience to feel confident facilitating a module on their own. As an instructor, you can get assistance with one or more of the following roles.</p>
+<p>For all services other than Peer Consulting office hours, CDSS provides support on a first-come, first-served basis. To utilize GSI training, student presenters, or lab assistants, please request help from <a class="reference external" href="mailto:ericvd&#37;&#52;&#48;berkeley&#46;edu">Eric Van Dusen</a> ASAP.</p>
+<div class="section" id="office-hours-peer-consulting">
+<h2>Office Hours (Peer Consulting)<a class="headerlink" href="#office-hours-peer-consulting" title="Permalink to this headline">¶</a></h2>
+<p>The Data Peer Consultants offer drop-in help with Jupyter notebooks, Python, and many other data science topics for undergraduates in any UC Berkeley course. Peer consultants can be a helpful complement to course staff- course staff can address domain-specific questions, while Peer Consultants can help with technical data science questions.</p>
+<p>Consultations are held in the 3rd floor of Moffitt library. The full Peer Consulting schedule can be found at <a class="reference external" href="https://data.berkeley.edu/education/data-peer-consulting">https://data.berkeley.edu/education/data-peer-consulting</a>. Peer Consulting does not need to be requested ahead of time; however, if you have a large-scale deployment, or a deployment requiring special expertise (e.g. geographic information systems), please <a class="reference external" href="mailto:ds-peer-consulting&#37;&#52;&#48;berkeley&#46;edu">contact the Peer Consultants</a> ahead of time.</p>
+</div>
+<div class="section" id="gsi-training">
+<h2>GSI Training<a class="headerlink" href="#gsi-training" title="Permalink to this headline">¶</a></h2>
+<p>CDSS offers an introductory Jupyter workshop at the beginning of the semester for GSIs in classes that are deploying modules. The workshop covers the motivation for a data science module, an overview of the software tools used in a module, and practice with using Jupyter notebooks. To add students to the invitation list for the workshop, please contact <a class="reference external" href="mailto:ericvd&#37;&#52;&#48;berkeley&#46;edu">Eric Van Dusen</a> before the start of the semester.</p>
+<p>CDSS can also meet with course GSIs to walk through their particular module, answer questions, and give resources to troubleshoot common issues.</p>
+</div>
+<div class="section" id="lab-assistants">
+<h2>Lab Assistants<a class="headerlink" href="#lab-assistants" title="Permalink to this headline">¶</a></h2>
+<p>During a modules presentation or lab, students may have technical issues or questions that aren’t appropriate for the full class. To address these issues without interrupting the presentation, CDSS lab assistants can attend the presentation to support students one-on-one. For an interactive module presentation, the amount of help needed will be different depending on the experience level of your students, the size of the class, and the amount of coding in the module.</p>
+</div>
+<div class="section" id="student-presenters">
+<h2>Student Presenters<a class="headerlink" href="#student-presenters" title="Permalink to this headline">¶</a></h2>
+<p>For modules that are presented in front of a class as a lecture, demonstration, or discussion, CDSS student team members (often those from the team that developed your module) can act as facilitators.</p>
+<p>While the student team members are proficient with coding and statistics, they may not have the domain expertise needed to explain finer details of the data or how it relates to other course content. In the past, many modules have benefitted from having a course instructor, GSI, or TA in the room for input on conceptual questions.</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./module/instructor"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="develop.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Development</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../../technology/resources.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Resources For Students</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Christopher pyles and Balaji Alwar<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

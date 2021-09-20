@@ -1,0 +1,558 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Packages &#8212; Curriculum Guide</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Creating Assignments" href="../../workflow/creating-notebooks.html" />
+    <link rel="prev" title="Storing Datasets" href="large-datasets.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Curriculum Guide</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../intro.html">
+   Welcome to the UC Berkeley Data Science Curriculum Guide!
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting started about the Campus Jupyterhub
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../pedagogy-and-technology.html">
+   Pedagogy and Technology
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../pedagogy-and-technology/introduction-to-jupyter.html">
+     Introduction to Jupyter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../pedagogy-and-technology/notebook-zero.html">
+     Notebook Zero
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../r-datahub.html">
+     R DataHub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/jupyterhub-intro.html">
+     Datahub Frequently Asked Questions (FAQ)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/onboarding.html">
+     Onboarding new users into the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/admin.html">
+     Exploring admin privileges in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/changerequirements.html">
+     Changing existing requirements in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/troubleshoot.html">
+     Troubleshooting issues in the JupyterHub service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="troubleshoot-nbgitpuller.html">
+     Troubleshooting issues in the nbgitpuller service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="python-errors.html">
+     Troubleshooting issues in the Python Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/features.html">
+     Requesting new features in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../faq/share.html">
+     Sharing information about the Hub
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="large-datasets.html">
+   Working with Large Datasets
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Using Additional Python Packages
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Workflow Basics
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../workflow/creating-notebooks.html">
+   Creating Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../workflow/pushing-to-github.html">
+   Uploading Files to Github
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../workflow/distributing-notebooks.html">
+   Distributing Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../workflow/collecting-grading-assignments.html">
+   Collecting and Grading Assignments
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting Started with Modules and Connectors
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../connector/general/what-is-a-connector.html">
+   What is a Connector course?
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../../connector/general/previous-connectors.html">
+     Previous Connectors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../module/general/what-is-a-module.html">
+   What is a Data Science Module?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../dec/general/what-is-a-data-enabled-course.html">
+   What is a Data-Enabled Course?
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Connector
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/logistics.html">
+   Logistics, Rooms, and Technology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/syllabus-design.html">
+   Designing Your Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/student-help.html">
+   Requesting Student Help
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/communication-channels.html">
+   Joining Communication Channels
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../connector/instructor/checklist.html">
+   Pre-Semester Checklist
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Module
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../module/instructor/preplanning.html">
+   Pre-Planning
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../module/instructor/develop.html">
+   Developing the Module
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../module/instructor/deploy-help.html">
+   Requesting Deployment Help
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Additional Resources for Students
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../resources.html">
+   Resources for Students
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Reference
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../general/people.html">
+   People
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../general/terms-and-abbreviations.html">
+   Terms and Abbreviations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../general/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/technology/jupyter/python-packages.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pre-installed-packages">
+   Pre-installed Packages
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#installing-new-packages">
+   Installing New Packages
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#temporary-installation">
+     Temporary Installation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#long-term-installation">
+     <strong>
+      Long-term installation
+     </strong>
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#on-reproducibility">
+       On reproducibility
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="python-packages">
+<h1>Python Packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="pre-installed-packages">
+<h2>Pre-installed Packages<a class="headerlink" href="#pre-installed-packages" title="Permalink to this headline">¶</a></h2>
+<p>Many Python packages have been pre-installed on JupyterHub and are available by default. <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/prod/user-image/requirements.txt">This file on GitHub</a> contains a list of all the packages (and corresponding versions) that are available by default. To use a pre-installed package such as <code class="docutils literal notranslate"><span class="pre">numpy</span></code>, you can simply type the line below into a code cell.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="installing-new-packages">
+<h2>Installing New Packages<a class="headerlink" href="#installing-new-packages" title="Permalink to this headline">¶</a></h2>
+<p>You can also install other packages that are not on this list. There are two methods for installation. If you will be using a package regularly in your course, we recommend using the long-term installation method.</p>
+<div class="section" id="temporary-installation">
+<h3>Temporary Installation<a class="headerlink" href="#temporary-installation" title="Permalink to this headline">¶</a></h3>
+<p>Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install <code class="docutils literal notranslate"><span class="pre">numpy</span></code> into a user’s personal account. <code class="docutils literal notranslate"><span class="pre">numpy</span></code> will then be available for use while the server is running. This cell must be run every time the user’s server is restarted. Note, this is not a system-wide installation. Running the cell below will only install numpy temporarily into a user’s personal account.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!pip install numpy
+import numpy
+</pre></div>
+</div>
+</div>
+<div class="section" id="long-term-installation">
+<h3><strong>Long-term installation</strong><a class="headerlink" href="#long-term-installation" title="Permalink to this headline">¶</a></h3>
+<p><em>This is the recommended method for packages that will be used frequently.</em></p>
+<p>Our JupyterHub is deployed from the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub">berkeley-dsep-infra/datahub</a> GitHub repository. The <code class="docutils literal notranslate"><span class="pre">staging</span></code> branch reflects the state of the <a class="reference external" href="https://staging.datahub.berkeley.edu">staging hub</a> while the <code class="docutils literal notranslate"><span class="pre">prod</span></code> branch reflects the state of the <a class="reference external" href="https://datahub.berkeley.edu">production hub</a>.</p>
+<p>To request additional libraries in the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/tree/staging/deployments/datahub/image">user environment,</a>, <a class="reference external" href="https://help.github.com/en/articles/creating-an-issue">create an issue</a> on the GitHub repo for DataHub (linked above); make sure to use the “DataHub Package Addition / Change Request” template.</p>
+<!-- 
+
+Once this is complete and if there are no problems, you can request that someone review the PR before merging, or you can merge yourself if you are confident. This merge will trigger a continuous integration process on CircleCI that can be [observed live](https://circleci.com/gh/berkeley-dsep-infra/datahub/). This process upgrades the staging hub. Test your changes there when it is complete because we do not want unverified changes to linger in staging. For example if you updated a library, make sure that a new user server instance has the new version.
+
+If staging fails, _never_ update production. Revert your change or call in help if necessary. If your change is successful, you will need to merge the change from staging branch to production. Create another PR, this time with the `base` set to prod and the `head` set to staging. This PR will trigger a similar continuous integration process. Test your change on production for good measure.
+
+-->
+<div class="section" id="on-reproducibility">
+<h4>On reproducibility<a class="headerlink" href="#on-reproducibility" title="Permalink to this headline">¶</a></h4>
+<p>Make sure to specify a version for any library you install. If you do not, it is likely that the deployment process will break at some point during the semester. Omitting a version will not enable the user environment to always have the latest version – it will only have the latest version that existed on the date that CI process runs. If you want to use an unreleased version of a library, specify the corresponding git SHA of that library’s repository.</p>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./technology/jupyter"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="large-datasets.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Storing Datasets</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../../workflow/creating-notebooks.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Creating Assignments</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Christopher pyles and Balaji Alwar<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

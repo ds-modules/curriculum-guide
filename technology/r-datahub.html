@@ -1,0 +1,729 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to Datahub for R &#8212; Curriculum Guide</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Datahub Frequently Asked Questions" href="../faq/jupyterhub-intro.html" />
+    <link rel="prev" title="Notebook Zero" href="pedagogy-and-technology/notebook-zero.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Curriculum Guide</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to the UC Berkeley Data Science Curriculum Guide!
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting started about the Campus Jupyterhub
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="pedagogy-and-technology.html">
+   Pedagogy and Technology
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="pedagogy-and-technology/introduction-to-jupyter.html">
+     Introduction to Jupyter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pedagogy-and-technology/notebook-zero.html">
+     Notebook Zero
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     R DataHub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../faq/jupyterhub-intro.html">
+     Datahub Frequently Asked Questions (FAQ)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../faq/onboarding.html">
+     Onboarding new users into the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../faq/admin.html">
+     Exploring admin privileges in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../faq/changerequirements.html">
+     Changing existing requirements in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../faq/troubleshoot.html">
+     Troubleshooting issues in the JupyterHub service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="jupyter/troubleshoot-nbgitpuller.html">
+     Troubleshooting issues in the nbgitpuller service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="jupyter/python-errors.html">
+     Troubleshooting issues in the Python Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../faq/features.html">
+     Requesting new features in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../faq/share.html">
+     Sharing information about the Hub
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="jupyter/large-datasets.html">
+   Working with Large Datasets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="jupyter/python-packages.html">
+   Using Additional Python Packages
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Workflow Basics
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/creating-notebooks.html">
+   Creating Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/pushing-to-github.html">
+   Uploading Files to Github
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/distributing-notebooks.html">
+   Distributing Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/collecting-grading-assignments.html">
+   Collecting and Grading Assignments
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting Started with Modules and Connectors
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../connector/general/what-is-a-connector.html">
+   What is a Connector course?
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../connector/general/previous-connectors.html">
+     Previous Connectors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/general/what-is-a-module.html">
+   What is a Data Science Module?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../dec/general/what-is-a-data-enabled-course.html">
+   What is a Data-Enabled Course?
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Connector
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/logistics.html">
+   Logistics, Rooms, and Technology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/syllabus-design.html">
+   Designing Your Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/student-help.html">
+   Requesting Student Help
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/communication-channels.html">
+   Joining Communication Channels
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/checklist.html">
+   Pre-Semester Checklist
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Module
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/preplanning.html">
+   Pre-Planning
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/develop.html">
+   Developing the Module
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/deploy-help.html">
+   Requesting Deployment Help
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Additional Resources for Students
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="resources.html">
+   Resources for Students
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Reference
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/people.html">
+   People
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/terms-and-abbreviations.html">
+   Terms and Abbreviations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/technology/r-datahub.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/balajialg/curriculum-guide/main?urlpath=tree/technology/r-datahub.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-datahub">
+   What is Datahub?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#workflow">
+   Workflow
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#set-up">
+   Set-Up
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#assignment-creation">
+     Assignment Creation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#publishing-assignments">
+     Publishing Assignments
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#distributing-assignments">
+     Distributing Assignments
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#viewing-student-progress">
+     Viewing Student Progress
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#appendix-a-introduction-to-github">
+   Appendix A: Introduction to Github
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creating-a-repository">
+     Creating a Repository
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#cloning-a-repository">
+     Cloning a Repository
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#adding-and-committing-changes">
+     Adding and Committing Changes
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pushing-changes">
+     Pushing Changes
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#appendix-b-introduction-to-shell-scripts">
+   Appendix B: Introduction to Shell Scripts
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="introduction-to-datahub-for-r">
+<h1>Introduction to Datahub for R<a class="headerlink" href="#introduction-to-datahub-for-r" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-is-datahub">
+<h2>What is Datahub?<a class="headerlink" href="#what-is-datahub" title="Permalink to this headline">¶</a></h2>
+<p>Datahub (<a class="reference external" href="https://datahub.berkeley.edu">datahub.berkeley.edu</a>) is a cloud-based computing platform maintained by UC Berkeley. It runs on JupyterHub to create, store, distribute, and manage scripts, datasets, and related files. Anyone with a UC Berkeley email is able to access Datahub - there are no additional set-up steps for affiliated students and faculty.</p>
+<p>Courses teaching R are encouraged to use <a class="reference external" href="https://r.datahub.berkeley.edu">r.datahub.berkeley.edu</a> for instructional infrastructure. Materials can easily be distributed to students by using an nbgitpuller link (described below). Instructors will set up a web link that automatically pulls files into student accounts from a public Github repo.</p>
+<p>Datahub also supports connections to grading platforms such as <a class="reference external" href="https://otter-grader.readthedocs.io/">Otter Grader</a> and <a class="reference external" href="https://gradescope.com">gradescope.com</a>. With proper integration, students will be able to automatically submit assignments to these platforms for instructors to view and grade in real time.</p>
+</div>
+<div class="section" id="workflow">
+<h2>Workflow<a class="headerlink" href="#workflow" title="Permalink to this headline">¶</a></h2>
+<p>In designing course materials for use on datahub, there are four steps in the typical workflow</p>
+<ol class="simple">
+<li><p>Create assignments using R or RMD files on your local desktop.</p></li>
+<li><p>Publishing assignments to a public Github repo when they are ready to be released.</p></li>
+<li><p>Create an interact link to published assignment</p></li>
+<li><p>Distribute the interact link for students to use to access course materials</p></li>
+<li><p>Determine appropriate submission instructions for students.</p></li>
+</ol>
+</div>
+<div class="section" id="set-up">
+<h2>Set-Up<a class="headerlink" href="#set-up" title="Permalink to this headline">¶</a></h2>
+<ol>
+<li>On Github, create two new repositories
+<ul>
+<li>One private repository should contain all course materials. This will include any assignments, datasets, images, solutions, set-up materials, and .RProj files that are relevant to your course. (ex. `phw250fg-dev`)</li>
+<li>One public repository should contain all materials that have been published to students for a specific term. This will be continuously updated through the course of the semester. Only put files here if you want students to have access to them (ex. don’t include solutions) (ex. `phw250fg2019`)</li>
+</ul>
+</li>
+<li>On your computer, create a new folder to hold all course materials (both published and unpublished)
+<ul>
+<li>Clone both of the repos from above into this folder
+<ul>
+<li>See Appendix A for a quick guide to git, including repo cloning</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Your file set-up should now look something like this:
+<pre>	PHW250FG
+       ↳ phw250fg-dev (folder for all materials)
+       ↳ phw250fg2019 (folder for materials published to students)
+</pre>
+</li>
+</ol>
+<div class="section" id="assignment-creation">
+<h3>Assignment Creation<a class="headerlink" href="#assignment-creation" title="Permalink to this headline">¶</a></h3>
+<p>All assignment creation should take place in the folder designated for the development of course material (ex. <code class="docutils literal notranslate"><span class="pre">phw250fg-dev</span></code>). To ensure that working directories are properly set, create an <code class="docutils literal notranslate"><span class="pre">.RProj</span></code> file within the folder.</p>
+<p>We recommend that you use RStudio to create <code class="docutils literal notranslate"><span class="pre">.R</span></code> or <code class="docutils literal notranslate"><span class="pre">.Rmd</span></code> file templates. If needed, add the appropriate data files to the folder as well. When loading data, set paths relative to the base level of the folder (where the <code class="docutils literal notranslate"><span class="pre">.RProj</span></code> file was created). The here package is a good tool for making sure your file paths are correct.</p>
+<p>For PHW250FG, the development folder structure is as follows:</p>
+<pre>PHW250FG
+   ↳ phw250fg-dev.RProj (project file used to set correct working directories)
+   ↳ data (contains all data that is used throughout the course)
+   ↳ setup
+    ↳ autograder-setup (contains autograder files for all assignments)
+        ↳ hw0-autograder (contains autograder files for homework 0)
+        ↳ hw1-autograder (contains autograder files for homework 1)
+        ↳ ...
+   ↳ homework (contains blank student copies for assignments)
+    ↳ hw0 (contains blank student copy of homework 0)
+    ↳ hw1 (contains blank student copy of homework 1)
+    ↳ …
+   ↳ solutions (contains copies for assignments with solutions)
+    ↳ hw0-solutions (contains solutions for homework 0)
+    ↳ hw1-solutions(contains solutions for homework 1)
+    ↳ …
+</pre>
+</div>
+<div class="section" id="publishing-assignments">
+<h3>Publishing Assignments<a class="headerlink" href="#publishing-assignments" title="Permalink to this headline">¶</a></h3>
+<p>To publish assignments, relevant files must be copied from the development repository to the student materials repository. This can be done manually through a file explorer by copying files from one folder to the other, or automatically through a shell script (see Appendix B). Once the files have been copied to the student assignment repository, make sure to commit and push your changes (see Appendix A).</p>
+</div>
+<div class="section" id="distributing-assignments">
+<h3>Distributing Assignments<a class="headerlink" href="#distributing-assignments" title="Permalink to this headline">¶</a></h3>
+<p>To distribute materials to students, you must create an interact link. This can be done through JupyterHub’s interact link generator.</p>
+<p>Fill out the fields as follows:</p>
+<ul class="simple">
+<li><p>JupyterHub URL - <a class="reference external" href="https://r.datahub.berkeley.edu">ttps://r.datahub.berkeley.edu</a></p></li>
+<li><p>Github Repository URL - URL of your public student materials repository, e.g. <a class="reference external" href="https://github.com/UCB-Epi-R/phw250fg2019">https://github.com/UCB-Epi-R/phw250fg2019</a></p></li>
+<li><p>Branch - master</p></li>
+<li><p>File to open - leave empty; functionality to automatically load a particular file for students is not currently available for r.datahub (as of August 2019)</p></li>
+<li><p>Application to Open - RStudio</p></li>
+</ul>
+<p>At this point, your custom interact link appears at the top of the page. Copy this and link send to students. When this link is clicked, the materials in the public student repository will copied to their datahub accounts.</p>
+</div>
+<div class="section" id="viewing-student-progress">
+<h3>Viewing Student Progress<a class="headerlink" href="#viewing-student-progress" title="Permalink to this headline">¶</a></h3>
+<p>Datahub allows instructors to access the datahub accounts of students and view files in their working environment. To do this, instructors must be added as admins on r.datahub This can be done by opening up a Github issue with the DataHub infrastructure team here.</p>
+<p>To view an individual student’s work:</p>
+<ul class="simple">
+<li><p>View the admin control panel at <a class="reference external" href="https://r.datahub.berkeley.edu/hub/admin">https://r.datahub.berkeley.edu/hub/admin</a></p></li>
+<li><p>Find the student’s CalNet username</p></li>
+<li><p>If necessary, click on “Start Server”</p></li>
+<li><p>Click on “Access Server”</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="appendix-a-introduction-to-github">
+<h2>Appendix A: Introduction to Github<a class="headerlink" href="#appendix-a-introduction-to-github" title="Permalink to this headline">¶</a></h2>
+<p>Github (<a class="reference external" href="https://github.com/">https://github.com/</a>) is an online platform that allows you to share and collaborate on code. It’s a great tool to use if you have multiple people developing assignments or need a secure place to store course material from semester to semester.</p>
+<div class="section" id="creating-a-repository">
+<h3>Creating a Repository<a class="headerlink" href="#creating-a-repository" title="Permalink to this headline">¶</a></h3>
+<p>After signing-in/creating an account, navigate to <a class="reference external" href="https://github.com/new">https://github.com/new</a>. Fill out the repository name and description. Select public/private depending on the type of repo you’re making (for course materials, select public for student-facing materials and private for instructor-facing materials). Select “Initialize this repository with a README”. After filling out this page, you’ll be taken to the site that your repository is hosted on.</p>
+</div>
+<div class="section" id="cloning-a-repository">
+<h3>Cloning a Repository<a class="headerlink" href="#cloning-a-repository" title="Permalink to this headline">¶</a></h3>
+<p>To work on the content of the repo on your computer, you must clone the repository by following these instructions:</p>
+<ol class="simple">
+<li><p>Go to the github page for your repo. Click the green button labeled “Clone or download”. Copy the url that pops up</p></li>
+<li><p>On your desktop, navigate to the folder where you want the repo to be copied to</p></li>
+<li><p>Open a terminal within this folder</p></li>
+<li><p>Type in <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">GITHUB_URL</span></code> replacing <code class="docutils literal notranslate"><span class="pre">GITHUB_URL</span></code> with the url that you copied in step 1.</p></li>
+<li><p>At this point, your repo has been cloned to your local desktop. You can add/edit/delete files in the repo folder as you would any other folder.</p></li>
+</ol>
+</div>
+<div class="section" id="adding-and-committing-changes">
+<h3>Adding and Committing Changes<a class="headerlink" href="#adding-and-committing-changes" title="Permalink to this headline">¶</a></h3>
+<p>After making edits to the contents of your local copy of the repo, you must commit changes before they can be published to the repo stored online. Follow these instructions to add and commit your changes:</p>
+<ol class="simple">
+<li><p>On your desktop, navigate to the folder containing your repo.</p></li>
+<li><p>Open a terminal within the repo folder</p></li>
+<li><p>Type in <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code>, which will show you all the changes you have made since you last pulled or cloned the repo. Make note of which files you want to publish publicly or for other collaborators to see.</p></li>
+<li><p>For each file that you want to publish, type in <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">FILE_NAME</span></code> replacing <code class="docutils literal notranslate"><span class="pre">FILE_NAME</span></code> with the name of the relevant file.</p></li>
+<li><p>Once you have added all of the files you needed,  type in <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">“MESSAGE”</span></code> replacing <code class="docutils literal notranslate"><span class="pre">MESSAGE</span></code> with a description of the changes that were made</p></li>
+</ol>
+</div>
+<div class="section" id="pushing-changes">
+<h3>Pushing Changes<a class="headerlink" href="#pushing-changes" title="Permalink to this headline">¶</a></h3>
+<p>After you have committed your changes, you must push them to GitHub before collaborators and students can view the updated files. To push, type <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span></code> in the terminal.</p>
+</div>
+</div>
+<div class="section" id="appendix-b-introduction-to-shell-scripts">
+<h2>Appendix B: Introduction to Shell Scripts<a class="headerlink" href="#appendix-b-introduction-to-shell-scripts" title="Permalink to this headline">¶</a></h2>
+<p>Shell scripts are set of Unix commands that are written to a file and run sequentially when the file is executed. It is used to automate repetitive tasks and keep track of commands that must be run for a particular task.</p>
+<p>To create a shell script:</p>
+<ol class="simple">
+<li><p>Open a text editor, save the file as a <code class="docutils literal notranslate"><span class="pre">FILENAME.sh</span></code> (ex: <a class="reference external" href="http://publish.sh">publish.sh</a>)</p></li>
+<li><p>Type in <code class="docutils literal notranslate"><span class="pre">#!/bin/bash</span></code> at the head of the document. This indicates the the contents below are part of a bash script.</p></li>
+<li><p>For each item or folder that you want copied, add a line with the following format. Replace <code class="docutils literal notranslate"><span class="pre">SOURCE_FILEPATH</span></code> with the relative file path to the file(s) you want to copy and <code class="docutils literal notranslate"><span class="pre">DEST_FILEPATH</span></code> with the relative path to the folder where you want the file(s) to be copied</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cp- -r <span class="o">[</span>SOURCE_FILEPATH<span class="o">]</span> <span class="o">[</span>DEST_FILEPATH<span class="o">]</span>
+</pre></div>
+</div>
+<p>For PHW250FG, the shell script is saved as <a class="reference external" href="http://publish.sh">publish.sh</a> and is located at the root level of the development repository. The contents are as follows:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+
+<span class="c1">#Copy all data</span>
+cp -r data ../phw250fg2019
+
+<span class="c1">#Update with new assignment names</span>
+cp -r setup/autograder-setup/hw1_r_quiz/ ../phw250fg2019/setup/autograder-setup/
+cp -r homework/hw1_r_quiz/ ../phw250fg2019/homework/
+</pre></div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "r"
+        },
+        kernelOptions: {
+            kernelName: "ir",
+            path: "./technology"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'ir'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="pedagogy-and-technology/notebook-zero.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Notebook Zero</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../faq/jupyterhub-intro.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Datahub Frequently Asked Questions</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Christopher pyles and Balaji Alwar<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

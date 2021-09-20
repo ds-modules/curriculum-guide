@@ -1,0 +1,622 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Troubleshooting issues in the Hub &#8212; Curriculum Guide</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Troubleshooting nbgitpuller" href="../technology/jupyter/troubleshoot-nbgitpuller.html" />
+    <link rel="prev" title="Changing existing requirements" href="changerequirements.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Curriculum Guide</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to the UC Berkeley Data Science Curriculum Guide!
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting started about the Campus Jupyterhub
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../technology/pedagogy-and-technology.html">
+   Pedagogy and Technology
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/pedagogy-and-technology/introduction-to-jupyter.html">
+     Introduction to Jupyter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/pedagogy-and-technology/notebook-zero.html">
+     Notebook Zero
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/r-datahub.html">
+     R DataHub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="jupyterhub-intro.html">
+     Datahub Frequently Asked Questions (FAQ)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="onboarding.html">
+     Onboarding new users into the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="admin.html">
+     Exploring admin privileges in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="changerequirements.html">
+     Changing existing requirements in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Troubleshooting issues in the JupyterHub service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/jupyter/troubleshoot-nbgitpuller.html">
+     Troubleshooting issues in the nbgitpuller service
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../technology/jupyter/python-errors.html">
+     Troubleshooting issues in the Python Code
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="features.html">
+     Requesting new features in the Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="share.html">
+     Sharing information about the Hub
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../technology/jupyter/large-datasets.html">
+   Working with Large Datasets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../technology/jupyter/python-packages.html">
+   Using Additional Python Packages
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Workflow Basics
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/creating-notebooks.html">
+   Creating Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/pushing-to-github.html">
+   Uploading Files to Github
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/distributing-notebooks.html">
+   Distributing Assignments
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../workflow/collecting-grading-assignments.html">
+   Collecting and Grading Assignments
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Getting Started with Modules and Connectors
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../connector/general/what-is-a-connector.html">
+   What is a Connector course?
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../connector/general/previous-connectors.html">
+     Previous Connectors
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/general/what-is-a-module.html">
+   What is a Data Science Module?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../dec/general/what-is-a-data-enabled-course.html">
+   What is a Data-Enabled Course?
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Connector
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/logistics.html">
+   Logistics, Rooms, and Technology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/syllabus-design.html">
+   Designing Your Syllabus
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/student-help.html">
+   Requesting Student Help
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/communication-channels.html">
+   Joining Communication Channels
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../connector/instructor/checklist.html">
+   Pre-Semester Checklist
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Creating a Module
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/preplanning.html">
+   Pre-Planning
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/develop.html">
+   Developing the Module
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../module/instructor/deploy-help.html">
+   Requesting Deployment Help
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Additional Resources for Students
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../technology/resources.html">
+   Resources for Students
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Reference
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/people.html">
+   People
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/terms-and-abbreviations.html">
+   Terms and Abbreviations
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../general/contact.html">
+   Contact
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/faq/troubleshoot.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#restarting-the-kernel">
+   Restarting the Kernel
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#restarting-servers">
+   Restarting Servers
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#restarting-your-own-server">
+     Restarting Your Own Server
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#restarting-student-servers">
+     Restarting Student Servers
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="troubleshooting-issues-in-the-hub">
+<h1>Troubleshooting issues in the Hub<a class="headerlink" href="#troubleshooting-issues-in-the-hub" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Facing issues with your hub and want to do some basic troubleshooting before escalating issues to us? If yes, read below!</p>
+</div>
+<p>One common error is a Jupyter notebook becoming unresponsive. You will know that a notebook is unresponsive. Another type of error is a user not being able to access some part of their JupyterHub account.</p>
+<p>We have outlined two methods below that you should try for each error type. For errors related to execution of code, such as the notebook not running properly, you should try restarting the kernel. For errors related to access, you should try restarting the server.</p>
+<div class="section" id="restarting-the-kernel">
+<h2>Restarting the Kernel<a class="headerlink" href="#restarting-the-kernel" title="Permalink to this headline">¶</a></h2>
+<p>If your notebook becomes unresponsive, you can try to restart the kernel.</p>
+<p><img alt="" src="../_images/restart-kernel.png" /></p>
+</div>
+<div class="section" id="restarting-servers">
+<h2>Restarting Servers<a class="headerlink" href="#restarting-servers" title="Permalink to this headline">¶</a></h2>
+<p>There are different methods for restarting your own and restarting another user’s server.</p>
+<div class="section" id="restarting-your-own-server">
+<h3>Restarting Your Own Server<a class="headerlink" href="#restarting-your-own-server" title="Permalink to this headline">¶</a></h3>
+<p>All users can restart their own servers. To do so, start by going to the control panel.</p>
+<p><img alt="" src="../_images/control-link.png" />Click the <code class="docutils literal notranslate"><span class="pre">Stop</span> <span class="pre">My</span> <span class="pre">Server</span></code> button.</p>
+<p><img alt="" src="../_images/stop-my-server.png" />Once the server has stopped and the <code class="docutils literal notranslate"><span class="pre">Stop</span> <span class="pre">My</span> <span class="pre">Server</span></code> button is no longer visible, click the <code class="docutils literal notranslate"><span class="pre">My</span> <span class="pre">Server</span></code> button to restart the server.</p>
+<p><img alt="" src="../_images/start-my-server.png" /></p>
+</div>
+<div class="section" id="restarting-student-servers">
+<h3>Restarting Student Servers<a class="headerlink" href="#restarting-student-servers" title="Permalink to this headline">¶</a></h3>
+<p>Users with admin privileges on DataHub can restart other users’ servers. To restart a student’s server, first go to the control panel.</p>
+<p><img alt="" src="../_images/control-link.png" /></p>
+<p>Click on the <code class="docutils literal notranslate"><span class="pre">Admin</span></code> button at the top of the page. If you do not see this button, you do not have admin rights. To request admin rights, please <a class="reference external" href="http://piazza.com/berkeley/other/cs97">post on Piazza</a>.</p>
+<p><img alt="" src="../_images/admin-link.png" /></p>
+<p>After clicking the <code class="docutils literal notranslate"><span class="pre">Admin</span></code> button, you will see the admin panel. Usernames have been obfuscated here. To search for a user, you can use find (type Control+F or Command+F). An individual’s username is the same as their CalNet ID. When you have found the desired user, click the <code class="docutils literal notranslate"><span class="pre">stop</span> <span class="pre">server</span></code> button in the user’s row.</p>
+<p><img alt="" src="../_images/admin-panel.png" /></p>
+<p>After clicking the <code class="docutils literal notranslate"><span class="pre">stop</span> <span class="pre">server</span></code> button, you can click the <code class="docutils literal notranslate"><span class="pre">start</span> <span class="pre">server</span></code> button in the user’s row.</p>
+<p><strong>What should I do if my hub is running slow?</strong></p>
+<p>Try these recommended options,</p>
+<ul class="simple">
+<li><p>Restart your kernel.</p></li>
+<li><p>Check whether there are lot of open tabs? If yes, close the tabs that are not required.</p></li>
+</ul>
+<p>If you still face the issue, raise a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">bug</a>!</p>
+<p><strong>What should I do if my code is running slow?</strong></p>
+<p>In general, this issue could be attributed to the varied programming practices adopted that might have slowed the operation of the hub. Check whether your code does any of the following,</p>
+<ul class="simple">
+<li><p>You are running an infinite loop</p></li>
+<li><p>Your computation/calculation is big</p></li>
+<li><p>You are joining tables that are too large</p></li>
+<li><p>You have too many notebooks open at the same time</p></li>
+<li><p>You are trying to show a table which is too large and as a result are crashing the browser</p></li>
+</ul>
+<p>If they are relevant, try fixing these issues by improving the programming practices or by reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">bug request</a>!</p>
+<p><strong>What should I do if I get “503 service unavailable error” regularly?</strong></p>
+<p>Sorry, that you had to face this error! This error could be due to some of our stability improvements. Try restarting your server and wait for few minutes to see whether the issue still persists. If yes, raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>.</p>
+<p><strong>What should I do if I get “403 errors: Blocking request from unknown origin” regularly?</strong></p>
+<p>Sorry, that you had to face this error! This error could be due to multiple reasons outlined below,</p>
+<ul class="simple">
+<li><p>You are using email id with a different domain other than <a class="reference external" href="http://berkeley.edu">berkeley.edu</a> to authenticate with Datahub which could have potentially raised this error. Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">issue</a>, so that we can authorize your domain.</p></li>
+<li><p>Large number of your students are trying to use the service resulting in failure of certain nodes. We are working on improving how we scale the hub with large volume of users.</p></li>
+</ul>
+<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">issue</a>!</p>
+<p><strong>What should I do if I get an “An unknown error occurred while loading this notebook” as part of the datahub service?</strong></p>
+<p>Try opening a new terminal from your instance and run the following command,</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">-</span><span class="n">f</span> <span class="o">~/.</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">jupyter</span><span class="o">/</span><span class="n">nbsignatures</span><span class="o">.</span><span class="n">db</span>
+</pre></div>
+</div>
+<p>If the error still persists, raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">issue</a>.</p>
+<p><strong>What should I do if there is a package conflict?</strong></p>
+<p>[Get inputs from the team]
+Try moving to the previous version of the package and check if there are package conflicts. If it still exists, Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">issue</a></p>
+<p><strong>What should I do if my kernel dies?</strong></p>
+<p>As a rule of thumb, restart the kernel whenever it dies. This should work for most scenarios.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Kernel deaths are a common cause for your server running out of memory. As soon as you exceed your memory allocation, your kernel most probably will die because of the lack of availability of virtual memory or swap space. It is most likely due to a bug in your code.</p>
+</div>
+<p><strong>What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.</strong></p>
+<p>Please follow this workaround until a fix can be identified and implemented. Workaround involves renaming or removing ~/.rstudio via the terminal. To do so while bypassing the typical rstudio session startup:</p>
+<ol class="simple">
+<li><p>Go to this <a class="reference external" href="https://r.datahub.berkeley.edu/user-redirect/tree">link</a></p></li>
+<li><p>Click New -&gt; Terminal</p></li>
+<li><p>In the terminal, type: <code class="docutils literal notranslate"><span class="pre">mv</span> <span class="pre">.rstudio</span> <span class="pre">.rstudio.$(date</span> <span class="pre">+%s)</span></code> and press return</p></li>
+<li><p>Try to launch rstudio as you normally would and it should now work.</p></li>
+</ol>
+<p><strong>What should I do if R Studio times out and kicks me out every 5 minutes or so?</strong></p>
+<ul class="simple">
+<li><p>Check if this is a browser or network issue</p></li>
+<li><p>If that doesn’t solve the issue, raise a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">template</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As a general note, These issues are challenging to reproduce. It will be helpful if you can be as specific as you can with regards to the steps required to reproduce the issue. We generally observe that the back and forth communication required to reproduce the issue for a request <strong>that is not specific</strong> increases the time needed to fix the issue exponentially.</p>
+</div>
+<p><strong>What should I do if I have an issue that has not been documented in the FAQ?</strong></p>
+<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a> or reach out to Balaji Alwar(<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)! We will keep adding common issues to this FAQ document!</p>
+<p><strong>What should I do if I have issues with my nbgitpuller set up</strong></p>
+<p>Try the following steps from scratch again,</p>
+<ul class="simple">
+<li><p>Enter the details for your hub.</p></li>
+<li><p>Re-name the folder where you need to pull from to do a fresh pull request.</p></li>
+<li><p>Check whether you should have followed good practices for setting up your repo. Check if there are files that should not be present.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Check this <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/topic/repo-best-practices.html">documentation</a> for some tips to ensure that you don’t get into git related issues.</p>
+<p>Check this <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/">documentation</a> if you have issues setting up nbgitpuller!</p>
+</div>
+<p><strong>I am having issues with generating the zip file after running my code in the hub. What should I do?</strong></p>
+<p>If you got this error after running this command mentioned below, this is most likely an issue that the Otter team can debug. You can either access their <a class="reference external" href="https://join.slack.com/t/otter-grader/shared_invite/zt-bzfqbl82-C1s~YUBkbzvTcPCK60OOgg">slack channel</a> or raise a <a class="reference external" href="https://github.com/ucbds-infra/otter-grader">github issue</a> to seek their inputs directly.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">grader</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="n">pdf</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force_save</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./faq"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            
+
+
+
+<div class='prev-next-bottom'>
+    
+    <div id="prev">
+        <a class="left-prev" href="changerequirements.html" title="previous page">
+            <i class="prevnext-label fas fa-angle-left"></i>
+            <div class="prevnext-info">
+                <p class="prevnext-label">previous</p>
+                <p class="prevnext-title">Changing existing requirements</p>
+            </div>
+        </a>
+    </div>
+     <div id="next">
+        <a class="right-next" href="../technology/jupyter/troubleshoot-nbgitpuller.html" title="next page">
+            <div class="prevnext-info">
+                <p class="prevnext-label">next</p>
+                <p class="prevnext-title">Troubleshooting nbgitpuller</p>
+            </div>
+            <i class="prevnext-label fas fa-angle-right"></i>
+        </a>
+     </div>
+
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By Christopher pyles and Balaji Alwar<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
