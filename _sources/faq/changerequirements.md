@@ -45,7 +45,7 @@ There are three factors we consider as part of the requests related to increasin
   - 600 GB
 * - < 1 month
   - 400 GB
-* - > 1 month
+* - More than 1 month
   - 200 GB
 ```
  Any request for more resources than the highlighted ones in the above table requires further consideration at our end.
