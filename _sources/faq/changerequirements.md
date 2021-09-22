@@ -36,9 +36,19 @@ There are three factors we consider as part of the requests related to increasin
 - RAM requested
 - Amount of time the resource increase is requested for.
 
-Duration	                               < 1 week	  < 1 month   > 1 month
-Auto-approve (student count * RAM) threshold   600 GB	  400 GB     200 GB
-Any request for more resources than the highlighted ones in the table requires more discussion at our end.
+```{list-table}
+:header-rows: 1
+
+* - Duration
+  - Auto-approval (student count * RAM) threshold
+* - < 1 week
+  - 600 GB
+* - < 1 month
+  - 400 GB
+* - > 1 month
+  - 200 GB
+```
+ Any request for more resources than the highlighted ones in the above table requires further consideration at our end.
 
 CPU grant requests are more complex as they they are more likely to affect performance of other users on the hub. As a result, every request would require further consideration at our end.
 
