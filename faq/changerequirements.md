@@ -30,6 +30,18 @@ install.packages("ggplot2")
 
 We recommend instructors to adapt the materials to the 1GB requirement of the Datahub as it is convenient for most usecases. However, If you have a compelling reason to request for more RAM/CPU, use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X). Provide rationale for this upgrade as it has cost implications for the service.
 
+There are three factors we consider as part of the requests related to increasing RAM/CPU:
+
+- Number of students
+- RAM requested
+- Amount of time the resource increase is requested for.
+
+Duration	                               < 1 week	  < 1 month   > 1 month
+Auto-approve (student count * RAM) threshold   600 GB	  400 GB     200 GB
+Any request for more resources than the highlighted ones in the table requires more discussion at our end.
+
+CPU grant requests are more complex as they they are more likely to affect performance of other users on the hub. As a result, every request would require further consideration at our end.
+
 **As an instructor, What should I do if I want to conduct a workshop? Are there any existing hubs that I could repurpose?**
 
 Yes. We certainly do support using our hubs for workshops. For example, [D-Lab](https://dlab.berkeley.edu/) uses Datahub to run its R workshops for students regularly.
