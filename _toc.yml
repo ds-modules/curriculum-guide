@@ -35,6 +35,8 @@ parts:
       title: Datahub Frequently Asked Questions (FAQ)
     - file: faq/onboarding
       title: Onboarding new users into the Hub
+    - file: technology/jupyter/python-packages
+      title: Using Packages in Jupyter Hub
     - file: faq/admin
       title: Exploring admin privileges in the Hub
     - file: faq/changerequirements
@@ -51,8 +53,6 @@ parts:
       title: Sharing information about the Hub
   - file: technology/jupyter/large-datasets
     title: Working with Large Datasets
-  - file: technology/jupyter/python-packages
-    title: Using Additional Python Packages
 - caption: Workflow Basics
   chapters:
   - file: workflow/creating-notebooks

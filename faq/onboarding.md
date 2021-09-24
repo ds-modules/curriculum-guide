@@ -40,28 +40,6 @@ Please contact us if your course/research has more complex computation requiring
 
 We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across different hubs. You can learn more about the varied services offered through this jupyterhubs services [documentation](https://docs.datahub.berkeley.edu/en/latest/users/services.html).
 
-**What are the packages pre-installed for every hub?**
-
-Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
-
-If you want to check the list of packages installed, 
-
-- You can use the below option for Python,
- 
-```python
-!pip list
-```
-- You can use the below option for R,
-
-```
-installed.packages()
-```
-- You can check the packages installed in Julia by accessing the [Julia Hub](http://julia.datahub.berkeley.edu/)
-
-```{note}
-Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed in Datahub. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed in Datahub.
-```
-
 
 **What is the process to raise Github issues? How can I track the raised issues?**
 

@@ -1,4 +1,41 @@
-# Python Packages
+# Package Installation in Python and R
+
+**What are the packages pre-installed for every hub?**
+
+Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across the main Datahub. Our R hubs supports packages such as shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
+If you want to check the list of packages installed,
+- You can use the below command for Python,
+
+```python
+!pip list
+```- You can use the below command for R,```
+installed.packages()
+```
+- You can check the packages installed in Julia by accessing the [Julia Hub](http://julia.datahub.berkeley.edu/)
+
+```{note}Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed in the main Datahub. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed in the Datahub.
+```
+
+**What should I do if I want to install more packages?**
+
+- Use your datahub instance to install the required version of the package. Self installation of packages in your instanceof hub is a temporary measure to identify dependencies. If you require a permanent solution then you need to [request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y) us to install the required package(s) in your hub.
+
+- If you want to install packages for Python in your instance, then use the following syntax,
+
+```python
+pip install <package-name>
+Eg: pip install numpy
+```
+
+- If you want to install packages for R in your instance, then use the following syntax,
+
+```python
+install.packages("<package-name>")
+install.packages("ggplot2")
+```
+- Check if there are specific dependencies for the installed package. Highlight the package name along with their version and dependencies as part of your [request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
+
+- Raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y)!
 
 ### Pre-installed Packages
 
