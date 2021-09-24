@@ -27,7 +27,7 @@ If you make changes to an assignment on Github after students have started worki
 Solution: the easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the nbgitpuller link again. If the file or folder is renamed to anything else (e.g. "SOC-5-old"), nbgitpuller will clone a fresh copy of the problematic files to the student's Jupyterhub. They can then copy over any work from the old version of the file.
 
 When you face an error like below, do the following steps
-```{figure} ../images/mergeconflict.png
+```{figure} ../../images/mergeconflict.png
 :width: 500px
 :align: center
 :name: Datahub Admin
