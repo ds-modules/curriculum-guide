@@ -30,7 +30,7 @@ install.packages("ggplot2")
 
 We recommend instructors to adapt the materials to the 1GB requirement of the Datahub as it is convenient for most usecases. However, If you have a compelling reason to request for more RAM/CPU, use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X). Provide rationale for this upgrade as it has cost implications for the service.
 
-There are three factors we consider as part of the requests related to increasing RAM/CPU:
+There are three factors we consider as part of the requests related to increasing RAM:
 
 - Number of students
 - RAM requested

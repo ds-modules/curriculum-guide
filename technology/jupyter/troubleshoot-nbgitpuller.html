@@ -23,7 +23,7 @@
 
     
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -135,6 +135,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="python-packages.html">
+     Using Packages in Jupyter Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="../../faq/admin.html">
      Exploring admin privileges in the Hub
     </a>
@@ -174,11 +179,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="large-datasets.html">
    Working with Large Datasets
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="python-packages.html">
-   Using Additional Python Packages
   </a>
  </li>
 </ul>
@@ -460,6 +460,16 @@
 <h3>3. The nbgitpuller link has been used before, and some of the content was changed in both Datahub and Github<a class="headerlink" href="#the-nbgitpuller-link-has-been-used-before-and-some-of-the-content-was-changed-in-both-datahub-and-github" title="Permalink to this headline">¶</a></h3>
 <p>If you make changes to an assignment on Github after students have started working on it, students that click the nbgitpuller link again may see a red loading bar and a message about a <em>merge conflict</em>. This occurs if the instructor and the student both change the same parts of the notebook: nbgitpuller doesn’t know how to integrate the instructor’s changes without overwriting student work, so it refuses to proceed. You can read <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html">more about nbgitpuller’s automatic merging behavior here</a>.</p>
 <p>Solution: the easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the nbgitpuller link again. If the file or folder is renamed to anything else (e.g. “SOC-5-old”), nbgitpuller will clone a fresh copy of the problematic files to the student’s Jupyterhub. They can then copy over any work from the old version of the file.</p>
+<p>When you face an error like below, do the following steps</p>
+<div class="figure align-center" id="datahub-admin">
+<a class="reference internal image-reference" href="technology/images/mergeconflict.png"><img alt="technology/images/mergeconflict.png" src="technology/images/mergeconflict.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 11 </span><span class="caption-text">Here is how the admin dashboard looks like!</span><a class="headerlink" href="#datahub-admin" title="Permalink to this image">¶</a></p>
+</div>
+<ul class="simple">
+<li><p>Rename the existing folder where the merge conflict error arose</p></li>
+<li><p>Click on the nbgitpuller link again</p></li>
+<li><p>Use the newly cloned repository created after nbgitpuller link was clicked</p></li>
+</ul>
 <p>The best advice, however, is to avoid making changes to assignments once they’ve been released to students if at all possible.</p>
 </div>
 </div>

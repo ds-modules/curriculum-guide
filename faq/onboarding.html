@@ -23,7 +23,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -51,7 +51,7 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Hub Admin Privileges" href="admin.html" />
+    <link rel="next" title="Package Installation in Python and R" href="../technology/jupyter/python-packages.html" />
     <link rel="prev" title="Datahub Frequently Asked Questions" href="jupyterhub-intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -135,6 +135,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="../technology/jupyter/python-packages.html">
+     Using Packages in Jupyter Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="admin.html">
      Exploring admin privileges in the Hub
     </a>
@@ -174,11 +179,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../technology/jupyter/large-datasets.html">
    Working with Large Datasets
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../technology/jupyter/python-packages.html">
-   Using Additional Python Packages
   </a>
  </li>
 </ul>
@@ -433,28 +433,6 @@
 <p>Please contact us if your course/research has more complex computation requiring increased capacity.</p>
 <p><strong>What are the different services offered as part of the Datahub?</strong></p>
 <p>We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across different hubs. You can learn more about the varied services offered through this jupyterhubs services <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/users/services.html">documentation</a>.</p>
-<p><strong>What are the packages pre-installed for every hub?</strong></p>
-<p>Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across all the Jupyter hubs. Our R hubs also support shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>.</p>
-<p>If you want to check the list of packages installed,</p>
-<ul class="simple">
-<li><p>You can use the below option for Python,</p></li>
-</ul>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>!pip list
-</pre></div>
-</div>
-<ul class="simple">
-<li><p>You can use the below option for R,</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">installed</span><span class="o">.</span><span class="n">packages</span><span class="p">()</span>
-</pre></div>
-</div>
-<ul class="simple">
-<li><p>You can check the packages installed in Julia by accessing the <a class="reference external" href="http://julia.datahub.berkeley.edu/">Julia Hub</a></p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt">list</a> of Python packages installed in Datahub. Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R">list</a> of R packages installed in Datahub.</p>
-</div>
 <p><strong>What is the process to raise Github issues? How can I track the raised issues?</strong></p>
 <p>If you want to raise a bug, you can use this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">link</a> to submit your issues. You can also use post messages to our <a class="reference external" href="https://piazza.com/class/ksqmnrrhvcl11f">Piazza channel</a> if you require real time troubleshooting!</p>
 <p><strong>When do I receive a response when an issue gets raised?</strong></p>
@@ -553,10 +531,10 @@ We recommend that you use the following options,</p>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="admin.html" title="next page">
+        <a class="right-next" href="../technology/jupyter/python-packages.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Hub Admin Privileges</p>
+                <p class="prevnext-title">Package Installation in Python and R</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>

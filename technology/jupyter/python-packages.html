@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Python Packages &#8212; Curriculum Guide</title>
+    <title>Package Installation in Python and R &#8212; Curriculum Guide</title>
     
   <link href="../../_static/css/theme.css" rel="stylesheet" />
   <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -23,7 +23,7 @@
 
     
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
@@ -51,8 +51,8 @@
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Creating Assignments" href="../../workflow/creating-notebooks.html" />
-    <link rel="prev" title="Storing Datasets" href="large-datasets.html" />
+    <link rel="next" title="Hub Admin Privileges" href="../../faq/admin.html" />
+    <link rel="prev" title="Onboarding new users to the Hub" href="../../faq/onboarding.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -99,16 +99,16 @@
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="../pedagogy-and-technology.html">
    Pedagogy and Technology
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="../pedagogy-and-technology/introduction-to-jupyter.html">
      Introduction to Jupyter
@@ -132,6 +132,11 @@
    <li class="toctree-l2">
     <a class="reference internal" href="../../faq/onboarding.html">
      Onboarding new users into the Hub
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Using Packages in Jupyter Hub
     </a>
    </li>
    <li class="toctree-l2">
@@ -174,11 +179,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="large-datasets.html">
    Working with Large Datasets
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Using Additional Python Packages
   </a>
  </li>
 </ul>
@@ -443,8 +443,45 @@
         
               <div>
                 
-  <div class="section" id="python-packages">
-<h1>Python Packages<a class="headerlink" href="#python-packages" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="package-installation-in-python-and-r">
+<h1>Package Installation in Python and R<a class="headerlink" href="#package-installation-in-python-and-r" title="Permalink to this headline">¶</a></h1>
+<p><strong>What are the packages pre-installed for every hub?</strong></p>
+<p>Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across the main Datahub. Our R hubs supports packages such as shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>.
+If you want to check the list of packages installed,</p>
+<ul class="simple">
+<li><p>You can use the below command for Python,</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>!pip list
+```- You can use the below command for R,```
+installed.packages()
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>You can check the packages installed in Julia by accessing the <a class="reference external" href="http://julia.datahub.berkeley.edu/">Julia Hub</a></p></li>
+</ul>
+<div class="highlight-{note}Here notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p><strong>What should I do if I want to install more packages?</strong></p>
+<ul class="simple">
+<li><p>Use your datahub instance to install the required version of the package. Self installation of packages in your instanceof hub is a temporary measure to identify dependencies. If you require a permanent solution then you need to <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">request</a> us to install the required package(s) in your hub.</p></li>
+<li><p>If you want to install packages for Python in your instance, then use the following syntax,</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">&lt;</span><span class="n">package</span><span class="o">-</span><span class="n">name</span><span class="o">&gt;</span>
+<span class="n">Eg</span><span class="p">:</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">numpy</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>If you want to install packages for R in your instance, then use the following syntax,</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&quot;&lt;package-name&gt;&quot;</span><span class="p">)</span>
+<span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&quot;ggplot2&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Check if there are specific dependencies for the installed package. Highlight the package name along with their version and dependencies as part of your <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">request</a>.</p></li>
+<li><p>Raise a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>!</p></li>
+</ul>
 <div class="section" id="pre-installed-packages">
 <h2>Pre-installed Packages<a class="headerlink" href="#pre-installed-packages" title="Permalink to this headline">¶</a></h2>
 <p>Many Python packages have been pre-installed on JupyterHub and are available by default. <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/prod/user-image/requirements.txt">This file on GitHub</a> contains a list of all the packages (and corresponding versions) that are available by default. To use a pre-installed package such as <code class="docutils literal notranslate"><span class="pre">numpy</span></code>, you can simply type the line below into a code cell.</p>
@@ -513,19 +550,19 @@ If staging fails, _never_ update production. Revert your change or call in help 
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="large-datasets.html" title="previous page">
+        <a class="left-prev" href="../../faq/onboarding.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title">Storing Datasets</p>
+                <p class="prevnext-title">Onboarding new users to the Hub</p>
             </div>
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="../../workflow/creating-notebooks.html" title="next page">
+        <a class="right-next" href="../../faq/admin.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title">Creating Assignments</p>
+                <p class="prevnext-title">Hub Admin Privileges</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>

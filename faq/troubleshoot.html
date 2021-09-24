@@ -23,7 +23,7 @@
 
     
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.e2363ea40746bee74734a24ffefccd78.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -135,6 +135,11 @@
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="../technology/jupyter/python-packages.html">
+     Using Packages in Jupyter Hub
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="admin.html">
      Exploring admin privileges in the Hub
     </a>
@@ -174,11 +179,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="../technology/jupyter/large-datasets.html">
    Working with Large Datasets
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../technology/jupyter/python-packages.html">
-   Using Additional Python Packages
   </a>
  </li>
 </ul>
@@ -483,6 +483,12 @@
 <li><p>You are trying to show a table which is too large and as a result are crashing the browser</p></li>
 </ul>
 <p>If they are relevant, try fixing these issues by improving the programming practices or by reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">bug request</a>!</p>
+<p><strong>What should I do if an user’s hub is completely dead/unusable?</strong></p>
+<p>You have couple of options before you escalate this issue to us. Please find them below,</p>
+<ul class="simple">
+<li><p>You can start the user’s server by visiting user’s /lab/workspaces/lab?reset to reset the workspace.(Refer to this <a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/user/urls.html#resetting-a-workspace">documentation</a>to reset the workspace for the users.</p></li>
+<li><p>Alternatively, You can start the user’s server by visiting <hub URL>/user/<user name>/tree directly.</p></li>
+</ul>
 <p><strong>What should I do if I get “503 service unavailable error” regularly?</strong></p>
 <p>Sorry, that you had to face this error! This error could be due to some of our stability improvements. Try restarting your server and wait for few minutes to see whether the issue still persists. If yes, raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>.</p>
 <p><strong>What should I do if I get “403 errors: Blocking request from unknown origin” regularly?</strong></p>
