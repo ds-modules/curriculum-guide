@@ -68,6 +68,14 @@ In general, this issue could be attributed to the varied programming practices a
 
 If they are relevant, try fixing these issues by improving the programming practices or by reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a [bug request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
+**What should I do if an user's hub is completely dead/unusable?**
+
+You have couple of options before you escalate this issue to us. Please find them below,
+
+- You can start the user's server by visiting user's /lab/workspaces/lab?reset to reset the workspace.(Refer to this [documentation](https://jupyterlab.readthedocs.io/en/stable/user/urls.html#resetting-a-workspace)to reset the workspace for the users.
+- Alternatively, You can start the user's server by visiting <hub URL>/user/<user name>/tree directly.
+
+
 **What should I do if I get "503 service unavailable error" regularly?**
 
 Sorry, that you had to face this error! This error could be due to some of our stability improvements. Try restarting your server and wait for few minutes to see whether the issue still persists. If yes, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
