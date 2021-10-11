@@ -36,7 +36,7 @@ Here is how the admin dashboard looks like!
 ```
 
 - Rename the existing folder where the merge conflict error arose
-```{figure} ../../images/tshoot.png
+```{figure} ../../images/tshoot.PNG
 :width: 500px
 :align: center
 :name: Folder Rename!
