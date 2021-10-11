@@ -36,9 +36,17 @@ Here is how the admin dashboard looks like!
 ```
 
 - Rename the existing folder where the merge conflict error arose
+```{figure} ../../images/tshoot.png
+:width: 500px
+:align: center
+:name: Folder Rename!
+
+Here is the steps required to rename the folder!
+```
 - Click on the nbgitpuller link again
 - Use the newly cloned repository created after nbgitpuller link was clicked
  
+
 
 The best advice, however, is to avoid making changes to assignments once they've been released to students if at all possible.
 
