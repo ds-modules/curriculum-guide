@@ -27,7 +27,7 @@ If you make changes to an assignment on Github after students have started worki
 Solution: the easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the nbgitpuller link again. If the file or folder is renamed to anything else (e.g. "SOC-5-old"), nbgitpuller will clone a fresh copy of the problematic files to the student's Jupyterhub. They can then copy over any work from the old version of the file.
 
 When you face an error like below, do the following steps
-```{figure} ../images/mergeconflict.png
+```{figure} ../../images/mergeconflict.png
 :width: 500px
 :align: center
 :name: Datahub Admin
@@ -36,9 +36,17 @@ Here is how the admin dashboard looks like!
 ```
 
 - Rename the existing folder where the merge conflict error arose
+```{figure} ../../images/tshoot.PNG
+:width: 500px
+:align: center
+:name: Folder Rename!
+
+Here is the steps required to rename the folder!
+```
 - Click on the nbgitpuller link again
 - Use the newly cloned repository created after nbgitpuller link was clicked
  
+
 
 The best advice, however, is to avoid making changes to assignments once they've been released to students if at all possible.
 
