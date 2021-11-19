@@ -75,6 +75,13 @@ You have couple of options before you escalate this issue to us. Please find the
 - You can start the user's server by visiting user's /lab/workspaces/lab?reset to reset the workspace.(Refer to this [documentation](https://jupyterlab.readthedocs.io/en/stable/user/urls.html#resetting-a-workspace)to reset the workspace for the users.
 - Alternatively, You can start the user's server by visiting <hub URL>/user/<user name>/tree directly.
 
+**What if restarting the kernel is not solving spawn pending error message?**
+
+You can check if the output files are causing the ipynb files (in the case of python notebooks) to be bloated. If that be the case then you can run the following command to clear the output files which is causing this issue.
+
+```python
+jupyter nbconvert --clear-output --inplace filename.ipynb
+```
 
 **What should I do if I get "503 service unavailable error" regularly?**
 
