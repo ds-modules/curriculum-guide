@@ -81,7 +81,7 @@ You can check if the output files are causing the ipynb files (in the case of py
 
 ```python
 jupyter nbconvert --clear-output --inplace filename.ipynb
-
+```
 
 **What should I do if I get "503 service unavailable error" regularly?**
 
