@@ -1,6 +1,6 @@
 # Using Real Time Collaboration feature in Datahub
 
-[Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the [generous contribution](https://github.com/jupyterlab/rtc/graphs/contributors) from various open-source contributors, this experimental functionality is enabled in a few hubs (Data 8 and D-Lab at the time of write-up). So, if you are interested in enabling this functionality in your respective hub, please check with your hub admin to enable this functionality. 
+[Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the [generous contribution](https://github.com/jupyterlab/rtc/graphs/contributors) from various open-source contributors, this experimental functionality is enabled in a few hubs (Data 8 and D-Lab at the time of write-up). So, if you are interested in enabling this functionality in your respective hub, please check with the hub admins. 
 
 After that, You can start collaborating with others by following the below steps,
 
@@ -14,9 +14,9 @@ As a next step, Generate the shareable link that gets shared with your collabora
 ```{figure} ../images/Share_link.gif
 :width: 500px
 :align: center
-:name: RTC Demo
+:name: Shareable Link
 
-Here is Real Time Collaboration (RTC) in action
+Here is how you can generate a shareable link
 ```
 
 # Step 3
@@ -25,7 +25,7 @@ Once you create the shareable link, Share this link with your collaborators. The
 ```{figure} ../images/RTC_demo.gif
 :width: 500px
 :align: center
-:name: Shareable Link
+:name: RTC Demo
 
-Here is how you can generate a shareable link
+Real Time Collaboration (RTC) in action
 ```
