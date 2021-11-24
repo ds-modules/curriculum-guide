@@ -9,7 +9,7 @@ After that, You can start collaborating with others by following the below steps
 Open your python (ipynb) files in Jupyter Lab or Retro Lab interface. If you are unsure how to generate a nbgitpuller link to access your notebook in Jupyter Lab or Retro Lab interfaces, please install (this plugin)[https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search] in the Mozilla Firefox browser, which will walk you through the steps required to enable it easily.
 
 #Step 2
-As a first step, Generate the link that gets shared with your collaborators. Collaborators can use the link to access your notebooks in real time.
+As a next step, Generate the link that gets shared with your collaborators. Collaborators can use the link to access your notebooks in real time.
 
 ```{figure} ../images/RTC_demo.gif
 :width: 500px
