@@ -1,4 +1,4 @@
-#Real Time Collaboration in Datahub
+#Using Real Time Collaboration feature in Datahub
 
 [Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the [generous contribution](https://github.com/jupyterlab/rtc/graphs/contributors) from various open-source contributors, this experimental functionality is enabled in a few hubs (Data 8 and D-Lab at the time of write-up). So, if you are interested in enabling this functionality in your respective hub, please check with your hub admin to enable this functionality. 
 
