@@ -38,7 +38,7 @@ You can also see the cursors from other users with an anonymous username, a user
 Real Time Collaboration (RTC) in action
 ```
 
-# Points to Remember from a security standpoint
+# Security considerations for adopting RTC!
 
 - If a user shares a link with another user, They can modify all the files in the owner's home directory for the specific hub, including other assignments and homework.
 - When a user who owns the notebook stops the server, then the validity of the shared link expires - either explicitly from the control panel or after non-activity for 60 minutes.
