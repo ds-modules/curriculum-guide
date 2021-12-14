@@ -2,14 +2,14 @@
 
 [Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the [generous contribution](https://github.com/jupyterlab/rtc/graphs/contributors) from various open-source contributors, this experimental functionality is enabled in a few hubs (Data 8 and D-Lab at the time of write-up). So, if you are interested in enabling this functionality in your respective hub, please check with the hub admins. 
 
-After that, You can start collaborating with others by following the below steps,
+You can start collaborating with others by following the below steps,
 
 # Step 1
 
-Open your IPython (ipynb) notebook files in Jupyter Lab or Retro Lab interface. If you are unsure how to generate a nbgitpuller link to access your notebook in Jupyter Lab or Retro Lab interfaces, Please install this [plugin](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) in the Mozilla Firefox browser, which will walk you through the steps required to generate the link for the file easily.
+Open your IPython (ipynb) notebook files in Jupyter Lab interface. If you are unsure how to generate a nbgitpuller link to access your notebook in Jupyter Lab or Retro Lab interfaces, Please install this [plugin](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) in the Mozilla Firefox browser, which will walk you through the steps required to generate the link for the file easily.
 
-```{warning}
-Keep in mind that Real-Time Collaboration(RTC) functionality is not enabled in classic notebook.
+```{note}
+Please do keep in mind that Real-Time Collaboration(RTC) functionality is not enabled in classic notebook and retro lab interfaces!
 ```
 
 # Step 2
@@ -37,6 +37,14 @@ You can also see the cursors from other users with an anonymous username, a user
 
 Real Time Collaboration (RTC) in action
 ```
+
+# Points to Remember from a security standpoint
+
+- If a user shares a link with another user, They can modify all the files in the owner's home directory for the specific hub, including other assignments and homework.
+- When a user who owns the notebook stops the server, then the validity of the shared link expires - either explicitly from the control panel or after non-activity for 60 minutes.
+- There is no option for the notebook owner to revoke the link, but they can stop the server, which makes the shared link invalid.
+- Anyone can forward the generated link to the next person as there is no link-level user control. Users would have to be careful where they share links while that server is active since anyone on the internet could gain control.
+- An user who has access to the shared link needs to leave the current session to go and work on their files.
 
 If you are interested to learn more about how real time collaboration works in Jupyter Lab, do refer to this [documentation](https://jupyterlab.readthedocs.io/en/stable/user/rtc.html)
 If you are interested to get under the hood of real time collaboration and understand the framework enabling the shared data type, do refer to this [documentation](https://github.com/yjs/yjs)
