@@ -1,62 +1,71 @@
-# Use real time file sharing using SyncThing
+# Use Realtime file sharing using SyncThing
 
-```{note}
-Interested to collaborate with fellow students in a team project or share curricular materials with teaching team during the semester? Datahub now allows Dropbox like functionality by enabling an application called SyncThing in your respective hub. SyncThing allows users to create a shared folder within Datahub and allow other collaborators across different hubs to download to/upload from this shared directory.
-Refer to the below steps to use SyncThing
-```
+Are you a student interested in collaborating with fellow students in a team project? or an instructor who wants to share assignment solutions with your teaching team that isn't released to students? Datahub currently allows this Dropbox-like functionality by using a third-party application called SyncThing. SyncThing allows users in a hub to create a shared folder and allow collaborators across the same or different hubs to have access to this shared directory. Refer to the below steps to learn how to use SyncThing as part of your workflow!
 
-You can collaborate with others by following the below steps,
+You can collaborate by following the below steps,
 
 # Step 1
-Login to your hub's tree. Click on the New dropdown list and select Syncthing from the list of options shown below,
+Login to your hub's tree. Click on the "New" dropdown list and select "Syncthing" from the list of options available,
 
 ```{figure} ../images/syncstep1.PNG
 :width: 500px
 :align: center
-:name: 
+:name: Selecting SyncThing
 
 Here is how you can launch SyncThing application
 
 
 # Step 2
-If you need to create a shareable folder and then share it with your collaborators, Create shared folder and request device id from your collaborators.
+Request device id from your collaborators who needs access to the share folder.
 
-Device ID can be found by clicking "Actions -> Show Device Id" option in SyncThing
+Collaborators can find their Device ID by clicking "Actions -> Show Device Id" option in their SyncThing account.
 
-Click "Add Remote Device" option. Copy paste the Device ID in the prompt to add collaborators to this shared folder.
-
-
-```{figure} ../images/syncstep3.PNG
+```{figure} ../images/syncstep1.2.PNG
 :width: 500px
 :align: center
-:name: Shareable Link
+:name: Show Device ID
 
-Here is how you can generate a shareable link
+Here is how you can identify the device id for your device
 ```
 
-```{note}
-If your collaborator wants to add you to a folder they created then you can share your device id.
+Find and click "Add Remote Device" option. To add collaborators, Paste your collaborator's Device ID in the shown prompt.
+
+```{figure} ../images/syncstep1.1.PNG
+:width: 500px
+:align: center
+:name: Add Remote Device
+
+Here is how you can add a remote device to your shared folder
 ```
 
 # Step 3
-After syncing the device, create a folder where you want to add all your content. Select "Add Folder" option to create a folder, Choose "Sharing" tab and select the the device with whom you want to share this folder with.
-
+After syncing the device, create a folder where you want to upload all your content and share it with your collaborators. Select the "Add Folder" option to create a folder. Click the "Sharing" tab and from the listed devices and select the device to which you want to share this folder.
 
 ```{figure} ../images/syncstep4.PNG
 :width: 500px
 :align: center
-:name: RTC Demo
+:name: Share Folder
 
-Real Time Collaboration (RTC) in action
+Here is how you can share a folder with your collaborator(s)
 ```
 
-Here is a video that walks you through the entire process step by step.
+If your collaborator wants to provide access to a folder, they will need your device id. Once they are able to add your device id to the shared folder, you will receive a notification like the one shown below,
 
-
-```{figure} ../images/syncthingdemo.PNG
+```{figure} ../images/syncstep3.PNG
 :width: 500px
 :align: center
-:name: RTC Demo
+:name: Notification
+
+Here is how you will receive a notification when a collaborator adds you to a shared folder
+```
+
+Finally, Here is a short video that walks you through the entire process to set up realtime file sharing in a step by step manner.
+
+
+```{figure} ../images/syncthingdemo.mp4
+:width: 500px
+:align: center
+:name: File Sharing Demo
 
 Demo of Real Time file sharing!
 ```
