@@ -64,7 +64,9 @@ parts:
   - file: workflow/collecting-grading-assignments
     title: Collecting and Grading Assignments
   - file: workflow/use-realtimecollaboration
-    title: Using Real Time Collaboration (RTC) in Datahub
+    title: Using Real Time Collaboration (RTC)
+  - file: workflow/use-realtimefilesharing.md
+    title: Using Real Time File Sharing
 - caption: Getting Started with Modules and Connectors
   chapters:
   - file: connector/general/what-is-a-connector
