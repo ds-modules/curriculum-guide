@@ -450,6 +450,11 @@
    </li>
   </ul>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#nbgitpuller-plugin">
+   nbgitpuller Plugin
+  </a>
+ </li>
 </ul>
 
             </nav>
@@ -505,6 +510,11 @@
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#nbgitpuller-plugin">
+   nbgitpuller Plugin
+  </a>
  </li>
 </ul>
 
@@ -575,6 +585,36 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 <div class="section" id="important-note">
 <h3><strong>Important Note</strong><a class="headerlink" href="#important-note" title="Permalink to this headline">¶</a></h3>
 <p>The technology behind interact links, called nbgitpuller, pulls <em>all files</em> from a repo into the user’s DataHub account. This means that <strong>you should not store unfinished materials and answer keys in the same repo as published assignments</strong>. Any interact link for a published assignment would also distribute the unfinished materials and answer keys to the students, which you probably do not want. Instead, <strong>we recommend that you use a public repo for published assignments and a private repo for unfinished materials and answer keys</strong>.</p>
+</div>
+</div>
+<div class="section" id="nbgitpuller-plugin">
+<h2>nbgitpuller Plugin<a class="headerlink" href="#nbgitpuller-plugin" title="Permalink to this headline">¶</a></h2>
+<p>One of the latest updates to the nbgitpuller link generator are the plugins which further simplifies the task of generating shareable links.</p>
+<ul class="simple">
+<li><p>Install the nbgitpuller <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Chrome</a> or <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/">Firefox</a> extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. Access a Github repository (through the installed browser) and check whether you can find nbgitpuller button. If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,</p></li>
+</ul>
+<div class="figure align-center" id="nbgitpuller-button">
+<a class="reference internal image-reference" href="../_images/nbgitpullerbutton.PNG"><img alt="../_images/nbgitpullerbutton.PNG" src="../_images/nbgitpullerbutton.PNG" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text">Snapshot of how nbgitpuller looks!</span><a class="headerlink" href="#nbgitpuller-button" title="Permalink to this image">¶</a></p>
+</div>
+<p>Do the following steps to create nbgitpuller link for your assignments in the interface that you want your students to work on,</p>
+<ul class="simple">
+<li><p>Open your assignment in the respective Github repo</p></li>
+<li><p>Click on the “nbgitpuller” button</p></li>
+<li><p>Copy past your JupyterHub instance’s URL (if you are using the main Datahub then you can use <a class="reference external" href="https://datahub.berkeley.edu/">https://datahub.berkeley.edu/</a>) in the “JupyterHub URL” textbox</p>
+<ul>
+<li><p>You can select from the below options for the “Open in” dropdownlist</p></li>
+<li><p>If you want your students to access a Jupyter notebook interface which is simple and intuitive to use, Select “Classic Notebook” option from the dropdown list or</p></li>
+<li><p>If you want them to explore more advanced features including 3rd party plugins from Jupyter ecosystem, Select “JuptyterLab” option from the dropdown list or</p></li>
+<li><p>If you want them to explore the latest notebook interface offered by Jupyter which marries the simplicity and intuitiveness of classic notebook with the advanced features from JupyterLab, Select “RetroLab” option from the dropdown list</p></li>
+</ul>
+</li>
+<li><p>As a last step, Select “Copy nbgitpuller link” button which generates a shareable link that opens your assignment in the choosen interface.</p></li>
+</ul>
+<p>Here is a short GIF that walks you through the entire process to create a shareable link</p>
+<div class="figure align-center" id="nbgitpuller-plugin-demo">
+<a class="reference internal image-reference" href="../_images/Retrolab.gif"><img alt="../_images/Retrolab.gif" src="../_images/Retrolab.gif" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text">Demo of nbgitpuller plugin!</span><a class="headerlink" href="#nbgitpuller-plugin-demo" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
