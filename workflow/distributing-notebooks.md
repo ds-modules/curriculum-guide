@@ -66,3 +66,38 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 #### **Important Note**
 
 The technology behind interact links, called nbgitpuller, pulls _all files_ from a repo into the user's DataHub account. This means that **you should not store unfinished materials and answer keys in the same repo as published assignments**. Any interact link for a published assignment would also distribute the unfinished materials and answer keys to the students, which you probably do not want. Instead, **we recommend that you use a public repo for published assignments and a private repo for unfinished materials and answer keys**.
+
+### nbgitpuller Plugin
+
+One of the latest updates to the nbgitpuller link generator are the plugins which further simplifies the task of generating shareable links.
+
+- Install the nbgitpuller [Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/) extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. Access a Github repository (through the installed browser) and check whether you can find nbgitpuller button. If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,
+
+```{figure} ../images/nbgitpullerbutton.PNG
+:width: 500px
+:align: center
+:name: nbgitpuller button
+
+Snapshot of how nbgitpuller looks!
+```
+
+Do the following steps to create nbgitpuller link for your assignments in the interface that you want your students to work on,
+
+- Open your assignment in the respective Github repo 
+- Click on the "nbgitpuller" button 
+- Copy past your JupyterHub instance's URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
+	- You can select from the below options for the "Open in" dropdownlist 
+	- If you want your students to access a Jupyter notebook interface which is simple and intuitive to use, Select "Classic Notebook" option from the dropdown list or
+	- If you want them to explore more advanced features including 3rd party plugins from Jupyter ecosystem, Select "JuptyterLab" option from the dropdown list or
+	- If you want them to explore the latest notebook interface offered by Jupyter which marries the simplicity and intuitiveness of classic notebook with the advanced features from JupyterLab, Select "RetroLab" option from the dropdown list
+- As a last step, Select "Copy nbgitpuller link" button which generates a shareable link that opens your assignment in the choosen interface. 
+
+Here is a short GIF that walks you through the entire process to create a shareable link
+
+```{figure} ../images/Retrolab.gif
+:width: 500px
+:align: center
+:name: nbgitpuller plugin demo
+
+Demo of nbgitpuller plugin!
+```
