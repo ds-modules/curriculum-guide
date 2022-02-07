@@ -69,7 +69,7 @@ The technology behind interact links, called nbgitpuller, pulls _all files_ from
 
 ### nbgitpuller Plugin
 
-One of the latest updates to the nbgitpuller link generator are the plugins which further simplifies the task of generating shareable links.
+One of the latest update to the nbgitpuller link generator is the plugin which simplifies the task of generating shareable links.
 
 - Install the nbgitpuller [Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/) extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. Access a Github repository (through the installed browser) and check whether you can find nbgitpuller button. If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,
 
@@ -81,7 +81,7 @@ One of the latest updates to the nbgitpuller link generator are the plugins whic
 Snapshot of how nbgitpuller button looks like!
 ```
 
-Do the following steps to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,
+Follow the steps below to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,
 
 - Open your assignment in the respective Github repo. 
 ```{figure} ../images/openassignment.PNG
@@ -94,6 +94,15 @@ Snapshot of assignment in GitHub!
 
 - Click on the "nbgitpuller" button. 
 - Copy past your JupyterHub instance's URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
+- Open your assignment in the respective Github repo. 
+
+```{figure} ../images/huburl.PNG
+:width: 500px
+:align: center
+:name: JupyterHub URL
+
+Snapshot for the option to paste JupyterHub URL!
+```
 - You can select from the below options for the "Open in" dropdownlist 
 	- If you want your students to access a Jupyter notebook interface which is **simple and intuitive to use**, Select "Classic Notebook" option from the dropdown list or
 	- If you want them to explore more **advanced features** including 3rd party plugins from Jupyter ecosystem, Select "JuptyterLab" option from the dropdown list or
