@@ -78,18 +78,27 @@ One of the latest updates to the nbgitpuller link generator are the plugins whic
 :align: center
 :name: nbgitpuller button
 
-Snapshot of how nbgitpuller looks!
+Snapshot of how nbgitpuller button looks like!
 ```
 
-Do the following steps to create nbgitpuller link for your assignments in the interface that you want your students to work on,
+Do the following steps to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,
 
-- Open your assignment in the respective Github repo 
-- Click on the "nbgitpuller" button 
+- Open your assignment in the respective Github repo. 
+```{figure} ../images/openassignment.PNG
+:width: 500px
+:align: center
+:name: Assignment opened in GitHub
+
+Snapshot of assignment in GitHub!
+```
+
+- Click on the "nbgitpuller" button. 
 - Copy past your JupyterHub instance's URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
-	- You can select from the below options for the "Open in" dropdownlist 
-	- If you want your students to access a Jupyter notebook interface which is simple and intuitive to use, Select "Classic Notebook" option from the dropdown list or
-	- If you want them to explore more advanced features including 3rd party plugins from Jupyter ecosystem, Select "JuptyterLab" option from the dropdown list or
-	- If you want them to explore the latest notebook interface offered by Jupyter which marries the simplicity and intuitiveness of classic notebook with the advanced features from JupyterLab, Select "RetroLab" option from the dropdown list
+- You can select from the below options for the "Open in" dropdownlist 
+	- If you want your students to access a Jupyter notebook interface which is **simple and intuitive to use**, Select "Classic Notebook" option from the dropdown list or
+	- If you want them to explore more **advanced features** including 3rd party plugins from Jupyter ecosystem, Select "JuptyterLab" option from the dropdown list or
+	- If you want them to explore the **latest notebook interface** offered by Jupyter which marries the simplicity and intuitiveness of classic notebook with the advanced features from JupyterLab, Select "RetroLab" option from the dropdown list or
+	- If you want your students to work on a **R based assignment**, Select "RStudio" option from the dropdown list
 - As a last step, Select "Copy nbgitpuller link" button which generates a shareable link that opens your assignment in the choosen interface. 
 
 Here is a short GIF that walks you through the entire process to create a shareable link
