@@ -21,11 +21,17 @@ Each connector course has its own repo on the \[Data 8 GitHub organization\]\([h
 
 ## What is GitHub Desktop?
 
-[GitHub Desktop](https://docs.github.com/en/desktop) helps you set up your GUI based GitHub client locally. It simplifies your development workflow by providing a GUI interface with options for many git CLI commands. GitHub Desktop is available for Linux, macOS, and Windows and makes it easy to: Attribute commits, Checkout branches, View all open pull requests, Create or clone repositories, Upload local repositories
+[GitHub Desktop](https://docs.github.com/en/desktop) helps you set up your GUI-based GitHub client locally. It simplifies your development workflow by providing a GUI interface with options for many git CLI commands. GitHub Desktop is available for Linux, macOS, and Windows and makes it easy to Attribute commits, Checkout branches, View all open pull requests, Create or clone repositories, Upload local repositories
 You can install GitHub Desktop by following the steps provided as part of this [link](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop)
 
 - Once installed, Authenticate to GitHub Desktop by using your GitHub login credentials.  
 
-- All the available repositories in your GitHub account will be shown when you click the "Clone the repository" option. Choose the repository you plan to clone.
+- All the available repositories in your GitHub account will be shown when you click the "Clone the repository" option. Select the repository and the particular branch in which you plan to make any changes.
 
-- Select the appropriate branch and use "Fetch Origin" to ensure that your local repository is in sync with the GitHub repository
+- Select the appropriate branch and use "Fetch Origin" to ensure that your local repository is in sync with the upstream repository
+
+- You can make direct changes to the files or drag and drop the new files to your commit
+
+- Add a summary and description and click the commit button which commits your changes to the selected branch 
+
+- Click the button "Create Pull Request" to update your changes upstream
