@@ -37,9 +37,12 @@
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
@@ -543,14 +546,15 @@
 <div class="section" id="what-is-github-desktop">
 <h2>What is GitHub Desktop?<a class="headerlink" href="#what-is-github-desktop" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://docs.github.com/en/desktop">GitHub Desktop</a> helps you set up your GUI-based GitHub client locally. It simplifies your development workflow by providing a GUI interface with options for many git CLI commands. GitHub Desktop is available for Linux, macOS, and Windows and makes it easy to Attribute commits, Checkout branches, View all open pull requests, Create or clone repositories, Upload local repositories
-You can install GitHub Desktop by following the steps provided as part of this <a class="reference external" href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop">link</a></p>
+You can install GitHub Desktop by following the steps provided as part of this <a class="reference external" href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop">link</a>. You can merge all your changes to Github through Github Desktop application by following the below 7 steps,</p>
 <ul class="simple">
-<li><p>Once installed, Authenticate to GitHub Desktop by using your GitHub login credentials.</p></li>
-<li><p>All the available repositories in your GitHub account will be shown when you click the “Clone the repository” option. Select the repository and the particular branch in which you plan to make any changes.</p></li>
-<li><p>Select the appropriate branch and use “Fetch Origin” to ensure that your local repository is in sync with the upstream repository</p></li>
-<li><p>You can make direct changes to the files or drag and drop the new files to your commit</p></li>
-<li><p>Add a summary and description and click the commit button which commits your changes to the selected branch</p></li>
-<li><p>Click the button “Create Pull Request” to update your changes upstream</p></li>
+<li><p>As a first step, Login to GitHub Desktop using your GitHub login credentials.</p></li>
+<li><p>All the available repositories in your GitHub account will be visible when you click “Clone the repository” option in Github Desktop. Choose the repository you want to work on and the branch in which you intend to make changes.</p></li>
+<li><p>Click “Fetch Origin” button to make your local repository in sync with the upstream Github repository.</p></li>
+<li><p>Make the required changes to your file(s). Once your changes are made to the file(s)/folder(s), Drag and drop them in the cloned repository’s file structure.</p></li>
+<li><p>All the added file(s)/folder(s) will appear as changed file(s) in Github Desktop. Add a summary and a detailed description to define the changes for your commit. Click the “commit” button to commit your changes to the selected branch.</p></li>
+<li><p>Click the button “Create Pull Request” to create a request in the upstream repository to merge your changes.</p></li>
+<li><p>Once the pull request gets merged in your repo (by the repository maintainer), your changes will be merged (Congratulations!).</p></li>
 </ul>
 </div>
 </div>
