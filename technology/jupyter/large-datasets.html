@@ -130,6 +130,11 @@ const thebe_selector_output = ".output, .cell_output"
     </a>
    </li>
    <li class="toctree-l2">
+    <a class="reference internal" href="../shiny.html">
+     Shiny
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="../../faq/jupyterhub-intro.html">
      Datahub Frequently Asked Questions (FAQ)
     </a>
@@ -444,24 +449,31 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#shared-read">
-     Shared Read
+    <a class="reference internal nav-link" href="#the-shared-directory-credits-2i2c">
+     The Shared directory (Credits: 2i2c)
     </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#shared-read-write">
-     Shared Read-Write
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#syncthing">
-     SyncThing
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     Outside Hosts
-    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#shared">
+       shared
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#shared-readwrite">
+       shared-readwrite
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#syncthing">
+       SyncThing
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Outside Hosts
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -513,24 +525,31 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#shared-read">
-     Shared Read
+    <a class="reference internal nav-link" href="#the-shared-directory-credits-2i2c">
+     The Shared directory (Credits: 2i2c)
     </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#shared-read-write">
-     Shared Read-Write
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#syncthing">
-     SyncThing
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     Outside Hosts
-    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#shared">
+       shared
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#shared-readwrite">
+       shared-readwrite
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#syncthing">
+       SyncThing
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#id1">
+       Outside Hosts
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -564,22 +583,26 @@ const thebe_selector_output = ".output, .cell_output"
 <div class="section" id="larger-datasets-tens-of-mbs-to-several-gbs">
 <h2>Larger Datasets (tens of MBs to several GBs)<a class="headerlink" href="#larger-datasets-tens-of-mbs-to-several-gbs" title="Permalink to this headline">¶</a></h2>
 <p>Our recommendation is to keep the file size of the datasets to be below 100 GB.</p>
-<div class="section" id="shared-read">
-<h3>Shared Read<a class="headerlink" href="#shared-read" title="Permalink to this headline">¶</a></h3>
-<p>The shared folder allows read only access to the data stored. You can read dataset from the shared folder while no write operations on the data is allowed. Stat 159 and Biology hub use the shared drive extensively.</p>
-<p>Create a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=type%3A+enhancement&amp;template=featurerequest.md">Github Issue</a>if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.</p>
+<div class="section" id="the-shared-directory-credits-2i2c">
+<h3>The Shared directory (Credits: 2i2c)<a class="headerlink" href="#the-shared-directory-credits-2i2c" title="Permalink to this headline">¶</a></h3>
+<p>Instructors using Stat 159 and Biology hubs use the shared directories extensively.</p>
+<div class="section" id="shared">
+<h4>shared<a class="headerlink" href="#shared" title="Permalink to this headline">¶</a></h4>
+<p>The shared folder allows read only access to the data stored for all users. You can read dataset from the shared folder while no write operations can be performed.</p>
+<p>Create a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=type%3A+enhancement&amp;template=featurerequest.md">Github Issue</a> if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.</p>
 </div>
-<div class="section" id="shared-read-write">
-<h3>Shared Read-Write<a class="headerlink" href="#shared-read-write" title="Permalink to this headline">¶</a></h3>
-<p>Shared Read-Write folder allows both read and write access to the data stored. You can read and write their datasets to the shared read write folder.</p>
+<div class="section" id="shared-readwrite">
+<h4>shared-readwrite<a class="headerlink" href="#shared-readwrite" title="Permalink to this headline">¶</a></h4>
+<p>shared-readwrite directory is accessible only for <strong>administrators</strong>. This directory allows admins read and write access to the stored data. Any data stored in the shared-readwrite appears in the shared folder for all users.</p>
 </div>
 <div class="section" id="syncthing">
-<h3>SyncThing<a class="headerlink" href="#syncthing" title="Permalink to this headline">¶</a></h3>
-<p>SyncThing is an application that allows users to share their files/folders with their counterparts easily. You can store all your data in the SyncThing folder and read/write to it from your Jupyter notebook instance. Refer to this documentation which talks about how to <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html">share files</a> via SyncThing.</p>
+<h4>SyncThing<a class="headerlink" href="#syncthing" title="Permalink to this headline">¶</a></h4>
+<p>SyncThing is an application that allows users to share their files/folders with their peers through a dropox like functionality. You can store all your data in the SyncThing folder and read it from your Jupyter notebook instance. Refer to this <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html">documentation</a> which talks about how to share files via SyncThing.</p>
 </div>
 <div class="section" id="id1">
-<h3>Outside Hosts<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<h4>Outside Hosts<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
 <p>You can store the data on an online host such as Box, Google Drive, or even GitHub. The <code class="docutils literal notranslate"><span class="pre">datascience</span></code> package contains a [read_table()](<a class="reference external" href="http://data8.org/datascience/_autosummary/datascience.tables.Table.read_table.html#datascience.tables.Table.read_table%29">http://data8.org/datascience/_autosummary/datascience.tables.Table.read_table.html#datascience.tables.Table.read_table)</a>) function for the [Tables](<a class="reference external" href="http://data8.org/datascience/tables.html%29">http://data8.org/datascience/tables.html)</a>) data structure. This function will load the data from a given URL.</p>
+</div>
 </div>
 </div>
 </div>

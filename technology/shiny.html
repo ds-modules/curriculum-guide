@@ -53,6 +53,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Datahub Frequently Asked Questions" href="../faq/jupyterhub-intro.html" />
+    <link rel="prev" title="Introduction to Datahub for R" href="r-datahub.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -101,17 +103,17 @@ const thebe_selector_output = ".output, .cell_output"
   Getting started about the Campus Jupyterhub
  </span>
 </p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1 has-children">
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="pedagogy-and-technology.html">
    Pedagogy and Technology
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
+  <ul class="current">
    <li class="toctree-l2">
     <a class="reference internal" href="pedagogy-and-technology/introduction-to-jupyter.html">
      Introduction to Jupyter
@@ -125,6 +127,11 @@ const thebe_selector_output = ".output, .cell_output"
    <li class="toctree-l2">
     <a class="reference internal" href="r-datahub.html">
      R DataHub
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Shiny
     </a>
    </li>
    <li class="toctree-l2">
@@ -432,17 +439,31 @@ const thebe_selector_output = ".output, .cell_output"
 <p>Shiny is an R package which makes it easy to build interactive web apps. R shiny server in Datahub is used to build interactive dashboards. Here is a short demo of a shiny application below,</p>
 <div class="figure align-center" id="shiny-demo">
 <a class="reference internal image-reference" href="../_images/shiny_combined.gif"><img alt="../_images/shiny_combined.gif" src="../_images/shiny_combined.gif" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-text">Short Demo to launch Shiny application in Datahub</span><a class="headerlink" href="#shiny-demo" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Short Demo to launch Shiny application in Datahub</span><a class="headerlink" href="#shiny-demo" title="Permalink to this image">¶</a></p>
 </div>
 <p>If you are interested to explore Shiny further then you can play with examples from the <a class="reference external" href="https://github.com/rstudio/shiny-examples">Github repository</a>. Here are few <a class="reference external" href="https://github.com/gastonstat/shiny-introstats/">examples</a> created by UC Berkeley professor.
 Here are the steps to be followed,</p>
 <ul class="simple">
-<li><p>Clone the GitHub repository in your instance of Jupyterhub</p></li>
+<li><p>Clone the <a class="reference external" href="https://github.com/rstudio/shiny-examples">GitHub repository</a> with Shiny examples in your instance of Jupyterhub</p></li>
 <li><p>Launch the Shiny server</p></li>
+</ul>
+<div class="figure align-center" id="id1">
+<a class="reference internal image-reference" href="imageslaunchshiny.PNG"><img alt="imageslaunchshiny.PNG" src="imageslaunchshiny.PNG" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Short Launch Shiny</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<ul class="simple">
 <li><p>Point the Shiny server to an example from the cloned repository</p></li>
 <li><p>Explore the rendered example as part of the shiny dashboard.</p></li>
 </ul>
+<div class="figure align-center" id="shiny-dashboard">
+<a class="reference internal image-reference" href="../_images/shinyDashboard.PNG"><img alt="../_images/shinyDashboard.PNG" src="../_images/shinyDashboard.PNG" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Explore Shiny Dashboard</span><a class="headerlink" href="#shiny-dashboard" title="Permalink to this image">¶</a></p>
+</div>
 <p>You can also view the code that generated the dashboard as part of the rendered output.</p>
+<div class="figure align-center" id="code-for-shiny">
+<a class="reference internal image-reference" href="../_images/shinycode.PNG"><img alt="../_images/shinycode.PNG" src="../_images/shinycode.PNG" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Code that generates Shiny dashboard</span><a class="headerlink" href="#code-for-shiny" title="Permalink to this image">¶</a></p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -469,7 +490,21 @@ Here are the steps to be followed,</p>
               
             
                 <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="r-datahub.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Introduction to Datahub for R</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../faq/jupyterhub-intro.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Datahub Frequently Asked Questions</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
 </div>
             
         </div>

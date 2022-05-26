@@ -18,23 +18,26 @@ Students can directly upload data files to their JupyterHub account. This method
 
 ### Larger Datasets \(tens of MBs to several GBs\)
 
-Our recommendation is to keep the file size of the datasets to be below 100 GB. 
+Our recommendation is to keep the file size of the datasets to be below 100 GB.
 
-##### Shared Read
+#### The Shared directory (Credits: 2i2c)
 
-The shared folder allows read only access to the data stored. You can read dataset from the shared folder while no write operations on the data is allowed. Stat 159 and Biology hub use the shared drive extensively.
+Instructors using Stat 159 and Biology hubs use the shared directories extensively.
 
-Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md)if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.
+##### shared
 
-##### Shared Read-Write
+The shared folder allows read only access to the data stored for all users. You can read dataset from the shared folder while no write operations can be performed.
 
-Shared Read-Write folder allows both read and write access to the data stored. You can read and write their datasets to the shared read write folder. 
+Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.
+
+##### shared-readwrite
+
+shared-readwrite directory is accessible only for **administrators**. This directory allows admins read and write access to the stored data. Any data stored in the shared-readwrite appears in the shared folder for all users. 
 
 ##### SyncThing
 
-SyncThing is an application that allows users to share their files/folders with their counterparts easily. You can store all your data in the SyncThing folder and read/write to it from your Jupyter notebook instance. Refer to this documentation which talks about how to [share files](https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html) via SyncThing.
+SyncThing is an application that allows users to share their files/folders with their peers through a dropox like functionality. You can store all your data in the SyncThing folder and read it from your Jupyter notebook instance. Refer to this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html) which talks about how to share files via SyncThing.
 
 ##### Outside Hosts
 
 You can store the data on an online host such as Box, Google Drive, or even GitHub. The `datascience` package contains a [read\_table\(\)](http://data8.org/datascience/_autosummary/datascience.tables.Table.read_table.html#datascience.tables.Table.read_table%29\) function for the [Tables](http://data8.org/datascience/tables.html%29\) data structure. This function will load the data from a given URL.
-
