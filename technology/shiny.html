@@ -436,20 +436,33 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="shiny">
 <h1>Shiny<a class="headerlink" href="#shiny" title="Permalink to this headline">¶</a></h1>
-<p>Shiny is an R package which makes it easy to build interactive web apps. R shiny server in Datahub is used to build interactive dashboards. Here is a short demo of a shiny application below,</p>
+<p><a class="reference external" href="https://shiny.rstudio.com/">Shiny</a> is a R package which makes it easy to build interactive web apps. R shiny server in Datahub is used to build interactive dashboards. Here is a short demo of a shiny application below,</p>
 <div class="figure align-center" id="shiny-demo">
 <a class="reference internal image-reference" href="../_images/shiny_combined.gif"><img alt="../_images/shiny_combined.gif" src="../_images/shiny_combined.gif" style="width: 500px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Short Demo to launch Shiny application in Datahub</span><a class="headerlink" href="#shiny-demo" title="Permalink to this image">¶</a></p>
 </div>
-<p>If you are interested to explore Shiny further then you can play with examples from the <a class="reference external" href="https://github.com/rstudio/shiny-examples">Github repository</a>. Here are few <a class="reference external" href="https://github.com/gastonstat/shiny-introstats/">examples</a> created by UC Berkeley professor.
-Here are the steps to be followed,</p>
+<p>If you are interested to explore Shiny application further then you can play with examples from this <a class="reference external" href="https://github.com/rstudio/shiny-examples">Github repository</a> and <a class="reference external" href="https://github.com/gastonstat/shiny-introstats/">few other examples</a> created by a stats faculty. Here are couple of approaches you can take to launch a shiny application,</p>
+<p><strong>Approach I:</strong></p>
+<ul class="simple">
+<li><p>Install the nbgitpuller plugin in <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Google Chrome</a>/<a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/">Mozilla Firefox</a> browser</p></li>
+<li><p>Upload the Shiny application to Github or choose an example from existing applications</p></li>
+<li><p>Select the application home directory and choose the option “shiny” from the nbgitpuller plugin</p></li>
+</ul>
+<div class="figure align-center" id="shiny-via-nbgitpuller-link">
+<a class="reference internal image-reference" href="../_images/launchshinyapp.PNG"><img alt="../_images/launchshinyapp.PNG" src="../_images/launchshinyapp.PNG" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Launch Shiny application via nbgitpuller plugin</span><a class="headerlink" href="#shiny-via-nbgitpuller-link" title="Permalink to this image">¶</a></p>
+</div>
+<ul class="simple">
+<li><p>Paste the link in a browser to access the shiny application. Here is an example <a class="reference external" href="https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Frstudio%2Fshiny-examples&amp;branch=main&amp;urlpath=shiny%2Fshiny-examples%2F003-reactivity%2F">link</a></p></li>
+</ul>
+<p><strong>Approach II:</strong></p>
 <ul class="simple">
 <li><p>Clone the <a class="reference external" href="https://github.com/rstudio/shiny-examples">GitHub repository</a> with Shiny examples in your instance of Jupyterhub</p></li>
 <li><p>Launch the Shiny server</p></li>
 </ul>
 <div class="figure align-center" id="id1">
-<a class="reference internal image-reference" href="imageslaunchshiny.PNG"><img alt="imageslaunchshiny.PNG" src="imageslaunchshiny.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Short Launch Shiny</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<a class="reference internal image-reference" href="../_images/launchshiny.PNG"><img alt="../_images/launchshiny.PNG" src="../_images/launchshiny.PNG" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Short Launch Shiny</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <ul class="simple">
 <li><p>Point the Shiny server to an example from the cloned repository</p></li>
@@ -457,12 +470,12 @@ Here are the steps to be followed,</p>
 </ul>
 <div class="figure align-center" id="shiny-dashboard">
 <a class="reference internal image-reference" href="../_images/shinyDashboard.PNG"><img alt="../_images/shinyDashboard.PNG" src="../_images/shinyDashboard.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Explore Shiny Dashboard</span><a class="headerlink" href="#shiny-dashboard" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Explore Shiny Dashboard</span><a class="headerlink" href="#shiny-dashboard" title="Permalink to this image">¶</a></p>
 </div>
 <p>You can also view the code that generated the dashboard as part of the rendered output.</p>
 <div class="figure align-center" id="code-for-shiny">
 <a class="reference internal image-reference" href="../_images/shinycode.PNG"><img alt="../_images/shinycode.PNG" src="../_images/shinycode.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Code that generates Shiny dashboard</span><a class="headerlink" href="#code-for-shiny" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Code that generates Shiny dashboard</span><a class="headerlink" href="#code-for-shiny" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 
