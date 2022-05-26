@@ -31,6 +31,8 @@ parts:
       title: Notebook Zero
     - file: technology/r-datahub
       title: R DataHub
+    - file: technology/shiny
+      title: Shiny  
     - file: faq/jupyterhub-intro
       title: Datahub Frequently Asked Questions (FAQ)
     - file: faq/onboarding
