@@ -45,12 +45,11 @@
     <script src="../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -445,8 +444,18 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#shared-copy-on-jupyterhub">
-     Shared Copy on JupyterHub
+    <a class="reference internal nav-link" href="#shared-read">
+     Shared Read
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#shared-read-write">
+     Shared Read-Write
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#syncthing">
+     SyncThing
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -504,8 +513,18 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#shared-copy-on-jupyterhub">
-     Shared Copy on JupyterHub
+    <a class="reference internal nav-link" href="#shared-read">
+     Shared Read
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#shared-read-write">
+     Shared Read-Write
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#syncthing">
+     SyncThing
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -544,9 +563,19 @@
 </div>
 <div class="section" id="larger-datasets-tens-of-mbs-to-several-gbs">
 <h2>Larger Datasets (tens of MBs to several GBs)<a class="headerlink" href="#larger-datasets-tens-of-mbs-to-several-gbs" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="shared-copy-on-jupyterhub">
-<h3>Shared Copy on JupyterHub<a class="headerlink" href="#shared-copy-on-jupyterhub" title="Permalink to this headline">¶</a></h3>
+<p>Our recommendation is to keep the file size of the datasets to be below 100 GB.</p>
+<div class="section" id="shared-read">
+<h3>Shared Read<a class="headerlink" href="#shared-read" title="Permalink to this headline">¶</a></h3>
+<p>The shared folder allows read only access to the data stored. You can read dataset from the shared folder while no write operations on the data is allowed. Stat 159 and Biology hub use the shared drive extensively.</p>
 <p>Create a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=type%3A+enhancement&amp;template=featurerequest.md">Github Issue</a>if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.</p>
+</div>
+<div class="section" id="shared-read-write">
+<h3>Shared Read-Write<a class="headerlink" href="#shared-read-write" title="Permalink to this headline">¶</a></h3>
+<p>Shared Read-Write folder allows both read and write access to the data stored. You can read and write their datasets to the shared read write folder.</p>
+</div>
+<div class="section" id="syncthing">
+<h3>SyncThing<a class="headerlink" href="#syncthing" title="Permalink to this headline">¶</a></h3>
+<p>SyncThing is an application that allows users to share their files/folders with their counterparts easily. You can store all your data in the SyncThing folder and read/write to it from your Jupyter notebook instance. Refer to this documentation which talks about how to <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html">share files</a> via SyncThing.</p>
 </div>
 <div class="section" id="id1">
 <h3>Outside Hosts<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
