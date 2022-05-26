@@ -18,11 +18,9 @@ Students can directly upload data files to their JupyterHub account. This method
 
 ### Larger Datasets \(tens of MBs to several GBs\)
 
-Our recommendation is to keep the file size of the datasets to be below 100 GB.
+Our current recommendation is to keep the file size of the datasets below 100 GB. We recommend the following approaches to all instructors/students who plan to use large datasets for their teaching/learning plans.
 
 #### The Shared directory (Credits: 2i2c)
-
-Instructors using Stat 159 and Biology hubs use the shared directories extensively.
 
 ##### shared
 
@@ -34,9 +32,11 @@ Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/ne
 
 shared-readwrite directory is accessible only for **administrators**. This directory allows admins read and write access to the stored data. Any data stored in the shared-readwrite appears in the shared folder for all users. 
 
+Instructors using Stat 159 and Biology hubs use the shared directories extensively.
+
 ##### SyncThing
 
-SyncThing is an application that allows users to share their files/folders with their peers through a dropox like functionality. You can store all your data in the SyncThing folder and read it from your Jupyter notebook instance. Refer to this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html) which talks about how to share files via SyncThing.
+[SyncThing](https://syncthing.net/) is an application that allows users to share their files/folders with their collaborators through a dropox like functionality. You can store all your data in the SyncThing folder and share it with your collaborators. They can read data from the application into their Jupyter notebooks. Refer to this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html) that explains the approach to share files via SyncThing.
 
 ##### Outside Hosts
 
