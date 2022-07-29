@@ -4,7 +4,7 @@
 
 Access the ngbitpuller link generator website using this [link](https://jupyterhub.github.io/nbgitpuller/link) and fill in the following details,
 - Enter https://eecs.datahub.berkeley.edu as the JupyterHub URL.
-- Enter the name of your Git repository which contains the ipynb files as "Git Repository URL". 
+- Enter the name of your Git repository which contains the ipynb files as "Git Repository URL". Your github repository name in the example shown as part of the snapshot would be "Data88-SP22".
 
 ```{figure} ../images/reponame.PNG
 :width: 500px
