@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Launching notebooks using VSCode in Datahub &#8212; Curriculum Guide</title>
+    <title>Launching notebooks using VSCode &#8212; Curriculum Guide</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -245,7 +245,7 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Launching notebooks using VSCode in Datahub
+   Launching notebooks using VSCode
   </a>
  </li>
 </ul>
@@ -504,44 +504,23 @@ title="Print to PDF"
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#">
-   Launching notebooks using VSCode in Datahub
+   Launching notebooks using VSCode
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-1">
-   Step 1
+  <a class="reference internal nav-link" href="#step-1-generate-nbgitpuller-links-to-launch-via-vscode-editor">
+   Step 1: Generate nbgitpuller links to launch via vscode editor
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#generate-nbgitpuller-links-to-launch-via-vscode-editor">
-     Generate nbgitpuller links to launch via vscode editor
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-2">
-   Step 2
+  <a class="reference internal nav-link" href="#step-2-configure-vscode-to-launch-notebooks-with-python-extensions-preinstalled">
+   Step 2: Configure VSCode to launch notebooks with python extensions preinstalled
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#configure-vscode-to-launch-notebooks-with-python-extensions-preinstalled">
-     Configure VSCode to launch notebooks with python extensions preinstalled
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-3">
-   Step 3
+  <a class="reference internal nav-link" href="#step-3-run-otter-grader-in-vscode">
+   Step 3: Run Otter grader in VSCode
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#run-otter-grader-in-vscode">
-     Run Otter grader in VSCode
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -552,7 +531,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Launching notebooks using VSCode in Datahub</h1>
+                <h1>Launching notebooks using VSCode</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -564,44 +543,23 @@ title="Print to PDF"
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#">
-   Launching notebooks using VSCode in Datahub
+   Launching notebooks using VSCode
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-1">
-   Step 1
+  <a class="reference internal nav-link" href="#step-1-generate-nbgitpuller-links-to-launch-via-vscode-editor">
+   Step 1: Generate nbgitpuller links to launch via vscode editor
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#generate-nbgitpuller-links-to-launch-via-vscode-editor">
-     Generate nbgitpuller links to launch via vscode editor
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-2">
-   Step 2
+  <a class="reference internal nav-link" href="#step-2-configure-vscode-to-launch-notebooks-with-python-extensions-preinstalled">
+   Step 2: Configure VSCode to launch notebooks with python extensions preinstalled
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#configure-vscode-to-launch-notebooks-with-python-extensions-preinstalled">
-     Configure VSCode to launch notebooks with python extensions preinstalled
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#step-3">
-   Step 3
+  <a class="reference internal nav-link" href="#step-3-run-otter-grader-in-vscode">
+   Step 3: Run Otter grader in VSCode
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#run-otter-grader-in-vscode">
-     Run Otter grader in VSCode
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -613,35 +571,40 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="launching-notebooks-using-vscode-in-datahub">
-<h1>Launching notebooks using VSCode in Datahub<a class="headerlink" href="#launching-notebooks-using-vscode-in-datahub" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="launching-notebooks-using-vscode">
+<h1>Launching notebooks using VSCode<a class="headerlink" href="#launching-notebooks-using-vscode" title="Permalink to this headline">#</a></h1>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-1">
-<h1>Step 1<a class="headerlink" href="#step-1" title="Permalink to this headline">#</a></h1>
-<section id="generate-nbgitpuller-links-to-launch-via-vscode-editor">
-<h2>Generate nbgitpuller links to launch via vscode editor<a class="headerlink" href="#generate-nbgitpuller-links-to-launch-via-vscode-editor" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="step-1-generate-nbgitpuller-links-to-launch-via-vscode-editor">
+<h1>Step 1: Generate nbgitpuller links to launch via vscode editor<a class="headerlink" href="#step-1-generate-nbgitpuller-links-to-launch-via-vscode-editor" title="Permalink to this headline">#</a></h1>
+<p>Access ngbitpuller link generator website using this <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/link">link</a> and fill the following details,</p>
 <ul class="simple">
-<li><p>Access ngbitpuller link generator website  - <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/link">https://jupyterhub.github.io/nbgitpuller/link</a></p></li>
-<li><p>Enter <a class="reference external" href="https://eecs.datahub.berkeley.edu">https://eecs.datahub.berkeley.edu</a> as the JupyterHub URL</p></li>
-<li><p>Enter your Git repository having source files as Git Repository URL</p></li>
-<li><p>Enter your source file branch as part of the “branch” field</p></li>
-<li><p>For “Application to Open” option, Enter Custom URL as “vscode/?folder=<Your folder structure>”</p></li>
+<li><p>Enter <a class="reference external" href="https://eecs.datahub.berkeley.edu">https://eecs.datahub.berkeley.edu</a> as the JupyterHub URL.</p></li>
+<li><p>Enter your Git repository which contains the ipynb files as “Git Repository URL”.</p></li>
+<li><p>Enter the name of the branch for your git repository in the “branch” field.</p></li>
+<li><p>Ignore the field “File To Open” field.</p></li>
+<li><p>Enter Custom URL as “vscode/?folder=/home/jovyan/&lt;Name_Of_Repository&gt;” For “Application to Open” field.</p></li>
+<li><p>Copy the unique link that is generated by nbgitpuller link generator and paste it in your browser. VSCode editor gets launched in the browser showing the contents from the source repository.</p></li>
 </ul>
+<p>– Add details related to name of the repository</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>VSCode editor will not launch the exact file you file entered as part of the “File To Open” field. It would rather point to the directory which contains all the files stored in your source git repository.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>VSCode editor is currently configured only for EECS Hub and Data 8x Hub. If you want to explore this option as part of other hubs then please do raise a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&amp;labels=type%3A+enhancement&amp;template=featurerequest.md">github issue</a></p>
+</div>
 <figure class="align-center" id="nbgitpuller-link-to-launch-vscode">
 <a class="reference internal image-reference" href="../_images/vscode_link_generator.PNG"><img alt="../_images/vscode_link_generator.PNG" src="../_images/vscode_link_generator.PNG" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Here is how you can generate a link to launch vscode in EECS Hub</span><a class="headerlink" href="#nbgitpuller-link-to-launch-vscode" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Here is how you can generate a link to launch VSCode in EECS Hub</span><a class="headerlink" href="#nbgitpuller-link-to-launch-vscode" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>Copy the unique link that is generated and paste it in your browser. VSCode editor gets launched in the browser showing the required repository as part of the home directory.</p>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-2">
-<h1>Step 2<a class="headerlink" href="#step-2" title="Permalink to this headline">#</a></h1>
-<section id="configure-vscode-to-launch-notebooks-with-python-extensions-preinstalled">
-<h2>Configure VSCode to launch notebooks with python extensions preinstalled<a class="headerlink" href="#configure-vscode-to-launch-notebooks-with-python-extensions-preinstalled" title="Permalink to this headline">#</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="step-2-configure-vscode-to-launch-notebooks-with-python-extensions-preinstalled">
+<h1>Step 2: Configure VSCode to launch notebooks with python extensions preinstalled<a class="headerlink" href="#step-2-configure-vscode-to-launch-notebooks-with-python-extensions-preinstalled" title="Permalink to this headline">#</a></h1>
 <ul class="simple">
-<li><p>Find the python notebook file (ipynb) that you want to launch in vscode editor directory space</p></li>
+<li><p>Find the python notebook file (ipynb) that you want to launch in vscode editor.</p></li>
 <li><p>Execute the cell which contains the code to install python packages</p></li>
 <li><p>Incase if you are not able to run a particular cell, check if python extension is pre-installed.</p></li>
 <li><p>If it is not installed, Search “python” in the extension list and install “ms-python” extension directly or click this <a class="reference external" href="https://open-vsx.org/extension/ms-python/python">link</a> to install the python extension.</p></li>
@@ -654,15 +617,9 @@ title="Print to PDF"
 </figcaption>
 </figure>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-3">
-<h1>Step 3<a class="headerlink" href="#step-3" title="Permalink to this headline">#</a></h1>
-<section id="run-otter-grader-in-vscode">
-<h2>Run Otter grader in VSCode<a class="headerlink" href="#run-otter-grader-in-vscode" title="Permalink to this headline">#</a></h2>
-<ul class="simple">
-<li><p>For installing Otter grader, there are no extra steps. Ensure that you complete the step 1 and 2 and pip install otter-grader before you execute the cell containing the code.</p></li>
-</ul>
-</section>
+<section class="tex2jax_ignore mathjax_ignore" id="step-3-run-otter-grader-in-vscode">
+<h1>Step 3: Run Otter grader in VSCode<a class="headerlink" href="#step-3-run-otter-grader-in-vscode" title="Permalink to this headline">#</a></h1>
+<p>For installing Otter grader, there are no extra steps. Ensure that once you complete the step 1 and 2 run the code containing otter grader. If you run into issues with otter grader then do pip install otter-grader before you execute the cell again.</p>
 </section>
 
     <script type="text/x-thebe-config">
