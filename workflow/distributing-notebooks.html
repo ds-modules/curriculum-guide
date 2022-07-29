@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Distributing Notebooks &#8212; Curriculum Guide</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet">
-  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,20 +20,16 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -39,12 +37,13 @@
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
 const thebe_selector_input = "pre"
@@ -62,7 +61,21 @@ const thebe_selector_output = ".output, .cell_output"
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -71,9 +84,10 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -91,14 +105,15 @@ const thebe_selector_output = ".output, .cell_output"
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../intro.html">
-   Welcome to the UC Berkeley Data Science Curriculum Guide!
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to the UC Berkeley Data Science Curriculum Guide!
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Getting started about the Campus Jupyterhub
  </span>
@@ -228,6 +243,11 @@ const thebe_selector_output = ".output, .cell_output"
    Use Realtime file sharing using SyncThing
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="launch-vscode.html">
+   Launching notebooks using VSCode in Datahub
+  </a>
+ </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
@@ -353,12 +373,17 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
 </div>
 
 
@@ -366,61 +391,117 @@ const thebe_selector_output = ".output, .cell_output"
 
 
           
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
     
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
+    <div class="header-article row sticky-top noprint">
         
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/workflow/distributing-notebooks.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/workflow/distributing-notebooks.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
     </div>
 </div>
 
-            <!-- Source interaction buttons -->
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#the-steps">
    The Steps
@@ -464,12 +545,11 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
                 <h1>Distributing Notebooks</h1>
@@ -529,14 +609,15 @@ const thebe_selector_output = ".output, .cell_output"
                     </div>
                 </div>
             </div>
-            
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="distributing-notebooks">
-<h1>Distributing Notebooks<a class="headerlink" href="#distributing-notebooks" title="Permalink to this headline">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="distributing-notebooks">
+<h1>Distributing Notebooks<a class="headerlink" href="#distributing-notebooks" title="Permalink to this headline">#</a></h1>
 <p>We recommend using interact links to distribute notebooks to students. nbgitpuller links are described in detail below. If you do not wish to use interact links, you can distribute assignments through bCourses as well. In this case, after you have uploaded the files to bCourses, students will need to download them and then upload them to their own JupyterHub accounts.</p>
-<div class="section" id="the-steps">
-<h2>The Steps<a class="headerlink" href="#the-steps" title="Permalink to this headline">¶</a></h2>
+<section id="the-steps">
+<h2>The Steps<a class="headerlink" href="#the-steps" title="Permalink to this headline">#</a></h2>
 <p>Here are the basic steps you will need to go through to distribute notebooks and other files. To learn more about the details of the process, please read through the rest of this page.</p>
 <ol class="simple">
 <li><p>Create a folder with all files for the assignment (notebook, datasets, etc.)</p></li>
@@ -544,15 +625,15 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Generate an interact link for the folder using the interact link generator (more on this below)</p></li>
 <li><p>Distribute the link to students through some web page</p></li>
 </ol>
-</div>
-<div class="section" id="what-are-interact-links">
-<h2>What are interact links?<a class="headerlink" href="#what-are-interact-links" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="what-are-interact-links">
+<h2>What are interact links?<a class="headerlink" href="#what-are-interact-links" title="Permalink to this headline">#</a></h2>
 <p>nbgitpuller links simplify the assignment distribution process. Rather than downloading files from an external source and then uploading to their personal JupyterHub accounts, users can obtain all files for a given assignment with just one click. When a user clicks on an interact link for a particular assignment, all files for the assignment will show up in the user’s personal JupyterHub account.</p>
 <p>These links can be used with any content stored on GitHub in a public repository. nbgitpuller links can be generated for an entire repository, or a particular file or folder. When a link is clicked, a series of Git commands are run from the user’s JupyterHub account, which is why interact links must be used with content on GitHub. They cannot be used to pull arbitrary files from sources other than GitHub.</p>
 <p>Using these links enables users to immediately interact with publicly available content on GitHub. This is valuable for easy assignment distribution, but also in the broader context of using the open-source content that is available on GitHub. Learning Git is no longer a barrier to interacting with this content.</p>
-</div>
-<div class="section" id="how-do-interact-links-work">
-<h2>How do interact links work?<a class="headerlink" href="#how-do-interact-links-work" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="how-do-interact-links-work">
+<h2>How do interact links work?<a class="headerlink" href="#how-do-interact-links-work" title="Permalink to this headline">#</a></h2>
 <p>Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting and will remain the same for each links. The colored portions will be different for each link. If you are new to GitHub you may want to familiarize yourself with the basics (repositories, branches, etc.) to better understand each component.</p>
 <p><img alt="link components" src="../_images/link-components.png" /></p>
 <p>The above link does the following:</p>
@@ -561,13 +642,13 @@ const thebe_selector_output = ".output, .cell_output"
 <li><p>Checks out to the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch (this is the default, but specifiable on nbgitpuller)</p></li>
 <li><p>Opens the file <code class="docutils literal notranslate"><span class="pre">lab04/lab04.ipynb</span></code> on <code class="docutils literal notranslate"><span class="pre">datahub.berkeley.edu</span></code>. The full path of this file on the user’s JupyterHub account would be <code class="docutils literal notranslate"><span class="pre">~/SW-282/lab04/lab04.ipynb</span></code>.</p></li>
 </ul>
-</div>
-<div class="section" id="restrictions">
-<h2>Restrictions<a class="headerlink" href="#restrictions" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="restrictions">
+<h2>Restrictions<a class="headerlink" href="#restrictions" title="Permalink to this headline">#</a></h2>
 <p>To use an interact link, files must be stored in a public GitHub repo. nbgitpuller links will not work with private repositories. Previously, content had to be stored in the <code class="docutils literal notranslate"><span class="pre">data-8</span></code> GitHub organization or in an approved account or organization. This no longer applies, interact links can be used with content stored in ANY public repository.</p>
-</div>
-<div class="section" id="nbgitpuller-link-generator">
-<h2><strong>nbgitpuller Link Generator</strong><a class="headerlink" href="#nbgitpuller-link-generator" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="nbgitpuller-link-generator">
+<h2><strong>nbgitpuller Link Generator</strong><a class="headerlink" href="#nbgitpuller-link-generator" title="Permalink to this headline">#</a></h2>
 <p>nbgitpuller links can be manually created in the format shown above, or can be automatically generated using <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/link?hub=https://datahub.berkeley.edu&amp;repo=https://github.com/ds-modules/">this</a> tool. The interact link generator tool allows users to specify a JupyterHub URL and GitHub url as inputs. The tool will generate an interact link for the specified GitHub content and JupyterHub.</p>
 <p><img alt="nbgitpuller" src="../_images/nbgitpuller.png" /></p>
 <p>For example, to pull <a class="reference external" href="https://github.com/ds-modules/SW-282/tree/master/lab04/lab04.ipynb">this repo</a> into DataHub, we would fill out the nbgitpuller link generator with:</p>
@@ -589,38 +670,44 @@ For example, to pull [this](https://github.com/data-8/mcb-88-connector/tree/gh-p
 The output should be [https://datahub.berkeley.edu/user-redirect/interact?account=data-8&repo=mcb-88-connector&branch=gh-pages&path=exercises/lab5](https://datahub.berkeley.edu/user-redirect/interact?account=data-8&repo=mcb-88-connector&branch=gh-pages&path=exercises/lab5). This link will copy the desired folder into your JupyterHub account.
 
 -->
-<div class="section" id="important-note">
-<h3><strong>Important Note</strong><a class="headerlink" href="#important-note" title="Permalink to this headline">¶</a></h3>
+<section id="important-note">
+<h3><strong>Important Note</strong><a class="headerlink" href="#important-note" title="Permalink to this headline">#</a></h3>
 <p>The technology behind interact links, called nbgitpuller, pulls <em>all files</em> from a repo into the user’s DataHub account. This means that <strong>you should not store unfinished materials and answer keys in the same repo as published assignments</strong>. Any interact link for a published assignment would also distribute the unfinished materials and answer keys to the students, which you probably do not want. Instead, <strong>we recommend that you use a public repo for published assignments and a private repo for unfinished materials and answer keys</strong>.</p>
-</div>
-</div>
-<div class="section" id="nbgitpuller-plugin">
-<h2>nbgitpuller Plugin<a class="headerlink" href="#nbgitpuller-plugin" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="nbgitpuller-plugin">
+<h2>nbgitpuller Plugin<a class="headerlink" href="#nbgitpuller-plugin" title="Permalink to this headline">#</a></h2>
 <p>One of the latest update to the nbgitpuller link generator is the plugin which simplifies the task of generating shareable links.</p>
 <ul class="simple">
 <li><p>Install the nbgitpuller <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Chrome</a> or <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/">Firefox</a> extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. Access a Github repository (through the installed browser) and check whether you can find nbgitpuller button. If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,</p></li>
 </ul>
-<div class="figure align-center" id="nbgitpuller-button">
+<figure class="align-center" id="nbgitpuller-button">
 <a class="reference internal image-reference" href="../_images/nbgitpullerbutton.PNG"><img alt="../_images/nbgitpullerbutton.PNG" src="../_images/nbgitpullerbutton.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 18 </span><span class="caption-text">Snapshot of how nbgitpuller button looks like!</span><a class="headerlink" href="#nbgitpuller-button" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text">Snapshot of how nbgitpuller button looks like!</span><a class="headerlink" href="#nbgitpuller-button" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>Follow the steps below to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,</p>
 <ul class="simple">
 <li><p>Open your assignment in the respective Github repo.</p></li>
 </ul>
-<div class="figure align-center" id="assignment-opened-in-github">
+<figure class="align-center" id="assignment-opened-in-github">
 <a class="reference internal image-reference" href="../_images/openassignment.PNG"><img alt="../_images/openassignment.PNG" src="../_images/openassignment.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 19 </span><span class="caption-text">Snapshot of assignment in GitHub!</span><a class="headerlink" href="#assignment-opened-in-github" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 19 </span><span class="caption-text">Snapshot of assignment in GitHub!</span><a class="headerlink" href="#assignment-opened-in-github" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <ul class="simple">
 <li><p>Click on the “nbgitpuller” button.</p></li>
 <li><p>Copy past your JupyterHub instance’s URL (if you are using the main Datahub then you can use <a class="reference external" href="https://datahub.berkeley.edu/">https://datahub.berkeley.edu/</a>) in the “JupyterHub URL” textbox</p></li>
 <li><p>Open your assignment in the respective Github repo.</p></li>
 </ul>
-<div class="figure align-center" id="jupyterhub-url">
+<figure class="align-center" id="jupyterhub-url">
 <a class="reference internal image-reference" href="../_images/huburl.PNG"><img alt="../_images/huburl.PNG" src="../_images/huburl.PNG" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 20 </span><span class="caption-text">Snapshot for the option to paste JupyterHub URL!</span><a class="headerlink" href="#jupyterhub-url" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Snapshot for the option to paste JupyterHub URL!</span><a class="headerlink" href="#jupyterhub-url" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <ul class="simple">
 <li><p>You can select from the below options for the “Open in” dropdownlist</p>
 <ul>
@@ -633,12 +720,14 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 <li><p>As a last step, Select “Copy nbgitpuller link” button which generates a shareable link that opens your assignment in the choosen interface.</p></li>
 </ul>
 <p>Here is a short GIF that walks you through the entire process to create a shareable link</p>
-<div class="figure align-center" id="nbgitpuller-plugin-demo">
+<figure class="align-center" id="nbgitpuller-plugin-demo">
 <a class="reference internal image-reference" href="../_images/Retrolab.gif"><img alt="../_images/Retrolab.gif" src="../_images/Retrolab.gif" style="width: 500px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 21 </span><span class="caption-text">Demo of nbgitpuller plugin!</span><a class="headerlink" href="#nbgitpuller-plugin-demo" title="Permalink to this image">¶</a></p>
-</div>
-</div>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Demo of nbgitpuller plugin!</span><a class="headerlink" href="#nbgitpuller-plugin-demo" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -662,9 +751,11 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 
               </div>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
     <a class='left-prev' id="prev-link" href="pushing-to-github.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
@@ -680,24 +771,28 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-            
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-  <p>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Christopher pyles and Balaji Alwar<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
     
-      By Christopher pyles and Balaji Alwar<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+</div>
 
 
       </div>
     </div>
   
-  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>
