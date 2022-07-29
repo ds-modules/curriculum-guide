@@ -69,6 +69,8 @@ parts:
     title: Using Real Time Collaboration (RTC)
   - file: workflow/use-realtimefilesharing.md
     title: Using Real Time File Sharing
+  - file: workflow/launch-vscode.md
+    title: Launch VSCode Editor
 - caption: Getting Started with Modules and Connectors
   chapters:
   - file: connector/general/what-is-a-connector
