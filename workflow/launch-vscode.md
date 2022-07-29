@@ -53,7 +53,7 @@ Here is how you can generate a link to launch VSCode in EECS Hub
 Install python extension in the VSCode editor
 ```
 
-# Step 3: Configure VSCode to work with Otter grader
+### Step 3: Configure VSCode to work with Otter grader
 
 - Complete steps 1 and 2 and run the code installing otter grader. 
 If you run into issues with otter grader then do pip install otter-grader before you execute this cell again.
