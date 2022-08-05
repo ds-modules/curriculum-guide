@@ -63,11 +63,15 @@ If your collaborator wants to provide access to a folder, you need to share your
 Here is how you will receive a notification when a collaborator adds you to a shared folder
 ```
 
+```{note}
+In certain scenarios, Please do keep in mind that there will be a delay of a few minutes after which you will receive these notifications.
+```
+
 Finally, Here is a short GIF that walks you through the entire process to set up realtime file sharing using SyncThing in a step by step manner.
 
 
 ```{figure} ../images/syncthingdemo.gif
-:width: 500px
+:width: 750px
 :align: center
 :name: File Sharing Demo
 
