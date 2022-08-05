@@ -64,6 +64,8 @@ parts:
   - file: workflow/distributing-notebooks
     title: Distributing Assignments
   - file: workflow/collecting-grading-assignments
+    title: Launch Jupyter notebooks using RetroLab interface!
+  - file: workflow/use-retrolab.md
     title: Collecting and Grading Assignments
   - file: workflow/use-realtimecollaboration
     title: Using Real Time Collaboration (RTC)
