@@ -33,6 +33,8 @@ parts:
       title: R DataHub
     - file: technology/shiny
       title: Shiny  
+    - file: technology/quarto
+      title: Quarto  
     - file: faq/jupyterhub-intro
       title: Datahub Frequently Asked Questions (FAQ)
     - file: faq/onboarding
