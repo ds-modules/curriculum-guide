@@ -73,6 +73,9 @@ parts:
     title: Using Real Time File Sharing
   - file: workflow/launch-vscode.md
     title: Launch VSCode Editor
+  - file: workflow/dowload_PDF.md
+    title: Download Jupyter Notebook as PDF
+
 - caption: Getting Started with Modules and Connectors
   chapters:
   - file: connector/general/what-is-a-connector
