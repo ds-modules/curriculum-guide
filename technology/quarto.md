@@ -2,7 +2,7 @@
 
 Quarto is the latest update to the R Studio interface which allows creating scientific and technical documentation which instructors can use as part of their coursework. Quarto generates .qmd files which is used to produce publication worthy documentation. Quarto uses knitr when R is executed inorder to produce .qmd files.
 
-```{figure} ../images/quarto.MOV
+```{figure} ../images/quarto.gif
 :width: 500px
 :align: center
 :name: Convert R markdown assignments/labs with quarto to produce pdfs
