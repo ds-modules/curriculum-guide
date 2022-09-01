@@ -1,6 +1,6 @@
 # Download Jupyter Notebook as a PDF
 
-Are you interested in downloading your Jupyter Notebook as a PDF and are confused by the gazillion options available in the notebook UI to download the PDF which makes it extremely confusing to choose the right option?
+Are you interested in downloading your Jupyter Notebook as a PDF and are confused by the gazillion options available in the notebook UI? Do you need some guidance to choose the right option?
 
 ```{figure} ../images/downloadoptions.PNG
 :width: 500px
