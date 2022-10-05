@@ -27,9 +27,9 @@ You can install GitHub Desktop by following the steps provided as part of this [
 - As a first step, Login to GitHub Desktop using your GitHub login credentials.  
 
 - All the available repositories in your GitHub account will be visible when you click "Clone the repository" option in Github Desktop. Choose the repository you want to work on and the branch in which you intend to make changes.
+ry in sync with the upstream Github repository.
 
-- Click "Fetch Origin" button to make your local repository in sync with the upstream Github repository.
-
+- Click "Fetch Origin" button to make your local reposito
 - Make the required changes to your file(s). Once your changes are made to the file(s)/folder(s), Drag and drop them in the cloned repository's file structure.
 
 - All the added file(s)/folder(s) will appear as changed file(s) in Github Desktop. Add a summary and a detailed description to define the changes for your commit. Click the "commit" button to commit your changes to the selected branch. 
