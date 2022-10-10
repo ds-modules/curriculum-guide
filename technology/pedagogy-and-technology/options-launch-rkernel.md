@@ -1,8 +1,8 @@
-# Backup Options to Launch Jupyter R Kernel (or run R notebooks)
+# Options to Launch R notebooks without using Datahub
 
 ### Option #1: Launch Jupyter R Kernel locally
 
-Step 1: Install Anaconda locally. Check this [link](https://docs.anaconda.com/anaconda/install/index.html) for installation.
+Step 1: Install Anaconda locally in your device. Check this [link](https://docs.anaconda.com/anaconda/install/index.html) for the installation process.
 
 Step 2: Open Anaconda prompt shell. Run the following code to install R Kernel in Jupyter Lab
 
@@ -11,7 +11,7 @@ conda install -c r r-essentials
 ```
 
 ```{note}
-Press "y" when commandline prompts to install all the packages
+Press "y" when command line prompts
 ```
 
 
@@ -22,7 +22,7 @@ conda install -c r r-tidyverse
 ```
 
 ```{note}
-Press "y" when commandline prompts to install all the packages
+Press "y" when command line prompts to install all the packages
 ```
 
 
