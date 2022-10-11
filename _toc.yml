@@ -31,8 +31,6 @@ parts:
       title: Notebook Zero
     - file: technology/r-datahub
       title: R DataHub
-    - file: technology/pedagogy-and-technology/options-launch-rkernel
-      title: Options to Launch R Kernel
     - file: technology/shiny
       title: Shiny  
     - file: technology/quarto
@@ -57,6 +55,8 @@ parts:
       title: Requesting new features in the Hub
     - file: faq/share
       title: Sharing information about the Hub
+    - file: technology/pedagogy-and-technology/options-launch-rkernel
+      title: Options to Launch R Kernel
   - file: technology/jupyter/large-datasets
     title: Working with Large Datasets
 - caption: Workflow Basics
