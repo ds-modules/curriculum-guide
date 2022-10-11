@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Options to Launch R notebooks without using Datahub &#8212; Curriculum Guide</title>
+    <title>Backup options to Launch R notebooks &#8212; Curriculum Guide</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -533,13 +533,13 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#option-3-purchase-r-studio-cloud-account">
-   Option #3: Purchase R Studio Cloud account
+  <a class="reference internal nav-link" href="#option-3-launch-r-notebooks-using-binder">
+   Option #3: Launch R notebooks using Binder
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#option-4-launch-r-notebooks-using-binder">
-   Option #4: Launch R notebooks using Binder
+  <a class="reference internal nav-link" href="#option-4-launch-r-notebooks-using-r-studio">
+   Option #4: Launch R notebooks using R Studio
   </a>
  </li>
 </ul>
@@ -551,7 +551,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Options to Launch R notebooks without using Datahub</h1>
+                <h1>Backup options to Launch R notebooks</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -572,13 +572,13 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#option-3-purchase-r-studio-cloud-account">
-   Option #3: Purchase R Studio Cloud account
+  <a class="reference internal nav-link" href="#option-3-launch-r-notebooks-using-binder">
+   Option #3: Launch R notebooks using Binder
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#option-4-launch-r-notebooks-using-binder">
-   Option #4: Launch R notebooks using Binder
+  <a class="reference internal nav-link" href="#option-4-launch-r-notebooks-using-r-studio">
+   Option #4: Launch R notebooks using R Studio
   </a>
  </li>
 </ul>
@@ -591,18 +591,18 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="options-to-launch-r-notebooks-without-using-datahub">
-<h1>Options to Launch R notebooks without using Datahub<a class="headerlink" href="#options-to-launch-r-notebooks-without-using-datahub" title="Permalink to this headline">#</a></h1>
-<p>If you cannot access Datahub due to the following reasons,</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="backup-options-to-launch-r-notebooks">
+<h1>Backup options to Launch R notebooks<a class="headerlink" href="#backup-options-to-launch-r-notebooks" title="Permalink to this headline">#</a></h1>
+<p>If you are a user who cannot access Datahub due to the following reasons,</p>
 <ul class="simple">
-<li><p>You are not affiliated to UC Berkeley and don’t have UC Berkeley email id or</p></li>
-<li><p>the Datahub service is down</p></li>
+<li><p>You don’t have a Calnet log-in currently or</p></li>
+<li><p>You are not able to access the Datahub service as it is down
+then you can explore the below mentioned options to launch R notebooks.</p></li>
 </ul>
-<p>you can explore the below mentioned options to launch R notebooks.</p>
 <section id="option-1-launch-jupyter-r-kernel-locally">
 <h2>Option #1: Launch Jupyter R Kernel locally<a class="headerlink" href="#option-1-launch-jupyter-r-kernel-locally" title="Permalink to this headline">#</a></h2>
-<p>Step 1: Install Anaconda (installs JupyterLab) locally in your device. Check this <a class="reference external" href="https://docs.anaconda.com/anaconda/install/index.html">link</a> for the installation process.</p>
-<p>Step 2: Open Anaconda prompt shell. Run the following code to install R Kernel in Jupyter Lab</p>
+<p>Step 1: Install Anaconda distribution (JupyterLab application gets installed through this process) locally in your device. Check this <a class="reference external" href="https://docs.anaconda.com/anaconda/install/index.html">link</a> for the installation process.</p>
+<p>Step 2: Open Anaconda prompt shell. Run the following code to install R Kernel in Jupyter Lab,</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">r</span> <span class="n">r</span><span class="o">-</span><span class="n">essentials</span>
 </pre></div>
 </div>
@@ -633,7 +633,7 @@ title="Print to PDF"
 </section>
 <section id="option-2-use-google-colab-to-launch-r-kernel">
 <h2>Option #2: Use Google Colab to launch R Kernel<a class="headerlink" href="#option-2-use-google-colab-to-launch-r-kernel" title="Permalink to this headline">#</a></h2>
-<p>Step 1: Launch R Kernel in Google Colab by accessing this link - <a class="reference external" href="https://colab.to/r">https://colab.to/r</a></p>
+<p>Step 1: Launch R Kernel in Google Colab by accessing this <a class="reference external" href="https://colab.to/r">link</a></p>
 <p>Step 2: Check whether the tidyverse packages (or any other package you need) are already installed in Colab by using the following code,</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">installed</span><span class="o">.</span><span class="n">packages</span><span class="p">())</span>
 </pre></div>
@@ -643,14 +643,18 @@ title="Print to PDF"
 </pre></div>
 </div>
 </section>
-<section id="option-3-purchase-r-studio-cloud-account">
-<h2>Option #3: Purchase R Studio Cloud account<a class="headerlink" href="#option-3-purchase-r-studio-cloud-account" title="Permalink to this headline">#</a></h2>
-<p>If you are a RStudio fan, you can access <a class="reference external" href="https://rstudio.cloud/plans/instructor">RStudio Cloud</a> where you can purchase a hosted environment for your coursework. Students would need to create R Studio accounts.</p>
+<section id="option-3-launch-r-notebooks-using-binder">
+<h2>Option #3: Launch R notebooks using Binder<a class="headerlink" href="#option-3-launch-r-notebooks-using-binder" title="Permalink to this headline">#</a></h2>
+<p>If you want a hosted Jupyterhub experience to launch your R notebooks then Binder is an option. Binder allows creating R notebooks in an executable environment. Launch <a class="reference external" href="https://notebooks.gesis.org/binder/jupyter/user/binder-examples-r-conda-ofu958y9/lab">Jupyter R notebook</a> or <a class="reference external" href="https://mybinder.org/v2/gh/binder-examples/r-conda/master?urlpath=rstudio">R Studio</a> using the shared binder links.</p>
 </section>
-<section id="option-4-launch-r-notebooks-using-binder">
-<h2>Option #4: Launch R notebooks using Binder<a class="headerlink" href="#option-4-launch-r-notebooks-using-binder" title="Permalink to this headline">#</a></h2>
-<p>If you want a hosted Jupyterhub experience to launch your R notebooks then explore Binder. Binder allows creating R notebooks in an executable environment. Launch <a class="reference external" href="https://notebooks.gesis.org/binder/jupyter/user/binder-examples-r-conda-ofu958y9/lab">Jupyter R notebook</a> or <a class="reference external" href="https://mybinder.org/v2/gh/binder-examples/r-conda/master?urlpath=rstudio">R Studio</a> using the shared binder links.</p>
-<p><a class="reference external" href="https://mybinder.org/v2/gh/binder-examples/r-conda/master?filepath=index.ipynb">https://mybinder.org/v2/gh/binder-examples/r-conda/master?filepath=index.ipynb</a></p>
+<section id="option-4-launch-r-notebooks-using-r-studio">
+<h2>Option #4: Launch R notebooks using R Studio<a class="headerlink" href="#option-4-launch-r-notebooks-using-r-studio" title="Permalink to this headline">#</a></h2>
+<p>If you are a RStudio fan, you can access <a class="reference external" href="https://rstudio.cloud/plans/instructor">RStudio Cloud</a> where you can purchase a hosted environment for your coursework.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Students need to create R Studio accounts.</p>
+</div>
+<p>If you don’t plan to purchase an R Studio cloud account, you can ask students to download and install a free <a class="reference external" href="https://www.rstudio.com/products/rstudio/">RStudio Desktop application</a> on their desktop.</p>
 </section>
 </section>
 
