@@ -63,3 +63,7 @@ Step 3: If not installed, Install tidyverse package using the following command
 ```{code}
 devtools::install_github("tidyverse/tidyverse")
 ```
+
+### Option #3: Purchase R Studio Cloud account
+
+If you are a RStudio fan, you can access [RStudio Cloud](https://rstudio.cloud/plans/instructor) where you can purchase a hosted environment for your coursework. Students would need to create R Studio accounts.
