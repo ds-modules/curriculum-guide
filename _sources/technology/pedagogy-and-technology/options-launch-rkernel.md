@@ -1,8 +1,10 @@
 # Backup options to Launch R notebooks
 
-If you are a user who cannot access Datahub due to the following reasons, 
+If you are an user who cannot access Datahub due to the following reasons, 
+
 - You don't have a Calnet log-in currently or
 - You are not able to access the Datahub service as it is down
+
 then you can explore the below mentioned options to launch R notebooks.
 
 ### Option #1: Launch Jupyter R Kernel locally
@@ -19,7 +21,7 @@ conda install -c r r-essentials
 Press "y" when command line prompts
 ```
 
-Step 3: Run the following command to install tidyverse.
+Step 3: Run the following command to install tidyverse
 
 ```{code}
 conda install -c r r-tidyverse
@@ -35,7 +37,7 @@ Step 4: Run the following command to launch Jupyter Lab
 jupyter lab
 ```
 
-Step 5: Now, from the launcher tab, choose R kernel to start a new notebook.
+Step 5: Now, from the launcher tab, choose R kernel to start a new notebook
 
 ```{figure} ../../images/launcher_tab_r_kernel.jpg
 :width: 500px
@@ -55,7 +57,7 @@ The following is a screenshot of Jupyter notebook having R kernel.
 
 Step 1: Launch R Kernel in Google Colab by accessing this [link](https://colab.to/r)
 
-Step 2: Check whether the tidyverse packages (or any other package you need) are already installed in Colab by using the following code,
+Step 2: Check whether the tidyverse packages (or any other package you need) is already installed in Colab by using the following code,
 
 ```{code}
 print(installed.packages())
