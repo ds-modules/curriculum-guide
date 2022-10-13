@@ -81,4 +81,13 @@ If you are a RStudio fan, you can access [RStudio Cloud](https://rstudio.cloud/p
 Students need to create R Studio accounts.
 ```
 
-If you don't plan to purchase an R Studio cloud account, you can ask students to download and install a free [RStudio Desktop application](https://www.rstudio.com/products/rstudio/) on their desktop.
+If you don't want to purchase an R Studio cloud account, you can ask students to download and install a free [RStudio Desktop application](https://www.rstudio.com/products/rstudio/) on their desktop or use the [free tier account](https://rstudio.cloud/plans/free).
+
+```{note}
+
+Workflow while using free RStudio cloud account would look like below,
+
+- Students need to download their homework from the github repository/canvas/google drive. 
+- They should upload the homework to their RStudio server account. 
+- Post completion, They should download the completed homework from RStudio server account.
+```
