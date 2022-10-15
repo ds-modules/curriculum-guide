@@ -11,7 +11,7 @@ then you can explore the below mentioned options to launch R notebooks.
 
 Step 1: Install Anaconda distribution (JupyterLab application gets installed through this process) locally in your device. Check this [link](https://docs.anaconda.com/anaconda/install/index.html) for the installation process.
 
-Step 2: Open Anaconda prompt shell. Run the following code to install R Kernel in Jupyter Lab,
+Step 2: Search for "Anaconda Powershell Prompt" and Open it. Run the following code to install R Kernel in Jupyter Lab,
 
 ```{code}
 conda install -c r r-essentials
@@ -20,8 +20,15 @@ conda install -c r r-essentials
 ```{note}
 Press "y" when command line prompts
 ```
+The following is a screenshot of running this command in Anaconda Powershell Prompt
 
-Step 3: Run the following command to install tidyverse
+```{figure} ../../images/rkernel_package.PNG
+:width: 500px
+:align: center
+:name: Install required packages for R kernel in Anaconda Powershell Prompt
+```
+
+Step 3: Run the following command in "Anaconda Powershell Prompt" to install tidyverse packages
 
 ```{code}
 conda install -c r r-tidyverse
@@ -29,6 +36,15 @@ conda install -c r r-tidyverse
 
 ```{note}
 Press "y" when command line prompts to install all the packages
+```
+
+The following is a screenshot of running the command to install tidyverse packages in Anaconda Powershell Prompt
+
+
+```{figure} ../../images/tidyverse_package.PNG
+:width: 500px
+:align: center
+:name: Install tidyverse packages in Anaconda Powershell Prompt
 ```
 
 Step 4: Run the following command to launch Jupyter Lab
