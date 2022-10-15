@@ -602,7 +602,7 @@ title="Print to PDF"
 <section id="option-1-launch-jupyter-r-kernel-locally">
 <h2>Option #1: Launch Jupyter R Kernel locally<a class="headerlink" href="#option-1-launch-jupyter-r-kernel-locally" title="Permalink to this headline">#</a></h2>
 <p>Step 1: Install Anaconda distribution (JupyterLab application gets installed through this process) locally in your device. Check this <a class="reference external" href="https://docs.anaconda.com/anaconda/install/index.html">link</a> for the installation process.</p>
-<p>Step 2: Open Anaconda prompt shell. Run the following code to install R Kernel in Jupyter Lab,</p>
+<p>Step 2: Search for “Anaconda Powershell Prompt” and Open it. Run the following code to install R Kernel in Jupyter Lab,</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">r</span> <span class="n">r</span><span class="o">-</span><span class="n">essentials</span>
 </pre></div>
 </div>
@@ -610,7 +610,11 @@ title="Print to PDF"
 <p class="admonition-title">Note</p>
 <p>Press “y” when command line prompts</p>
 </div>
-<p>Step 3: Run the following command to install tidyverse</p>
+<p>The following is a screenshot of running this command in Anaconda Powershell Prompt</p>
+<figure class="align-center" id="install-required-packages-for-r-kernel-in-anaconda-powershell-prompt">
+<a class="reference internal image-reference" href="../../_images/rkernel_package.PNG"><img alt="../../_images/rkernel_package.PNG" src="../../_images/rkernel_package.PNG" style="width: 500px;" /></a>
+</figure>
+<p>Step 3: Run the following command in “Anaconda Powershell Prompt” to install tidyverse packages</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">r</span> <span class="n">r</span><span class="o">-</span><span class="n">tidyverse</span>
 </pre></div>
 </div>
@@ -618,6 +622,10 @@ title="Print to PDF"
 <p class="admonition-title">Note</p>
 <p>Press “y” when command line prompts to install all the packages</p>
 </div>
+<p>The following is a screenshot of running the command to install tidyverse packages in Anaconda Powershell Prompt</p>
+<figure class="align-center" id="install-tidyverse-packages-in-anaconda-powershell-prompt">
+<a class="reference internal image-reference" href="../../_images/tidyverse_package.PNG"><img alt="../../_images/tidyverse_package.PNG" src="../../_images/tidyverse_package.PNG" style="width: 500px;" /></a>
+</figure>
 <p>Step 4: Run the following command to launch Jupyter Lab</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span> <span class="n">lab</span>
 </pre></div>
