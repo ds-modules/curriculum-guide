@@ -644,11 +644,12 @@ title="Print to PDF"
 <li><p>You are trying to show a table which is too large and as a result are crashing the browser</p></li>
 </ul>
 <p>If they are relevant, try fixing these issues by improving the programming practices or by reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">bug request</a>!</p>
-<p><strong>What should I do if an user’s hub is completely dead/unusable?</strong></p>
-<p>You have couple of options before you escalate this issue to us. Please find them below,</p>
+<p><strong>What should I do if a user’s environment is unusable?</strong></p>
+<p>A user’s Lab workspace might become unusable (e.g. it opens a notebook or workspace that is impossible to get out of). You have couple of options before you escalate this issue to us:</p>
 <ul class="simple">
-<li><p>You can start the user’s server by visiting user’s /lab/workspaces/lab?reset to reset the workspace.(Refer to this <a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/user/urls.html#resetting-a-workspace">documentation</a>to reset the workspace for the users.</p></li>
-<li><p>Alternatively, You can start the user’s server by visiting <hub URL>/user/<user name>/tree directly.</p></li>
+<li><p>Start the user’s server by visiting <code class="docutils literal notranslate"><span class="pre">{hub-url}/user/{username}/lab/workspaces/lab?reset</span></code> to reset the workspace.(Refer to this <a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/user/urls.html#resetting-a-workspace">documentation</a>to reset the workspace for the users.</p></li>
+<li><p>Limit the environment to the user’s file browser by visiting <code class="docutils literal notranslate"><span class="pre">{hub-url}/user/{username}/tree</span></code> in Jupyter Notebook.</p></li>
+<li><p>Launch a terminal by visiting <code class="docutils literal notranslate"><span class="pre">{hub-url}/user/{username}/terminals/N</span></code> (where <code class="docutils literal notranslate"><span class="pre">N</span></code> is any integer) in Jupyter Notebook. A terminal is useful if one needs to recover from an nbgitpuller issue or run other troubleshooting commands.</p></li>
 </ul>
 <p><strong>What if restarting the kernel is not solving spawn pending error message?</strong></p>
 <p>You can check if the output files are causing the ipynb files (in the case of python notebooks) to be bloated. If that be the case then you can run the following command to clear the output files which is causing this issue.</p>

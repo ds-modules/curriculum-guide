@@ -68,12 +68,13 @@ In general, this issue could be attributed to the varied programming practices a
 
 If they are relevant, try fixing these issues by improving the programming practices or by reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a [bug request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
-**What should I do if an user's hub is completely dead/unusable?**
+**What should I do if a user's environment is unusable?**
 
-You have couple of options before you escalate this issue to us. Please find them below,
+A user's Lab workspace might become unusable (e.g. it opens a notebook or workspace that is impossible to get out of). You have couple of options before you escalate this issue to us:
 
-- You can start the user's server by visiting user's /lab/workspaces/lab?reset to reset the workspace.(Refer to this [documentation](https://jupyterlab.readthedocs.io/en/stable/user/urls.html#resetting-a-workspace)to reset the workspace for the users.
-- Alternatively, You can start the user's server by visiting <hub URL>/user/<user name>/tree directly.
+- Start the user's server by visiting `{hub-url}/user/{username}/lab/workspaces/lab?reset` to reset the workspace.(Refer to this [documentation](https://jupyterlab.readthedocs.io/en/stable/user/urls.html#resetting-a-workspace)to reset the workspace for the users.
+- Limit the environment to the user's file browser by visiting `{hub-url}/user/{username}/tree` in Jupyter Notebook.
+- Launch a terminal by visiting `{hub-url}/user/{username}/terminals/N` (where `N` is any integer) in Jupyter Notebook. A terminal is useful if one needs to recover from an nbgitpuller issue or run other troubleshooting commands.
 
 **What if restarting the kernel is not solving spawn pending error message?**
 
