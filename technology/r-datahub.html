@@ -857,18 +857,18 @@ title="Print to PDF"
 <li><p>Type in <code class="docutils literal notranslate"><span class="pre">#!/bin/bash</span></code> at the head of the document. This indicates the the contents below are part of a bash script.</p></li>
 <li><p>For each item or folder that you want copied, add a line with the following format. Replace <code class="docutils literal notranslate"><span class="pre">SOURCE_FILEPATH</span></code> with the relative file path to the file(s) you want to copy and <code class="docutils literal notranslate"><span class="pre">DEST_FILEPATH</span></code> with the relative path to the folder where you want the file(s) to be copied</p></li>
 </ol>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cp- -r <span class="o">[</span>SOURCE_FILEPATH<span class="o">]</span> <span class="o">[</span>DEST_FILEPATH<span class="o">]</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>cp-<span class="w"> </span>-r<span class="w"> </span><span class="o">[</span>SOURCE_FILEPATH<span class="o">]</span><span class="w"> </span><span class="o">[</span>DEST_FILEPATH<span class="o">]</span>
 </pre></div>
 </div>
 <p>For PHW250FG, the shell script is saved as <a class="reference external" href="http://publish.sh">publish.sh</a> and is located at the root level of the development repository. The contents are as follows:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
 
 <span class="c1">#Copy all data</span>
-cp -r data ../phw250fg2019
+cp<span class="w"> </span>-r<span class="w"> </span>data<span class="w"> </span>../phw250fg2019
 
 <span class="c1">#Update with new assignment names</span>
-cp -r setup/autograder-setup/hw1_r_quiz/ ../phw250fg2019/setup/autograder-setup/
-cp -r homework/hw1_r_quiz/ ../phw250fg2019/homework/
+cp<span class="w"> </span>-r<span class="w"> </span>setup/autograder-setup/hw1_r_quiz/<span class="w"> </span>../phw250fg2019/setup/autograder-setup/
+cp<span class="w"> </span>-r<span class="w"> </span>homework/hw1_r_quiz/<span class="w"> </span>../phw250fg2019/homework/
 </pre></div>
 </div>
 </section>
