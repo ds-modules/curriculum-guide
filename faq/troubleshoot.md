@@ -168,11 +168,12 @@ If you got this error after running this command mentioned below, this is most l
 grader.export(pdf=False, force_save=True)
 ```
 
-**I am running into issues otter grader in datahub.berkeley.edu. It used to working with the same notebook files previously and I did not make any changes to the notebook. How do I fix this issue?
+**I am running into issues otter grader in datahub.berkeley.edu. It used to working with the same notebook files previously and I did not make any changes to the notebook. How do I fix this issue?**
 
-An upgrade to otter grader version 4.2.0 was made on 1/10/2022. If otter-grader was running smoothly in your notebooks previously then the updated version might have caused incompatibility with test cases. You can revert to otter version 3.1.0 by running the following command
+An upgrade to otter grader version 4.2.0 was made on 1/10/2022. If otter-grader was running smoothly in your notebooks previously then the updated version might have caused incompatibility with test cases. You can revert to otter version 3.1.0 by running the following command in the short term.
+
 ```python
 !pip install otter-grader==3.1.4
 ```
 
-or you can rewrite your existing test cases to suit the new format and run the latest version of otter grader in your notebooks. If you need further support with rewriting test cases then please reach out to the otter team [here](https://github.com/ucbds-infra/otter-grader/issues/new?assignees=&labels=question&template=information-request.md&title=).
+In the long term, you should plan to rewrite your existing test cases to suit the new format and then run the latest version of otter grader in your notebooks. If you need further support with rewriting test cases then please reach out to the otter team [here](https://github.com/ucbds-infra/otter-grader/issues/new?assignees=&labels=question&template=information-request.md&title=).
