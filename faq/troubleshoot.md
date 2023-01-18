@@ -44,6 +44,8 @@ After clicking the `Admin` button, you will see the admin panel. Usernames have 
 
 After clicking the `stop server` button, you can click the `start server` button in the user's row.
 
+#### Troubleshoot issues with Hub/Server/Code running slow
+
 **What should I do if my hub is running slow?**
 
 Try these recommended options,
@@ -51,7 +53,6 @@ Try these recommended options,
 - Restart your kernel.
 
 - Check whether there are lot of open tabs? If yes, close the tabs that are not required.
-
 
 If you still face the issue, raise a [bug](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
 
@@ -66,6 +67,8 @@ In general, this issue could be attributed to the varied programming practices a
 - You are trying to show a table which is too large and as a result are crashing the browser
 
 If they are relevant, try fixing these issues by improving the programming practices or by reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a [bug request](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml)!
+
+#### Troubleshoot 4xx and 5xx errors
 
 **What should I do if a user's environment is unusable?**
 
@@ -108,6 +111,8 @@ rm -f ~/.local/share/jupyter/nbsignatures.db
 
 If the error still persists, raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=bug&template=bug_report.yml).
 
+#### Other hub issues
+
 **What should I do if there is a package conflict?**
 
 [Get inputs from the team]
@@ -121,7 +126,7 @@ As a rule of thumb, restart the kernel whenever it dies. This should work for mo
 Kernel deaths are a common cause for your server running out of memory. As soon as you exceed your memory allocation, your kernel most probably will die because of the lack of availability of virtual memory or swap space. It is most likely due to a bug in your code.
 ```
 
-**What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.**
+**What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error?**
 
 Please follow this workaround until a fix can be identified and implemented. Workaround involves renaming or removing ~/.rstudio via the terminal. To do so while bypassing the typical rstudio session startup:
 
@@ -140,9 +145,16 @@ Please follow this workaround until a fix can be identified and implemented. Wor
 As a general note, These issues are challenging to reproduce. It will be helpful if you can be as specific as you can with regards to the steps required to reproduce the issue. We generally observe that the back and forth communication required to reproduce the issue for a request **that is not specific** increases the time needed to fix the issue exponentially.
 ```
 
-**What should I do if I have an issue that has not been documented in the FAQ?**
+**What should I do if I am not able to view the images annotated in my notebook when I download them as PDF?**
 
-Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) or reach out to Balaji Alwar(balajialwar@berkeley.edu)! We will keep adding common issues to this FAQ document!
+Yes - this is an open issue we are aware of and don't have a direct solution. However, we have raised this issue to the developers of nbconvert which is a package responsible for the notebook to PDF conversion. 
+In the short term, the way to circumvent this issue is to copy-paste the required image in the notebook instead of saving them as a relative URL. Saving the image as a relative URL results in the image not getting added to the generated PDF.
+
+```{note}
+On Windows and Linux, you can copy/paste by pressing Ctrl + Shift + C / Ctrl + Shift + V. On Mac, you can do it by pressing Cmd + C / Cmd + V.
+```
+
+#### nbgitpuller Issues
 
 **What should I do if I have issues with my nbgitpuller set up**
 
@@ -160,13 +172,7 @@ Check this [documentation](https://jupyterhub.github.io/nbgitpuller/topic/repo-b
 Check this [documentation](https://jupyterhub.github.io/nbgitpuller/) if you have issues setting up nbgitpuller!
 ```
 
-**I am having issues with generating the zip file after running my code in the hub. What should I do?**
-
-If you got this error after running this command mentioned below, this is most likely an issue that the Otter team can debug. You can either access their [slack channel](https://join.slack.com/t/otter-grader/shared_invite/zt-bzfqbl82-C1s~YUBkbzvTcPCK60OOgg) or raise a [github issue](https://github.com/ucbds-infra/otter-grader) to seek their inputs directly.
-
-```python
-grader.export(pdf=False, force_save=True)
-```
+#### Otter Issues
 
 **I am running into issues otter grader in datahub.berkeley.edu. It used to working with the same notebook files previously and I did not make any changes to the notebook. How do I fix this issue?**
 
@@ -176,4 +182,17 @@ An upgrade to otter grader version 4.2.0 was made on 1/10/2022. If otter-grader 
 !pip install otter-grader==3.1.4
 ```
 
+**I am having issues with generating the zip file after running my code in the hub. What should I do?**
+
+If you got this error after running this command mentioned below, this is most likely an issue that the Otter team can debug. You can either access their [slack channel](https://join.slack.com/t/otter-grader/shared_invite/zt-bzfqbl82-C1s~YUBkbzvTcPCK60OOgg) or raise a [github issue](https://github.com/ucbds-infra/otter-grader) to seek their inputs directly.
+
+```python
+grader.export(pdf=False, force_save=True)
+```
+
 In the long term, you should plan to rewrite your existing test cases to suit the new format and then run the latest version of otter grader in your notebooks. If you need further support with rewriting test cases then please reach out to the otter team [here](https://github.com/ucbds-infra/otter-grader/issues/new?assignees=&labels=question&template=information-request.md&title=).
+
+
+**What should I do if I have an issue that has not been documented in the FAQ?**
+
+Raise a github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose) or reach out to Balaji Alwar(balajialwar@berkeley.edu)! We will keep adding common issues to this FAQ document!
