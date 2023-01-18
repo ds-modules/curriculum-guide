@@ -542,6 +542,31 @@ title="Print to PDF"
      Restarting Student Servers
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#troubleshoot-issues-with-hub-server-code-running-slow">
+     Troubleshoot issues with Hub/Server/Code running slow
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#troubleshoot-4xx-and-5xx-errors">
+     Troubleshoot 4xx and 5xx errors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#other-hub-issues">
+     Other hub issues
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#nbgitpuller-issues">
+     nbgitpuller Issues
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#otter-issues">
+     Otter Issues
+    </a>
+   </li>
   </ul>
  </li>
 </ul>
@@ -581,6 +606,31 @@ title="Print to PDF"
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#restarting-student-servers">
      Restarting Student Servers
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#troubleshoot-issues-with-hub-server-code-running-slow">
+     Troubleshoot issues with Hub/Server/Code running slow
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#troubleshoot-4xx-and-5xx-errors">
+     Troubleshoot 4xx and 5xx errors
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#other-hub-issues">
+     Other hub issues
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#nbgitpuller-issues">
+     nbgitpuller Issues
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#otter-issues">
+     Otter Issues
     </a>
    </li>
   </ul>
@@ -627,6 +677,9 @@ title="Print to PDF"
 <p>After clicking the <code class="docutils literal notranslate"><span class="pre">Admin</span></code> button, you will see the admin panel. Usernames have been obfuscated here. To search for a user, you can use find (type Control+F or Command+F). An individual’s username is the same as their CalNet ID. When you have found the desired user, click the <code class="docutils literal notranslate"><span class="pre">stop</span> <span class="pre">server</span></code> button in the user’s row.</p>
 <p><img alt="" src="../_images/admin-panel.png" /></p>
 <p>After clicking the <code class="docutils literal notranslate"><span class="pre">stop</span> <span class="pre">server</span></code> button, you can click the <code class="docutils literal notranslate"><span class="pre">start</span> <span class="pre">server</span></code> button in the user’s row.</p>
+</section>
+<section id="troubleshoot-issues-with-hub-server-code-running-slow">
+<h3>Troubleshoot issues with Hub/Server/Code running slow<a class="headerlink" href="#troubleshoot-issues-with-hub-server-code-running-slow" title="Permalink to this headline">#</a></h3>
 <p><strong>What should I do if my hub is running slow?</strong></p>
 <p>Try these recommended options,</p>
 <ul class="simple">
@@ -644,6 +697,9 @@ title="Print to PDF"
 <li><p>You are trying to show a table which is too large and as a result are crashing the browser</p></li>
 </ul>
 <p>If they are relevant, try fixing these issues by improving the programming practices or by reducing the size of the dataset. If none of the highlighted points seem relevant in your scenario, Please raise a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">bug request</a>!</p>
+</section>
+<section id="troubleshoot-4xx-and-5xx-errors">
+<h3>Troubleshoot 4xx and 5xx errors<a class="headerlink" href="#troubleshoot-4xx-and-5xx-errors" title="Permalink to this headline">#</a></h3>
 <p><strong>What should I do if a user’s environment is unusable?</strong></p>
 <p>A user’s Lab workspace might become unusable (e.g. it opens a notebook or workspace that is impossible to get out of). You have couple of options before you escalate this issue to us:</p>
 <ul class="simple">
@@ -672,6 +728,9 @@ title="Print to PDF"
 </pre></div>
 </div>
 <p>If the error still persists, raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">issue</a>.</p>
+</section>
+<section id="other-hub-issues">
+<h3>Other hub issues<a class="headerlink" href="#other-hub-issues" title="Permalink to this headline">#</a></h3>
 <p><strong>What should I do if there is a package conflict?</strong></p>
 <p>[Get inputs from the team]
 Try moving to the previous version of the package and check if there are package conflicts. If it still exists, Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=bug&amp;template=bug_report.yml">issue</a></p>
@@ -681,7 +740,7 @@ Try moving to the previous version of the package and check if there are package
 <p class="admonition-title">Note</p>
 <p>Kernel deaths are a common cause for your server running out of memory. As soon as you exceed your memory allocation, your kernel most probably will die because of the lack of availability of virtual memory or swap space. It is most likely due to a bug in your code.</p>
 </div>
-<p><strong>What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error.</strong></p>
+<p><strong>What should I do if I am getting RStudio Initialization Error: Error occurred during transmission error?</strong></p>
 <p>Please follow this workaround until a fix can be identified and implemented. Workaround involves renaming or removing ~/.rstudio via the terminal. To do so while bypassing the typical rstudio session startup:</p>
 <ol class="simple">
 <li><p>Go to this <a class="reference external" href="https://r.datahub.berkeley.edu/user-redirect/tree">link</a></p></li>
@@ -698,8 +757,16 @@ Try moving to the previous version of the package and check if there are package
 <p class="admonition-title">Note</p>
 <p>As a general note, These issues are challenging to reproduce. It will be helpful if you can be as specific as you can with regards to the steps required to reproduce the issue. We generally observe that the back and forth communication required to reproduce the issue for a request <strong>that is not specific</strong> increases the time needed to fix the issue exponentially.</p>
 </div>
-<p><strong>What should I do if I have an issue that has not been documented in the FAQ?</strong></p>
-<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a> or reach out to Balaji Alwar(<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)! We will keep adding common issues to this FAQ document!</p>
+<p><strong>What should I do if I am not able to view the images annotated in my notebook when I download them as PDF?</strong></p>
+<p>Yes - this is an open issue we are aware of and don’t have a direct solution. However, we have raised this issue to the developers of nbconvert which is a package responsible for the notebook to PDF conversion.
+In the short term, the way to circumvent this issue is to copy-paste the required image in the notebook instead of saving them as a relative URL. Saving the image as a relative URL results in the image not getting added to the generated PDF.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>On Windows and Linux, you can copy/paste by pressing Ctrl + Shift + C / Ctrl + Shift + V. On Mac, you can do it by pressing Cmd + C / Cmd + V.</p>
+</div>
+</section>
+<section id="nbgitpuller-issues">
+<h3>nbgitpuller Issues<a class="headerlink" href="#nbgitpuller-issues" title="Permalink to this headline">#</a></h3>
 <p><strong>What should I do if I have issues with my nbgitpuller set up</strong></p>
 <p>Try the following steps from scratch again,</p>
 <ul class="simple">
@@ -712,17 +779,22 @@ Try moving to the previous version of the package and check if there are package
 <p>Check this <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/topic/repo-best-practices.html">documentation</a> for some tips to ensure that you don’t get into git related issues.</p>
 <p>Check this <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/">documentation</a> if you have issues setting up nbgitpuller!</p>
 </div>
-<p><strong>I am having issues with generating the zip file after running my code in the hub. What should I do?</strong></p>
-<p>If you got this error after running this command mentioned below, this is most likely an issue that the Otter team can debug. You can either access their <a class="reference external" href="https://join.slack.com/t/otter-grader/shared_invite/zt-bzfqbl82-C1s~YUBkbzvTcPCK60OOgg">slack channel</a> or raise a <a class="reference external" href="https://github.com/ucbds-infra/otter-grader">github issue</a> to seek their inputs directly.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">grader</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="n">pdf</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force_save</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
-</div>
+</section>
+<section id="otter-issues">
+<h3>Otter Issues<a class="headerlink" href="#otter-issues" title="Permalink to this headline">#</a></h3>
 <p><strong>I am running into issues otter grader in <a class="reference external" href="http://datahub.berkeley.edu">datahub.berkeley.edu</a>. It used to working with the same notebook files previously and I did not make any changes to the notebook. How do I fix this issue?</strong></p>
 <p>An upgrade to otter grader version 4.2.0 was made on 1/10/2022. If otter-grader was running smoothly in your notebooks previously then the updated version might have caused incompatibility with test cases. You can revert to otter version 3.1.0 by running the following command in the short term.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span>!pip install otter-grader==3.1.4
 </pre></div>
 </div>
+<p><strong>I am having issues with generating the zip file after running my code in the hub. What should I do?</strong></p>
+<p>If you got this error after running this command mentioned below, this is most likely an issue that the Otter team can debug. You can either access their <a class="reference external" href="https://join.slack.com/t/otter-grader/shared_invite/zt-bzfqbl82-C1s~YUBkbzvTcPCK60OOgg">slack channel</a> or raise a <a class="reference external" href="https://github.com/ucbds-infra/otter-grader">github issue</a> to seek their inputs directly.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">grader</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="n">pdf</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">force_save</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
 <p>In the long term, you should plan to rewrite your existing test cases to suit the new format and then run the latest version of otter grader in your notebooks. If you need further support with rewriting test cases then please reach out to the otter team <a class="reference external" href="https://github.com/ucbds-infra/otter-grader/issues/new?assignees=&amp;labels=question&amp;template=information-request.md&amp;title=">here</a>.</p>
+<p><strong>What should I do if I have an issue that has not been documented in the FAQ?</strong></p>
+<p>Raise a github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a> or reach out to Balaji Alwar(<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)! We will keep adding common issues to this FAQ document!</p>
 </section>
 </section>
 </section>
