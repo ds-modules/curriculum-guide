@@ -39,7 +39,7 @@ parts:
       title: Datahub Frequently Asked Questions (FAQ)
     - file: faq/onboarding
       title: Onboarding new users into the Hub
-    - file: technology/jupyter/python-packages
+    - file: technology/jupyter/install-packages
       title: Using Packages in Jupyter Hub
     - file: faq/admin
       title: Exploring admin privileges in the Hub
