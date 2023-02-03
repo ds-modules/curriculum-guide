@@ -541,6 +541,13 @@ title="Print to PDF"
     <a class="reference internal nav-link" href="#the-nbgitpuller-link-has-been-used-before-and-some-of-the-content-was-changed-in-both-datahub-and-github">
      3. The nbgitpuller link has been used before, and some of the content was changed in both Datahub and Github
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#solutions">
+       Solutions:
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -582,6 +589,13 @@ title="Print to PDF"
     <a class="reference internal nav-link" href="#the-nbgitpuller-link-has-been-used-before-and-some-of-the-content-was-changed-in-both-datahub-and-github">
      3. The nbgitpuller link has been used before, and some of the content was changed in both Datahub and Github
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#solutions">
+       Solutions:
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -609,10 +623,10 @@ title="Print to PDF"
 <section id="the-nbgitpuller-link-was-generated-incorrectly">
 <h3>2. The nbgitpuller link was generated incorrectly<a class="headerlink" href="#the-nbgitpuller-link-was-generated-incorrectly" title="Permalink to this headline">#</a></h3>
 <p>If the nbgitpuller link was not generated correctly, you’ll see a red loading bar with an error message that says “Error: Command ‘[‘git’, ‘fetch’]’ returned non-zero exit status 128.” An example screenshot is below:</p>
-<p><img alt="" src="assets/broken-nbgitpuller-link.png" /></p>
+<p><img alt="" src="../../_images/broken-nbgitpuller-link.png" /></p>
 <p>Solution: re-generate the nbgitpuller link. Make sure that you’ve filled in the correct Jupyter hub URL, Github URL, branch, and file. Some tips:</p>
 <ul class="simple">
-<li><p>URLS should NOT end with forward slashes. “<a class="reference external" href="http://github.com/ds-modules">http://github.com/ds-modules</a>” is okay; “<a class="reference external" href="http://github.com/ds-modules/">http://github.com/ds-modules/</a>” will break</p></li>
+<li><p>URLS should NOT end with forward slashes. “<a class="reference external" href="https://github.com/ds-modules">https://github.com/ds-modules</a>” is okay; “<a class="reference external" href="https://github.com/ds-modules/">https://github.com/ds-modules/</a>” will break</p></li>
 <li><p>The Git repository url should go to the base repo that contains the materials you want. For example, if you want to link to the “lab01.ipynb” in the fall19 repository of the data-8 organization, the Git URL should be “<a class="reference external" href="https://github.com/data-8/fall19">https://github.com/data-8/fall19</a>”, not “<a class="reference external" href="https://github.com/data-8/fall19/blob/master/lab01">https://github.com/data-8/fall19/blob/master/lab01</a>”</p></li>
 <li><p>The File to Open needs to include the full path of the file from the base repository. For example, if the “lab01” file is in a folder called “labs”, the File to Open needs to be “labs/lab01”</p></li>
 </ul>
@@ -620,7 +634,8 @@ title="Print to PDF"
 <section id="the-nbgitpuller-link-has-been-used-before-and-some-of-the-content-was-changed-in-both-datahub-and-github">
 <h3>3. The nbgitpuller link has been used before, and some of the content was changed in both Datahub and Github<a class="headerlink" href="#the-nbgitpuller-link-has-been-used-before-and-some-of-the-content-was-changed-in-both-datahub-and-github" title="Permalink to this headline">#</a></h3>
 <p>If you make changes to an assignment on Github after students have started working on it, students that click the nbgitpuller link again may see a red loading bar and a message about a <em>merge conflict</em>. This occurs if the instructor and the student both change the same parts of the notebook: nbgitpuller doesn’t know how to integrate the instructor’s changes without overwriting student work, so it refuses to proceed. You can read <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html">more about nbgitpuller’s automatic merging behavior here</a>.</p>
-<p><em>Solutions:</em></p>
+<section id="solutions">
+<h4>Solutions:<a class="headerlink" href="#solutions" title="Permalink to this headline">#</a></h4>
 <p>Method 1: The easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the nbgitpuller link again. If the file or folder is renamed to anything else (e.g. “SOC-5-old”), nbgitpuller will clone a fresh copy of the problematic files to the student’s Jupyterhub. They can then copy over any work from the old version of the file.</p>
 <p>When you face an error like below, do the following steps</p>
 <figure class="align-center" id="datahub-admin">
@@ -644,11 +659,11 @@ title="Print to PDF"
 </ul>
 <p>Method 2: If you have commandline experience then you can use “git stash” command in terminal to temporarily remove the incompatible changes.</p>
 <ul class="simple">
-<li><p>If you are using <a class="reference external" href="https://datahub.berkeley.edu">https://datahub.berkeley.edu</a> then navigate to your file manager which acts as your home page. If you are using other hubs then you can access your file manager by navigating to “Hub URL/user/<Your-Username>/tree” which will take you to the home directory. For eg: If my user name is Julia and I want to access my home directory in R hub then the URL to access my home directory will be <a class="reference external" href="https://r.datahub.berkeley.edu/user/julia/tree">https://r.datahub.berkeley.edu/user/julia/tree</a>.</p></li>
+<li><p>If you are using <a class="reference external" href="https://datahub.berkeley.edu">https://datahub.berkeley.edu</a> then navigate to your file manager which acts as your home page. If you are using other hubs then you can access your file manager by navigating to “Hub URL/user/<code class="docutils literal notranslate"><span class="pre">Your-Username</span></code>/tree” which will take you to the home directory. For eg: If my user name is Julia and I want to access my home directory in R hub then the URL to access my home directory will be <a class="reference external" href="https://r.datahub.berkeley.edu/user/julia/tree">https://r.datahub.berkeley.edu/user/julia/tree</a>.</p></li>
 <li><p>On the upper right of the page, click the dropdown menu that says “New” and select “Terminal”.</p></li>
 </ul>
 <figure class="align-center" id="launch-terminal">
-<a class="reference internal image-reference" href="images/terminal.png"><img alt="images/terminal.png" src="images/terminal.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../../_images/terminal.png"><img alt="../../_images/terminal.png" src="../../_images/terminal.png" style="width: 500px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 18 </span><span class="caption-text">Here is how you launch terminal</span><a class="headerlink" href="#launch-terminal" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -658,7 +673,7 @@ title="Print to PDF"
 <li><p>Run <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span></code> command in the terminal and you will see the following output</p></li>
 </ul>
 <figure class="align-center" id="id1">
-<a class="reference internal image-reference" href="images/gitstash.png"><img alt="images/gitstash.png" src="images/gitstash.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="assets/gitstash.png"><img alt="assets/gitstash.png" src="assets/gitstash.png" style="width: 500px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 19 </span><span class="caption-text">Here is the output from gitstash command</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -667,6 +682,7 @@ title="Print to PDF"
 <li><p>Access the nbgitpuller link again. You will be able to load the notebooks directly.</p></li>
 </ul>
 <p>The best advice, however, is to avoid making changes to assignments once they’ve been released to students if at all possible.</p>
+</section>
 </section>
 </section>
 </section>
