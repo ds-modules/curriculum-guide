@@ -48,7 +48,7 @@ Here is the steps required to rename the folder!
 - Click on the nbgitpuller link again
 - Use the newly cloned repository created after nbgitpuller link was clicked
 
-Method 2: If you have commandline experience then you can use "git stash" command in terminal to temporarily remove the incompatible changes.
+Method 2: If you have command line experience then you can use "git stash" command in terminal to temporarily remove the incompatible changes.
  
 - If you are using https://datahub.berkeley.edu then navigate to your file manager which acts as your home page. If you are using other hubs then you can access your file manager by navigating to "Hub URL/user/`Your-Username`/tree" which will take you to the home directory. For eg: If my user name is Julia and I want to access my home directory in R hub then the URL to access my home directory will be https://r.datahub.berkeley.edu/user/julia/tree.
 - On the upper right of the page, click the dropdown menu that says “New” and select “Terminal”.
