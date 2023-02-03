@@ -165,7 +165,7 @@ const thebe_selector_output = ".output, .cell_output"
     </a>
    </li>
    <li class="toctree-l2">
-    <a class="reference internal" href="python-packages.html">
+    <a class="reference internal" href="install-packages.html">
      Using Packages in Jupyter Hub
     </a>
    </li>
@@ -620,7 +620,8 @@ title="Print to PDF"
 <section id="the-nbgitpuller-link-has-been-used-before-and-some-of-the-content-was-changed-in-both-datahub-and-github">
 <h3>3. The nbgitpuller link has been used before, and some of the content was changed in both Datahub and Github<a class="headerlink" href="#the-nbgitpuller-link-has-been-used-before-and-some-of-the-content-was-changed-in-both-datahub-and-github" title="Permalink to this headline">#</a></h3>
 <p>If you make changes to an assignment on Github after students have started working on it, students that click the nbgitpuller link again may see a red loading bar and a message about a <em>merge conflict</em>. This occurs if the instructor and the student both change the same parts of the notebook: nbgitpuller doesn’t know how to integrate the instructor’s changes without overwriting student work, so it refuses to proceed. You can read <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html">more about nbgitpuller’s automatic merging behavior here</a>.</p>
-<p>Solution: the easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the nbgitpuller link again. If the file or folder is renamed to anything else (e.g. “SOC-5-old”), nbgitpuller will clone a fresh copy of the problematic files to the student’s Jupyterhub. They can then copy over any work from the old version of the file.</p>
+<p><em>Solutions:</em></p>
+<p>Method 1: The easiest and most conservative solution is to rename the file or folder that contains the incompatible changes, then click the nbgitpuller link again. If the file or folder is renamed to anything else (e.g. “SOC-5-old”), nbgitpuller will clone a fresh copy of the problematic files to the student’s Jupyterhub. They can then copy over any work from the old version of the file.</p>
 <p>When you face an error like below, do the following steps</p>
 <figure class="align-center" id="datahub-admin">
 <a class="reference internal image-reference" href="../../_images/mergeconflict.png"><img alt="../../_images/mergeconflict.png" src="../../_images/mergeconflict.png" style="width: 500px;" /></a>
@@ -640,6 +641,30 @@ title="Print to PDF"
 <ul class="simple">
 <li><p>Click on the nbgitpuller link again</p></li>
 <li><p>Use the newly cloned repository created after nbgitpuller link was clicked</p></li>
+</ul>
+<p>Method 2: If you have commandline experience then you can use “git stash” command in terminal to temporarily remove the incompatible changes.</p>
+<ul class="simple">
+<li><p>If you are using <a class="reference external" href="https://datahub.berkeley.edu">https://datahub.berkeley.edu</a> then navigate to your file manager which acts as your home page. If you are using other hubs then you can access your file manager by navigating to “Hub URL/user/<Your-Username>/tree” which will take you to the home directory. For eg: If my user name is Julia and I want to access my home directory in R hub then the URL to access my home directory will be <a class="reference external" href="https://r.datahub.berkeley.edu/user/julia/tree">https://r.datahub.berkeley.edu/user/julia/tree</a>.</p></li>
+<li><p>On the upper right of the page, click the dropdown menu that says “New” and select “Terminal”.</p></li>
+</ul>
+<figure class="align-center" id="launch-terminal">
+<a class="reference internal image-reference" href="images/terminal.png"><img alt="images/terminal.png" src="images/terminal.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text">Here is how you launch terminal</span><a class="headerlink" href="#launch-terminal" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Navigate to the folder where a) your files are stored and b) you have merge conflict issues</p></li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">stash</span></code> command in the terminal and you will see the following output</p></li>
+</ul>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="images/gitstash.png"><img alt="images/gitstash.png" src="images/gitstash.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 19 </span><span class="caption-text">Here is the output from gitstash command</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Access the nbgitpuller link again. You will be able to load the notebooks directly.</p></li>
 </ul>
 <p>The best advice, however, is to avoid making changes to assignments once they’ve been released to students if at all possible.</p>
 </section>

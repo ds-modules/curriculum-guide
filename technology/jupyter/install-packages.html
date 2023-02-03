@@ -463,7 +463,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../../_sources/technology/jupyter/python-packages.md"
+        <a href="../../_sources/technology/jupyter/install-packages.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -616,21 +616,26 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="package-installation-in-python-and-r">
 <h1>Package Installation in Python and R<a class="headerlink" href="#package-installation-in-python-and-r" title="Permalink to this headline">#</a></h1>
 <p><strong>What are the packages pre-installed for every hub?</strong></p>
-<p>Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across the main Datahub. Our R hubs supports packages such as shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>.
+<p>Procedure for package installation varies across different programming languages. Basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across the main Datahub. R hubs supports packages such as shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=datahub-package-addition---change-request.md&amp;title=Request+python+package+X+for+class+Y">template</a>.
 If you want to check the list of packages installed,</p>
 <ul class="simple">
 <li><p>You can use the below command for Python,</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span>!pip list
-```- You can use the below command for R,```
-installed.packages()
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>You can use the below command for R,</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">installed</span><span class="o">.</span><span class="n">packages</span><span class="p">()</span>
 </pre></div>
 </div>
 <ul class="simple">
 <li><p>You can check the packages installed in Julia by accessing the <a class="reference external" href="http://julia.datahub.berkeley.edu/">Julia Hub</a></p></li>
 </ul>
-<div class="highlight-{note}Here notranslate"><div class="highlight"><pre><span></span>
-</pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt">list</a> of Python packages installed in <a class="reference external" href="http://datahub.berkeley.edu">datahub.berkeley.edu</a>. Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R">list</a> of R packages installed in <a class="reference external" href="http://datahub.berkeley.edu">datahub.berkeley.edu</a>. Here is the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/julia/image/install-julia-packages.jl">list</a> of Julia packages installed in <a class="reference external" href="http://datahub.berkeley.edu">datahub.berkeley.edu</a>.</p>
 </div>
 <p><strong>What should I do if I want to install more packages?</strong></p>
 <ul class="simple">
@@ -664,9 +669,13 @@ installed.packages()
 <p>You can also install other packages that are not on this list. There are two methods for installation. If you will be using a package regularly in your course, we recommend using the long-term installation method.</p>
 <section id="temporary-installation">
 <h3>Temporary Installation<a class="headerlink" href="#temporary-installation" title="Permalink to this headline">#</a></h3>
-<p>Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install <code class="docutils literal notranslate"><span class="pre">numpy</span></code> into a user’s personal account. <code class="docutils literal notranslate"><span class="pre">numpy</span></code> will then be available for use while the server is running. This cell must be run every time the user’s server is restarted. Note, this is not a system-wide installation. Running the cell below will only install numpy temporarily into a user’s personal account.</p>
+<p>Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install <code class="docutils literal notranslate"><span class="pre">numpy</span></code> into a user’s personal account. <code class="docutils literal notranslate"><span class="pre">numpy</span></code> will then be available for use while the server is running. This cell must be run every time the user’s server is restarted. Note, this is not a system-wide installation. Running the below cells will only install numpy and ggplot2 temporarily into a user’s personal account.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>!pip install numpy
 import numpy
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">install</span><span class="o">.</span><span class="n">packages</span><span class="p">(</span><span class="s2">&quot;ggplot2&quot;</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="s2">&quot;ggplot2&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>

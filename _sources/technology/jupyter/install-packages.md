@@ -2,18 +2,22 @@
 
 **What are the packages pre-installed for every hub?**
 
-Package installation varies across the different hubs. We ensure that basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across the main Datahub. Our R hubs supports packages such as shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
+Procedure for package installation varies across different programming languages. Basic python packages such as numPy, pandas, scikit-learn, matplotlib, etc., are installed across the main Datahub. R hubs supports packages such as shiny, dplyr, tidyR, RSQLlite, etc. However, you can customize the packages for the hubs by requesting them using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y).
 If you want to check the list of packages installed,
 - You can use the below command for Python,
 
 ```python
 !pip list
-```- You can use the below command for R,```
+```
+- You can use the below command for R,
+
+```python
 installed.packages()
 ```
 - You can check the packages installed in Julia by accessing the [Julia Hub](http://julia.datahub.berkeley.edu/)
 
-```{note}Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed in the main Datahub. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed in the Datahub.
+```{note}
+Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/requirements.txt) of Python packages installed in datahub.berkeley.edu. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/datahub/images/default/install.R) of R packages installed in datahub.berkeley.edu. Here is the [list](https://github.com/berkeley-dsep-infra/datahub/blob/staging/deployments/julia/image/install-julia-packages.jl) of Julia packages installed in datahub.berkeley.edu.
 ```
 
 **What should I do if I want to install more packages?**
@@ -51,11 +55,16 @@ You can also install other packages that are not on this list. There are two met
 
 #### Temporary Installation
 
-Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install `numpy` into a user's personal account. `numpy` will then be available for use while the server is running. This cell must be run every time the user's server is restarted. Note, this is not a system-wide installation. Running the cell below will only install numpy temporarily into a user's personal account.
+Notebooks provide support for bash commands in code cells. The line below, when run in a notebook code cell, will temporarily install `numpy` into a user's personal account. `numpy` will then be available for use while the server is running. This cell must be run every time the user's server is restarted. Note, this is not a system-wide installation. Running the below cells will only install numpy and ggplot2 temporarily into a user's personal account.
 
 ```
 !pip install numpy
 import numpy
+```
+
+```
+install.packages("ggplot2")
+library("ggplot2")
 ```
 
 #### **Long-term installation**
@@ -77,6 +86,3 @@ If staging fails, _never_ update production. Revert your change or call in help 
 ##### On reproducibility
 
 Make sure to specify a version for any library you install. If you do not, it is likely that the deployment process will break at some point during the semester. Omitting a version will not enable the user environment to always have the latest version -- it will only have the latest version that existed on the date that CI process runs. If you want to use an unreleased version of a library, specify the corresponding git SHA of that library's repository.
-
-
-
