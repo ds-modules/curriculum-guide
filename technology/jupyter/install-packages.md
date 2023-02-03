@@ -67,7 +67,7 @@ install.packages("ggplot2")
 library("ggplot2")
 ```
 
-#### **Long-term installation**
+#### Long-term installation
 
 _This is the recommended method for packages that will be used frequently._
 
