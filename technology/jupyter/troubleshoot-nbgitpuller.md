@@ -64,7 +64,7 @@ Here is how you launch terminal
 - Navigate to the folder where a) your files are stored and b) you have merge conflict issues
 - Run `git stash` command in the terminal and you will see the following output
 
-```{figure} ../../assets/gitstash.png
+```{figure} ../../assets/gitstash_output.png
 :width: 500px
 :align: center
 :name: Launch Terminal
