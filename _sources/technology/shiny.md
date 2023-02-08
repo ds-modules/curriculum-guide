@@ -14,8 +14,8 @@ If you are interested to explore Shiny application further then you can play wit
 
 **Approach I:**
 - Install the nbgitpuller plugin in [Google Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc)/[Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/) browser.
-- Upload the Shiny application to Github or choose an example from existing applications.
-- Select the application home directory and choose the option "shiny" from the nbgitpuller plugin.
+- Upload the chosen Shiny application to Github
+- Paste the URL for the datahub you are using (If you are using Shiny hub then paste https://shiny.datahub.berkeley.edu/) and open it using "Shiny" option in the nbgitpuller plugin.
 ```{figure} ../images/launchshinyapp.PNG
 :width: 500px
 :align: center
@@ -27,7 +27,7 @@ Launch Shiny application via nbgitpuller plugin
 
 **Approach II:**
 
-- Clone the [GitHub repository](https://github.com/rstudio/shiny-examples) with Shiny examples in your instance of Jupyterhub.
+- Clone the required [GitHub repository](https://github.com/rstudio/shiny-examples) having Shiny examples to your instance of Jupyterhub.
 - Launch the Shiny server.
 
 ```{figure} ../images/launchshiny.PNG
@@ -39,7 +39,7 @@ Short Launch Shiny
 ```
 
 - Point the Shiny server to an example from the cloned repository.
-- Explore the rendered example as part of the shiny dashboard.
+- Explore the rendered example using shiny dashboard.
 
 ```{figure} ../images/shinyDashboard.PNG
 :width: 500px
@@ -49,7 +49,7 @@ Short Launch Shiny
 Explore Shiny Dashboard
 ```
 
-You can also view the code that generated the dashboard as part of the rendered output. 
+You can also view the code that generated the dashboard in the rendered output. 
 
 ```{figure} ../images/shinycode.PNG
 :width: 500px

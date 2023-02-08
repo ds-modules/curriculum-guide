@@ -537,8 +537,8 @@ title="Print to PDF"
 <p><strong>Approach I:</strong></p>
 <ul class="simple">
 <li><p>Install the nbgitpuller plugin in <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Google Chrome</a>/<a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/">Mozilla Firefox</a> browser.</p></li>
-<li><p>Upload the Shiny application to Github or choose an example from existing applications.</p></li>
-<li><p>Select the application home directory and choose the option “shiny” from the nbgitpuller plugin.</p></li>
+<li><p>Upload the chosen Shiny application to Github</p></li>
+<li><p>Paste the URL for the datahub you are using (If you are using Shiny hub then paste <a class="reference external" href="https://shiny.datahub.berkeley.edu/">https://shiny.datahub.berkeley.edu/</a>) and open it using “Shiny” option in the nbgitpuller plugin.</p></li>
 </ul>
 <figure class="align-center" id="shiny-via-nbgitpuller-link">
 <a class="reference internal image-reference" href="../_images/launchshinyapp.PNG"><img alt="../_images/launchshinyapp.PNG" src="../_images/launchshinyapp.PNG" style="width: 500px;" /></a>
@@ -551,7 +551,7 @@ title="Print to PDF"
 </ul>
 <p><strong>Approach II:</strong></p>
 <ul class="simple">
-<li><p>Clone the <a class="reference external" href="https://github.com/rstudio/shiny-examples">GitHub repository</a> with Shiny examples in your instance of Jupyterhub.</p></li>
+<li><p>Clone the required <a class="reference external" href="https://github.com/rstudio/shiny-examples">GitHub repository</a> having Shiny examples to your instance of Jupyterhub.</p></li>
 <li><p>Launch the Shiny server.</p></li>
 </ul>
 <figure class="align-center" id="id1">
@@ -562,7 +562,7 @@ title="Print to PDF"
 </figure>
 <ul class="simple">
 <li><p>Point the Shiny server to an example from the cloned repository.</p></li>
-<li><p>Explore the rendered example as part of the shiny dashboard.</p></li>
+<li><p>Explore the rendered example using shiny dashboard.</p></li>
 </ul>
 <figure class="align-center" id="shiny-dashboard">
 <a class="reference internal image-reference" href="../_images/shinyDashboard.PNG"><img alt="../_images/shinyDashboard.PNG" src="../_images/shinyDashboard.PNG" style="width: 500px;" /></a>
@@ -570,7 +570,7 @@ title="Print to PDF"
 <p><span class="caption-number">Fig. 4 </span><span class="caption-text">Explore Shiny Dashboard</span><a class="headerlink" href="#shiny-dashboard" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<p>You can also view the code that generated the dashboard as part of the rendered output.</p>
+<p>You can also view the code that generated the dashboard in the rendered output.</p>
 <figure class="align-center" id="code-for-shiny">
 <a class="reference internal image-reference" href="../_images/shinycode.PNG"><img alt="../_images/shinycode.PNG" src="../_images/shinycode.PNG" style="width: 500px;" /></a>
 <figcaption>
@@ -591,7 +591,7 @@ title="Print to PDF"
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./technology"
         },
         predefinedOutput: true
