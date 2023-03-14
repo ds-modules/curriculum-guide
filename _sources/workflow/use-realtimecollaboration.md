@@ -4,6 +4,12 @@
 
 If you are interested in enabling RTC functionality in the hubs you use for instruction, contact the hub admins. Please do keep in mind that you are deploying an early-stage version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.
 
+
+### Data considerations for adopting RTC!
+
+- User notebooks got corrupted in RTC hosted hub. [Ref](https://github.com/jupyterlab/jupyterlab/issues/14031). 
+One helpful tip from Fernando Perez piloting RTC in Stat 159 course is to not keep more than one tab from the same browser open parallel. This is particularly problematic in the event of a server restart, as it is the main trigger of the document duplication bug. This issue has been reported upstream and might get fixed as part of the JupyterLab 3.6.2 release.
+
 ### Security considerations for adopting RTC!
 
 - If a user shares a link with another user, They can modify all the files in the owner's home directory for the specific hub, including other assignments and homework.
