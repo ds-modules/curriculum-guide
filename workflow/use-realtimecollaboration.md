@@ -4,11 +4,11 @@
 
 If you are interested in enabling RTC functionality in the hubs you use for instruction, contact the hub admins. Please do keep in mind that you are deploying an early-stage version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.
 
-
+```{note}
 ### Data considerations for adopting RTC!
 
-- User notebooks got corrupted in RTC hosted hub. [Ref](https://github.com/jupyterlab/jupyterlab/issues/14031). 
-One helpful tip from Fernando Perez piloting RTC in Stat 159 course is to not keep more than one tab from the same browser open parallel. This is particularly problematic in the event of a server restart, as it is the main trigger of the document duplication bug. This issue has been reported upstream and might get fixed as part of the JupyterLab 3.6.2 release.
+- User notebooks got corrupted in RTC hosted hub. You can refer to the details [here](https://github.com/jupyterlab/jupyterlab/issues/14031). 
+- One helpful tip from Fernando Perez who is currently piloting RTC in Stat 159 course is to not keep more than one tab from the same browser open simultaneously. This is particularly problematic in the event of a server restart, as it is the main trigger of the document duplication bug. This issue has been reported upstream and might get fixed as part of the JupyterLab 3.6.2 release.
 
 ### Security considerations for adopting RTC!
 
@@ -17,10 +17,12 @@ One helpful tip from Fernando Perez piloting RTC in Stat 159 course is to not ke
 - There is no option for the notebook owner to revoke the link, but they can stop the server, which makes the shared link invalid.
 - Anyone can forward the generated link to the next person as there is no link-level user control. Users would have to be careful where they share links while that server is active since anyone on the internet could gain control.
 - An user who has access to the shared link needs to leave the current session to go and work on their files.
+```
 
+### Steps to enable RTC
 You can start collaborating with others by following the below steps,
 
-### Step 1
+##### Step 1
 
 Open your IPython (ipynb) notebook files in Jupyter Lab interface. If you are unsure how to generate a nbgitpuller link to access your notebook in Jupyter Lab or Retro Lab interfaces, Please install this [plugin](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) in the Mozilla Firefox browser, which will walk you through the steps required to generate the link for the file easily.
 
@@ -28,7 +30,7 @@ Open your IPython (ipynb) notebook files in Jupyter Lab interface. If you are un
 Please do keep in mind that Real-Time Collaboration(RTC) functionality is not enabled in classic notebook and retro lab interfaces!
 ```
 
-### Step 2
+##### Step 2
 As a next step, Generate the shareable link to be shared with your collaborators. Follow the below steps to generate this link,
 - In the Menu bar, Click on the Share option (option next to Help). 
 - Select "Share Jupyter Server Link" which opens a prompt a the centre of the screen that shows an option to copy the shareable link. 
@@ -42,7 +44,7 @@ As a next step, Generate the shareable link to be shared with your collaborators
 Here is how you can generate a shareable link
 ```
 
-### Step 3
+##### Step 3
 Share this link with your collaborators. They will be able to access your notebooks immediately and make edits to the notebook in real-tim
 You can also see the cursors from other users with an anonymous username, a username that will disappear in a few seconds to make room for what is essential, the document’s content.
 
