@@ -189,11 +189,7 @@ const thebe_selector_output = ".output, .cell_output"
 
 
 
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Enabling Real Time Collaboration feature in Datahub</a></li>
-
-
-
-
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Using Real Time Collaboration (RTC)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="use-realtimefilesharing.html">Use Realtime file sharing using SyncThing</a></li>
 
 
@@ -379,13 +375,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Enabling Real Time Collaboration feature in Datahub</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#security-considerations-for-adopting-rtc">Security considerations for adopting RTC!</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1">Step 1</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2">Step 2</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3">Step 3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#security-considerations-for-adopting-rtc">Security considerations for adopting RTC!</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1">Step 1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2">Step 2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3">Step 3</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
@@ -398,11 +392,10 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="enabling-real-time-collaboration-feature-in-datahub">
 <h1>Enabling Real Time Collaboration feature in Datahub<a class="headerlink" href="#enabling-real-time-collaboration-feature-in-datahub" title="Permalink to this heading">#</a></h1>
-<p><a class="reference external" href="https://github.com/jupyterlab/rtc">Real-Time Collaboration in Jupyter</a> is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the <a class="reference external" href="https://github.com/jupyterlab/rtc/graphs/contributors">generous contribution</a> from various open-source contributors, this experimental functionality is currently enabled in Stat 159 hub.  A little bit of context about RTC, This was previously deployed as part of Stat 159 hub during Spring 22. However, we found <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/pull/3287">severe data corruption issues</a> which led to disabling RTC. Fixes to data corruption issues were made as part of the <a class="reference external" href="https://github.com/jupyterlab/jupyterlab/releases/tag/v3.6.1">Jupyter Lab 3.6.1</a> release. The current implementation is bleeding edge requiring the latest versions of several major Jupyter components but is also prone to many users running into stability and security issues. These issues have been communicated to the Jupyter developer team upstream.
-So, if you are interested in enabling this functionality in your respective hub, please check with the hub admins.</p>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="security-considerations-for-adopting-rtc">
-<h1>Security considerations for adopting RTC!<a class="headerlink" href="#security-considerations-for-adopting-rtc" title="Permalink to this heading">#</a></h1>
+<p><a class="reference external" href="https://github.com/jupyterlab/rtc">Real-Time Collaboration in Jupyter</a> is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the <a class="reference external" href="https://github.com/jupyterlab/rtc/graphs/contributors">generous contribution</a> from various open-source contributors, this experimental functionality is currently enabled in Stat 159 hub.  A little bit of context about RTC, This was previously deployed as part of Stat 159 hub during Spring 22. However, we found <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/pull/3287">severe data corruption issues</a> which led to disabling RTC. Fixes to data corruption issues were made as part of the <a class="reference external" href="https://github.com/jupyterlab/jupyterlab/releases/tag/v3.6.1">Jupyter Lab 3.6.1</a> release. The current implementation is bleeding edge requiring the latest versions of several major Jupyter components but is also prone to many users running into stability and security issues. These issues have been communicated to the Jupyter developer team upstream.</p>
+<p>If you are interested in enabling RTC functionality in the hubs you use for instruction, contact the hub admins. Please do keep in mind that you are deploying an early-stage version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.</p>
+<section id="security-considerations-for-adopting-rtc">
+<h2>Security considerations for adopting RTC!<a class="headerlink" href="#security-considerations-for-adopting-rtc" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>If a user shares a link with another user, They can modify all the files in the owner’s home directory for the specific hub, including other assignments and homework.</p></li>
 <li><p>When a user who owns the notebook stops the server, then the validity of the shared link expires - either explicitly from the control panel or after non-activity for 60 minutes.</p></li>
@@ -412,16 +405,16 @@ So, if you are interested in enabling this functionality in your respective hub,
 </ul>
 <p>You can start collaborating with others by following the below steps,</p>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-1">
-<h1>Step 1<a class="headerlink" href="#step-1" title="Permalink to this heading">#</a></h1>
+<section id="step-1">
+<h2>Step 1<a class="headerlink" href="#step-1" title="Permalink to this heading">#</a></h2>
 <p>Open your IPython (ipynb) notebook files in Jupyter Lab interface. If you are unsure how to generate a nbgitpuller link to access your notebook in Jupyter Lab or Retro Lab interfaces, Please install this <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/?utm_source=addons.mozilla.org&amp;utm_medium=referral&amp;utm_content=search">plugin</a> in the Mozilla Firefox browser, which will walk you through the steps required to generate the link for the file easily.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Please do keep in mind that Real-Time Collaboration(RTC) functionality is not enabled in classic notebook and retro lab interfaces!</p>
 </div>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-2">
-<h1>Step 2<a class="headerlink" href="#step-2" title="Permalink to this heading">#</a></h1>
+<section id="step-2">
+<h2>Step 2<a class="headerlink" href="#step-2" title="Permalink to this heading">#</a></h2>
 <p>As a next step, Generate the shareable link to be shared with your collaborators. Follow the below steps to generate this link,</p>
 <ul class="simple">
 <li><p>In the Menu bar, Click on the Share option (option next to Help).</p></li>
@@ -435,8 +428,8 @@ So, if you are interested in enabling this functionality in your respective hub,
 </figcaption>
 </figure>
 </section>
-<section class="tex2jax_ignore mathjax_ignore" id="step-3">
-<h1>Step 3<a class="headerlink" href="#step-3" title="Permalink to this heading">#</a></h1>
+<section id="step-3">
+<h2>Step 3<a class="headerlink" href="#step-3" title="Permalink to this heading">#</a></h2>
 <p>Share this link with your collaborators. They will be able to access your notebooks immediately and make edits to the notebook in real-tim
 You can also see the cursors from other users with an anonymous username, a username that will disappear in a few seconds to make room for what is essential, the document’s content.</p>
 <figure class="align-center" id="rtc-demo">
@@ -447,6 +440,7 @@ You can also see the cursors from other users with an anonymous username, a user
 </figure>
 <p>If you are interested to learn more about how real time collaboration works in Jupyter Lab, do refer to this <a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/user/rtc.html">documentation</a>
 If you are interested to get under the hood of real time collaboration and understand the framework enabling the shared data type, do refer to this <a class="reference external" href="https://github.com/yjs/yjs">documentation</a></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -510,13 +504,11 @@ If you are interested to get under the hood of real time collaboration and under
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Enabling Real Time Collaboration feature in Datahub</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#security-considerations-for-adopting-rtc">Security considerations for adopting RTC!</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1">Step 1</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2">Step 2</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3">Step 3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#security-considerations-for-adopting-rtc">Security considerations for adopting RTC!</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-1">Step 1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-2">Step 2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#step-3">Step 3</a></li>
 </ul>
-
   </nav></div>
 
 </div></div>
