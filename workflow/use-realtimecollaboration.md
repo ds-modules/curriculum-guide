@@ -1,6 +1,15 @@
-# Using Real Time Collaboration feature in Datahub
+# Enabling Real Time Collaboration feature in Datahub
 
-[Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the [generous contribution](https://github.com/jupyterlab/rtc/graphs/contributors) from various open-source contributors, this experimental functionality is enabled in a few hubs (Data 8 and D-Lab at the time of write-up). So, if you are interested in enabling this functionality in your respective hub, please check with the hub admins. 
+[Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the [generous contribution](https://github.com/jupyterlab/rtc/graphs/contributors) from various open-source contributors, this experimental functionality is currently enabled in Stat 159 hub.  A little bit of context about RTC, This was previously deployed as part of Stat 159 hub during Spring 22. However, we found [severe data corruption issues](https://github.com/berkeley-dsep-infra/datahub/pull/3287) which led to disabling RTC. Fixes to data corruption issues were made as part of the [Jupyter Lab 3.6.1](https://github.com/jupyterlab/jupyterlab/releases/tag/v3.6.1) release. The current implementation is bleeding edge requiring the latest versions of several major Jupyter components but is also prone to many users running into stability and security issues. These issues have been communicated to the Jupyter developer team upstream.
+So, if you are interested in enabling this functionality in your respective hub, please check with the hub admins. 
+
+# Security considerations for adopting RTC!
+
+- If a user shares a link with another user, They can modify all the files in the owner's home directory for the specific hub, including other assignments and homework.
+- When a user who owns the notebook stops the server, then the validity of the shared link expires - either explicitly from the control panel or after non-activity for 60 minutes.
+- There is no option for the notebook owner to revoke the link, but they can stop the server, which makes the shared link invalid.
+- Anyone can forward the generated link to the next person as there is no link-level user control. Users would have to be careful where they share links while that server is active since anyone on the internet could gain control.
+- An user who has access to the shared link needs to leave the current session to go and work on their files.
 
 You can start collaborating with others by following the below steps,
 
@@ -27,7 +36,7 @@ Here is how you can generate a shareable link
 ```
 
 # Step 3
-Share this link with your collaborators. They will be able to access your notebooks immediately and make edits to the notebook in real-time.
+Share this link with your collaborators. They will be able to access your notebooks immediately and make edits to the notebook in real-tim
 You can also see the cursors from other users with an anonymous username, a username that will disappear in a few seconds to make room for what is essential, the document’s content.
 
 ```{figure} ../images/RTC_demo.gif
@@ -38,13 +47,6 @@ You can also see the cursors from other users with an anonymous username, a user
 Real Time Collaboration (RTC) in action
 ```
 
-# Security considerations for adopting RTC!
-
-- If a user shares a link with another user, They can modify all the files in the owner's home directory for the specific hub, including other assignments and homework.
-- When a user who owns the notebook stops the server, then the validity of the shared link expires - either explicitly from the control panel or after non-activity for 60 minutes.
-- There is no option for the notebook owner to revoke the link, but they can stop the server, which makes the shared link invalid.
-- Anyone can forward the generated link to the next person as there is no link-level user control. Users would have to be careful where they share links while that server is active since anyone on the internet could gain control.
-- An user who has access to the shared link needs to leave the current session to go and work on their files.
 
 If you are interested to learn more about how real time collaboration works in Jupyter Lab, do refer to this [documentation](https://jupyterlab.readthedocs.io/en/stable/user/rtc.html)
 If you are interested to get under the hood of real time collaboration and understand the framework enabling the shared data type, do refer to this [documentation](https://github.com/yjs/yjs)
