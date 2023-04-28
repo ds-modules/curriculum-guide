@@ -26,7 +26,7 @@ install.packages("ggplot2")
 
 - Raise a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=datahub-package-addition---change-request.md&title=Request+python+package+X+for+class+Y)!
 
-**What should I do if I want to increase the RAM size/CPU power in my hub?**
+**How can I increase per-user RAM/CPU?**
 
 We recommend instructors to adapt the materials to the 1GB requirement of the Datahub as it is convenient for most usecases. However, If you have a compelling reason to request for more RAM/CPU, use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X). Provide rationale for this upgrade as it has cost implications for the service.
 
@@ -35,6 +35,8 @@ There are three factors we consider as part of the requests related to increasin
 - Number of students
 - RAM requested
 - Amount of time the resource increase is requested for.
+
+You can request resources for all students in the class, or for a subset of students that have been placed into a [bCourses group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-create-groups-in-a-group-set/ta-p/700). The latter might be useful for when you need to temporarily increases resources for a particular assignment.
 
 ```{list-table}
 :header-rows: 1
@@ -108,4 +110,4 @@ We generally prefer using our existing hubs for teaching your courses. Our guidi
 
 **As an instructor, Can I request a custom image with different installation requirements?**
 
-It depends on your requirement. Please do send an email to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) with your detailed requirement.
+It depends on your requirements. Please send an email to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) with your detailed requirement.
