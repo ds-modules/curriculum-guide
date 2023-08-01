@@ -63,6 +63,8 @@ parts:
   chapters:
   - file: workflow/creating-notebooks
     title: Creating Assignments
+  - file: workflow/accessibility
+    title: Creating Accessible Notebook Experience
   - file: workflow/pushing-to-github
     title: Uploading Files to Github
   - file: workflow/distributing-notebooks
