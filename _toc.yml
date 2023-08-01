@@ -1,4 +1,4 @@
-# Each entry has the following schema:
+ Each entry has the following schema:
 #
 # - title: mytitle   # Title of chapter or section
 #   file: /myurl  # URL of section relative to the /content/ folder.
@@ -63,6 +63,8 @@ parts:
   chapters:
   - file: workflow/creating-notebooks
     title: Creating Assignments
+  - file: workflow/accessibility
+    title: Creating Accessible Notebook Experience
   - file: workflow/pushing-to-github
     title: Uploading Files to Github
   - file: workflow/distributing-notebooks
