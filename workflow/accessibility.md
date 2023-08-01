@@ -6,7 +6,7 @@ Number of accessibility improvements have been made in JupyterLab 4.0, including
 
 Reusable components from Jupyter Lab 4.0 were used to build Jupyter Notebook 7.0 which will be the default notebook interface replacing classic notebook and retro notebook in the future. Accessibility improvements from Lab 4.0 will get added to notebook 7.0. Read more about Notebook 7.0 in this blogpost [here](https://medium.com/jupyter-blog/announcing-jupyter-notebook-7-8d6d66126dcf)
 
-The other aspect of providing accessible notebook experience involves creating accessible notebook experiences by following the best practices. Couple of resources from [Iota School](https://github.com/Iota-School) that will help you in creating accessible notebook experience is listed below,
+The other aspect of providing accessible notebook experience involves creating accessible notebooks by following the best practices. Sharing couple of resources from [Iota School](https://github.com/Iota-School) that will help you in creating accessible notebooks,
 
 - a11y [checklist](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/notebook-authoring-checklist/) for notebook authoring
 - a11y [tips](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/#visualization-accessibility) for notebook authoring
