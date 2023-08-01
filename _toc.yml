@@ -1,4 +1,4 @@
- Each entry has the following schema:
+# Each entry has the following schema:
 #
 # - title: mytitle   # Title of chapter or section
 #   file: /myurl  # URL of section relative to the /content/ folder.
