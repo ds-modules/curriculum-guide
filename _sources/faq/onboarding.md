@@ -7,25 +7,19 @@ New to Datahub? Interested to learn more about the services offered by the hub? 
 
 Dear Instructor, Sharing few logistical information which would make onboarding easy for you.
 
-***Datahub Team - Communications Overview***
- 
 - Github Issues: The best way to request help with the Datahub is handled through filing an issue on the github page for the datahub deployment: https://github.com/berkeley-dsep-infra/datahub/issues
 - Slack Channel: For urgent troubleshooting, you or your course staff can also use uctech.slack.com (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to touch base with the infra team. 
 - Documentation: You can also refer to the FAQ section of this support documentation (Curriculum Guide), where we regularly update solutions to some of the reported issues.
  
-***Datahub Team - Common Requests***
-
 - Packages: Check whether all the needed Python/R packages and their required versions are installed in your respective hub. If not, please use the following [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=package-request&template=package_request.yml&title=Request+python+package+X+for+class+Y) to raise a request to the infra team.  
 - Admin Access: You can use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=support&template=admin_request.yml) to add course staff instructors as [admins](https://ds-modules.github.io/curriculum-guide/faq/admin.html?highlight=admin) for the requested hub. Your requests should get completed within two to three working days.
 - Big Assignments / High Use times: You can share the important date(s)/time(s) for workshops/exams/assignments etc. when you expect the compute requirement to be larger than usual during this semester. We will review your request and get back to you directly about the feasibility of increasing the compute resources during the mentioned timeframe. You can provide us with all the relevant information using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=support&template=resourcescheduler.yml&title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29).
 
-***Datahub Team - News and Updates***
 
-- Newsletter: Are you interested to learn about some of the latest infrastructure changes, case studies of faculty doing interesting work, and scheduled workshops related to Datahub and other tools part of Berkeley Data Science Teaching Stack? If yes, Check our [monthly newsletter](https://ucberkeleydatahub.substack.com/p/january-edition-of-berkeley-datahub) and subscribe to it if you think the information shared is useful! Some new things to know about are,
-- Nbgitpuller Plugin: There is a new [plugin in the Google Chrome store](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) that makes nbgitpuller links from within Github pages! 
+- Newsletter: Are you interested to learn about some of the latest infrastructure changes, case studies of faculty doing interesting work, and scheduled workshops related to Datahub and other tools part of Berkeley Data Science Teaching Stack? If yes, Check our [newsletter](https://ucberkeleydatahub.substack.com/p/january-edition-of-berkeley-datahub) and subscribe to it if you think the information shared is useful! Some new things to know about are,
+- Nbgitpuller Plugin: There is a [plugin in the Google Chrome store](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) that makes nbgitpuller links from within Github pages! 
 
 Finally, provide us with any [feedback](https://github.com/berkeley-dsep-infra/datahub/issues/new) that will help us improve our hub operations. We want to ensure that you have a smooth experience teaching this semester. 
-
 
 **How can I learn more about Datahub to onboard myself?**
 
@@ -106,6 +100,12 @@ Honestly, nothing! You are free to use the Datahub starting today.
 ```{note}
 We expect that all course members log in using their UC Berkeley email id. We also expect that you are using [nbgitpuller service](https://jupyterhub.github.io/nbgitpuller/link) to distribute materials to your class. We can help you set up the links so that you can distribute through your course website. 
 ```
+
+**What instructions should I share with students at the start of the semester**
+Please ask your students,
+
+- To download and backup their files at the end of semester.
+- To refrain from installing python packages via `pip install --user`. Incase, if they install packages this way it may cause issues with launching their Jupyterhub servers. Best way to avoid this scenario is by installing packages by requesting them via [issue template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=package-request&projects=&template=package_request.yml&title=Request+python+package+X+for+class+Y)
 
 **What if I have a student outside UC Berkeley?**
 
