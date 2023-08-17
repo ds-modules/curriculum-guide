@@ -406,7 +406,24 @@ document.write(`
 <p>If you are an undergrad student you’ll not get admin access in any non-course-specific datahub</p>
 </div>
 <p><strong>How do I get access to the admin option?</strong></p>
-<p>We generally recommend <strong>only</strong> the teaching team to have admin access. If you are part of the teaching team and require admin access, please create a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=admin_request.yml">template</a></p>
+<p>We generally recommend <strong>only</strong> the teaching team to have admin access. If you are part of the teaching team and require admin access, please create a request using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=support&amp;template=admin_request.yml">template</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please provide bcourses id for the course in  which the instructors require admin access</p>
+</div>
+<p>Steps for creating Datahub admin involves,</p>
+<ul class="simple">
+<li><p>Create <a class="reference external" href="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-create-groups-in-a-group-set/ta-p/700">bcourses groupset and groups</a> by following the documentation. You have to create a bcourses groupset and then create a group inside it. For eg: You can title groupset as “Staff Groups” and group as “Hub Admins” inside the groupset</p></li>
+<li><p>Add instructional staff as students in your course. Bcourses will not recognize course staff automatically and hence you need to add them as students in the groups youc created.</p></li>
+<li><p>Assign <a class="reference external" href="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663">students to bcourses group</a> by following the documentation</p></li>
+<li><p>Share the bcourses id in the Github template. Admins will make changes to Datahub configuration which will allow bcourses group admin to act as Datahub admins.</p></li>
+<li><p>Once admin priviliges are assigned to bcourses groups based on the <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles">Datahub documentation</a>, You need to logout of the hub and then log in.</p></li>
+<li><p>You will be able to use the “Manage groups” option in the admin interface to see whether the group you are affiliated with has admin access</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you need any help in this process of creating bcourses groups, please reach out to <a class="reference external" href="mailto:bcourseshelp&#37;&#52;&#48;berkeley&#46;edu">bcourseshelp<span>&#64;</span>berkeley<span>&#46;</span>edu</a></p>
+</div>
 <p><strong>How do I navigate the admin portal?</strong></p>
 <p>If you have admin access and want to know how to access admin portal then use the following steps,</p>
 <ul class="simple">
