@@ -31,7 +31,24 @@ If you are an undergrad student you'll not get admin access in any non-course-sp
 
 **How do I get access to the admin option?** 
 
-We generally recommend **only** the teaching team to have admin access. If you are part of the teaching team and require admin access, please create a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml)
+We generally recommend **only** the teaching team to have admin access. If you are part of the teaching team and require admin access, please create a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml).
+
+```{note}
+Please provide bcourses id for the course in  which the instructors require admin access 
+```
+
+Steps for creating Datahub admin involves,
+- Create [bcourses groupset and groups](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-create-groups-in-a-group-set/ta-p/700) by following the documentation. You have to create a bcourses groupset and then create a group inside it. For eg: You can title groupset as "Staff Groups" and group as "Hub Admins" inside the groupset
+- Add instructional staff as students in your course. Bcourses will not recognize course staff automatically and hence you need to add them as students in the groups youc created.
+- Assign [students to bcourses group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663) by following the documentation 
+- Share the bcourses id in the Github template. Admins will make changes to Datahub configuration which will allow bcourses group admin to act as Datahub admins.
+- Once admin priviliges are assigned to bcourses groups based on the [Datahub documentation](https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles), You need to logout of the hub and then log in.
+- You will be able to use the "Manage groups" option in the admin interface to see whether the group you are affiliated with has admin access
+
+
+```{note}
+If you need any help in this process of creating bcourses groups, please reach out to bcourseshelp@berkeley.edu
+```
 
 **How do I navigate the admin portal?**
 
