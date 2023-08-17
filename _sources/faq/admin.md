@@ -1,19 +1,19 @@
 # Hub Admin Privileges
 
 ```{note}
-Curious admin privileges in Datahub? If yes, read below!
+Curious about admin privileges in Datahub? If yes, read below!
 
 ```
 
-**What does admin access in the hub mean?** 
+**What does admin privilege in the hub mean?** 
 
-Admin feature provides the necessary access required to support students using your hub. If you are an admin user, you have access to the following features,
+Admin privilege provides the necessary features required to troubleshoot students notebook interface in the hub. If you are an admin user, you can do the following,
 
 1. You can start and stop the students' server in your dedicated hub
-2. You can access the student server to debug issues in their instance
+2. You can access the student server to debug issues in their notebook
 
 ```{warning}
-Admin privileges are hub-wide. If you are a GSI teaching a course using a particular hub but also  happens to be a student in another course which uses the same hub, then there can be a conflict of interest. Please report such conflict of interest to the infrastructure admin team so that we can take corrective action.
+Admin privileges are hub-wide. If you have a GSI teaching your course using a particular hub but are also a student in another course using the same hub, this can result in a conflict of interest. Please report such issues to the infrastructure admin team so that we can take the necessary corrective action.
 ```
 
 Check this image to know your privileges for the admin option
@@ -40,7 +40,7 @@ The steps for assigning Datahub admin privilege involves,
 - Assign [students to bcourses group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663) by following the documentation.
 - Share the bcourses id in the Github template. The admins will make changes to the Datahub configuration to enable this feature.
 - Once admin privileges are assigned to bcourses groups by admins based on the [Datahub documentation](https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles), You need to logout of the hub and then log in again for the config changes to persist.
-- You will be able to access the admin interface in the UI by accessing "<Hub URL>/hub/admin" and checking the admin status of varied users. You will also be able to use the "Manage groups" option in the admin interface to check the bcourses id of courses with admin privileges.
+- You will be able to access the admin interface in the UI by navigating to "<Hub URL>/hub/admin" and check for the admin status of varied users. You will also be able to use the "Manage groups" option in the admin interface to check the bcourses id of courses with admin privileges.
    
 ```{note}
 If you need any help in this process of creating bcourses groups, please reach out to bcourseshelp@berkeley.edu
