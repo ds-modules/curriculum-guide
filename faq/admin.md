@@ -1,7 +1,7 @@
 # Hub Admin Privileges
 
 ```{note}
-Curious about what privileges admins have in Datahub? If yes, read below!
+Curious admin privileges in Datahub? If yes, read below!
 
 ```
 
@@ -13,7 +13,7 @@ Admin feature provides the necessary access required to support students using y
 2. You can access the student server to debug issues in their instance
 
 ```{warning}
-Admin privileges are hub-wide. If you're a teaching team member who happens to be also a student in another course on the same hub, then there can be a conflict of interest.
+Admin privileges are hub-wide. If you are a GSI teaching a course using a particular hub but also  happens to be a student in another course which uses the same hub, then there can be a conflict of interest. Please report such conflict of interest to the infrastructure admin team so that we can take corrective action.
 ```
 
 Check this image to know your privileges for the admin option
@@ -25,33 +25,30 @@ Check this image to know your privileges for the admin option
 
 Here is how the admin dashboard looks like!
 ```
-```{note}
-If you are an undergrad student you'll not get admin access in any non-course-specific datahub
-```
 
 **How do I get access to the admin option?** 
 
-We generally recommend the teaching team alone to have admin access. If you are part of the teaching team and require admin access, please create a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml). The infrastructure admins will help with assigning admin privileges to the instructional team.
+We generally recommend the teaching team alone have admin access in the hubs they use for the instructional purposes. If you are part of the teaching team and require admin access, please create a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml). The infrastructure admins will assist with the process of assigning admin privileges to the instructors.
 
 ```{note}
-This process has undergone a major change thanks to the latest updates in Jupyterhub and the work of Ryan Lovett. You no longer need to provide the list of usernames for the staff who require admin access. You just need to provide bcourses id for all the courses for which you require admin access.  
-```
-
-The steps for creating Datahub admin involves,
-- Create [bcourses groups](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-create-groups-in-a-group-set/ta-p/700) by following the documentation. The first step will be to create a bcourses groupset and then create a group inside it. For eg: You can title groupset as "Staff Groups" and group as "Hub Admins" inside the groupset.
-- Add instructional staff as students in the created group. The caveat to keep in mind is that bcourses will not allow for adding course staff directly in bcourses. You need to add the instructional staff as students in the created groups inorder to solve for this issue.
-- Assign [students to bcourses group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663) by following the documentation. 
-- Share the bcourses id in the Github template. The admins will make changes to Datahub configuration to enable this feature.
-- Once admin priviliges are assigned to bcourses groups by admins based on the [Datahub documentation](https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles), You need to logout of the hub and then log in again inorder for the config changes to persist.
-- You will be able to access the admin interface in the UI by accessing "<Hub URL>/hub/admin" and check the admin status of varied users. You will also be able to use the "Manage groups" option in the admin interface to check the bcourses id of courses with admin privileges.
-
+This process has undergone a major change thanks to the latest updates in Jupyterhub and the work of Ryan Lovett. You no longer need to provide the list of usernames for the staff who require admin access. You just need to provide bcourses id for all the courses for which you require admin access. In addition, you need to create a bcourses group with the instructional staff who require the admin privilege.
+```    
+      
+The steps for assigning Datahub admin privilege involves,
+- Create [bcourses groups](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-create-groups-in-a-group-set/ta-p/700) by following the documentation. The first step will be to create a bcourses groupset and then create a group inside it. For eg: You can title the groupset "Staff Groups" and the group "Hub Admins".
+- Add instructional staff as students in the created group. The caveat to keep in mind is that bcourses will not allow for adding course staff directly in bcourses. You need to add the instructional staff as students in the created groups to solve this issue.
+- Assign [students to bcourses group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663) by following the documentation.
+- Share the bcourses id in the Github template. The admins will make changes to the Datahub configuration to enable this feature.
+- Once admin privileges are assigned to bcourses groups by admins based on the [Datahub documentation](https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles), You need to logout of the hub and then log in again for the config changes to persist.
+- You will be able to access the admin interface in the UI by accessing "<Hub URL>/hub/admin" and checking the admin status of varied users. You will also be able to use the "Manage groups" option in the admin interface to check the bcourses id of courses with admin privileges.
+   
 ```{note}
 If you need any help in this process of creating bcourses groups, please reach out to bcourseshelp@berkeley.edu
 ```
 
 **How do I navigate the admin portal?**
 
-If you have admin access and want to know how to access admin portal then use the following steps,
+Please follow the steps below to navigate admin interface,
 
 - Login to your hub instance
 - Click the admin option from the top bar
