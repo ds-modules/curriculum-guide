@@ -5,7 +5,7 @@ Curious about admin privileges in Datahub? If yes, read below!
 
 ```
 
-**What does admin privilege in the hub mean?** 
+**What does admin privilege in the hub mean?**
 
 Admin privilege provides the necessary features required to troubleshoot students notebook interface in the hub. If you are an admin user, you can do the following,
 
@@ -26,22 +26,22 @@ Check this image to know your privileges for the admin option
 Here is how the admin dashboard looks like!
 ```
 
-**How do I get access to the admin option?** 
+**How do I get access to the admin option?**
 
 We generally recommend the teaching team alone have admin access in the hubs they use for the instructional purposes. If you are part of the teaching team and require admin access, please create a request using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=admin_request.yml). The infrastructure admins will assist with the process of assigning admin privileges to the instructors.
 
 ```{note}
-This process has undergone a major change thanks to the latest updates in Jupyterhub and the work of Ryan Lovett. You no longer need to provide the list of usernames for the staff who require admin access. You just need to provide bcourses id for all the courses for which you require admin access. In addition, you need to create a bcourses group with the instructional staff who require the admin privilege.
-```    
-      
-The steps for assigning Datahub admin privilege involves,
-- Create [bcourses groups](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-create-groups-in-a-group-set/ta-p/700) by following the documentation. The first step will be to create a bcourses groupset and then create a group inside it. For eg: You can title the groupset "Staff Groups" and the group "Hub Admins".
-- Add instructional staff as students in the created group. The caveat to keep in mind is that bcourses will not allow for adding course staff directly in bcourses. You need to add the instructional staff as students in the created groups to solve this issue.
-- Assign [students to bcourses group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663) by following the documentation.
-- Share the bcourses id in the Github template. The admins will make changes to the Datahub configuration to enable this feature.
-- Once admin privileges are assigned to bcourses groups by admins based on the [Datahub documentation](https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles), You need to logout of the hub and then log in again for the config changes to persist.
+This process has undergone a major change. You no longer need to provide the list of usernames for the staff who require admin access. You just need to provide the bcourses ID for all the courses for which you require admin access.
+```
+
+To assign admin privileges to a set of people other than all course staff, for example a subset of them, please do the following:
+- In order to assign people to a group, they must have the role of "student". By default, course staff are either "teacher" or "ta", but they can be assigned more than one role. Visit the `People` section and click `+ People`. Specify the users' email addresses and make sure the Role is set to `Student`.
+- Create a [bcourses group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-create-groups-in-a-group-set/ta-p/700). The first step will be to create a groupset and then create a group inside it. For example, you can title the groupset "Staff Groups" and the group "Hub Admins".
+- [Add people to the created group](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manually-assign-students-to-groups/ta-p/663).
+- Share the bcourses ID in the Github template. The admins will make changes to the Datahub configuration to enable this feature. If you are assigning privileges to a group of people other than course staff, specify this in the Github issue.
+- Once admin privileges are assigned to jupyterhub groups based on the [Datahub documentation](https://docs.datahub.berkeley.edu/en/latest/admins/howto/course-config.html#assigning-scopes-to-roles), the people being granted those privileges will need to logout of the hub and then log in again for the config changes to persist. This is not the same thing as stopping and starting the server -- users need to click "Logout".
 - You will be able to access the admin interface in the UI by navigating to "<Hub URL>/hub/admin" and check for the admin status of varied users. You will also be able to use the "Manage groups" option in the admin interface to check the bcourses id of courses with admin privileges.
-   
+
 ```{note}
 If you need any help in this process of creating bcourses groups, please reach out to bcourseshelp@berkeley.edu
 ```
@@ -89,7 +89,7 @@ Here is how the control panel option looks like!
 
 Here is where you can find admin option!
 ```
-- Find the user whose server you want to restart. 
+- Find the user whose server you want to restart.
 
 ```{figure} ../images/user.PNG
 :width: 500px
@@ -104,7 +104,7 @@ Here is how to search for an user!
 
 - Click the control panel option
 - Click admin option
-- Find the user whose server you want to stop. 
+- Find the user whose server you want to stop.
 - Click stop server option
 
 **How can I access the instance of a student server?**
