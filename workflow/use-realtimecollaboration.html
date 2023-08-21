@@ -395,7 +395,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="enabling-real-time-collaboration-feature-in-datahub">
 <h1>Enabling Real Time Collaboration feature in Datahub<a class="headerlink" href="#enabling-real-time-collaboration-feature-in-datahub" title="Permalink to this heading">#</a></h1>
-<p><a class="reference external" href="https://github.com/jupyterlab/rtc">Real-Time Collaboration in Jupyter</a> is one of the most requested functionalities, which has also proven to be a complex use case to develop. A little bit of context about RTC, This was previously deployed as part of Stat 159 hub during Spring 22. However, we found <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/pull/3287">severe data corruption issues</a> which led to disabling RTC. Many issues were fixed as part of <code class="docutils literal notranslate"><span class="pre">jupyter_collaboration</span></code> package which is the extension that enables RTC in the latest Jupyter Lab 4 version. However, subset of users in Data 100 SU 23 course were affected with random error messages (snapshotted below) which went away after disabling <code class="docutils literal notranslate"><span class="pre">jupyter_collaboration</span></code> package.</p>
+<p><a class="reference external" href="https://github.com/jupyterlab/rtc">Real-Time Collaboration in Jupyter</a> is one of the most requested functionalities, which has also proven to be a complex use case to develop. A little bit of context about RTC, It was previously deployed as part of the Stat 159 hub during Spring 22. However, we found <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/pull/3287">severe data corruption issues</a> which led to disabling RTC. Many issues were fixed as part of the <code class="docutils literal notranslate"><span class="pre">jupyter_collaboration</span></code> package which is an  extension that enables RTC in the latest Jupyter Lab 4 version. However, a subset of users in the Data 100 SU 23 course were affected with random error messages (snapshotted below) which went away after disabling the <code class="docutils literal notranslate"><span class="pre">jupyter_collaboration</span></code> package.</p>
 <figure class="align-center" id="rtc-issue">
 <a class="reference internal image-reference" href="../_images/rtc_issue.png"><img alt="../_images/rtc_issue.png" src="../_images/rtc_issue.png" style="width: 500px;" /></a>
 <figcaption>
@@ -404,9 +404,13 @@ document.write(`
 </figure>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
+<p>RTC feature is still in a testing stage. New bugs get uncovered and are also fixed immediately</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>Please do keep in mind that if you as an instructor wants to distribute links to students enrolled in your course then you should consider generating and distributing links through <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#the-steps">nbgitpuller</a> pathway. However, If you are considering usecase around students working collaboratively using Jupyter notebooks then consider RTC.</p>
 </div>
-<p>We are looking for instructors who are interested to pilot RTC in their course setting. If you are interested in enabling RTC functionality in the hubs you use for instruction, contact the hub admins. Please do keep in mind that you are deploying an early-stage bleeding edge version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.</p>
+<p>We are looking for instructors who are interested to pilot RTC in their course setting. If you are interested in enabling RTC functionality then please do make a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&amp;labels=type%3A+enhancement&amp;projects=&amp;template=featurerequest.md">github request</a>. Do keep in mind that you are deploying an early-stage bleeding edge version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p class="rubric">Data considerations for adopting RTC!</p>
