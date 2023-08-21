@@ -395,18 +395,23 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="enabling-real-time-collaboration-feature-in-datahub">
 <h1>Enabling Real Time Collaboration feature in Datahub<a class="headerlink" href="#enabling-real-time-collaboration-feature-in-datahub" title="Permalink to this heading">#</a></h1>
-<p><a class="reference external" href="https://github.com/jupyterlab/rtc">Real-Time Collaboration in Jupyter</a> is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the <a class="reference external" href="https://github.com/jupyterlab/rtc/graphs/contributors">generous contribution</a> from various open-source contributors, this experimental functionality is currently enabled in Stat 159 hub.  A little bit of context about RTC, This was previously deployed as part of Stat 159 hub during Spring 22. However, we found <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/pull/3287">severe data corruption issues</a> which led to disabling RTC. Fixes to data corruption issues were made as part of the <a class="reference external" href="https://github.com/jupyterlab/jupyterlab/releases/tag/v3.6.1">Jupyter Lab 3.6.1</a> release. The current implementation is bleeding edge requiring the latest versions of several major Jupyter components but is also prone to many users running into stability and security issues. These issues have been communicated to the Jupyter developer team upstream.</p>
+<p><a class="reference external" href="https://github.com/jupyterlab/rtc">Real-Time Collaboration in Jupyter</a> is one of the most requested functionalities, which has also proven to be a complex use case to develop. A little bit of context about RTC, This was previously deployed as part of Stat 159 hub during Spring 22. However, we found <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/pull/3287">severe data corruption issues</a> which led to disabling RTC. Many issues were fixed as part of <code class="docutils literal notranslate"><span class="pre">jupyter_collaboration</span></code> package which is the extension that enables RTC in the latest Jupyter Lab 4 version. However, subset of users in Data 100 SU 23 course were affected with random error messages (snapshotted below) which went away after disabling <code class="docutils literal notranslate"><span class="pre">jupyter_collaboration</span></code> package.</p>
+<figure class="align-center" id="rtc-issue">
+<a class="reference internal image-reference" href="../_images/rtc_issue.png"><img alt="../_images/rtc_issue.png" src="../_images/rtc_issue.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 27 </span><span class="caption-text">Here is a random error message received by Data 100 users</span><a class="headerlink" href="#rtc-issue" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Please do keep in mind that if you as an instructor wants to distribute links to students enrolled in your course then you should consider generating and distributing links through <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#the-steps">nbgitpuller</a> pathway. However, If you are considering usecase around students working collaboratively using Jupyter notebooks then consider RTC.</p>
 </div>
-<p>If you are interested in enabling RTC functionality in the hubs you use for instruction, contact the hub admins. Please do keep in mind that you are deploying an early-stage version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.</p>
+<p>We are looking for instructors who are interested to pilot RTC in their course setting. If you are interested in enabling RTC functionality in the hubs you use for instruction, contact the hub admins. Please do keep in mind that you are deploying an early-stage bleeding edge version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p class="rubric">Data considerations for adopting RTC!</p>
 <ul class="simple">
-<li><p>User notebooks got corrupted in RTC hosted hub. You can refer to the details <a class="reference external" href="https://github.com/jupyterlab/jupyterlab/issues/14031">here</a>.</p></li>
-<li><p>One helpful tip from Fernando Perez who is currently piloting RTC in Stat 159 course is to not keep more than one tab from the same browser open simultaneously. This is particularly problematic in the event of a server restart, as it is the main trigger of the document duplication bug. This issue has been reported upstream and might get fixed as part of the JupyterLab 3.6.2 release.</p></li>
+<li><p>User notebooks were corrupted in RTC hosted hub. You can refer to the details <a class="reference external" href="https://github.com/jupyterlab/jupyterlab/issues/14031">here</a>.</p></li>
 </ul>
 <p class="rubric">Security considerations for adopting RTC!</p>
 <ul class="simple">
@@ -439,7 +444,7 @@ document.write(`
 <figure class="align-center" id="shareable-link">
 <a class="reference internal image-reference" href="../_images/Share_link.gif"><img alt="../_images/Share_link.gif" src="../_images/Share_link.gif" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 27 </span><span class="caption-text">Here is how you can generate a shareable link</span><a class="headerlink" href="#shareable-link" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Here is how you can generate a shareable link</span><a class="headerlink" href="#shareable-link" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
@@ -450,7 +455,7 @@ You can also see the cursors from other users with an anonymous username, a user
 <figure class="align-center" id="rtc-demo">
 <a class="reference internal image-reference" href="../_images/RTC_demo.gif"><img alt="../_images/RTC_demo.gif" src="../_images/RTC_demo.gif" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 28 </span><span class="caption-text">Real Time Collaboration (RTC) in action</span><a class="headerlink" href="#rtc-demo" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 29 </span><span class="caption-text">Real Time Collaboration (RTC) in action</span><a class="headerlink" href="#rtc-demo" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>If you are interested to learn more about how real time collaboration works in Jupyter Lab, do refer to this <a class="reference external" href="https://jupyterlab.readthedocs.io/en/stable/user/rtc.html">documentation</a>
