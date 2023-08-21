@@ -1,19 +1,25 @@
 # Enabling Real Time Collaboration feature in Datahub
 
-[Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. However, due to the [generous contribution](https://github.com/jupyterlab/rtc/graphs/contributors) from various open-source contributors, this experimental functionality is currently enabled in Stat 159 hub.  A little bit of context about RTC, This was previously deployed as part of Stat 159 hub during Spring 22. However, we found [severe data corruption issues](https://github.com/berkeley-dsep-infra/datahub/pull/3287) which led to disabling RTC. Fixes to data corruption issues were made as part of the [Jupyter Lab 3.6.1](https://github.com/jupyterlab/jupyterlab/releases/tag/v3.6.1) release. The current implementation is bleeding edge requiring the latest versions of several major Jupyter components but is also prone to many users running into stability and security issues. These issues have been communicated to the Jupyter developer team upstream.
+[Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. A little bit of context about RTC, This was previously deployed as part of Stat 159 hub during Spring 22. However, we found [severe data corruption issues](https://github.com/berkeley-dsep-infra/datahub/pull/3287) which led to disabling RTC. Many issues were fixed as part of `jupyter_collaboration` package which is the extension that enables RTC in the latest Jupyter Lab 4 version. However, subset of users in Data 100 SU 23 course were affected with random error messages (snapshotted below) which went away after disabling `jupyter_collaboration` package.
+
+```{figure} ../images/rtc_issue.png
+:width: 500px
+:align: center
+:name: RTC Issue
+
+Here is a random error message received by Data 100 users
+```
 
 ```{note}
 Please do keep in mind that if you as an instructor wants to distribute links to students enrolled in your course then you should consider generating and distributing links through [nbgitpuller](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#the-steps) pathway. However, If you are considering usecase around students working collaboratively using Jupyter notebooks then consider RTC.
 ```
 
-
-If you are interested in enabling RTC functionality in the hubs you use for instruction, contact the hub admins. Please do keep in mind that you are deploying an early-stage version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.
+We are looking for instructors who are interested to pilot RTC in their course setting. If you are interested in enabling RTC functionality in the hubs you use for instruction, contact the hub admins. Please do keep in mind that you are deploying an early-stage bleeding edge version of RTC and are open to the possibility that hub stability and/or data integrity could get impacted by this decision.
 
 ```{note}
 ### Data considerations for adopting RTC!
 
-- User notebooks got corrupted in RTC hosted hub. You can refer to the details [here](https://github.com/jupyterlab/jupyterlab/issues/14031). 
-- One helpful tip from Fernando Perez who is currently piloting RTC in Stat 159 course is to not keep more than one tab from the same browser open simultaneously. This is particularly problematic in the event of a server restart, as it is the main trigger of the document duplication bug. This issue has been reported upstream and might get fixed as part of the JupyterLab 3.6.2 release.
+- User notebooks were corrupted in RTC hosted hub. You can refer to the details [here](https://github.com/jupyterlab/jupyterlab/issues/14031). 
 
 ### Security considerations for adopting RTC!
 
