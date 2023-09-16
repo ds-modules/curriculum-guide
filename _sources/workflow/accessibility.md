@@ -1,14 +1,15 @@
 # Creating Accessible Notebook Experience
 
-Improving the accessibility of the notebook experience has consistently been a key priority for the Datahub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html] standards mandated by the University.
+Improving the accessibility of the notebook experience has consistently been a key priority for the Datahub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html) standards mandated by the University.
 
 Enhancing the accessibility of the notebook experience involves addressing multiple dimensions:
-a) Ensuring the accessibility of the interface, as exemplified by Lab 4 and Notebook 7.
-b) Enhancing the accessibility of the content within notebooks.
+
+- Ensuring the accessibility of the interface, as exemplified by Lab 4 and Notebook 7.
+-  Enhancing the accessibility of the content within notebooks.
 
 ## Enhancing the accessibility of the notebook interface:
 
-The Datahub team consistently collaborates with Jupyter developers to incorporate accessibility enhancements into both the Notebook and Lab interfaces. In that spirit, We encourage instructors to integrate Lab 4 and Notebook 7 into their teaching workflows, as these releases include the latest accessibility enhancements. 
+The Datahub team constantly collaborates with Jupyter developers to incorporate accessibility enhancements into both the Notebook and Lab interfaces. In that spirit, We encourage instructors to integrate Lab 4 and Notebook 7 into their teaching workflows, as these releases include the latest accessibility enhancements. 
 
 ### JupyterLab 4.0: 
 
@@ -21,9 +22,11 @@ The Jupyter Notebook 7.0, set to become the new default notebook interface, is c
 ## Enhancing the accessibility of the content within Jupyter notebooks:
 
 There are scenarios where notebooks are designed to be inaccessible. This could include issues with alt text, captioning the images, color contrast issues in the image etc.. One can avoid such accessibility issues by following the best practices recommended to create accessible notebooks.
+
 Sharing couple of resources from the [Iota School](https://github.com/Iota-School) team who has compiled the best practices for creating accessible notebooks into checklists and tips,
-[Checklist](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/notebook-authoring-checklist/) for notebook authoring
-[Tips](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/#visualization-accessibility) for notebook authoring
+
+- [Checklist](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/notebook-authoring-checklist/) for notebook authoring
+- [Tips](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/#visualization-accessibility) for notebook authoring
 
 #### Export notebook to html format:
 
@@ -44,13 +47,12 @@ a) Pitaya Smoothie and
 b) Github Light 
 
 Both the themes are WCAG 2.1 AAA compliant and have been recommended by the Jupyter a11y community. However, these themes are not compatible with classic notebook interface.
+
 [Jupyter Themes](https://github.com/dunovank/jupyter-themes) is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0. The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in [this web page](https://github.com/dunovank/jupyter-themes). If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab [Legos UI](https://github.com/dunovank/jupyterlab_legos_ui) and [Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 
 #### Jupyter Font: 
 
 You can use the [JupyterLab fonts](https://github.com/deathbeds/jupyterlab-fonts) package to customize the fonts used in the notebook.
-
-Improving accessibility in Jupyter notebooks is an ongoing process that involves attention to both the structural aspects of the content and the interactive elements within the notebooks. It's important to prioritize accessibility to ensure that your content is inclusive and usable by a broad audience.
 
 ## Enhancing the accessibility of content in the R notebooks:
 
@@ -63,3 +65,4 @@ If you are using R/RStudio as part of your instructional workflow then please ch
 - [Adding alt text content for images produced by knittR](https://posit.co/blog/knitr-fig-alt/)
 - [AccessRMD is the package to improve accessibility of RMD files](https://cran.r-project.org/web/packages/accessrmd/accessrmd.pdf)
 
+Improving accessibility in Jupyter notebooks is an ongoing process that involves attention to both the structural aspects of the content and the interactive elements within the notebooks. It's important to prioritize accessibility to ensure that your content is inclusive and usable by a broad audience.
