@@ -13,7 +13,7 @@ The Datahub team constantly collaborates with Jupyter developers to incorporate 
 
 ### JupyterLab 4.0: 
 
-A number of accessibility improvements have been made in JupyterLab 4.0, including improved screen reader and keyboard navigation, more ARIA roles and labels, and a hamburger menu that collapses if there is not enough space to display all items. You can read more about the features of Lab 4 in the blogpost titled JupyterLab 4.0 is here. Lab 4 has undergone extensive testing with Data 100 summer 23 instructors within a new hub, and the overall experience has been positive, with the exception of real-time collaboration, which may require further attention.
+A number of accessibility improvements have been made in JupyterLab 4.0, including improved screen reader and keyboard navigation, more ARIA roles and labels, and a hamburger menu that collapses if there is not enough space to display all items. You can read more about the features of Lab 4 in the blogpost titled ["JupyterLab 4.0 is here"](https://blog.jupyter.org/jupyterlab-4-0-is-here-388d05e03442). Lab 4 has undergone extensive testing with Data 100 summer 23 instructors within a new hub, and the overall experience has been positive, with the exception of real-time collaboration, which may require further attention.
 
 ### Jupyter Notebook 7.0:
 
@@ -30,7 +30,7 @@ Sharing couple of resources from the [Iota School](https://github.com/Iota-Schoo
 
 #### Export notebook to html format:
 
-The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Lot of effort has been made to Lab 4 and Notbook 7 to overcome some of the barriers to accessibility. However, it is still not 100% accessible at the moment. To improve the readability of the notebooks, It is recommended that .ipynb files are converted to .html files which are largely designed for web and has a more accessible experience. It is recommended that .ipynb files are not converted to PDF for readability as PDFs are generally inaccessible in comparison to html format.
+The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Lot of effort has been made to Lab 4 and Notbook 7 to overcome some of the barriers to accessibility. However, it is still not 100% accessible at the moment. To improve the readability of the notebooks, It is recommended that .ipynb files are converted to .html files which are largely designed for webinterface and has a more accessible experience. PDFs are generally inaccessible in comparison to html format from a readability standpoint.
 
 [Nbconvert](https://github.com/jupyter/nbconvert) is a  tool that converts notebooks to various formats including html which improves readability. The command for converting notebooks from .ipynb to html is
 
@@ -44,9 +44,7 @@ Jupyter Classic Notebook and Lab have 3rd party themes that give more control to
 
 [JupyterLab-Accessible-Themes](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) is a lab theme that allows notebook creators to customize the lab experience. There are two different types of themes which are included as part of this package, 
 a) Pitaya Smoothie and 
-b) Github Light 
-
-Both the themes are WCAG 2.1 AAA compliant and have been recommended by the Jupyter a11y community. However, these themes are not compatible with classic notebook interface.
+b) Github Light. Both the themes are WCAG 2.1 AAA compliant and have been recommended by the Jupyter a11y community. However, these themes are not compatible with classic notebook interface.
 
 [Jupyter Themes](https://github.com/dunovank/jupyter-themes) is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0. The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in [this web page](https://github.com/dunovank/jupyter-themes). If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab [Legos UI](https://github.com/dunovank/jupyterlab_legos_ui) and [Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 
