@@ -46,7 +46,22 @@ Jupyter Classic Notebook and Lab have 3rd party themes that give more control to
 a) Pitaya Smoothie and 
 b) Github Light. Both the themes are WCAG 2.1 AAA compliant and have been recommended by the Jupyter a11y community. However, these themes are not compatible with classic notebook interface.
 
-[Jupyter Themes](https://github.com/dunovank/jupyter-themes) is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0. The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in [this web page](https://github.com/dunovank/jupyter-themes). If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab [Legos UI](https://github.com/dunovank/jupyterlab_legos_ui) and [Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
+You can install this theme by running the following command 
+
+`!pip install jupyterlab-accessible-themes==0.1.1`
+or 
+`conda install -c conda-forge jupyterlab-accessible-themes`
+
+Once installed, you can enable this theme by the following steps,
+- Save the notebook and restart the kernel by selecting Kernel -> Restart Kernel
+- Select `Github Light theme` by selecting Settings -> Theme -> Github Light and/or `Pitaya Smoothie theme` by selecting Settings -> Theme -> Pitaya Smoothie
+
+[Jupyter Themes](https://github.com/dunovank/jupyter-themes) is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0. 
+
+You can install themes by following command,
+`!pip install jupyterthemes`
+
+The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in [this web page](https://github.com/dunovank/jupyter-themes). If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab [Legos UI](https://github.com/dunovank/jupyterlab_legos_ui) and [Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 
 #### Jupyter Font: 
 
