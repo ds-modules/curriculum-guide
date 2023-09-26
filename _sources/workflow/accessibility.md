@@ -1,6 +1,6 @@
 # Creating Accessible Notebook Experience
 
-Improving the accessibility of the notebook experience has consistently been a key priority for the Datahub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html) standards mandated by the University.
+Improving the accessibility of the notebook experience has consistently been a key priority for the Datahub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA standards](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html) mandated by the University.
 
 Enhancing the accessibility of the notebook experience involves addressing multiple dimensions:
 
@@ -9,7 +9,7 @@ Enhancing the accessibility of the notebook experience involves addressing multi
 
 ## Enhancing the accessibility of the notebook interface:
 
-The Datahub team constantly collaborates with Jupyter developers to incorporate accessibility enhancements into both the Notebook and Lab interfaces. In that spirit, We encourage instructors to integrate Lab 4 and Notebook 7 into their teaching workflows, as these releases include the latest accessibility enhancements. 
+The Datahub team constantly collaborates with Jupyter developers to incorporate accessibility enhancements into both the Notebook and Lab interfaces. In that spirit,we encourage instructors to integrate Lab 4 and Notebook 7 into their teaching workflows, as these releases include the latest accessibility enhancements.
 
 ### JupyterLab 4.0: 
 
@@ -30,7 +30,7 @@ Sharing couple of resources from the [Iota School](https://github.com/Iota-Schoo
 
 #### Export notebook to html format:
 
-The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Lot of effort has been made to Lab 4 and Notbook 7 to overcome some of the barriers to accessibility. However, it is still not 100% accessible at the moment. To improve the readability of the notebooks, It is recommended that .ipynb files are converted to .html files which are largely designed for webinterface and has a more accessible experience. PDFs are generally inaccessible in comparison to html format from a readability standpoint.
+The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Much effort has been made to Lab 4 and Notbook 7 to overcome some of the barriers to accessibility. However, it is still not 100% accessible at the moment. To improve the readability of the notebooks, It is recommended that .ipynb files are converted to .html files which are largely designed for web interface and has a more accessible experience. PDFs are generally inaccessible in comparison to html format from a readability standpoint.
 
 [Nbconvert](https://github.com/jupyter/nbconvert) is a  tool that converts notebooks to various formats including html which improves readability. The command for converting notebooks from .ipynb to html is
 
