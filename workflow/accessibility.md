@@ -65,7 +65,17 @@ The different types of themes  are onedork, grade3,  oceans16, chesterish,  mono
 
 #### Jupyter Font: 
 
-You can use the [JupyterLab fonts](https://github.com/deathbeds/jupyterlab-fonts) package to customize the fonts used in the notebook.
+You can use the [JupyterLab fonts](https://github.com/deathbeds/jupyterlab-fonts) package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.
+
+`!pip install jupyterlab-fonts`
+
+The sans serif fonts this package ships currently are:
+- [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro)
+- [Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible)
+- [Dejavu Sans](https://dejavu-fonts.github.io/)
+- [Fira Code](https://fonts.google.com/specimen/Fira+Code)
+
+
 
 ## Enhancing the accessibility of content in the R notebooks:
 
