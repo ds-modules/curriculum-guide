@@ -42,6 +42,14 @@ One can also customize the themes, font types, sizes etc. as part of the noteboo
 
 Jupyter Classic Notebook and Lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result . 
 
+### Theme compatibility with varied versions of notebook/lab
+| Interface | Theme | Comments |
+| ---- | ----------- | ------ |
+| Jupyter Lab >=4.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) |  Package compatibility with the latest lab version is a work in progress at the moment |
+| Jupyter Lab <= 3.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes)  | 	 | 
+| Jupyter Notebook >= 7.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes)  | |
+| Jupyter Notebook < 7.0 | [Jupyter Themes](https://github.com/dunovank/jupyter-themes) |  |
+
 [JupyterLab-Accessible-Themes](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) is a lab theme that allows notebook creators to customize the lab experience. There are three different types of themes which are included as part of this package, 
 a) Pitaya Smoothie and 
 b) Github Light
@@ -57,7 +65,7 @@ or
 
 Once installed, you can enable this theme by the following steps,
 - Save the notebook and restart the kernel by selecting Kernel -> Restart Kernel
-- Select `Github Light theme` by selecting Settings -> Theme -> Github Light and/or `Pitaya Smoothie theme` by selecting Settings -> Theme -> Pitaya Smoothie and/or 'Github Dark theme' by selecting Settings -> Theme -> Github Dark
+- Select `Github Light theme` by selecting Settings -> Theme -> Github Light and/or `Pitaya Smoothie theme` by selecting Settings -> Theme -> Pitaya Smoothie and/or `Github Dark theme` by selecting Settings -> Theme -> Github Dark
 
 [Jupyter Themes](https://github.com/dunovank/jupyter-themes) is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0. 
 
@@ -87,7 +95,7 @@ If you are using R/RStudio as part of your instructional workflow then please ch
 - [Customize themes in R Studio](https://support.posit.co/hc/en-us/articles/115011846747-Using-Themes-in-the-RStudio-IDE)
 - [BrailleR: R package that allows blind people understand plots better](https://cran.r-project.org/web/packages/BrailleR/index.html). Here is an [example of BrailleR package](https://cran.r-project.org/web/packages/BrailleR/vignettes/Ex1histograms.html)
 - [Sonify: R package converts images into audio representation](https://cran.r-project.org/web/packages/sonify/index.html). Here is an [example for sonifying a data](https://jooyoungseo.com/post/ds4blind/)
-- The [TactileR: R package for creating tactile graphics for users with visual impairments](https://github.com/jooyoungseo/tactileR). Here is an [example for tacticleR](https://jooyoungseo.github.io/project/tactiler/)
+- [TactileR: R package for creating tactile graphics for users with visual impairments](https://github.com/jooyoungseo/tactileR). Here is an [example for tacticleR](https://jooyoungseo.github.io/project/tactiler/)
 - [Adding alt text content for images produced by knittR](https://posit.co/blog/knitr-fig-alt/)
 - [AccessRMD is the package to improve accessibility of RMD files](https://cran.r-project.org/web/packages/accessrmd/accessrmd.pdf)
 
