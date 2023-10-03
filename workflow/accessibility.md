@@ -42,9 +42,12 @@ One can also customize the themes, font types, sizes etc. as part of the noteboo
 
 Jupyter Classic Notebook and Lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result . 
 
-[JupyterLab-Accessible-Themes](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) is a lab theme that allows notebook creators to customize the lab experience. There are two different types of themes which are included as part of this package, 
+[JupyterLab-Accessible-Themes](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) is a lab theme that allows notebook creators to customize the lab experience. There are three different types of themes which are included as part of this package, 
 a) Pitaya Smoothie and 
-b) Github Light. Both the themes are WCAG 2.1 AAA compliant and have been recommended by the Jupyter a11y community. However, these themes are not compatible with classic notebook interface.
+b) Github Light
+c) Github Dark
+
+All the above themes are WCAG 2.1 AAA compliant and have been recommended by the Jupyter a11y community. However, these themes are not compatible with classic notebook interface and are a work in progress in terms of compatibility with JupyterLab 4.0.
 
 You can install this theme by running the following command 
 
@@ -54,7 +57,7 @@ or
 
 Once installed, you can enable this theme by the following steps,
 - Save the notebook and restart the kernel by selecting Kernel -> Restart Kernel
-- Select `Github Light theme` by selecting Settings -> Theme -> Github Light and/or `Pitaya Smoothie theme` by selecting Settings -> Theme -> Pitaya Smoothie
+- Select `Github Light theme` by selecting Settings -> Theme -> Github Light and/or `Pitaya Smoothie theme` by selecting Settings -> Theme -> Pitaya Smoothie and/or 'Github Dark theme' by selecting Settings -> Theme -> Github Dark
 
 [Jupyter Themes](https://github.com/dunovank/jupyter-themes) is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0. 
 
