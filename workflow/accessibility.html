@@ -384,7 +384,10 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">Enhancing the accessibility of the content within Jupyter notebooks:</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format">Export notebook to html format:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notebook-themes">Notebook Themes:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-font">Jupyter Font:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-compatibility-with-varied-versions-of-notebook-lab">Theme compatibility with varied versions of notebook/lab</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-font">Jupyter Font:</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks">Enhancing the accessibility of content in the R notebooks:</a></li>
@@ -437,6 +440,35 @@ document.write(`
 <section id="notebook-themes">
 <h3>Notebook Themes:<a class="headerlink" href="#notebook-themes" title="Permalink to this heading">#</a></h3>
 <p>Jupyter Classic Notebook and Lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result .</p>
+</section>
+<section id="theme-compatibility-with-varied-versions-of-notebook-lab">
+<h3>Theme compatibility with varied versions of notebook/lab<a class="headerlink" href="#theme-compatibility-with-varied-versions-of-notebook-lab" title="Permalink to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Interface</p></th>
+<th class="head"><p>Theme</p></th>
+<th class="head"><p>Comments</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Jupyter Lab &gt;=4.0</p></td>
+<td><p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes </a></p></td>
+<td><p>Package compatibility with the latest lab version is a work in progress at the moment</p></td>
+</tr>
+<tr class="row-odd"><td><p>Jupyter Lab &lt;= 3.0</p></td>
+<td><p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes </a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Jupyter Notebook &gt;= 7.0</p></td>
+<td><p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes </a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Jupyter Notebook &lt; 7.0</p></td>
+<td><p><a class="reference external" href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
 <p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes</a> is a lab theme that allows notebook creators to customize the lab experience. There are three different types of themes which are included as part of this package,
 a) Pitaya Smoothie and
 b) Github Light
@@ -449,15 +481,14 @@ or
 <p>Once installed, you can enable this theme by the following steps,</p>
 <ul class="simple">
 <li><p>Save the notebook and restart the kernel by selecting Kernel -&gt; Restart Kernel</p></li>
-<li><p>Select <code class="docutils literal notranslate"><span class="pre">Github</span> <span class="pre">Light</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Github Light and/or <code class="docutils literal notranslate"><span class="pre">Pitaya</span> <span class="pre">Smoothie</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Pitaya Smoothie and/or ‘Github Dark theme’ by selecting Settings -&gt; Theme -&gt; Github Dark</p></li>
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">Github</span> <span class="pre">Light</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Github Light and/or <code class="docutils literal notranslate"><span class="pre">Pitaya</span> <span class="pre">Smoothie</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Pitaya Smoothie and/or <code class="docutils literal notranslate"><span class="pre">Github</span> <span class="pre">Dark</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Github Dark</p></li>
 </ul>
 <p><a class="reference external" href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a> is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0.</p>
 <p>You can install themes by following command,
 <code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterthemes</span></code></p>
 <p>The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in <a class="reference external" href="https://github.com/dunovank/jupyter-themes">this web page</a>. If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab <a class="reference external" href="https://github.com/dunovank/jupyterlab_legos_ui">Legos UI</a> and <a class="reference external" href="https://github.com/dunovank/jupyterlab_darkside_ui">Darkside UI</a></p>
-</section>
 <section id="jupyter-font">
-<h3>Jupyter Font:<a class="headerlink" href="#jupyter-font" title="Permalink to this heading">#</a></h3>
+<h4>Jupyter Font:<a class="headerlink" href="#jupyter-font" title="Permalink to this heading">#</a></h4>
 <p>You can use the <a class="reference external" href="https://github.com/deathbeds/jupyterlab-fonts">JupyterLab fonts</a> package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.</p>
 <p><code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterlab-fonts</span></code></p>
 <p>The sans serif fonts this package ships currently are:</p>
@@ -469,6 +500,7 @@ or
 </ul>
 </section>
 </section>
+</section>
 <section id="enhancing-the-accessibility-of-content-in-the-r-notebooks">
 <h2>Enhancing the accessibility of content in the R notebooks:<a class="headerlink" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks" title="Permalink to this heading">#</a></h2>
 <p>If you are using R/RStudio as part of your instructional workflow then please check the following resources that provide better ways to make notebook content accessible,</p>
@@ -476,7 +508,7 @@ or
 <li><p><a class="reference external" href="https://support.posit.co/hc/en-us/articles/115011846747-Using-Themes-in-the-RStudio-IDE">Customize themes in R Studio</a></p></li>
 <li><p><a class="reference external" href="https://cran.r-project.org/web/packages/BrailleR/index.html">BrailleR: R package that allows blind people understand plots better</a>. Here is an <a class="reference external" href="https://cran.r-project.org/web/packages/BrailleR/vignettes/Ex1histograms.html">example of BrailleR package</a></p></li>
 <li><p><a class="reference external" href="https://cran.r-project.org/web/packages/sonify/index.html">Sonify: R package converts images into audio representation</a>. Here is an <a class="reference external" href="https://jooyoungseo.com/post/ds4blind/">example for sonifying a data</a></p></li>
-<li><p>The <a class="reference external" href="https://github.com/jooyoungseo/tactileR">TactileR: R package for creating tactile graphics for users with visual impairments</a>. Here is an <a class="reference external" href="https://jooyoungseo.github.io/project/tactiler/">example for tacticleR</a></p></li>
+<li><p><a class="reference external" href="https://github.com/jooyoungseo/tactileR">TactileR: R package for creating tactile graphics for users with visual impairments</a>. Here is an <a class="reference external" href="https://jooyoungseo.github.io/project/tactiler/">example for tacticleR</a></p></li>
 <li><p><a class="reference external" href="https://posit.co/blog/knitr-fig-alt/">Adding alt text content for images produced by knittR</a></p></li>
 <li><p><a class="reference external" href="https://cran.r-project.org/web/packages/accessrmd/accessrmd.pdf">AccessRMD is the package to improve accessibility of RMD files</a></p></li>
 </ul>
@@ -559,7 +591,10 @@ or
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">Enhancing the accessibility of the content within Jupyter notebooks:</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format">Export notebook to html format:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notebook-themes">Notebook Themes:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-font">Jupyter Font:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-compatibility-with-varied-versions-of-notebook-lab">Theme compatibility with varied versions of notebook/lab</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-font">Jupyter Font:</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks">Enhancing the accessibility of content in the R notebooks:</a></li>
