@@ -43,11 +43,11 @@ One can also customize the themes, font types, sizes etc. as part of the noteboo
 Jupyter Classic Notebook and Lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result . 
 
 ### Theme/Font compatibility with varied versions of notebook/lab
-| Interface | Recommended Them/Font package | Comments |
+| Interface | Recommended Themes/Fonts | Comments |
 | ---- | ----------- | ------ |
-| Jupyter Lab >=4.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) |  Package compatibility with the latest lab version is a work in progress at the moment |
+| Jupyter Lab >=4.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) |  JupyterLab-Accessible-Themes package compatibility with the latest lab version is a work in progress as per the maintainer’s page.  |
 | Jupyter Lab <= 3.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes), [Jupyter-Font](https://github.com/deathbeds/jupyterlab-fonts) |	 | 
-| Jupyter Notebook >= 7.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes)  | |
+| Jupyter Notebook >= 7.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes)  | JupyterLab-Accessible-Themes package compatibility with the latest notebook version is a work in progress as per the maintainer’s page |
 | Jupyter Notebook < 7.0 | [Jupyter Themes](https://github.com/dunovank/jupyter-themes) |  |
 
 [JupyterLab-Accessible-Themes](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) is a lab theme that allows notebook creators to customize the lab experience. There are three different types of themes which are included as part of this package, 
