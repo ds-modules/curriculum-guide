@@ -82,7 +82,7 @@ parts:
   - file: workflow/dowload_PDF.md
     title: Download Jupyter Notebook as PDF
   - file: workflow/performance_issue.md
-    title: Resolving performance issues in Datahub
+    title: Resolving Performance Issues While Using Datahub
  
 - caption: Getting Started with Modules and Connectors
   chapters:
