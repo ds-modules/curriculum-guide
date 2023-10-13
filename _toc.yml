@@ -81,7 +81,9 @@ parts:
     title: Launch VSCode Editor
   - file: workflow/dowload_PDF.md
     title: Download Jupyter Notebook as PDF
-
+  - file: performance_issue.md
+    title: Resolving performance issues in Datahub
+ 
 - caption: Getting Started with Modules and Connectors
   chapters:
   - file: connector/general/what-is-a-connector
