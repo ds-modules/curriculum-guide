@@ -83,7 +83,9 @@ parts:
     title: Download Jupyter Notebook as PDF
   - file: workflow/performance_issue.md
     title: Best Practices to Avoid Performance Issues
- 
+  - file: workflow/bestpractices
+    title: Instructional Design Best Practices for Creating Jupyter Notebooks
+
 - caption: Getting Started with Modules and Connectors
   chapters:
   - file: connector/general/what-is-a-connector

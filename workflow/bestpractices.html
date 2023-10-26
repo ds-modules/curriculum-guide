@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Distributing Notebooks &#8212; Curriculum Guide</title>
+    <title>Instructional Design Best Practices for Creating Jupyter Notebooks (WIP doc) &#8212; Curriculum Guide</title>
   
   
   
@@ -61,11 +61,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'workflow/distributing-notebooks';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workflow/bestpractices';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Collecting and Grading Assignments" href="collecting-grading-assignments.html" />
-    <link rel="prev" title="Uploading Files to GitHub" href="pushing-to-github.html" />
+    <link rel="next" title="What is a Connector Course?" href="../connector/general/what-is-a-connector.html" />
+    <link rel="prev" title="Best Practices to Avoid Performance Issues in Datahub" href="performance_issue.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -184,7 +184,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="creating-notebooks.html">Creating Assignments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="accessibility.html">Creating Accessible Notebook Experience</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pushing-to-github.html">Uploading Files to Github</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Distributing Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="distributing-notebooks.html">Distributing Assignments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="collecting-grading-assignments.html">Launch Jupyter notebooks using RetroLab interface!</a></li>
 <li class="toctree-l1"><a class="reference internal" href="use-retrolab.html">Steps to Launch Jupyter Notebooks using RetroLab interface</a></li>
 
@@ -198,7 +198,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="launch-vscode.html">Launch VSCode Editor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dowload_PDF.html">Download Jupyter Notebook as PDF</a></li>
 <li class="toctree-l1"><a class="reference internal" href="performance_issue.html">Best Practices to Avoid Performance Issues</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bestpractices.html">Instructional Design Best Practices for Creating Jupyter Notebooks</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Instructional Design Best Practices for Creating Jupyter Notebooks</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started with Modules and Connectors</span></p>
 <ul class="nav bd-sidenav">
@@ -286,7 +286,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/workflow/distributing-notebooks.md" target="_blank"
+      <li><a href="../_sources/workflow/bestpractices.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -368,7 +368,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Distributing Notebooks</h1>
+    <h1>Instructional Design Best Practices for Creating Jupyter Notebooks (WIP doc)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -378,15 +378,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-steps">The Steps</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-interact-links">What are interact links?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-interact-links-work">How do interact links work?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#restrictions">Restrictions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nbgitpuller-link-generator"><strong>nbgitpuller Link Generator</strong></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#important-note"><strong>Important Note</strong></a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nbgitpuller-plugin">nbgitpuller Plugin</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pedagogical-strategies-for-notebook-creation">Pedagogical strategies for notebook creation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#best-practices-tips-for-notebook-creation">Best Practices/Tips for Notebook Creation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#credits-references">Credits/References</a></li>
 </ul>
             </nav>
         </div>
@@ -398,119 +392,80 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="distributing-notebooks">
-<h1>Distributing Notebooks<a class="headerlink" href="#distributing-notebooks" title="Permalink to this heading">#</a></h1>
-<p>We recommend using interact links to distribute notebooks to students. nbgitpuller links are described in detail below. If you do not wish to use interact links, you can distribute assignments through bCourses as well. In this case, after you have uploaded the files to bCourses, students will need to download them and then upload them to their own JupyterHub accounts.</p>
-<section id="the-steps">
-<h2>The Steps<a class="headerlink" href="#the-steps" title="Permalink to this heading">#</a></h2>
-<p>Here are the basic steps you will need to go through to distribute notebooks and other files. To learn more about the details of the process, please read through the rest of this page.</p>
-<ol class="arabic simple">
-<li><p>Create a folder with all files for the assignment (notebook, datasets, etc.)</p></li>
-<li><p><a class="reference internal" href="pushing-to-github.html"><span class="doc std std-doc">Upload folder to a public GitHub repository</span></a></p></li>
-<li><p>Generate an interact link for the folder using the interact link generator (more on this below)</p></li>
-<li><p>Distribute the link to students through some web page</p></li>
-</ol>
-</section>
-<section id="what-are-interact-links">
-<h2>What are interact links?<a class="headerlink" href="#what-are-interact-links" title="Permalink to this heading">#</a></h2>
-<p>nbgitpuller links simplify the assignment distribution process. Rather than downloading files from an external source and then uploading to their personal JupyterHub accounts, users can obtain all files for a given assignment with just one click. When a user clicks on an interact link for a particular assignment, all files for the assignment will show up in the user’s personal JupyterHub account.</p>
-<p>These links can be used with any content stored on GitHub in a public repository. nbgitpuller links can be generated for an entire repository, or a particular file or folder. When a link is clicked, a series of Git commands are run from the user’s JupyterHub account, which is why interact links must be used with content on GitHub. They cannot be used to pull arbitrary files from sources other than GitHub.</p>
-<p>Using these links enables users to immediately interact with publicly available content on GitHub. This is valuable for easy assignment distribution, but also in the broader context of using the open-source content that is available on GitHub. Learning Git is no longer a barrier to interacting with this content.</p>
-</section>
-<section id="how-do-interact-links-work">
-<h2>How do interact links work?<a class="headerlink" href="#how-do-interact-links-work" title="Permalink to this heading">#</a></h2>
-<p>Here is an interact link with the various components highlighted in different colors. The grey portions of the link are needed for formatting and will remain the same for each links. The colored portions will be different for each link. If you are new to GitHub you may want to familiarize yourself with the basics (repositories, branches, etc.) to better understand each component.</p>
-<p><img alt="link components" src="../_images/link-components.png" /></p>
-<p>The above link does the following:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="instructional-design-best-practices-for-creating-jupyter-notebooks-wip-doc">
+<h1>Instructional Design Best Practices for Creating Jupyter Notebooks (WIP doc)<a class="headerlink" href="#instructional-design-best-practices-for-creating-jupyter-notebooks-wip-doc" title="Permalink to this heading">#</a></h1>
+<p>Designing an ideal strategy for developing and utilizing Jupyter notebooks as part of your pedagogy can be a challenging exercise. Here are some inputs on the best practices that you can consider while developing your notebook strategy,</p>
 <ul class="simple">
-<li><p>Clones the repo <code class="docutils literal notranslate"><span class="pre">ds-modules/SW-282</span></code> into the user’s account on <code class="docutils literal notranslate"><span class="pre">https://datahub.berkeley.edu</span></code></p></li>
-<li><p>Checks out to the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch (this is the default, but specifiable on nbgitpuller)</p></li>
-<li><p>Opens the file <code class="docutils literal notranslate"><span class="pre">lab04/lab04.ipynb</span></code> on <code class="docutils literal notranslate"><span class="pre">datahub.berkeley.edu</span></code>. The full path of this file on the user’s JupyterHub account would be <code class="docutils literal notranslate"><span class="pre">~/SW-282/lab04/lab04.ipynb</span></code>.</p></li>
-</ul>
-</section>
-<section id="restrictions">
-<h2>Restrictions<a class="headerlink" href="#restrictions" title="Permalink to this heading">#</a></h2>
-<p>To use an interact link, files must be stored in a public GitHub repo. nbgitpuller links will not work with private repositories. Previously, content had to be stored in the <code class="docutils literal notranslate"><span class="pre">data-8</span></code> GitHub organization or in an approved account or organization. This no longer applies, interact links can be used with content stored in ANY public repository.</p>
-</section>
-<section id="nbgitpuller-link-generator">
-<h2><strong>nbgitpuller Link Generator</strong><a class="headerlink" href="#nbgitpuller-link-generator" title="Permalink to this heading">#</a></h2>
-<p>nbgitpuller links can be manually created in the format shown above, or can be automatically generated using <a class="reference external" href="https://jupyterhub.github.io/nbgitpuller/link?hub=https://datahub.berkeley.edu&amp;repo=https://github.com/ds-modules/">this</a> tool. The interact link generator tool allows users to specify a JupyterHub URL and GitHub url as inputs. The tool will generate an interact link for the specified GitHub content and JupyterHub.</p>
-<p><img alt="nbgitpuller" src="../_images/nbgitpuller.png" /></p>
-<p>For example, to pull <a class="reference external" href="https://github.com/ds-modules/SW-282/tree/master/lab04/lab04.ipynb">this repo</a> into DataHub, we would fill out the nbgitpuller link generator with:</p>
-<ol class="arabic simple">
-<li><p>Fill in the JupyterHub URL field with <code class="docutils literal notranslate"><span class="pre">https://datahub.berkeley.edu</span></code></p></li>
-<li><p>Paste the GitHub URL <strong>to the repo</strong> in the Git Repository URL field: <code class="docutils literal notranslate"><span class="pre">https://github.com/ds-modules/SW-282</span></code></p></li>
-<li><p>Leave the Branch field blank, because it defaults to <code class="docutils literal notranslate"><span class="pre">master</span></code></p></li>
-<li><p>Fill in the File to Open field with the path to the file: <code class="docutils literal notranslate"><span class="pre">lab04/lab04.ipynb</span></code></p></li>
-</ol>
-<p>After finishing these steps, the link in the grey text box will be your interact link. Note that the link to the link generator above will pre-fill the JupyterHub URL and GitHub URL fields, <strong>but it will not paste in the repo</strong>, so you will need to add the name of the repo to the GitHub URL field, as well as fill in the (optional) branch and file path fields.</p>
-<!--
-
-For example, to pull [this](https://github.com/data-8/mcb-88-connector/tree/gh-pages/exercises/lab5) folder into a JupyterHub account on `datahub.berkeley.edu:`
-
-* Select `datahub.berkeley.edu` as the desired hub
-* Paste the GitHub url [https://github.com/data-8/mcb-88-connector/tree/gh-pages/exercises/lab5](https://github.com/data-8/mcb-88-connector/tree/gh-pages/exercises/lab5) into the generator
-* Hit the convert button 
-
-The output should be [https://datahub.berkeley.edu/user-redirect/interact?account=data-8&repo=mcb-88-connector&branch=gh-pages&path=exercises/lab5](https://datahub.berkeley.edu/user-redirect/interact?account=data-8&repo=mcb-88-connector&branch=gh-pages&path=exercises/lab5). This link will copy the desired folder into your JupyterHub account.
-
--->
-<section id="important-note">
-<h3><strong>Important Note</strong><a class="headerlink" href="#important-note" title="Permalink to this heading">#</a></h3>
-<p>The technology behind interact links, called nbgitpuller, pulls <em>all files</em> from a repo into the user’s DataHub account. This means that <strong>you should not store unfinished materials and answer keys in the same repo as published assignments</strong>. Any interact link for a published assignment would also distribute the unfinished materials and answer keys to the students, which you probably do not want. Instead, <strong>we recommend that you use a public repo for published assignments and a private repo for unfinished materials and answer keys</strong>.</p>
-</section>
-</section>
-<section id="nbgitpuller-plugin">
-<h2>nbgitpuller Plugin<a class="headerlink" href="#nbgitpuller-plugin" title="Permalink to this heading">#</a></h2>
-<p>One of the latest update to the nbgitpuller link generator is the plugin which simplifies the task of generating shareable links.</p>
-<ul class="simple">
-<li><p>Install the nbgitpuller <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Chrome</a> or <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/">Firefox</a> extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. Access a Github repository (through the installed browser) and check whether you can find nbgitpuller button. If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,</p></li>
-</ul>
-<figure class="align-center" id="nbgitpuller-button">
-<a class="reference internal image-reference" href="../_images/nbgitpullerbutton.PNG"><img alt="../_images/nbgitpullerbutton.PNG" src="../_images/nbgitpullerbutton.PNG" style="width: 500px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Snapshot of how nbgitpuller button looks like!</span><a class="headerlink" href="#nbgitpuller-button" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<p>Follow the steps below to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,</p>
-<ul class="simple">
-<li><p>Open your assignment in the respective Github repo.</p></li>
-</ul>
-<figure class="align-center" id="assignment-opened-in-github">
-<a class="reference internal image-reference" href="../_images/openassignment.PNG"><img alt="../_images/openassignment.PNG" src="../_images/openassignment.PNG" style="width: 500px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Snapshot of assignment in GitHub!</span><a class="headerlink" href="#assignment-opened-in-github" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<ul class="simple">
-<li><p>Click on the “nbgitpuller” button.</p></li>
-<li><p>Copy past your JupyterHub instance’s URL (if you are using the main Datahub then you can use <a class="reference external" href="https://datahub.berkeley.edu/">https://datahub.berkeley.edu/</a>) in the “JupyterHub URL” textbox</p></li>
-<li><p>Open your assignment in the respective Github repo.</p></li>
-</ul>
-<figure class="align-center" id="jupyterhub-url">
-<a class="reference internal image-reference" href="../_images/huburl.PNG"><img alt="../_images/huburl.PNG" src="../_images/huburl.PNG" style="width: 500px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Snapshot for the option to paste JupyterHub URL!</span><a class="headerlink" href="#jupyterhub-url" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<ul class="simple">
-<li><p>You can select from the below options for the “Open in” dropdownlist</p>
+<li><p>Identify the learning outcomes for your course/module</p>
 <ul>
-<li><p>If you want your students to access a Jupyter notebook interface which is <strong>simple and intuitive to use</strong>, Select “Classic Notebook” option from the dropdown list or</p></li>
-<li><p>If you want them to explore more <strong>advanced features</strong> including 3rd party plugins from Jupyter ecosystem, Select “JuptyterLab” option from the dropdown list or</p></li>
-<li><p>If you want them to explore the <strong>latest notebook interface</strong> offered by Jupyter which marries the simplicity and intuitiveness of classic notebook with the advanced features from JupyterLab, Select “RetroLab” option from the dropdown list or</p></li>
-<li><p>If you want your students to work on a <strong>R based assignment</strong>, Select “RStudio” option from the dropdown list</p></li>
+<li><p>Do you need students to learn a specific programming language?</p></li>
+<li><p>Do you need students to learn a technology specific installation process?</p></li>
 </ul>
 </li>
-<li><p>As a last step, Select “Copy nbgitpuller link” button which generates a shareable link that opens your assignment in the choosen interface.</p></li>
+<li><p>Choose an ideal  pedagogical strategy to deliver your notebook. Detailed below in the tabular column  are the list of pedagogical approaches you can repurpose for your course. Eg:</p>
+<ul>
+<li><p>Have a text to code ratio of 3:1</p></li>
+<li><p>Explain the ouput of the cell in the text annotation above each cell</p></li>
+<li><p>Have an intro Jupyter notebook which focuses on exposing students to syntactical elements of the programming language</p></li>
 </ul>
-<p>Here is a short GIF that walks you through the entire process to create a shareable link</p>
-<figure class="align-center" id="nbgitpuller-plugin-demo">
-<a class="reference internal image-reference" href="../_images/Retrolab.gif"><img alt="../_images/Retrolab.gif" src="../_images/Retrolab.gif" style="width: 500px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 23 </span><span class="caption-text">Demo of nbgitpuller plugin!</span><a class="headerlink" href="#nbgitpuller-plugin-demo" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
+</li>
+<li><p>Identify the technology requirements</p></li>
+</ul>
+<section id="pedagogical-strategies-for-notebook-creation">
+<h2>Pedagogical strategies for notebook creation<a class="headerlink" href="#pedagogical-strategies-for-notebook-creation" title="Permalink to this heading">#</a></h2>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Pedagogical Approach Name</p></th>
+<th class="head"><p>Course Name</p></th>
+<th class="head"><p>Notebook Example</p></th>
+<th class="head"><p>Pedagogical Approach Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Cell Execution</p></td>
+<td><p>Data 101 (Data Engineering)</p></td>
+<td><p><a class="reference external" href="https://fa23.data101.org/resources/assets/lectures/lec02/lec02.html">Lecture 2 Notebook</a></p></td>
+<td><p>Students use this notebook to learn  how to connect to a Postgres database hosted in a cloud server. The pedagogical approach followed is to do “Shift-Enter” to execute all the cells and understand how data gets stored in the database</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fill in with Code</p></td>
+<td><p>Data 101 (Data Engineering)</p></td>
+<td><p>[Project 2 Notebook](Project 2 Notebook)</p></td>
+<td><p>Students evaluate their understanding by completing the sql query which has been left incomplete as part of the assigment. Through this approach students can test their understanding and identify gaps in their knowledge</p></td>
+</tr>
+<tr class="row-even"><td><p>Translate Mathematics to Code</p></td>
+<td><p>PMB/MCB/BioE C 146 (Data Science for Biology)</p></td>
+<td><p><a class="reference external" href="https://github.com/ds-modules/ds4bio/blob/main/lab8/lab08-c146-v01-student.ipynb">Lecture 8 Notebook</a></p></td>
+<td><p>Students learn about dynamic programming in this notebook. They generate fibonacci series and find longest common subsequence using recursive function/dynamic programming and calculate the associated complexity. Here, the students will be codifying mathematical expression to understand the knowledge better</p></td>
+</tr>
+<tr class="row-odd"><td><p>Explore APIs</p></td>
+<td><p>EPS 88 (PyEarth)</p></td>
+<td><p><a class="reference external" href="https://github.com/ds-modules/EPS88-24031-FA23/blob/main/week02_datahubfiles/W02_assignment_Earthquakes.ipynb">Week 2 Assignment</a></p></td>
+<td><p>In this notebook, students query a remote server hosted by US Geological Survey Org to get data about areas in the globe where an earth quake has happened and whose magnitude is greater than 5.0. They create a map highlighting  those places</p></td>
+</tr>
+<tr class="row-even"><td><p>Hello World</p></td>
+<td><p>Econ 130 (Economics for Public Policy)</p></td>
+<td><p><a class="reference external" href="https://github.com/ds-modules/ECON-130-FA23/blob/main/IntroToR/Intro%20to%20R.ipynb">Intro Jupyter notebook</a></p></td>
+<td><p>Many courses have this intro notebook where student perform basic operations in Python/R to understand the syntax of the programming language. Instructors spend a week helping students get accustomed to the chosen programming language</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="best-practices-tips-for-notebook-creation">
+<h2>Best Practices/Tips for Notebook Creation<a class="headerlink" href="#best-practices-tips-for-notebook-creation" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Have a text to code ratio of 3:1</p></li>
+<li><p>Explain the ouput of the cell in the text annotation above each cell</p></li>
+<li><p>Have an intro Jupyter notebook which focuses on exposing students to syntactical elements of the programming language</p></li>
+</ul>
+</section>
+<section id="credits-references">
+<h2>Credits/References<a class="headerlink" href="#credits-references" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jupyter4edu.github.io/jupyter-edu-book/index.html">Teaching and Learning with Jupyter</a></p></li>
+<li><p><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6657818/">Best practices for writing and sharing computational analysis in Jupyter notebooks</a></p></li>
+<li><p>Github repositories referenced above</p></li>
+<li></li>
+</ul>
 </section>
 </section>
 
@@ -546,20 +501,20 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="pushing-to-github.html"
+       href="performance_issue.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Uploading Files to GitHub</p>
+        <p class="prev-next-title">Best Practices to Avoid Performance Issues in Datahub</p>
       </div>
     </a>
     <a class="right-next"
-       href="collecting-grading-assignments.html"
+       href="../connector/general/what-is-a-connector.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Collecting and Grading Assignments</p>
+        <p class="prev-next-title">What is a Connector Course?</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -581,15 +536,9 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-steps">The Steps</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-interact-links">What are interact links?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-interact-links-work">How do interact links work?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#restrictions">Restrictions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nbgitpuller-link-generator"><strong>nbgitpuller Link Generator</strong></a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#important-note"><strong>Important Note</strong></a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#nbgitpuller-plugin">nbgitpuller Plugin</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pedagogical-strategies-for-notebook-creation">Pedagogical strategies for notebook creation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#best-practices-tips-for-notebook-creation">Best Practices/Tips for Notebook Creation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#credits-references">Credits/References</a></li>
 </ul>
   </nav></div>
 
