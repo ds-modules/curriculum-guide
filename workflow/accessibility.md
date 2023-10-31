@@ -28,7 +28,26 @@ Sharing couple of resources from the [Iota School](https://github.com/Iota-Schoo
 - [Checklist](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/notebook-authoring-checklist/) for notebook authoring
 - [Tips](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/#visualization-accessibility) for notebook authoring
 
-#### Export notebook to html format:
+#### Add alt-text to all static images and charts in your notebook:
+
+Adding alternative text (alt-text) to images is an important accessibility practice, especially when creating content for the web. Alt-text provides a textual description of images, making content accessible to individuals who use screen readers or have other disabilities. Data visualization libraries such as
+matplotlib and seaborn by default doesn't support embedding alt text to generated charts by default. 
+
+You can add alt-text to an image by using the below syntax where the text withing the square brackets denotes the alt-text for an image.
+
+`![A beautiful landscape](landscape.jpg)`
+
+#### Represent data across multiple mediums:
+
+It is important that users who use screen readers have additional pathways to make sense of the data visualized in a chart or an image. Some of those pathways include a) Descriptive summary of data represented in the chart and b) HTML formatted table in the form of code or markdown cells. 
+
+Representing data in the form of table should take into consideration the impact it has on screen readers. Too many rows and columns can affect screen reader navigation resulting in issues with navigation and comprehension. Ideally, having less than or equal to 5/6 rows in a table is a good rule of thumb to keep in mind.
+
+#### Create smaller notebooks:
+
+It has been observed that large notebooks causes screen readers like NVDA and JAWS to crash. Keeping notebook size lesser than 10 MB (realistically) or even better around 1 MB (ideally) will make it easy for screen readers to navigate the ipynb files. 
+
+#### Export notebook to html format for consumption:
 
 The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Much effort has been made to Lab 4 and Notbook 7 to overcome some of the barriers to accessibility. However, it is still not 100% accessible at the moment. To improve the readability of the notebooks, It is recommended that .ipynb files are converted to .html files which are largely designed for web interface and has a more accessible experience. PDFs are generally inaccessible in comparison to html format from a readability standpoint.
 
@@ -38,11 +57,11 @@ The editable notebook format (.ipynb) is inaccessible for screen readers and key
 
 One can also customize the themes, font types, sizes etc. as part of the notebook inorder to improve the accessibility. 
 
-#### Notebook Themes: 
+#### Install WCAG 2.0/2.1 standards compliant themes: 
 
 Jupyter Classic Notebook and Lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result . 
 
-### Theme/Font compatibility with varied versions of notebook/lab
+##### Theme/Font compatibility with varied versions of notebook/lab
 | Interface | Recommended Themes/Fonts | Comments |
 | ---- | ----------- | ------ |
 | Jupyter Lab >=4.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) |  JupyterLab-Accessible-Themes package compatibility with the latest lab version is a work in progress as per the maintainer’s page.  |
@@ -74,7 +93,15 @@ You can install themes by following command,
 
 The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in [this web page](https://github.com/dunovank/jupyter-themes). If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab [Legos UI](https://github.com/dunovank/jupyterlab_legos_ui) and [Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 
-#### Jupyter Font: 
+#### Sonify your data
+
+"Sonify the data" refers to the process of representing data using sound. Instead of just visualizing data in charts, graphs, or other visual formats alone, sonification translates data into audible sound patterns, allowing users to perceive and understand data through their sense of hearing. 
+
+- Use python packages like [sonipy](https://github.com/lockepatton/sonipy) to sonify the data
+- Open source tools such as [TwoTone](https://github.com/sonifydata/twotone) allow for generating music from data
+- In Astronomy, [Astronify](https://astronify.readthedocs.io/en/latest/) is used for turning astronomical data into sound
+
+#### Install Jupyter Font: 
 
 You can use the [JupyterLab fonts](https://github.com/deathbeds/jupyterlab-fonts) package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.
 
@@ -85,8 +112,6 @@ The sans serif fonts this package ships currently are:
 - [Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible)
 - [Dejavu Sans](https://dejavu-fonts.github.io/)
 - [Fira Code](https://fonts.google.com/specimen/Fira+Code)
-
-
 
 ## Enhancing the accessibility of content in the R notebooks:
 
