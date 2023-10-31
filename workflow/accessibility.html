@@ -386,13 +386,14 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">Enhancing the accessibility of the content within Jupyter notebooks:</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-alt-text-to-all-static-images-and-charts-in-your-notebook">Add alt-text to all static images and charts in your notebook:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#represent-data-across-multiple-mediums">Represent data across multiple mediums:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-smaller-notebooks">Create smaller notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avoid-creating-large-notebooks">Avoid creating large notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#have-clear-headings-throughout-the-notebook">Have clear headings throughout the notebook:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format-for-consumption">Export notebook to html format for consumption:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-wcag-2-0-2-1-standards-compliant-themes">Install WCAG 2.0/2.1 standards compliant themes:</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-jupyter-font">Install Jupyter Font:</a></li>
 </ul>
 </li>
@@ -448,9 +449,13 @@ matplotlib and seaborn by default doesn’t support embedding alt text to genera
 <p>It is important that users who use screen readers have additional pathways to make sense of the data visualized in a chart or an image. Some of those pathways include a) Descriptive summary of data represented in the chart and b) HTML formatted table in the form of code or markdown cells.</p>
 <p>Representing data in the form of table should take into consideration the impact it has on screen readers. Too many rows and columns can affect screen reader navigation resulting in issues with navigation and comprehension. Ideally, having less than or equal to 5/6 rows in a table is a good rule of thumb to keep in mind.</p>
 </section>
-<section id="create-smaller-notebooks">
-<h3>Create smaller notebooks:<a class="headerlink" href="#create-smaller-notebooks" title="Permalink to this heading">#</a></h3>
+<section id="avoid-creating-large-notebooks">
+<h3>Avoid creating large notebooks:<a class="headerlink" href="#avoid-creating-large-notebooks" title="Permalink to this heading">#</a></h3>
 <p>It has been observed that large notebooks causes screen readers like NVDA and JAWS to crash. Keeping notebook size lesser than 10 MB (realistically) or even better around 1 MB (ideally) will make it easy for screen readers to navigate the ipynb files.</p>
+</section>
+<section id="have-clear-headings-throughout-the-notebook">
+<h3>Have clear headings throughout the notebook:<a class="headerlink" href="#have-clear-headings-throughout-the-notebook" title="Permalink to this heading">#</a></h3>
+<p>Screen readers will be using headers to navigate the notebook. Ensure that the first cell in a notebook has the <code class="docutils literal notranslate"><span class="pre">H1</span></code> tag to identify that it is the title. It has been observed that lack of clear header tags including <code class="docutils literal notranslate"><span class="pre">H1</span></code> at the start affects the screen reader navigability.</p>
 </section>
 <section id="export-notebook-to-html-format-for-consumption">
 <h3>Export notebook to html format for consumption:<a class="headerlink" href="#export-notebook-to-html-format-for-consumption" title="Permalink to this heading">#</a></h3>
@@ -511,7 +516,7 @@ or
 </section>
 </section>
 <section id="sonify-your-data">
-<h3>Sonify your data<a class="headerlink" href="#sonify-your-data" title="Permalink to this heading">#</a></h3>
+<h3>Sonify your data:<a class="headerlink" href="#sonify-your-data" title="Permalink to this heading">#</a></h3>
 <p>“Sonify the data” refers to the process of representing data using sound. Instead of just visualizing data in charts, graphs, or other visual formats alone, sonification translates data into audible sound patterns, allowing users to perceive and understand data through their sense of hearing.</p>
 <ul class="simple">
 <li><p>Use python packages like <a class="reference external" href="https://github.com/lockepatton/sonipy">sonipy</a> to sonify the data</p></li>
@@ -622,13 +627,14 @@ or
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">Enhancing the accessibility of the content within Jupyter notebooks:</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-alt-text-to-all-static-images-and-charts-in-your-notebook">Add alt-text to all static images and charts in your notebook:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#represent-data-across-multiple-mediums">Represent data across multiple mediums:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-smaller-notebooks">Create smaller notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#avoid-creating-large-notebooks">Avoid creating large notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#have-clear-headings-throughout-the-notebook">Have clear headings throughout the notebook:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format-for-consumption">Export notebook to html format for consumption:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-wcag-2-0-2-1-standards-compliant-themes">Install WCAG 2.0/2.1 standards compliant themes:</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-jupyter-font">Install Jupyter Font:</a></li>
 </ul>
 </li>

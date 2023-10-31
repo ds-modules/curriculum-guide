@@ -43,9 +43,13 @@ It is important that users who use screen readers have additional pathways to ma
 
 Representing data in the form of table should take into consideration the impact it has on screen readers. Too many rows and columns can affect screen reader navigation resulting in issues with navigation and comprehension. Ideally, having less than or equal to 5/6 rows in a table is a good rule of thumb to keep in mind.
 
-#### Create smaller notebooks:
+#### Avoid creating large notebooks:
 
 It has been observed that large notebooks causes screen readers like NVDA and JAWS to crash. Keeping notebook size lesser than 10 MB (realistically) or even better around 1 MB (ideally) will make it easy for screen readers to navigate the ipynb files. 
+
+#### Have clear headings throughout the notebook:
+
+Screen readers will be using headers to navigate the notebook. Ensure that the first cell in a notebook has the `H1` tag to identify that it is the title. It has been observed that lack of clear header tags including `H1` at the start affects the screen reader navigability.
 
 #### Export notebook to html format for consumption:
 
@@ -93,7 +97,7 @@ You can install themes by following command,
 
 The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in [this web page](https://github.com/dunovank/jupyter-themes). If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab [Legos UI](https://github.com/dunovank/jupyterlab_legos_ui) and [Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 
-#### Sonify your data
+#### Sonify your data:
 
 "Sonify the data" refers to the process of representing data using sound. Instead of just visualizing data in charts, graphs, or other visual formats alone, sonification translates data into audible sound patterns, allowing users to perceive and understand data through their sense of hearing. 
 
