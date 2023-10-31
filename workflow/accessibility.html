@@ -183,6 +183,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="creating-notebooks.html">Creating Assignments</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Creating Accessible Notebook Experience</a></li>
+
 <li class="toctree-l1"><a class="reference internal" href="pushing-to-github.html">Uploading Files to Github</a></li>
 <li class="toctree-l1"><a class="reference internal" href="distributing-notebooks.html">Distributing Assignments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="collecting-grading-assignments.html">Launch Jupyter notebooks using RetroLab interface!</a></li>
@@ -378,6 +379,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Creating Accessible Notebook Experience</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-notebook-interface">Enhancing the accessibility of the notebook interface:</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterlab-4-0">JupyterLab 4.0:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-7-0">Jupyter Notebook 7.0:</a></li>
@@ -391,14 +393,21 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format-for-consumption">Export notebook to html format for consumption:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-wcag-2-0-2-1-standards-compliant-themes">Install WCAG 2.0/2.1 standards compliant themes:</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterlab-accessible-theme">JupyterLab-Accessible-Theme</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-theme">Jupyter Theme</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#install-jupyter-font">Install Jupyter Font:</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-jupyter-font">Install Jupyter Font:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Install Jupyter Font:</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks">Enhancing the accessibility of content in the R notebooks:</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -466,7 +475,7 @@ matplotlib and seaborn by default doesn’t support embedding alt text to genera
 </section>
 <section id="install-wcag-2-0-2-1-standards-compliant-themes">
 <h3>Install WCAG 2.0/2.1 standards compliant themes:<a class="headerlink" href="#install-wcag-2-0-2-1-standards-compliant-themes" title="Permalink to this heading">#</a></h3>
-<p>Jupyter Classic Notebook and Lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result .</p>
+<p>Jupyter classic notebook and lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result .</p>
 <section id="theme-font-compatibility-with-varied-versions-of-notebook-lab">
 <h4>Theme/Font compatibility with varied versions of notebook/lab<a class="headerlink" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab" title="Permalink to this heading">#</a></h4>
 <table class="table">
@@ -495,6 +504,9 @@ matplotlib and seaborn by default doesn’t support embedding alt text to genera
 </tr>
 </tbody>
 </table>
+</section>
+<section id="jupyterlab-accessible-theme">
+<h4>JupyterLab-Accessible-Theme<a class="headerlink" href="#jupyterlab-accessible-theme" title="Permalink to this heading">#</a></h4>
 <p><a class="reference external" href="https://github.com/Quansight-Labs/jupyterlab-accessible-themes">JupyterLab-Accessible-Themes</a> is a lab theme that allows notebook creators to customize the lab experience. There are three different types of themes which are included as part of this package,
 a) Pitaya Smoothie and
 b) Github Light
@@ -509,10 +521,25 @@ or
 <li><p>Save the notebook and restart the kernel by selecting Kernel -&gt; Restart Kernel</p></li>
 <li><p>Select <code class="docutils literal notranslate"><span class="pre">Github</span> <span class="pre">Light</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Github Light and/or <code class="docutils literal notranslate"><span class="pre">Pitaya</span> <span class="pre">Smoothie</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Pitaya Smoothie and/or <code class="docutils literal notranslate"><span class="pre">Github</span> <span class="pre">Dark</span> <span class="pre">theme</span></code> by selecting Settings -&gt; Theme -&gt; Github Dark</p></li>
 </ul>
+</section>
+<section id="jupyter-theme">
+<h4>Jupyter Theme<a class="headerlink" href="#jupyter-theme" title="Permalink to this heading">#</a></h4>
 <p><a class="reference external" href="https://github.com/dunovank/jupyter-themes">Jupyter Themes</a> is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0.</p>
 <p>You can install themes by following command,
 <code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterthemes</span></code></p>
 <p>The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in <a class="reference external" href="https://github.com/dunovank/jupyter-themes">this web page</a>. If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab <a class="reference external" href="https://github.com/dunovank/jupyterlab_legos_ui">Legos UI</a> and <a class="reference external" href="https://github.com/dunovank/jupyterlab_darkside_ui">Darkside UI</a></p>
+</section>
+<section id="install-jupyter-font">
+<h4>Install Jupyter Font:<a class="headerlink" href="#install-jupyter-font" title="Permalink to this heading">#</a></h4>
+<p>You can use the <a class="reference external" href="https://github.com/deathbeds/jupyterlab-fonts">JupyterLab fonts</a> package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.</p>
+<p><code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterlab-fonts</span></code></p>
+<p>The sans serif fonts this package ships currently are:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://fonts.google.com/specimen/Anonymous+Pro">Anonymous Pro</a></p></li>
+<li><p><a class="reference external" href="https://fonts.google.com/specimen/Atkinson+Hyperlegible">Atkinson Hyperlegible</a></p></li>
+<li><p><a class="reference external" href="https://dejavu-fonts.github.io/">Dejavu Sans</a></p></li>
+<li><p><a class="reference external" href="https://fonts.google.com/specimen/Fira+Code">Fira Code</a></p></li>
+</ul>
 </section>
 </section>
 <section id="sonify-your-data">
@@ -524,8 +551,8 @@ or
 <li><p>In Astronomy, <a class="reference external" href="https://astronify.readthedocs.io/en/latest/">Astronify</a> is used for turning astronomical data into sound</p></li>
 </ul>
 </section>
-<section id="install-jupyter-font">
-<h3>Install Jupyter Font:<a class="headerlink" href="#install-jupyter-font" title="Permalink to this heading">#</a></h3>
+<section id="id1">
+<h3>Install Jupyter Font:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
 <p>You can use the <a class="reference external" href="https://github.com/deathbeds/jupyterlab-fonts">JupyterLab fonts</a> package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.</p>
 <p><code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterlab-fonts</span></code></p>
 <p>The sans serif fonts this package ships currently are:</p>
@@ -550,6 +577,15 @@ or
 </ul>
 <p>Improving accessibility in Jupyter notebooks is an ongoing process that involves attention to both the structural aspects of the content and the interactive elements within the notebooks. It’s important to prioritize accessibility to ensure that your content is inclusive and usable by a broad audience.</p>
 </section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="references">
+<h1>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Potluri et al (2023), Notably Inaccessible - Data Driven Understanding of Data Science Notebook (In)Accessibility, ACM
+Paper titled <a class="reference external" href="https://github.com/make4all/notebooka11y">notably inaccessible</a></p></li>
+<li><p>Iota school <a class="reference external" href="https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/">a11y tips</a> for creating and publishing Jupyter notebooks</p></li>
+<li><p>JupyterLab Accessibility <a class="reference external" href="https://hackmd.io/WnaWXboXSiGoqWvev_fAvA?both">Meeting Notes</a></p></li>
+</ul>
 </section>
 
     <script type="text/x-thebe-config">
@@ -619,6 +655,7 @@ or
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Creating Accessible Notebook Experience</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-notebook-interface">Enhancing the accessibility of the notebook interface:</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterlab-4-0">JupyterLab 4.0:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-7-0">Jupyter Notebook 7.0:</a></li>
@@ -632,14 +669,21 @@ or
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format-for-consumption">Export notebook to html format for consumption:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-wcag-2-0-2-1-standards-compliant-themes">Install WCAG 2.0/2.1 standards compliant themes:</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyterlab-accessible-theme">JupyterLab-Accessible-Theme</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-theme">Jupyter Theme</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#install-jupyter-font">Install Jupyter Font:</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-jupyter-font">Install Jupyter Font:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Install Jupyter Font:</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks">Enhancing the accessibility of content in the R notebooks:</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+
   </nav></div>
 
 </div></div>
