@@ -53,7 +53,7 @@ Here is where you can find the memory related details!
 ```
 Please contact us if your course/research has more complex computation requiring increased capacity.
 
-**What are the different services offered as part of the Datahub?**
+**What are the different services offered?**
 
 We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across different hubs. You can learn more about the varied services offered through this jupyterhubs services [documentation](https://docs.datahub.berkeley.edu/en/latest/users/services.html).
 
@@ -137,3 +137,7 @@ Here is where you can find the option to download the R file!
 :name: Downloading notebook as a PDF
 Here is where you can find the option to specify the download format as PDF!
 ```
+
+** How do I get access to elevated privileges if I am not able to publish the bcourses site? **
+
+As a policy, we provide elevated privileges to users **only** through their bcourses affiliation. It makes it easy for us to ensure that the right stakeholders have the elevated privileges for a particular course. If you are not using bcourses site for your course and worry that it might be confusing for your students,please create a banner in your bcourses site highlighing that you are not using bcourses for your course work. If you need more input, please contact the infrastructure team.  
