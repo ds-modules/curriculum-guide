@@ -63,7 +63,7 @@ One can also customize the themes, font types, sizes etc. as part of the noteboo
 
 #### Install WCAG 2.0/2.1 standards compliant themes: 
 
-Jupyter Classic Notebook and Lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result . 
+Jupyter classic notebook and lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result . 
 
 ##### Theme/Font compatibility with varied versions of notebook/lab
 | Interface | Recommended Themes/Fonts | Comments |
@@ -73,6 +73,7 @@ Jupyter Classic Notebook and Lab have 3rd party themes that give more control to
 | Jupyter Notebook >= 7.0 | [JupyterLab-Accessible-Themes ](https://github.com/Quansight-Labs/jupyterlab-accessible-themes)  | JupyterLab-Accessible-Themes package compatibility with the latest notebook version is a work in progress as per the maintainer’s page |
 | Jupyter Notebook < 7.0 | [Jupyter Themes](https://github.com/dunovank/jupyter-themes) |  |
 
+##### JupyterLab-Accessible-Theme
 [JupyterLab-Accessible-Themes](https://github.com/Quansight-Labs/jupyterlab-accessible-themes) is a lab theme that allows notebook creators to customize the lab experience. There are three different types of themes which are included as part of this package, 
 a) Pitaya Smoothie and 
 b) Github Light
@@ -90,12 +91,26 @@ Once installed, you can enable this theme by the following steps,
 - Save the notebook and restart the kernel by selecting Kernel -> Restart Kernel
 - Select `Github Light theme` by selecting Settings -> Theme -> Github Light and/or `Pitaya Smoothie theme` by selecting Settings -> Theme -> Pitaya Smoothie and/or `Github Dark theme` by selecting Settings -> Theme -> Github Dark
 
+##### Jupyter Theme
+
 [Jupyter Themes](https://github.com/dunovank/jupyter-themes) is a notebook theme that offers 7 different types of themes to customize the classic notebook experience. This theme only works with classic notebook interface and is not compatible with JupyterLab and the Notebook 7.0. 
 
 You can install themes by following command,
 `!pip install jupyterthemes`
 
 The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in [this web page](https://github.com/dunovank/jupyter-themes). If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab [Legos UI](https://github.com/dunovank/jupyterlab_legos_ui) and [Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
+
+##### Install Jupyter Font:
+
+You can use the [JupyterLab fonts](https://github.com/deathbeds/jupyterlab-fonts) package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.
+
+`!pip install jupyterlab-fonts`
+
+The sans serif fonts this package ships currently are:
+- [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro)
+- [Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible)
+- [Dejavu Sans](https://dejavu-fonts.github.io/)
+- [Fira Code](https://fonts.google.com/specimen/Fira+Code)
 
 #### Sonify your data:
 
@@ -129,3 +144,10 @@ If you are using R/RStudio as part of your instructional workflow then please ch
 - [AccessRMD is the package to improve accessibility of RMD files](https://cran.r-project.org/web/packages/accessrmd/accessrmd.pdf)
 
 Improving accessibility in Jupyter notebooks is an ongoing process that involves attention to both the structural aspects of the content and the interactive elements within the notebooks. It's important to prioritize accessibility to ensure that your content is inclusive and usable by a broad audience.
+
+# References
+
+- Potluri et al (2023), Notably Inaccessible - Data Driven Understanding of Data Science Notebook (In)Accessibility, ACM 
+Paper titled [notably inaccessible](https://github.com/make4all/notebooka11y)
+- Iota school [a11y tips](https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/) for creating and publishing Jupyter notebooks
+- JupyterLab Accessibility [Meeting Notes](https://hackmd.io/WnaWXboXSiGoqWvev_fAvA?both)
