@@ -20,6 +20,9 @@ Designing an ideal strategy to develop and utilize Jupyter notebooks as part of 
 | Translate Mathematics to Code | PMB/MCB/BioE C 146 (Data Science for Biology) | [Lecture 8 Notebook](https://github.com/ds-modules/ds4bio/blob/main/lab8/lab08-c146-v01-student.ipynb) | Students learn about dynamic programming in this notebook. They generate fibonacci series and find longest common subsequence using recursive function/dynamic programming and calculate the associated complexity. Here, the students will be codifying mathematical expression to understand the knowledge better |
 | Explore APIs | EPS 88 (PyEarth) | [Week 2 Assignment](https://github.com/ds-modules/EPS88-24031-FA23/blob/main/week02_datahubfiles/W02_assignment_Earthquakes.ipynb) | In this notebook, students query a remote server hosted by US Geological Survey Org to get data about areas in the globe where an earth quake has happened and whose magnitude is greater than 5.0. They create a map highlighting  those places |
 Hello World | Econ 130 (Economics for Public Policy) | [Intro Jupyter notebook](https://github.com/ds-modules/ECON-130-FA23/blob/main/IntroToR/Intro%20to%20R.ipynb) | Many courses have this intro notebook where student perform basic operations in Python/R to understand the syntax of the programming language. Instructors spend a week helping students get accustomed to the chosen programming language | 
+| Learn by Simulation | | |
+| Bug Hunt | | |
+
  
 ### Best Practices/Tips for Notebook Creation
 

@@ -384,12 +384,16 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">Enhancing the accessibility of the content within Jupyter notebooks:</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format">Export notebook to html format:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notebook-themes">Notebook Themes:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-font">Jupyter Font:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-alt-text-to-all-static-images-and-charts-in-your-notebook">Add alt-text to all static images and charts in your notebook:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#represent-data-across-multiple-mediums">Represent data across multiple mediums:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-smaller-notebooks">Create smaller notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format-for-consumption">Export notebook to html format for consumption:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-wcag-2-0-2-1-standards-compliant-themes">Install WCAG 2.0/2.1 standards compliant themes:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-jupyter-font">Install Jupyter Font:</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks">Enhancing the accessibility of content in the R notebooks:</a></li>
@@ -432,19 +436,34 @@ document.write(`
 <li><p><a class="reference external" href="https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/notebook-authoring-checklist/">Checklist</a> for notebook authoring</p></li>
 <li><p><a class="reference external" href="https://iota-school.github.io/notebooks-for-all/exports/resources/event-hackathon/accessibility-tips-for-jupyter-notebooks/#visualization-accessibility">Tips</a> for notebook authoring</p></li>
 </ul>
-<section id="export-notebook-to-html-format">
-<h3>Export notebook to html format:<a class="headerlink" href="#export-notebook-to-html-format" title="Permalink to this heading">#</a></h3>
+<section id="add-alt-text-to-all-static-images-and-charts-in-your-notebook">
+<h3>Add alt-text to all static images and charts in your notebook:<a class="headerlink" href="#add-alt-text-to-all-static-images-and-charts-in-your-notebook" title="Permalink to this heading">#</a></h3>
+<p>Adding alternative text (alt-text) to images is an important accessibility practice, especially when creating content for the web. Alt-text provides a textual description of images, making content accessible to individuals who use screen readers or have other disabilities. Data visualization libraries such as
+matplotlib and seaborn by default doesn’t support embedding alt text to generated charts by default.</p>
+<p>You can add alt-text to an image by using the below syntax where the text withing the square brackets denotes the alt-text for an image.</p>
+<p><code class="docutils literal notranslate"><span class="pre">![A</span> <span class="pre">beautiful</span> <span class="pre">landscape](landscape.jpg)</span></code></p>
+</section>
+<section id="represent-data-across-multiple-mediums">
+<h3>Represent data across multiple mediums:<a class="headerlink" href="#represent-data-across-multiple-mediums" title="Permalink to this heading">#</a></h3>
+<p>It is important that users who use screen readers have additional pathways to make sense of the data visualized in a chart or an image. Some of those pathways include a) Descriptive summary of data represented in the chart and b) HTML formatted table in the form of code or markdown cells.</p>
+<p>Representing data in the form of table should take into consideration the impact it has on screen readers. Too many rows and columns can affect screen reader navigation resulting in issues with navigation and comprehension. Ideally, having less than or equal to 5/6 rows in a table is a good rule of thumb to keep in mind.</p>
+</section>
+<section id="create-smaller-notebooks">
+<h3>Create smaller notebooks:<a class="headerlink" href="#create-smaller-notebooks" title="Permalink to this heading">#</a></h3>
+<p>It has been observed that large notebooks causes screen readers like NVDA and JAWS to crash. Keeping notebook size lesser than 10 MB (realistically) or even better around 1 MB (ideally) will make it easy for screen readers to navigate the ipynb files.</p>
+</section>
+<section id="export-notebook-to-html-format-for-consumption">
+<h3>Export notebook to html format for consumption:<a class="headerlink" href="#export-notebook-to-html-format-for-consumption" title="Permalink to this heading">#</a></h3>
 <p>The editable notebook format (.ipynb) is inaccessible for screen readers and keyboard navigation. Much effort has been made to Lab 4 and Notbook 7 to overcome some of the barriers to accessibility. However, it is still not 100% accessible at the moment. To improve the readability of the notebooks, It is recommended that .ipynb files are converted to .html files which are largely designed for web interface and has a more accessible experience. PDFs are generally inaccessible in comparison to html format from a readability standpoint.</p>
 <p><a class="reference external" href="https://github.com/jupyter/nbconvert">Nbconvert</a> is a  tool that converts notebooks to various formats including html which improves readability. The command for converting notebooks from .ipynb to html is</p>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">jupyter</span> <span class="pre">nbconvert</span> <span class="pre">--to</span> <span class="pre">html</span> <span class="pre">mynotebook.ipynb</span></code></p>
 <p>One can also customize the themes, font types, sizes etc. as part of the notebook inorder to improve the accessibility.</p>
 </section>
-<section id="notebook-themes">
-<h3>Notebook Themes:<a class="headerlink" href="#notebook-themes" title="Permalink to this heading">#</a></h3>
+<section id="install-wcag-2-0-2-1-standards-compliant-themes">
+<h3>Install WCAG 2.0/2.1 standards compliant themes:<a class="headerlink" href="#install-wcag-2-0-2-1-standards-compliant-themes" title="Permalink to this heading">#</a></h3>
 <p>Jupyter Classic Notebook and Lab have 3rd party themes that give more control to the notebook developers to customize the notebook themes and improve accessibility as a result .</p>
-</section>
 <section id="theme-font-compatibility-with-varied-versions-of-notebook-lab">
-<h3>Theme/Font compatibility with varied versions of notebook/lab<a class="headerlink" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab" title="Permalink to this heading">#</a></h3>
+<h4>Theme/Font compatibility with varied versions of notebook/lab<a class="headerlink" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab" title="Permalink to this heading">#</a></h4>
 <table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Interface</p></th>
@@ -489,8 +508,19 @@ or
 <p>You can install themes by following command,
 <code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterthemes</span></code></p>
 <p>The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in <a class="reference external" href="https://github.com/dunovank/jupyter-themes">this web page</a>. If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab <a class="reference external" href="https://github.com/dunovank/jupyterlab_legos_ui">Legos UI</a> and <a class="reference external" href="https://github.com/dunovank/jupyterlab_darkside_ui">Darkside UI</a></p>
-<section id="jupyter-font">
-<h4>Jupyter Font:<a class="headerlink" href="#jupyter-font" title="Permalink to this heading">#</a></h4>
+</section>
+</section>
+<section id="sonify-your-data">
+<h3>Sonify your data<a class="headerlink" href="#sonify-your-data" title="Permalink to this heading">#</a></h3>
+<p>“Sonify the data” refers to the process of representing data using sound. Instead of just visualizing data in charts, graphs, or other visual formats alone, sonification translates data into audible sound patterns, allowing users to perceive and understand data through their sense of hearing.</p>
+<ul class="simple">
+<li><p>Use python packages like <a class="reference external" href="https://github.com/lockepatton/sonipy">sonipy</a> to sonify the data</p></li>
+<li><p>Open source tools such as <a class="reference external" href="https://github.com/sonifydata/twotone">TwoTone</a> allow for generating music from data</p></li>
+<li><p>In Astronomy, <a class="reference external" href="https://astronify.readthedocs.io/en/latest/">Astronify</a> is used for turning astronomical data into sound</p></li>
+</ul>
+</section>
+<section id="install-jupyter-font">
+<h3>Install Jupyter Font:<a class="headerlink" href="#install-jupyter-font" title="Permalink to this heading">#</a></h3>
 <p>You can use the <a class="reference external" href="https://github.com/deathbeds/jupyterlab-fonts">JupyterLab fonts</a> package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.</p>
 <p><code class="docutils literal notranslate"><span class="pre">!pip</span> <span class="pre">install</span> <span class="pre">jupyterlab-fonts</span></code></p>
 <p>The sans serif fonts this package ships currently are:</p>
@@ -500,7 +530,6 @@ or
 <li><p><a class="reference external" href="https://dejavu-fonts.github.io/">Dejavu Sans</a></p></li>
 <li><p><a class="reference external" href="https://fonts.google.com/specimen/Fira+Code">Fira Code</a></p></li>
 </ul>
-</section>
 </section>
 </section>
 <section id="enhancing-the-accessibility-of-content-in-the-r-notebooks">
@@ -591,12 +620,16 @@ or
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-the-content-within-jupyter-notebooks">Enhancing the accessibility of the content within Jupyter notebooks:</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format">Export notebook to html format:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#notebook-themes">Notebook Themes:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-font">Jupyter Font:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-alt-text-to-all-static-images-and-charts-in-your-notebook">Add alt-text to all static images and charts in your notebook:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#represent-data-across-multiple-mediums">Represent data across multiple mediums:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-smaller-notebooks">Create smaller notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#export-notebook-to-html-format-for-consumption">Export notebook to html format for consumption:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-wcag-2-0-2-1-standards-compliant-themes">Install WCAG 2.0/2.1 standards compliant themes:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#theme-font-compatibility-with-varied-versions-of-notebook-lab">Theme/Font compatibility with varied versions of notebook/lab</a></li>
 </ul>
 </li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sonify-your-data">Sonify your data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#install-jupyter-font">Install Jupyter Font:</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enhancing-the-accessibility-of-content-in-the-r-notebooks">Enhancing the accessibility of content in the R notebooks:</a></li>
