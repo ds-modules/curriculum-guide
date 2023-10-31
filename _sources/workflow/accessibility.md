@@ -100,7 +100,7 @@ You can install themes by following command,
 
 The different types of themes  are onedork, grade3,  oceans16, chesterish,  monokai, solarizedI,  solarizedd. You can explore these themes using the documentation in [this web page](https://github.com/dunovank/jupyter-themes). If you are looking for JupyterLab equivalent for those themes then you can explore JupyterLab [Legos UI](https://github.com/dunovank/jupyterlab_legos_ui) and [Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 
-##### Install Jupyter Font:
+##### Jupyter Font:
 
 You can use the [JupyterLab fonts](https://github.com/deathbeds/jupyterlab-fonts) package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.
 
@@ -119,18 +119,6 @@ The sans serif fonts this package ships currently are:
 - Use python packages like [sonipy](https://github.com/lockepatton/sonipy) to sonify the data
 - Open source tools such as [TwoTone](https://github.com/sonifydata/twotone) allow for generating music from data
 - In Astronomy, [Astronify](https://astronify.readthedocs.io/en/latest/) is used for turning astronomical data into sound
-
-#### Install Jupyter Font: 
-
-You can use the [JupyterLab fonts](https://github.com/deathbeds/jupyterlab-fonts) package to customize the fonts used in the notebook. JupyterLab font is a work in progress and is currently compatible with Lab version 3.0. The compatibility with Lab 4.0 is a work in progress.
-
-`!pip install jupyterlab-fonts`
-
-The sans serif fonts this package ships currently are:
-- [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro)
-- [Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible)
-- [Dejavu Sans](https://dejavu-fonts.github.io/)
-- [Fira Code](https://fonts.google.com/specimen/Fira+Code)
 
 ## Enhancing the accessibility of content in the R notebooks:
 
