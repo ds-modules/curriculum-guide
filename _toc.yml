@@ -81,6 +81,8 @@ parts:
     title: Launch VSCode Editor
   - file: workflow/dowload_PDF.md
     title: Download Jupyter Notebook as PDF
+  - file: workflow/download-archive.md
+    title: Download Files/Folders as archive from Datahub
   - file: workflow/performance_issue.md
     title: Best Practices to Avoid Performance Issues
 #  - file: workflow/bestpractices
