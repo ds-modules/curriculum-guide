@@ -356,7 +356,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -372,6 +374,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#download-current-folder-as-an-archive">Download Current Folder as an Archive</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#download-as-an-archive">Download as an Archive</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -383,20 +394,33 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="download-files-as-an-archive">
 <h1>Download files as an archive<a class="headerlink" href="#download-files-as-an-archive" title="Permalink to this heading">#</a></h1>
-<p>If you are using Jupyter notebook and/or lab interface then you can download your assignments/projects as an archive file. (Jupyter Archive)[<a class="github reference external" href="https://github.com/jupyterlab-contrib/jupyter-archive">jupyterlab-contrib/jupyter-archive</a>] package allows users to download their files/folders as archives.</p>
-<p>If you are using Jupyter notebook then you can download all your files from the tree interface as an archive.</p>
+<p>You have an option to download all your assignments/projects as a single archive file without going through the hassle of downloading each file individually. <a class="reference external" href="https://github.com/jupyterlab-contrib/jupyter-archive">Jupyter Archive</a> package allows users to download their files/folders as single archive file.</p>
+<p>There are couple of options you can use to download all your files in Datahub as an archive,</p>
+<ul class="simple">
+<li><p>Download Current Folder as an Archive</p></li>
+<li><p>Download as an Archive</p></li>
+</ul>
+<section id="download-current-folder-as-an-archive">
+<h2>Download Current Folder as an Archive<a class="headerlink" href="#download-current-folder-as-an-archive" title="Permalink to this heading">#</a></h2>
+<p>You can navigate to the folder you want to download and then select this option to download all the folders/files located within this folder. This option downloads all the current folder as a single zip file.</p>
+</section>
+<section id="download-as-an-archive">
+<h2>Download as an Archive<a class="headerlink" href="#download-as-an-archive" title="Permalink to this heading">#</a></h2>
+<p>You can select the individual folders that you want to download seperately and select this option which downloads each folders as seperate zip file.</p>
+<p>If you are using Jupyter notebook then you can download all your files using one of the above options by navigating to the tree interface. You can access your hub’s tree by using the following URL - &lt;HUB_URL&gt;/user/&lt;YOUR_USERNAME&gt;/tree. Eg: <a class="reference external" href="https://data100.datahub.berkeley.edu/user/bawar/tree">https://data100.datahub.berkeley.edu/user/bawar/tree</a> is the URL to the tree for the user bawar.</p>
 <figure class="align-center" id="download-folders-from-tree-interface">
-<a class="reference internal image-reference" href="../_images/download_folders.mov"><img alt="../_images/download_folders.mov" src="../_images/download_folders.mov" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/download-archive.gif"><img alt="../_images/download-archive.gif" src="../_images/download-archive.gif" style="width: 500px;" /></a>
 </figure>
 <p>If you are using Jupyter Lab interface then you need to navigate to tree section in the lab interface,</p>
 <ul class="simple">
-<li><p>Select the files/folders you need to download</p></li>
-<li><p>Use the cursor to right click</p></li>
-<li><p>Select “Download Current Folder as an Archive” option or “Download as an Archive” if you want to download multiple folders</p></li>
+<li><p>Select the folders you need to download if you are choosing “Download as an Archive” option</p></li>
+<li><p>Navigate to the folder you want to download if you are choosing “Download Current Folder as an Archive” option</p></li>
+<li><p>Right click and select the preferred option</p></li>
 </ul>
 <figure class="align-center" id="download-folders-from-lab-interface">
-<a class="reference internal image-reference" href="../_images/download_folders_lab.mov"><img alt="../_images/download_folders_lab.mov" src="../_images/download_folders_lab.mov" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/download-folder.gif"><img alt="../_images/download-folder.gif" src="../_images/download-folder.gif" style="width: 500px;" /></a>
 </figure>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -457,6 +481,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#download-current-folder-as-an-archive">Download Current Folder as an Archive</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#download-as-an-archive">Download as an Archive</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

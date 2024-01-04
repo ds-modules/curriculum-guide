@@ -1,21 +1,33 @@
 # Download files as an archive
 
-If you are using Jupyter notebook and/or lab interface then you can download your assignments/projects as an archive file. (Jupyter Archive)[https://github.com/jupyterlab-contrib/jupyter-archive] package allows users to download their files/folders as archives.
+You have an option to download all your assignments/projects as a single archive file without going through the hassle of downloading each file individually. [Jupyter Archive](https://github.com/jupyterlab-contrib/jupyter-archive) package allows users to download their files/folders as single archive file.
 
-If you are using Jupyter notebook then you can download all your files from the tree interface as an archive. 
+There are couple of options you can use to download all your files in Datahub as an archive,
+- Download Current Folder as an Archive
+- Download as an Archive
 
-```{figure} ../images/download_folders.mov
+### Download Current Folder as an Archive
+
+You can navigate to the folder you want to download and then select this option to download all the folders/files located within this folder. This option downloads all the current folder as a single zip file.
+
+### Download as an Archive
+
+You can select the individual folders that you want to download seperately and select this option which downloads each folders as seperate zip file.
+
+If you are using Jupyter notebook then you can download all your files using one of the above options by navigating to the tree interface. You can access your hub's tree by using the following URL - <HUB_URL>/user/<YOUR_USERNAME>/tree. Eg: https://data100.datahub.berkeley.edu/user/bawar/tree is the URL to the tree for the user bawar.
+
+```{figure} ../images/download-archive.gif
 :width: 500px
 :align: center
 :name: Download folders from tree interface
 ```
 
 If you are using Jupyter Lab interface then you need to navigate to tree section in the lab interface, 
-- Select the files/folders you need to download 
-- Use the cursor to right click
-- Select "Download Current Folder as an Archive" option or "Download as an Archive" if you want to download multiple folders 
+- Select the folders you need to download if you are choosing "Download as an Archive" option
+- Navigate to the folder you want to download if you are choosing "Download Current Folder as an Archive" option
+- Right click and select the preferred option
 
-```{figure} ../images/download_folders_lab.mov
+```{figure} ../images/download-folder.gif
 :width: 500px
 :align: center
 :name: Download folders from lab interface
