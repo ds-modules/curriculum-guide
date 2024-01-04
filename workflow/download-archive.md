@@ -8,13 +8,13 @@ There are couple of options you can use to download all your files in Datahub as
 
 ### Download Current Folder as an Archive
 
-You can navigate to the folder you want to download and then select this option to download all the folders/files located within this folder. This option downloads all the current folder as a single zip file.
+You can navigate to the folder you want to download and then select this option to download all the folders/files located within this folder. This option downloads all the contents of the current folder as a single zip file.
 
 ### Download as an Archive
 
-You can select the individual folders that you want to download seperately and select this option which downloads each folders as seperate zip file.
+You can select the individual folders you want to download and select this option which downloads each folder as seperate zip file.
 
-If you are using Jupyter notebook then you can download all your files using one of the above options by navigating to the tree interface. You can access your hub's tree by using the following URL - <HUB_URL>/user/<YOUR_USERNAME>/tree. Eg: https://data100.datahub.berkeley.edu/user/bawar/tree is the URL to the tree for the user bawar.
+If you are using Jupyter notebook then you can download all your files using one of the above mentioned options by navigating to the tree interface. You can access your hub's tree by using the following URL - <HUB_URL>/user/<YOUR_USERNAME>/tree. Eg: https://data100.datahub.berkeley.edu/user/bawar/tree is the URL to access the tree for the user bawar.
 
 ```{figure} ../images/download-archive.gif
 :width: 500px
