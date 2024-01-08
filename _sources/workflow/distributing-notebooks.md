@@ -71,14 +71,29 @@ The technology behind interact links, called nbgitpuller, pulls _all files_ from
 
 One of the latest update to the nbgitpuller link generator is the plugin which simplifies the task of generating shareable links.
 
-- Install the nbgitpuller [Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/) extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. Access a Github repository (through the installed browser) and check whether you can find nbgitpuller button. If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,
+- Install the nbgitpuller [Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/) extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. 
 
-```{figure} ../images/nbgitpullerbutton.PNG
+- Access a Github repository containing notebooks via the browser where extension was installed 
+- Select the button to show installed extensions in the toolbar
+- Check if nbgitpuller extension is installed
+- If yes, pin it so that it appears in the tool bar directly
+
+If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,
+
+```{figure} ../images/nbgitpuller_location.png
 :width: 500px
 :align: center
-:name: nbgitpuller button
+:name: nbgitpuller button location
 
-Snapshot of how nbgitpuller button looks like!
+Snapshot of where nbgitpuller button is located!
+```
+
+```{figure} ../images/nbgitpuller_refresh.png
+:width: 500px
+:align: center
+:name: nbgitpuller parameters
+
+Inputs for nbgitpuller extension!
 ```
 
 Follow the steps below to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,
@@ -96,12 +111,12 @@ Snapshot of assignment in GitHub!
 - Copy past your JupyterHub instance's URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
 - Open your assignment in the respective Github repo. 
 
-```{figure} ../images/huburl.PNG
+```{figure} ../images/nbgitpuller_refresh.png
 :width: 500px
 :align: center
-:name: JupyterHub URL
+:name: nbgitpuller parameters
 
-Snapshot for the option to paste JupyterHub URL!
+Inputs for nbgitpuller extension!
 ```
 - You can select from the below options for the "Open in" dropdownlist 
 	- If you want your students to access a Jupyter notebook interface which is **simple and intuitive to use**, Select "Classic Notebook" option from the dropdown list or
@@ -112,7 +127,7 @@ Snapshot for the option to paste JupyterHub URL!
 
 Here is a short GIF that walks you through the entire process to create a shareable link
 
-```{figure} ../images/Retrolab.gif
+```{figure} ../images/nbgitpuller_demo.gif
 :width: 500px
 :align: center
 :name: nbgitpuller plugin demo

@@ -465,12 +465,23 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 <h2>nbgitpuller Plugin<a class="headerlink" href="#nbgitpuller-plugin" title="Permalink to this heading">#</a></h2>
 <p>One of the latest update to the nbgitpuller link generator is the plugin which simplifies the task of generating shareable links.</p>
 <ul class="simple">
-<li><p>Install the nbgitpuller <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Chrome</a> or <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/">Firefox</a> extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. Access a Github repository (through the installed browser) and check whether you can find nbgitpuller button. If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,</p></li>
+<li><p>Install the nbgitpuller <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Chrome</a> or <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/">Firefox</a> extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action.</p></li>
+<li><p>Access a Github repository containing notebooks via the browser where extension was installed</p></li>
+<li><p>Select the button to show installed extensions in the toolbar</p></li>
+<li><p>Check if nbgitpuller extension is installed</p></li>
+<li><p>If yes, pin it so that it appears in the tool bar directly</p></li>
 </ul>
-<figure class="align-center" id="nbgitpuller-button">
-<a class="reference internal image-reference" href="../_images/nbgitpullerbutton.PNG"><img alt="../_images/nbgitpullerbutton.PNG" src="../_images/nbgitpullerbutton.PNG" style="width: 500px;" /></a>
+<p>If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,</p>
+<figure class="align-center" id="nbgitpuller-button-location">
+<a class="reference internal image-reference" href="../_images/nbgitpuller_location.png"><img alt="../_images/nbgitpuller_location.png" src="../_images/nbgitpuller_location.png" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Snapshot of how nbgitpuller button looks like!</span><a class="headerlink" href="#nbgitpuller-button" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Snapshot of where nbgitpuller button is located!</span><a class="headerlink" href="#nbgitpuller-button-location" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="nbgitpuller-parameters">
+<a class="reference internal image-reference" href="../_images/nbgitpuller_refresh.png"><img alt="../_images/nbgitpuller_refresh.png" src="../_images/nbgitpuller_refresh.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Inputs for nbgitpuller extension!</span><a class="headerlink" href="#nbgitpuller-parameters" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p>Follow the steps below to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,</p>
@@ -480,7 +491,7 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 <figure class="align-center" id="assignment-opened-in-github">
 <a class="reference internal image-reference" href="../_images/openassignment.PNG"><img alt="../_images/openassignment.PNG" src="../_images/openassignment.PNG" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Snapshot of assignment in GitHub!</span><a class="headerlink" href="#assignment-opened-in-github" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Snapshot of assignment in GitHub!</span><a class="headerlink" href="#assignment-opened-in-github" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -488,10 +499,10 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 <li><p>Copy past your JupyterHub instance’s URL (if you are using the main Datahub then you can use <a class="reference external" href="https://datahub.berkeley.edu/">https://datahub.berkeley.edu/</a>) in the “JupyterHub URL” textbox</p></li>
 <li><p>Open your assignment in the respective Github repo.</p></li>
 </ul>
-<figure class="align-center" id="jupyterhub-url">
-<a class="reference internal image-reference" href="../_images/huburl.PNG"><img alt="../_images/huburl.PNG" src="../_images/huburl.PNG" style="width: 500px;" /></a>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/nbgitpuller_refresh.png"><img alt="../_images/nbgitpuller_refresh.png" src="../_images/nbgitpuller_refresh.png" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Snapshot for the option to paste JupyterHub URL!</span><a class="headerlink" href="#jupyterhub-url" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">Inputs for nbgitpuller extension!</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -507,9 +518,9 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 </ul>
 <p>Here is a short GIF that walks you through the entire process to create a shareable link</p>
 <figure class="align-center" id="nbgitpuller-plugin-demo">
-<a class="reference internal image-reference" href="../_images/Retrolab.gif"><img alt="../_images/Retrolab.gif" src="../_images/Retrolab.gif" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/nbgitpuller_demo.gif"><img alt="../_images/nbgitpuller_demo.gif" src="../_images/nbgitpuller_demo.gif" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 23 </span><span class="caption-text">Demo of nbgitpuller plugin!</span><a class="headerlink" href="#nbgitpuller-plugin-demo" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Demo of nbgitpuller plugin!</span><a class="headerlink" href="#nbgitpuller-plugin-demo" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
