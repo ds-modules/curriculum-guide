@@ -72,11 +72,19 @@ The technology behind interact links, called nbgitpuller, pulls _all files_ from
 One of the latest update to the nbgitpuller link generator is the plugin which simplifies the task of generating shareable links.
 
 - Install the nbgitpuller [Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/) extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. 
-
 - Access a Github repository containing notebooks via the browser where extension was installed 
-- Select the button to show installed extensions in the toolbar
-- Check if nbgitpuller extension is installed
-- If yes, pin it so that it appears in the tool bar directly
+- Select the extensions icon in the top right part of the browser (closer to URL section) to show the installed extensions in the toolbar
+
+```{figure} ../images/extension.png
+:width: 500px
+:align: center
+:name: extension icon
+
+Icon showing all the installed extensions!
+```
+
+- Check if nbgitpuller extension is present in the list
+- If yes, pin the extension so that it appears in the tool bar directly
 
 If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,
 
