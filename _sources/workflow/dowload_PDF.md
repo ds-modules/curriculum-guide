@@ -1,8 +1,9 @@
 # Download Jupyter Notebook as a PDF
 
-Downloading Jupyter Notebooks (.ipynb files) as PDF can be slightly confusing given the gazillion options presented in the notebook UI. [nbconvert](https://github.com/jupyter/nbconvert) package converts notebook files (ipynb) to varied file formats which includes PDF, PNG etc...The options to download have changed recently due to the recent migration to Notebook 7 and Lab 4.
+Downloading Jupyter Notebooks (.ipynb files) as PDF can be slightly confusing given the gazillion options presented in the notebook UI. [nbconvert](https://github.com/jupyter/nbconvert) is the third-party package used to convert notebook files (ipynb) to varied file formats including pdf,png etc...The options to download notebook as PDF/HTML has changed recently due to the migration from notebook 6 to 7 and Lab 3 to 4.
 
-If you are using https://datahub.berkeley.edu/ then choose the following option
+If you are using https://datahub.berkeley.edu/ and/or https://r.datahub.berkeley.edu/, then choose the following option to download the ipynb as pdf,
+
 File -> Save and Export Notebook As -> Webpdf
 
 ```{figure} ../images/download_webPDF.png
@@ -11,13 +12,22 @@ File -> Save and Export Notebook As -> Webpdf
 :name: Download Jupyter Notebook as Web PDF
 ```
 
-If you are using any other hub than https://datahub.berkeley.edu/, then choose the following option,
+If you are using any other hub than the ones mentioned above/, choose the following option,
 File -> Save and Export Notebook As -> PDF
 
 ```{figure} ../images/download_PDF.png
 :width: 500px
 :align: center
 :name: Download Jupyter Notebook as PDF
+```
+
+If you choose to download the notebook files as HTML then choose the following option,
+File -> Save and Export Notebook As -> HTML
+
+```{figure} ../images/download_HTML.png
+:width: 500px
+:align: center
+:name: Download Jupyter Notebook as HTML
 ```
 
 ```{note}
