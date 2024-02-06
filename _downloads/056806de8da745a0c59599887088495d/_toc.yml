@@ -123,6 +123,10 @@ parts:
   chapters:
   - file: technology/resources
     title: Resources for Students
+- caption: Workshop Resources
+  chapters:
+  - file: technology/instructor-activity
+    title: Instructor Activity
 - caption: Reference
   chapters:
   - file: general/people
