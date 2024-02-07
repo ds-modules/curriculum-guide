@@ -1,4 +1,4 @@
-# Step by step instruction to launch a Jupyter Notebook in Datahub
+# Instructor activity: Generate nbgitpuller link from scratch
 
 ## Option 1 - nbgitpuller way
  
