@@ -8,7 +8,7 @@
 - Login to your Github account. Incase you don't have an account, try creating a new Github account for the sake of this activity (or collaborate with someone who has a Github account)
 - Create a new Github repository (If you are new to Github, check this [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) for detailed steps to create a repository) 
 - Upload the notebook to Github repository (Refer to this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/pushing-to-github.html?highlight=upload#using-the-web-interface) if needed)
-- Install the nbgitpuller browser extension using this [link](https://chromewebstore.google.com/detail/datahub-link-generator/lnaihiajhgbdabdnghflmjnamjkojpke?hl=en&authuser=1). Please follow the steps in the [documentation](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#nbgitpuller-plugin) to make the extension visible in your browser
+- Install the "Datahub Link Generator" browser extension using this [link](https://chromewebstore.google.com/detail/datahub-link-generator/lnaihiajhgbdabdnghflmjnamjkojpke?hl=en&authuser=1). Please follow the steps in the [documentation](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#nbgitpuller-plugin) to make the extension visible in your browser
 - Generate a new nbgitpuller link by entering the following details in the input fields and clicking the button "Copy nbgitpuller link"
 "JupyterHub URL": "https://datahub.berkeley.edu/", 
 "Open In": "Classic Notebook"
@@ -23,12 +23,10 @@
 - Copy paste the code from the PDF to the new notebook
 - Save the notebook
 - Download the notebook by selecting "File -> Download" option
-- Login to your Github account or Create a new Github account
+- Login to your Github account. Incase you don't have an account, try creating a new Github account for the sake of this activity (or collaborate with someone who has a Github account)
 - Create a new Github repository (If you are new to Github, check this [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) for detailed steps). Upload the downloaded notebook to this Github repository.
-- Install the nbgitpuller browser extension using this [link](https://chromewebstore.google.com/detail/datahub-link-generator/lnaihiajhgbdabdnghflmjnamjkojpke?hl=en&authuser=1). Please follow the steps in the [documentation](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#nbgitpuller-plugin) to make the extension visible in your browser
+- Install the "Datahub Link Generator" browser extension using this [link](https://chromewebstore.google.com/detail/datahub-link-generator/lnaihiajhgbdabdnghflmjnamjkojpke?hl=en&authuser=1). Please follow the steps in the [documentation](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#nbgitpuller-plugin) to make the extension visible in your browser
 - Generate a new nbgitpuller link by entering the following details in the input fields and clicking the button "Copy nbgitpuller link"
 "JupyterHub URL": "https://datahub.berkeley.edu/", 
 "Open In": "Classic Notebook"
 - Share the nbgitpuller link with another collaborator who is attending the workshop
-
-
