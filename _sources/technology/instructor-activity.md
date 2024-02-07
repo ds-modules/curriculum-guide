@@ -4,6 +4,8 @@
  
 - Click this [link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fds-modules%2FDatahub-Workshop&branch=main&urlpath=tree%2FDatahub-Workshop%2Firis.ipynb) to launch a Jupyter notebook. This will clone a repository containing a Jupyter notebook to the home directory of your Berkeley Jupyterhub account.
 - Execute all the cells in the "iris.ipynb" notebook which is located inside "datahub_workshop_feb24" directory
+- (This is  an optional step) Add text as markdown in the notebook. For instance, you could add a header cell that says "Welcome to my first notebook!"
+- (This is an optional step) Clear all the cells (this is relevant in teaching scenario).
 - Download the notebook by selecting "File -> Download" option
 - Login to your Github account. Incase you don't have an account, try creating a new Github account for the sake of this activity (or collaborate with someone who has a Github account)
 - Create a new Github repository (If you are new to Github, check this [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) for detailed steps to create a repository) 
