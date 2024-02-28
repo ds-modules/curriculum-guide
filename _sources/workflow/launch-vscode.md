@@ -1,4 +1,4 @@
-# Launching notebooks using VSCode
+# Steps to launch notebooks using VSCode
 
 ### Step 1: Generate nbgitpuller links to launch VSCode Editor in Datahub
 

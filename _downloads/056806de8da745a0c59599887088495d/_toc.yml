@@ -79,7 +79,7 @@ parts:
     title: Using Real Time File Sharing
   - file: workflow/launch-vscode.md
     title: Launch VSCode Editor
-  - file: workflow/dowload_PDF.md
+  - file: workflow/download_notebook_as_pdf.md
     title: Download Jupyter Notebook as PDF
   - file: workflow/download-archive.md
     title: Download Files/Folders as archive from Datahub

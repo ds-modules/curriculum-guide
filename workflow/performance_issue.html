@@ -187,17 +187,14 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="pushing-to-github.html">Uploading Files to Github</a></li>
 <li class="toctree-l1"><a class="reference internal" href="distributing-notebooks.html">Distributing Assignments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="collecting-grading-assignments.html">Launch Jupyter notebooks using RetroLab interface!</a></li>
-<li class="toctree-l1"><a class="reference internal" href="use-retrolab.html">Steps to Launch Jupyter Notebooks using RetroLab interface</a></li>
-
-
-
+<li class="toctree-l1"><a class="reference internal" href="use-retrolab.html">Collecting and Grading Assignments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="use-realtimecollaboration.html">Using Real Time Collaboration (RTC)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="use-realtimefilesharing.html">Use Realtime file sharing using SyncThing</a></li>
 
 
 
 <li class="toctree-l1"><a class="reference internal" href="launch-vscode.html">Launch VSCode Editor</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dowload_PDF.html">Download Jupyter Notebook as PDF</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download_notebook_as_pdf.html">Download Jupyter Notebook as PDF</a></li>
 <li class="toctree-l1"><a class="reference internal" href="download-archive.html">Download Files/Folders as archive from Datahub</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Best Practices to Avoid Performance Issues</a></li>
 </ul>
@@ -396,6 +393,7 @@ document.write(`
 <li><p>You upgraded to the latest version of a package without testing it extensively (e.g.: Otter grader). As a rule of thumb, upgrade packages in staging environment and test the notebooks extensively. Only when you feel comfortable with the updated environment, ask the infra team to upgrade to the latest package version in the stable environment. If you are unsure of the URL for staging environment for the hub you use for teaching purposes then  ask the infra team.</p></li>
 <li><p>You are using databases like SQLite as part of your workflow without consulting the about best practices with the infrastructure team.</p></li>
 <li><p>You are trying to use GUI-based applications like pyqt5 and QGIS without consulting the infrastructure team</p></li>
+<li><p>You are using large language models as part of your assignments. We don’t offer GPUs as part of the instructional hubs hence group of students working on large assignments with language models can max out the CPU quickly. This can result in indefinite execution of celles with no output.</p></li>
 </ul>
 </section>
 
