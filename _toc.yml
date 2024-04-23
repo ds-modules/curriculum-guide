@@ -57,6 +57,8 @@ parts:
       title: Sharing information about the Hub
     - file: technology/pedagogy-and-technology/options-launch-rkernel
       title: Options to Launch R Kernel
+    - file: technology/using-ai-llm
+      title: Deploying language models in Datahub
   - file: technology/jupyter/large-datasets
     title: Working with Large Datasets
 - caption: Workflow Basics
