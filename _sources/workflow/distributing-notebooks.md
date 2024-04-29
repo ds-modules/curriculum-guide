@@ -67,12 +67,34 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 
 The technology behind interact links, called nbgitpuller, pulls _all files_ from a repo into the user's DataHub account. This means that **you should not store unfinished materials and answer keys in the same repo as published assignments**. Any interact link for a published assignment would also distribute the unfinished materials and answer keys to the students, which you probably do not want. Instead, **we recommend that you use a public repo for published assignments and a private repo for unfinished materials and answer keys**.
 
-### nbgitpuller Plugin
+### Datahub Link Generator Chrome Extension
 
-One of the latest update to the nbgitpuller link generator is the plugin which simplifies the task of generating shareable links.
+One of the latest update to the nbgitpuller link generator is the Datahub Link Generator extension which simplifies the task of generating shareable link. It is the Berkeley specific version of [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
 
-- Install the nbgitpuller [Chrome](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/nbgitpuller-link-generator/) extension in your respective browser. A good test to confirm whether the extension got installed in your browser is to do the following action. 
-- Access a Github repository containing notebooks via the browser where extension was installed 
+- Install the Datahub link generator [Chrome extension](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc).
+
+- Upon installation, select the puzzle piece located in the upper-right corner of your Chrome tab.
+
+```{figure} ../images/link-generator.png
+:width: 500px
+:align: center
+:name: nbgitpuller button location
+
+- Click on the pin button to make sure the extension stays pinned at the top of the screen.
+
+```{figure} ../images/pin-extension.png
+:width: 500px
+:align: center
+:name: nbgitpuller button location
+
+- The extension appears on the browser like the snapshot below,
+
+```{figure} ../images/installed-extension.png
+:width: 500px
+:align: center
+:name: nbgitpuller button location
+
+- Access a Github repository containing notebooks
 - Select the extensions icon in the top right part of the browser (closer to URL section) to show the installed extensions in the toolbar
 
 ```{figure} ../images/extension.png
@@ -80,20 +102,10 @@ One of the latest update to the nbgitpuller link generator is the plugin which s
 :align: center
 :name: extension icon
 
-Icon showing all the installed extensions!
+Icon showing the Datahub-link-generator extension
 ```
 
-- Check if nbgitpuller extension is present in the list
-- If yes, pin the extension so that it appears in the tool bar directly
-
-If you cannot find the button, try restarting the browser or reinstalling the plugin again. Sharing a snapshot of where the plugin appears in the page,
-
-```{figure} ../images/nbgitpuller_location.png
-:width: 500px
-:align: center
-:name: nbgitpuller button location
-
-Snapshot of where nbgitpuller button is located!
+Snapshot of where "copy nbgitpuller link" button is located!
 ```
 
 ```{figure} ../images/nbgitpuller_refresh.png
@@ -101,18 +113,19 @@ Snapshot of where nbgitpuller button is located!
 :align: center
 :name: nbgitpuller parameters
 
-Inputs for nbgitpuller extension!
+Inputs for link generator  extension!
 ```
 
 Follow the steps below to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,
 
 - Open your assignment in the respective Github repo. 
-```{figure} ../images/openassignment.PNG
+
+```{figure} ../images/extension.png
 :width: 500px
 :align: center
-:name: Assignment opened in GitHub
+:name: extension icon
 
-Snapshot of assignment in GitHub!
+Icon showing the Datahub-link-generator extension
 ```
 
 - Click on the "nbgitpuller" button. 
@@ -133,12 +146,12 @@ Inputs for nbgitpuller extension!
 	- If you want your students to work on a **R based assignment**, Select "RStudio" option from the dropdown list
 - As a last step, Select "Copy nbgitpuller link" button which generates a shareable link that opens your assignment in the choosen interface. 
 
-Here is a short GIF that walks you through the entire process to create a shareable link
+Here is a short GIF that walks you through the entire process to create a distributable link
 
-```{figure} ../images/nbgitpuller_demo.gif
+```{FIGURE} ../IMAGES/NBGITPULLER_DEMo.gif
 :width: 500px
 :align: center
 :name: nbgitpuller plugin demo
 
-Demo of nbgitpuller plugin!
+Demo of Datahub Link Generator extension!
 ```
