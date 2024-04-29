@@ -467,61 +467,37 @@ The output should be [https://datahub.berkeley.edu/user-redirect/interact?accoun
 <h2>Datahub Link Generator Chrome Extension<a class="headerlink" href="#datahub-link-generator-chrome-extension" title="Permalink to this heading">#</a></h2>
 <p>One of the latest update to the nbgitpuller link generator is the Datahub Link Generator extension which simplifies the task of generating shareable link. It is the Berkeley specific version of <a class="reference external" href="https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension">nbgitpuller link generator</a>.</p>
 <ul class="simple">
-<li><p>Install the Datahub link generator <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Chrome extension</a>.</p></li>
+<li><p>Install the Datahub link generator <a class="reference external" href="https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc">Chrome extension’s webpage</a> and click the “Add to Chrome” button.</p></li>
+<li><p>Click “Add extension” when you get prompted to “Add Datahub Link generator”</p></li>
+<li><p>You will get a notification that the extension got added to your browser</p></li>
 <li><p>Upon installation, select the puzzle piece located in the upper-right corner of your Chrome tab.</p></li>
 </ul>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../_images/link-generator.png"><img alt="../_images/link-generator.png" src="../_images/link-generator.png" style="width: 500px;" /></a>
 </figure>
-<p>Snapshot of where “copy nbgitpuller link” button is located!</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-```{figure} ../images/nbgitpuller_refresh.png
-:width: 500px
-:align: center
-:name: nbgitpuller parameters
-
-Inputs for link generator  extension!
-</pre></div>
-</div>
 <p>Follow the steps below to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,</p>
 <ul class="simple">
-<li><p>Open your assignment in the respective Github repo.</p></li>
+<li><p>Open your assignment from a respective Github repo</p></li>
 </ul>
-<figure class="align-center" id="id1">
-<a class="reference internal image-reference" href="../_images/extension.png"><img alt="../_images/extension.png" src="../_images/extension.png" style="width: 500px;" /></a>
+<figure class="align-center" id="github-repo">
+<a class="reference internal image-reference" href="../_images/github-notebook.png"><img alt="../_images/github-notebook.png" src="../_images/github-notebook.png" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Icon showing the Datahub-link-generator extension</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Open a notebook from github repo</span><a class="headerlink" href="#github-repo" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
-<li><p>Click on the “nbgitpuller” button.</p></li>
 <li><p>Copy past your JupyterHub instance’s URL (if you are using the main Datahub then you can use <a class="reference external" href="https://datahub.berkeley.edu/">https://datahub.berkeley.edu/</a>) in the “JupyterHub URL” textbox</p></li>
-<li><p>Open your assignment in the respective Github repo.</p></li>
-</ul>
-<figure class="align-center" id="nbgitpuller-parameters">
-<a class="reference internal image-reference" href="../_images/nbgitpuller_refresh.png"><img alt="../_images/nbgitpuller_refresh.png" src="../_images/nbgitpuller_refresh.png" style="width: 500px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Inputs for nbgitpuller extension!</span><a class="headerlink" href="#nbgitpuller-parameters" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
-<ul class="simple">
+<li><p>Open your assignment in the respective Github repo</p></li>
 <li><p>You can select from the below options for the “Open in” dropdownlist</p>
 <ul>
-<li><p>If you want your students to access a Jupyter notebook interface which is <strong>simple and intuitive to use</strong>, Select “Classic Notebook” option from the dropdown list or</p></li>
-<li><p>If you want them to explore more <strong>advanced features</strong> including 3rd party plugins from Jupyter ecosystem, Select “JuptyterLab” option from the dropdown list or</p></li>
-<li><p>If you want them to explore the <strong>latest notebook interface</strong> offered by Jupyter which marries the simplicity and intuitiveness of classic notebook with the advanced features from JupyterLab, Select “RetroLab” option from the dropdown list or</p></li>
+<li><p>If you want your students to access a Jupyter notebook interface which is <strong>simple and intuitive to use</strong>, Select “Classic Notebook” option from the dropdown list</p></li>
+<li><p>If you want them to explore more <strong>advanced features</strong> including 3rd party plugins from Jupyter ecosystem, Select “JuptyterLab” option from the dropdown list</p></li>
 <li><p>If you want your students to work on a <strong>R based assignment</strong>, Select “RStudio” option from the dropdown list</p></li>
 </ul>
 </li>
-<li><p>As a last step, Select “Copy nbgitpuller link” button which generates a shareable link that opens your assignment in the choosen interface.</p></li>
+<li><p>As a last step, Select “Copy nbgitpuller link” button which generates a shareable link that opens your assignment in the choosen interface or “Open in tab” button which opens the notebook in a new tab.</p></li>
 </ul>
 <p>Here is a short GIF that walks you through the entire process to create a distributable link</p>
-<figure class="align-center" id="nbgitpuller-plugin-demo">
-<a class="reference internal image-reference" href="IMAGES/NBGITPULLER_DEMo.gif"><img alt="IMAGES/NBGITPULLER_DEMo.gif" src="IMAGES/NBGITPULLER_DEMo.gif" style="width: 500px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Demo of Datahub Link Generator extension!</span><a class="headerlink" href="#nbgitpuller-plugin-demo" title="Permalink to this image">#</a></p>
-</figcaption>
-</figure>
 </section>
 </section>
 
