@@ -69,7 +69,9 @@ The technology behind interact links, called nbgitpuller, pulls _all files_ from
 
 ### Datahub Link Generator Chrome Extension
 
-One of the latest update to the nbgitpuller link generator is the Datahub Link Generator extension which simplifies the task of generating shareable link. It is the Berkeley specific version of [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
+One of the latest update to the nbgitpuller link generator is the Datahub Link Generator extension which simplifies the task of generating shareable link. It is a Berkeley specific version of [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
+
+The most recent addition to the nbgitpuller link generator is the Datahub Link Generator extension. This extension streamlines the process of creating shareable links and is tailored specifically for UC Berkeley instructors, as seen in the Berkeley-specific version of the [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
 
 ##### Install the Datahub Link Generator Chrome Extension:
 
@@ -126,6 +128,13 @@ Open a notebook from github repo
 
 - Select the link generator extensions icon in the top right part of the browser (closer to URL section)
 
+- Paste your Datahub URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
+- Choose the appropriate option from the “Open in” dropdown list:
+	- If you want your students to access a Jupyter notebook interface which is **simple and intuitive to use**, Select "Classic Notebook" option from the dropdown list
+	- If you want them to explore more **advanced features** including 3rd party plugins from Jupyter ecosystem, Select "JuptyterLab" option from the dropdown list
+	- If you want your students to work on a **R based assignment**, Select "RStudio" option from the dropdown list
+
+
 ```{figure} ../images/extension.png
 :width: 500px
 :align: center
@@ -134,9 +143,4 @@ Open a notebook from github repo
 Icon showing the Datahub-link-generator extension
 ```
 
-- Paste your Datahub URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
-- Choose the appropriate option from the “Open in” dropdown list:
-	- If you want your students to access a Jupyter notebook interface which is **simple and intuitive to use**, Select "Classic Notebook" option from the dropdown list
-	- If you want them to explore more **advanced features** including 3rd party plugins from Jupyter ecosystem, Select "JuptyterLab" option from the dropdown list
-	- If you want your students to work on a **R based assignment**, Select "RStudio" option from the dropdown list
 - As a last step, Select "Copy nbgitpuller link" button which generates a shareable link that opens your assignment in the choosen interface or "Open in tab" button which opens the notebook in a new tab. 
