@@ -71,18 +71,24 @@ The technology behind interact links, called nbgitpuller, pulls _all files_ from
 
 One of the latest update to the nbgitpuller link generator is the Datahub Link Generator extension which simplifies the task of generating shareable link. It is the Berkeley specific version of [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
 
-- Install the Datahub link generator [Chrome extension's webpage](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc) and click the "Add to Chrome" button.
+##### Install the Datahub Link Generator Chrome Extension:
 
-- Click "Add extension" when you get prompted to "Add Datahub Link generator"
+- Visit the Datahub link generator [Chrome extension's webpage](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc). Click the "Add to Chrome" button to install the extension.
 
-- You will get a notification that the extension got added to your browser
+- Click "Add extension" button when prompted. You’ll receive a notification confirming that the extension has been added to your browser
 
-- Upon installation, select the puzzle piece located in the upper-right corner of your Chrome tab.
+##### Access the Extension:
+
+
+- After installation, look for the puzzle piece icon in the upper-right corner of your Chrome tab.
 
 ```{figure} ../images/link-generator.png
 :width: 500px
 :align: center
-:name: link generator
+:name: puzzle piece
+
+Click puzzle piece icon
+``` 
 
 - Click on the pin button to make sure the extension stays pinned at the top of the screen.
 
@@ -91,6 +97,9 @@ One of the latest update to the nbgitpuller link generator is the Datahub Link G
 :align: center
 :name: pin extension
 
+Pin extension
+``` 
+
 - The extension appears on the browser like the snapshot below,
 
 ```{figure} ../images/installed-extension.png
@@ -98,19 +107,12 @@ One of the latest update to the nbgitpuller link generator is the Datahub Link G
 :align: center
 :name: show installed extension
 
-- Access a Github repository containing notebooks
+Show installed extension
+``` 
 
-- Select the extensions icon in the top right part of the browser (closer to URL section) to show the installed extensions in the toolbar
+##### Creating the nbgitpuller Link:
 
-```{figure} ../images/extension.png
-:width: 500px
-:align: center
-:name: extension icon
-
-Icon showing the Datahub-link-generator extension
-```
-
-Follow the steps below to create a nbgitpuller link for your assignment in the Jupyter or R interface that you want your students to work on,
+- Access a Github repository containing notebooks in Python/R
 
 - Open your assignment from a respective Github repo
 
@@ -121,12 +123,20 @@ Follow the steps below to create a nbgitpuller link for your assignment in the J
 
 Open a notebook from github repo
 ``` 
-- Copy past your JupyterHub instance's URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
-- Open your assignment in the respective Github repo
-- You can select from the below options for the "Open in" dropdownlist 
+
+- Select the link generator extensions icon in the top right part of the browser (closer to URL section)
+
+```{figure} ../images/extension.png
+:width: 500px
+:align: center
+:name: extension icon
+
+Icon showing the Datahub-link-generator extension
+```
+
+- Paste your Datahub URL (if you are using the main Datahub then you can use https://datahub.berkeley.edu/) in the "JupyterHub URL" textbox
+- Choose the appropriate option from the “Open in” dropdown list:
 	- If you want your students to access a Jupyter notebook interface which is **simple and intuitive to use**, Select "Classic Notebook" option from the dropdown list
 	- If you want them to explore more **advanced features** including 3rd party plugins from Jupyter ecosystem, Select "JuptyterLab" option from the dropdown list
 	- If you want your students to work on a **R based assignment**, Select "RStudio" option from the dropdown list
 - As a last step, Select "Copy nbgitpuller link" button which generates a shareable link that opens your assignment in the choosen interface or "Open in tab" button which opens the notebook in a new tab. 
-
-Here is a short GIF that walks you through the entire process to create a distributable link
