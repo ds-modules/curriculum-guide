@@ -58,7 +58,7 @@ parts:
     - file: technology/pedagogy-and-technology/options-launch-rkernel
       title: Options to Launch R Kernel
     - file: technology/using-ai-llm
-      title: Deploying language models in Datahub
+      title: Using Generative AI in Datahub
   - file: technology/jupyter/large-datasets
     title: Working with Large Datasets
 - caption: Workflow Basics
@@ -87,6 +87,8 @@ parts:
     title: Download Files/Folders as archive from Datahub
   - file: workflow/performance_issue.md
     title: Best Practices to Avoid Performance Issues
+  - file: workflow/securely-push-github
+    title: Securely Pushing Changes to Github
 #  - file: workflow/bestpractices
 #    title: Instructional Design Best Practices for Creating Jupyter Notebooks
 

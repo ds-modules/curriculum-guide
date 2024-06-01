@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Utilizing Large Language Models (LLMs) in Datahub &#8212; Curriculum Guide</title>
+    <title>Using generative AI in Datahub &#8212; Curriculum Guide</title>
   
   
   
@@ -175,7 +175,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l2"><a class="reference internal" href="../faq/features.html">Requesting new features in the Hub</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../faq/share.html">Sharing information about the Hub</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pedagogy-and-technology/options-launch-rkernel.html">Options to Launch R Kernel</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Deploying language models in Datahub</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Using Generative AI in Datahub</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="jupyter/large-datasets.html">Working with Large Datasets</a></li>
@@ -198,6 +198,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../workflow/download_notebook_as_pdf.html">Download Jupyter Notebook as PDF</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../workflow/download-archive.html">Download Files/Folders as archive from Datahub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../workflow/performance_issue.html">Best Practices to Avoid Performance Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/securely-push-github.html">Securely Pushing Changes to Github</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started with Modules and Connectors</span></p>
 <ul class="nav bd-sidenav">
@@ -358,7 +359,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -369,11 +372,29 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Utilizing Large Language Models (LLMs) in Datahub</h1>
+    <h1>Using generative AI in Datahub</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#disclaimer">Disclaimer</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-features">Key Features</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-api-keys">Setting Up API Keys</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-magic-commands">Using Magic Commands</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-chat-interface">Using the Chat Interface</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-help">Getting Help</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -383,10 +404,91 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="utilizing-large-language-models-llms-in-datahub">
-<h1>Utilizing Large Language Models (LLMs) in Datahub<a class="headerlink" href="#utilizing-large-language-models-llms-in-datahub" title="Permalink to this heading">#</a></h1>
-<p>Currently, the Datahub infrastructure team does not support the deployment of Large Language Models (LLMs) in courses utilizing Datahub. The limited compute resources available to courses, coupled with the unavailability of TPUs/GPUs, make it challenging to deploy language models in Datahub. Additionally, this could lead to a disproportionate increase in cloud costs, complicating operations.</p>
-<p>As part of their course assignments, Data 100 deployed a smaller language model known as DistilBERT. Here is an <a class="reference external" href="https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp24-student&amp;urlpath=lab%2Ftree%2Fsp24-student%2F%2Fhw%2Fhw03%2Fhw03.ipynb&amp;branch=main">example notebook</a> using distiBERT.  To ensure that course operations were not affected, CPU resources had to be bumped. If you’re considering the use of language models or any AI model as part of your teaching workflow, we strongly recommend scheduling a consultation with the Datahub team at the start of the semester or a few weeks prior to the assignment release. This proactive approach will greatly assist us in determining whether we can provide support, and if so, what optimizations need to be implemented on our end to ensure a smooth experience for both you and your students.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="using-generative-ai-in-datahub">
+<h1>Using generative AI in Datahub<a class="headerlink" href="#using-generative-ai-in-datahub" title="Permalink to this heading">#</a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<p>Jupyter AI integrates generative AI into Jupyter, allowing users to interact with AI models directly within their notebooks. This guide explains how to use Jupyter AI in your teaching and research.</p>
+</section>
+<section id="disclaimer">
+<h2>Disclaimer<a class="headerlink" href="#disclaimer" title="Permalink to this heading">#</a></h2>
+<p><strong>Note</strong>: The DataHub infrastructure team does not currently support the deployment of Large Language Models (LLMs) for courses using DataHub. Limited compute resources and the lack of TPUs/GPUs make it challenging to deploy language models, and doing so could lead to a significant increase in cloud costs. For these reasons, deploying language models on DataHub is considered on a case-by-case basis.</p>
+<p>In one course, a smaller language model known as DistilBERT was deployed by bumping CPU resources. Here is an <a class="reference external" href="https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp24-student&amp;urlpath=lab%2Ftree%2Fsp24-student%2F%2Fhw%2Fhw03%2Fhw03.ipynb&amp;branch=main">example notebook</a> using distiBERT. If you’re considering using language models or any AI model in your teaching workflow, we strongly recommend scheduling a consultation with the DataHub team at the start of the semester or a few weeks prior to the assignment release. This proactive approach helps determine the feasibility and necessary optimizations to ensure smooth operations.</p>
+</section>
+<section id="key-features">
+<h2>Key Features<a class="headerlink" href="#key-features" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Magic Commands</strong>: Use <code class="docutils literal notranslate"><span class="pre">%%ai</span></code> in notebooks to interact with AI models.</p></li>
+<li><p><strong>Chat Interface</strong>: Chat with AI models within JupyterLab.</p></li>
+<li><p><strong>Model Support</strong>: Works with various AI providers like OpenAI, Hugging Face, etc.</p></li>
+<li><p><strong>Local Models</strong>: Supports running local AI models for privacy.</p></li>
+</ul>
+</section>
+<section id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h2>
+<section id="setting-up-api-keys">
+<h3>Setting Up API Keys<a class="headerlink" href="#setting-up-api-keys" title="Permalink to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Obtain API Keys</strong>:</p>
+<ul class="simple">
+<li><p>Get API keys from your chosen AI model provider (e.g., OpenAI, Hugging Face).</p></li>
+</ul>
+</li>
+<li><p><strong>Set Up API Keys in Your Notebook</strong>:</p>
+<ul>
+<li><p>Add your API key to the environment variables in your Jupyter notebook:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">env</span> <span class="n">PROVIDER_API_KEY</span><span class="o">=</span><span class="n">YOUR_API_KEY_HERE</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="using-magic-commands">
+<h3>Using Magic Commands<a class="headerlink" href="#using-magic-commands" title="Permalink to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Load the AI Magic Command</strong>:</p>
+<ul>
+<li><p>In your notebook, run:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">load_ext</span> <span class="n">jupyter_ai</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</li>
+<li><p><strong>Use the AI Magic Command</strong>:</p>
+<ul>
+<li><p>To generate text or perform other AI tasks, use the following command:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">%%</span><span class="n">ai</span>
+<span class="n">Your</span> <span class="n">prompt</span> <span class="n">to</span> <span class="n">the</span> <span class="n">AI</span> <span class="n">model</span> <span class="n">here</span><span class="o">.</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="using-the-chat-interface">
+<h3>Using the Chat Interface<a class="headerlink" href="#using-the-chat-interface" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Access the Chat UI</strong>:</p>
+<ul>
+<li><p>Open the chat interface in JupyterLab to interact with the AI conversationally.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<section id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">#</a></h2>
+<p>Explore example notebooks provided in the Jupyter AI repository to see how to use the tool effectively in various scenarios.</p>
+</section>
+<section id="getting-help">
+<h2>Getting Help<a class="headerlink" href="#getting-help" title="Permalink to this heading">#</a></h2>
+<p>For detailed instructions, troubleshooting, and further information, refer to the <a class="reference external" href="https://jupyter-ai.readthedocs.io">official Jupyter AI documentation</a>.</p>
+<p>By following this guide, instructors can utilize AI capabilities within Jupyter notebooks to enhance their educational and research activities.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -447,6 +549,30 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#disclaimer">Disclaimer</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-features">Key Features</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">Getting Started</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-api-keys">Setting Up API Keys</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-magic-commands">Using Magic Commands</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-chat-interface">Using the Chat Interface</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples">Examples</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-help">Getting Help</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
