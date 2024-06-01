@@ -392,11 +392,27 @@ document.write(`
 <figure class="align-center" id="download-jupyter-notebook-as-web-pdf">
 <a class="reference internal image-reference" href="../_images/download_webPDF.png"><img alt="../_images/download_webPDF.png" src="../_images/download_webPDF.png" style="width: 500px;" /></a>
 </figure>
-<p>If you are using any other hub than the ones mentioned above, choose the following option,
-File -&gt; Save and Export Notebook As -&gt; PDF</p>
-<figure class="align-center" id="download-jupyter-notebook-as-pdf">
-<a class="reference internal image-reference" href="../_images/download_PDF.png"><img alt="../_images/download_PDF.png" src="../_images/download_PDF.png" style="width: 500px;" /></a>
-</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When using webpdf option, ensure that your images are formatted appropriately so that it gets rendered in the PDF given the issue with <a class="reference external" href="https://github.com/jupyter/nbconvert/issues/1326#issuecomment-1019204102">nbconvert</a>.</p>
+<p>Absolute URLs: Images with absolute URLs in the image tag source are rendered in the PDF. Example: <img src="https://data-88e.github.io/assets/images/blue_text.png">.</p>
+<p>Relative URLs: Images with relative URLs in the image tag source won’t be rendered in the PDF. Example: <img src="blue_text.png">.</p>
+<p>Markdown Format: Images added in Markdown format, like</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>![Macss Logo](blue_text.png)
+</pre></div>
+</div>
+</div>
+<p>,are rendered in the PDF.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+If you are using any other hub than the ones mentioned above, choose the following option,
+File -&gt; Save and Export Notebook As -&gt; PDF
+
+```{figure} ../images/download_PDF.png
+:width: 500px
+:align: center
+:name: Download Jupyter Notebook as PDF
+</pre></div>
+</div>
 <p>If you choose to download the notebook files as HTML then choose the following option,
 File -&gt; Save and Export Notebook As -&gt; HTML</p>
 <figure class="align-center" id="download-jupyter-notebook-as-html">
