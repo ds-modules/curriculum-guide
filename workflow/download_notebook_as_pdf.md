@@ -12,6 +12,22 @@ File -> Save and Export Notebook As -> Webpdf
 :name: Download Jupyter Notebook as Web PDF
 ```
 
+```{note}
+When using webpdf option, ensure that your images are formatted appropriately so that it gets rendered in the PDF given the issue with [nbconvert](https://github.com/jupyter/nbconvert/issues/1326#issuecomment-1019204102).
+
+Absolute URLs: Images with absolute URLs in the image tag source are rendered in the PDF. Example: <img src="https://data-88e.github.io/assets/images/blue_text.png">.
+
+Relative URLs: Images with relative URLs in the image tag source won't be rendered in the PDF. Example: <img src="blue_text.png">.
+
+Markdown Format: Images added in Markdown format, like 
+
+```{code}
+![Macss Logo](blue_text.png)
+```
+,are rendered in the PDF.
+
+```
+
 If you are using any other hub than the ones mentioned above, choose the following option,
 File -> Save and Export Notebook As -> PDF
 
