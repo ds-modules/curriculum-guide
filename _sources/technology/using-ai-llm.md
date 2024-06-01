@@ -1,4 +1,4 @@
-# Using generative AI in Datahub
+# Using generative AI in Jupyter
 
 ## Introduction
 
@@ -11,6 +11,8 @@ Jupyter AI integrates generative AI into Jupyter, allowing users to interact wit
 In one course, a smaller language model known as DistilBERT was deployed by bumping CPU resources. Here is an [example notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp24-student&urlpath=lab%2Ftree%2Fsp24-student%2F%2Fhw%2Fhw03%2Fhw03.ipynb&branch=main) using distiBERT. If you're considering using language models or any AI model in your teaching workflow, we strongly recommend scheduling a consultation with the DataHub team at the start of the semester or a few weeks prior to the assignment release. This proactive approach helps determine the feasibility and necessary optimizations to ensure smooth operations.
 
 ## Key Features
+
+Let's look at some interested usecases of Jupyter-AI,
 
 - **Magic Commands**: Use `%%ai` in notebooks to interact with AI models.
 - **Chat Interface**: Chat with AI models within JupyterLab.
@@ -52,10 +54,8 @@ In one course, a smaller language model known as DistilBERT was deployed by bump
 
 ## Examples
 
-Explore example notebooks provided in the Jupyter AI repository to see how to use the tool effectively in various scenarios.
+Explore example notebooks provided in the Jupyter AI repository to see how to use the tool effectively in various scenarios. We will add more examples when UCB instructors starts to integrate Jupyter-AI as part of their instructional workflow.
 
 ## Getting Help
 
 For detailed instructions, troubleshooting, and further information, refer to the [official Jupyter AI documentation](https://jupyter-ai.readthedocs.io).
-
-By following this guide, instructors can utilize AI capabilities within Jupyter notebooks to enhance their educational and research activities.
