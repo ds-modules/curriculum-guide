@@ -37,13 +37,13 @@ scholar:
 # Navigate to https://analytics.google.com, add a new property for your jupyter book and copy the tracking id here.
 html:
   google_analytics:
-  mytrackingcode: ''
-  content_folder_name: content           # The folder where your raw content (notebooks/markdown files) are located
-  images_url: /assets/images                   # Path to static image files
-  css_url: /assets/css                      # Path to static CSS files
-  js_url: /assets/js                       # Path to JS files
-  custom_static_url: /assets/custom            # Path to user's custom CSS/JS files
-  #  baseurl: "https://balajialg.github.io/curriculum-guide"  # The base URL where your book will be hosted. Used for cr
+    mytrackingcode: 'G-470CXFNJ3W'    # Replace 'YOUR_TRACKING_ID' with your actual Google Analytics tracking ID
+  content_folder_name: /            # The folder where your raw content (notebooks/markdown files) are located
+  images_url: /assets/images              # Path to static image files
+  css_url: /assets/css                    # Path to static CSS files
+  js_url: /assets/js                      # Path to JS files
+  custom_static_url: /assets/custom       # Path to user's custom CSS/JS files
+  baseurl: "https://ds-modules.github.io/curriculum-guide"  # The base URL where your book will be hosted. Used for cr
 
 #######################################################################################
 repository:
