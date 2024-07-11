@@ -17,7 +17,7 @@
 #######################################################################################
 title: Curriculum Guide
 logo: images/logo/logo.png
-author: Christopher pyles and Balaji Alwar
+author: Christopher Pyles and Balaji Alwar
 email: balajialwar@berkeley.edu
 description: >-
         This is a guide to building courses at UC Berkeley leveraging the Division of Data Sciences
@@ -36,8 +36,7 @@ scholar:
 
 # Navigate to https://analytics.google.com, add a new property for your jupyter book and copy the tracking id here.
 html:
-  google_analytics:
-    mytrackingcode: 'G-470CXFNJ3W'    # Replace 'YOUR_TRACKING_ID' with your actual Google Analytics tracking ID
+  google_analytics_id: "G-470CXFNJ3W"    # A GA id that can be used to track website views.
   content_folder_name: /            # The folder where your raw content (notebooks/markdown files) are located
   images_url: /assets/images              # Path to static image files
   css_url: /assets/css                    # Path to static CSS files
@@ -47,7 +46,7 @@ html:
 
 #######################################################################################
 repository:
-  url                       : https://github.com/balajialg/curriculum-guide  # The URL to your book's repository
+  url                       : https://github.com/ds-modules/curriculum-guide  # The URL to your book's repository
   branch                    : main
   
 # Main page settings
