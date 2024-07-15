@@ -8,8 +8,6 @@ This guide is now located at [ds-modules.github.io/curriculum-guide](https://ds-
 
 The information in the guide is primarily intended for instructors who either currently are or will be teaching a course in the UC Berkeley Data Science Education Program: either a connector course, a data-enabled course, or a course featuring a data science module. However, anyone else who wants to learn more about the program, the courses, and the technology is encouraged to look through the guide.
 
-### Build Instructions (heavily borrowed from Shane's update in https://github.com/berkeley-dsep-infra/datahub-usage-analysis)
-
 # Working in this repo
 
 ## SSH keys
@@ -185,4 +183,4 @@ Specifically, please read/review the following chapters:
 4. [Chapter 5](https://www.git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows)
 5. [Chapter 6](https://www.git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)
 
-
+Credits: Shane's instructions in https://github.com/berkeley-dsep-infra/datahub-usage-analysis
