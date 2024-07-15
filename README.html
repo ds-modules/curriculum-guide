@@ -388,12 +388,29 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Welcome to the UC Berkeley Data Science Curriculum Guide!</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-guide-has-moved">The Guide has Moved!</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-this-guide-and-who-is-it-for">What is this guide and who is it for?</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-instructions">Build Instructions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-instructions-heavily-borrowed-from-shane-s-update-in-https-github-com-berkeley-dsep-infra-datahub-usage-analysis">Build Instructions (heavily borrowed from Shane’s update in https://github.com/berkeley-dsep-infra/datahub-usage-analysis)</a></li>
 </ul>
 </li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#working-in-this-repo">Working in this repo</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ssh-keys">SSH keys</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ubuntu-wsl2">Ubuntu/WSL2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#macos">Macos</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#windows">Windows</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#upload-your-public-ssh-key-to-github">Upload your public ssh key to GitHub</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-your-fork-and-clones">Setting up your fork and clones</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure">Procedure</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#recommended-reading">Recommended reading</a></li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -413,11 +430,173 @@ document.write(`
 <h3>What is this guide and who is it for?<a class="headerlink" href="#what-is-this-guide-and-who-is-it-for" title="Permalink to this heading">#</a></h3>
 <p>The information in the guide is primarily intended for instructors who either currently are or will be teaching a course in the UC Berkeley Data Science Education Program: either a connector course, a data-enabled course, or a course featuring a data science module. However, anyone else who wants to learn more about the program, the courses, and the technology is encouraged to look through the guide.</p>
 </section>
-<section id="build-instructions">
-<h3>Build Instructions<a class="headerlink" href="#build-instructions" title="Permalink to this heading">#</a></h3>
-<p>For instructions on how to make changes to this site, see the <a class="reference internal" href="build.html"><span class="doc std std-doc"><code class="docutils literal notranslate"><span class="pre">build.md</span></code></span></a> file.</p>
+<section id="build-instructions-heavily-borrowed-from-shane-s-update-in-https-github-com-berkeley-dsep-infra-datahub-usage-analysis">
+<h3>Build Instructions (heavily borrowed from Shane’s update in <a class="github reference external" href="https://github.com/berkeley-dsep-infra/datahub-usage-analysis">berkeley-dsep-infra/datahub-usage-analysis</a>)<a class="headerlink" href="#build-instructions-heavily-borrowed-from-shane-s-update-in-https-github-com-berkeley-dsep-infra-datahub-usage-analysis" title="Permalink to this heading">#</a></h3>
 </section>
 </section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="working-in-this-repo">
+<h1>Working in this repo<a class="headerlink" href="#working-in-this-repo" title="Permalink to this heading">#</a></h1>
+<section id="ssh-keys">
+<h2>SSH keys<a class="headerlink" href="#ssh-keys" title="Permalink to this heading">#</a></h2>
+<p>If you’ve created <code class="docutils literal notranslate"><span class="pre">ssh</span></code> keys previously, please skip to the next step.</p>
+<section id="ubuntu-wsl2">
+<h3>Ubuntu/WSL2<a class="headerlink" href="#ubuntu-wsl2" title="Permalink to this heading">#</a></h3>
+<p>If you’re running Ubuntu, regular installation/VM or WSL2, and have NOT
+previously generated SSH keys please execute the following commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ssh</span><span class="o">-</span><span class="n">keygen</span> <span class="o">-</span><span class="n">t</span> <span class="n">rsa</span> <span class="o">-</span><span class="n">b</span> <span class="mi">8192</span>
+</pre></div>
+</div>
+<p>For added security, you can choose to enter a passphrase during key creation.
+This is optional.</p>
+</section>
+<section id="macos">
+<h3>Macos<a class="headerlink" href="#macos" title="Permalink to this heading">#</a></h3>
+<p>If you’re using macos, and have NOT previously generated SSH keys please
+execute the following commands:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ssh</span><span class="o">-</span><span class="n">keygen</span> <span class="o">-</span><span class="n">t</span> <span class="n">rsa</span> <span class="o">-</span><span class="n">b</span> <span class="mi">8192</span>
+</pre></div>
+</div>
+<p>For added security, you can choose to enter a passphrase during key creation.
+This is optional.</p>
+</section>
+<section id="windows">
+<h3>Windows<a class="headerlink" href="#windows" title="Permalink to this heading">#</a></h3>
+<p>If you’re running Windows, please install either <a class="reference external" href="https://learn.microsoft.com/en-us/windows/wsl/install">WSL2 native linux</a>
+or <a class="reference external" href="https://www.git-scm.com/download/win">gitbash</a>.</p>
+<p>Open a terminal, and run the following command.  WSL2 is preferred, but there
+are a few additional steps required.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ssh</span><span class="o">-</span><span class="n">keygen</span> <span class="o">-</span><span class="n">t</span> <span class="n">rsa</span> <span class="o">-</span><span class="n">b</span> <span class="mi">8192</span>
+</pre></div>
+</div>
+<p>For added security, you can choose to enter a passphrase during key creation.
+This is optional.</p>
+</section>
+<section id="upload-your-public-ssh-key-to-github">
+<h3>Upload your public ssh key to GitHub<a class="headerlink" href="#upload-your-public-ssh-key-to-github" title="Permalink to this heading">#</a></h3>
+<p>Please follow the instructions <a class="reference external" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">here</a>
+to upload your SSH public key to GitHub.  This allows you to authenticate while
+using <code class="docutils literal notranslate"><span class="pre">git</span></code> in a repo.</p>
+</section>
+</section>
+<section id="setting-up-your-fork-and-clones">
+<h2>Setting up your fork and clones<a class="headerlink" href="#setting-up-your-fork-and-clones" title="Permalink to this heading">#</a></h2>
+<p>When you log in to your terminal, you will be in your home directory.  We
+recomend creating a sub-directory named something like <code class="docutils literal notranslate"><span class="pre">src</span></code> or <code class="docutils literal notranslate"><span class="pre">repos</span></code>.  This
+will help you manage any other repos you might download.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pwd
+/home/username
+$ mkdir repos
+$ cd repos
+</pre></div>
+</div>
+<p>Next, go to the <a class="reference external" href="https://github.com/ds-modules/curriculum-guide">Curriculum Guide github repo</a>
+and create a fork.  To do this, click on the <code class="docutils literal notranslate"><span class="pre">fork</span></code> button and then
+<code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">fork</span></code>.</p>
+<p>Now clone the Curriculum Guide repo on your local device. You
+can get the URL to do this by licking on the green <code class="docutils literal notranslate"><span class="pre">Code</span></code> button in the primary
+<a class="reference external" href="https://github.com/berkeley-dsep-infra/curriculum-guide/">Curriculum Guide</a>
+repo (<em>not</em> your fork) and clicking on <code class="docutils literal notranslate"><span class="pre">ssh</span></code> and copying the value in the box.</p>
+<p>Before you clone, make sure that you’re in the subdirectory that will contain
+this repo:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pwd
+/home/username/repos
+</pre></div>
+</div>
+<p>Now you can run the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code> command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">ds</span><span class="o">-</span><span class="n">modules</span><span class="o">/</span><span class="n">curriculum</span><span class="o">-</span><span class="n">guide</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<p>Now <code class="docutils literal notranslate"><span class="pre">cd</span></code> in to <code class="docutils literal notranslate"><span class="pre">curriculum-guide</span></code> directory and set up your local repo
+to point both at the primary repo (<code class="docutils literal notranslate"><span class="pre">upstream</span></code>) and your fork (<code class="docutils literal notranslate"><span class="pre">origin</span></code>).  After
+the initial clone, <code class="docutils literal notranslate"><span class="pre">origin</span></code> will be pointing to the main repo and we’ll need
+to change that.</p>
+<p>Here is an example, including output, of how to set up your remotes:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd curriculum guide
+$ git remote -v
+origin	git@github.com:ds-modules/curriculum-guide.git (fetch)
+origin	git@github.com:ds-modules/curriculum-guide.git (push)
+$ git remote rename origin upstream
+$ git remote add origin git@github.com:&lt;your github username&gt;/curriculum-guide.git
+$ git remote -v
+origin	git@github.com:&lt;your github username&gt;/curriculum-guide.git (fetch)
+origin	git@github.com:&lt;your github username&gt;/curriculum-guide.git (push)
+upstream	git@github.com:berkeley-dsep-infra/curriculum-guide.git (fetch)
+upstream	git@github.com:berkeley-dsep-infra/curriculum-guide.git (push)
+</pre></div>
+</div>
+<p>The raw commands to copy and paste are below:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">curriculum</span><span class="o">-</span><span class="n">guide</span><span class="o">.</span><span class="n">git</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="o">-</span><span class="n">v</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="n">rename</span> <span class="n">origin</span> <span class="n">upstream</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="o">&lt;</span><span class="n">your</span> <span class="n">github</span> <span class="n">username</span><span class="o">&gt;/</span><span class="n">curriculum</span><span class="o">-</span><span class="n">guide</span><span class="o">.</span><span class="n">git</span>
+<span class="n">git</span> <span class="n">remote</span> <span class="o">-</span><span class="n">v</span>
+</pre></div>
+</div>
+<p>Now you can sync your local repo from <code class="docutils literal notranslate"><span class="pre">upstream</span></code>, and push those changes to
+your fork (<code class="docutils literal notranslate"><span class="pre">origin</span></code>):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">main</span> <span class="o">&amp;&amp;</span> \
+<span class="n">git</span> <span class="n">fetch</span> <span class="o">--</span><span class="n">prune</span> <span class="o">--</span><span class="nb">all</span> <span class="o">&amp;&amp;</span> \
+<span class="n">git</span> <span class="n">rebase</span> <span class="n">upstream</span><span class="o">/</span><span class="n">main</span> <span class="o">&amp;&amp;</span> \
+<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">main</span>
+</pre></div>
+</div>
+</section>
+<section id="procedure">
+<h2>Procedure<a class="headerlink" href="#procedure" title="Permalink to this heading">#</a></h2>
+<p>When making changes to anything in this repo, always work in a fork and on a
+feature branch.  You should also make sure that your local repo is up-to-date
+with this one (upstream) prior to making and committing changes. This is
+because other contributors may have pushed changes after you last synced with
+this repo.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">main</span> <span class="o">&amp;&amp;</span> \
+<span class="n">git</span> <span class="n">fetch</span> <span class="o">--</span><span class="n">prune</span> <span class="o">--</span><span class="nb">all</span> <span class="o">&amp;&amp;</span> \
+<span class="n">git</span> <span class="n">rebase</span> <span class="n">upstream</span><span class="o">/</span><span class="n">main</span> <span class="o">&amp;&amp;</span> \
+<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">main</span>
+</pre></div>
+</div>
+<p>To create a new feature branch and switch to it, run the following command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">branch</span> <span class="n">name</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Make changes to files in the faq or general or technology or workflow directories. The pages and corresponding files can be found in _toc.yml. Add any new pages to _toc.yml.</p>
+<p>After you make your changes, you can use the following commands to see
+what’s been modified and check out the diffs:  <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code> and <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span></code>.</p>
+<p>When you’re ready to push these changes, first you’ll need to stage them for a
+commit:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">add</span> <span class="o">&lt;</span><span class="n">file1</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">file2</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">etc</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Commit these changes locally:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">&quot;commit description&quot;</span>
+</pre></div>
+</div>
+<p>Now push to your fork:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="o">&lt;</span><span class="n">branch</span> <span class="n">name</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Once you’ve pushed to your fork, you can go to the
+<a class="reference external" href="https://github.com/ds-modules/curriculum-guide">Curriculum Guide repo</a>
+and there should be a big green button on the top that says <code class="docutils literal notranslate"><span class="pre">Compare</span> <span class="pre">and</span> <span class="pre">pull</span> <span class="pre">request</span></code>.
+Click on that, check out the commits and file diffs, edit the title and
+description if needed and then click <code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">pull</span> <span class="pre">request</span></code>.</p>
+<p>Once you create a pull request, a github action will run which will build the jupyterbook
+and publish it to <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/intro.html">https://ds-modules.github.io/curriculum-guide/intro.html</a> as a public facing
+website. Github action will fail if there are issues with the commit.</p>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="recommended-reading">
+<h1>Recommended reading<a class="headerlink" href="#recommended-reading" title="Permalink to this heading">#</a></h1>
+<p>If you are new to <code class="docutils literal notranslate"><span class="pre">git</span></code>, or just want to learn a bit more about it, I highly
+recommend taking a look at the official <a class="reference external" href="https://www.git-scm.com/book/en/v2"><code class="docutils literal notranslate"><span class="pre">git</span></code> online book</a>.</p>
+<p>Specifically, please read/review the following chapters:</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://www.git-scm.com/book/en/v2/Getting-Started-About-Version-Control">Chapter 1</a></p></li>
+<li><p><a class="reference external" href="https://www.git-scm.com/book/en/v2/Getting-Started-About-Version-Control">Chapter 2</a></p></li>
+<li><p><a class="reference external" href="https://www.git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell">Chapter 3</a></p></li>
+<li><p><a class="reference external" href="https://www.git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows">Chapter 5</a></p></li>
+<li><p><a class="reference external" href="https://www.git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration">Chapter 6</a></p></li>
+</ol>
 </section>
 
     <script type="text/x-thebe-config">
@@ -469,12 +648,29 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Welcome to the UC Berkeley Data Science Curriculum Guide!</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-guide-has-moved">The Guide has Moved!</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-this-guide-and-who-is-it-for">What is this guide and who is it for?</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-instructions">Build Instructions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build-instructions-heavily-borrowed-from-shane-s-update-in-https-github-com-berkeley-dsep-infra-datahub-usage-analysis">Build Instructions (heavily borrowed from Shane’s update in https://github.com/berkeley-dsep-infra/datahub-usage-analysis)</a></li>
 </ul>
 </li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#working-in-this-repo">Working in this repo</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ssh-keys">SSH keys</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ubuntu-wsl2">Ubuntu/WSL2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#macos">Macos</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#windows">Windows</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#upload-your-public-ssh-key-to-github">Upload your public ssh key to GitHub</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-your-fork-and-clones">Setting up your fork and clones</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#procedure">Procedure</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#recommended-reading">Recommended reading</a></li>
+</ul>
+
   </nav></div>
 
 </div></div>
