@@ -71,9 +71,9 @@ parts:
     title: Uploading Files to Github
   - file: workflow/distributing-notebooks
     title: Distributing Assignments
-  - file: workflow/collecting-grading-assignments
+  - file: workflow/use-retrolab
     title: Launch Jupyter notebooks using RetroLab interface!
-  - file: workflow/use-retrolab.md
+  - file: workflow/collecting-grading-assignments
     title: Collecting and Grading Assignments
   - file: workflow/use-realtimecollaboration
     title: Using Real Time Collaboration (RTC)
