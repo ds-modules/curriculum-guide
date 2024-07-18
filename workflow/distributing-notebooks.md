@@ -69,13 +69,11 @@ The technology behind interact links, called nbgitpuller, pulls _all files_ from
 
 ### Datahub Link Generator Chrome Extension
 
-One of the latest update to the nbgitpuller link generator is the Datahub Link Generator extension which simplifies the task of generating shareable link. It is a Berkeley specific version of [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
-
 The most recent addition to the nbgitpuller link generator is the Datahub Link Generator extension. This extension streamlines the process of creating shareable links and is tailored specifically for UC Berkeley instructors, as seen in the Berkeley-specific version of the [nbgitpuller link generator](https://github.com/berkeley-dsep-infra/nbgitpuller-link-generator-webextension).
 
 ##### Install the Datahub Link Generator Chrome Extension:
 
-- Visit the Datahub link generator [Chrome extension's webpage](https://chrome.google.com/webstore/detail/nbgitpuller-link-generato/hpdbdpklpmppnoibabdkkhnfhkkehgnc). Click the "Add to Chrome" button to install the extension.
+- Visit the Datahub link generator [Chrome extension's webpage](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en). Click the "Add to Chrome" button to install the extension.
 
 - Click "Add extension" button when prompted. You’ll receive a notification confirming that the extension has been added to your browser
 
