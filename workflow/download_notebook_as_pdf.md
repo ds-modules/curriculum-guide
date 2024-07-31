@@ -22,7 +22,7 @@ File -> Save and Export Notebook As -> HTML
 :name: Download Jupyter Notebook as HTML
 ```
 
-```{note}
+````{note}
 When it comes to embedding images in Jupyter notebooks so that it is available as part of PDF, there are various methods to include images. Below are the five options to embed an image of an early Mathematica interface.
 
 #### HTML Image Tag
@@ -66,4 +66,4 @@ The IPython.display module provides functions to display images directly in Jupy
 
 This method is used to embed an image as an attachment within a Jupyter notebook. It references the image by its attachment identifier, which is useful for images embedded directly within the notebook file.
 
-```
+````
