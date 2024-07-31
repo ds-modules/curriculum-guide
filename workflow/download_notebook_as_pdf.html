@@ -367,9 +367,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -385,17 +383,6 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-image-syntax">Markdown Image Syntax</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#html-in-markdown-cell">HTML in Markdown Cell</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ipython-display-module">IPython Display Module</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-image-with-attachment">Markdown Image with Attachment</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -425,40 +412,29 @@ document.write(`
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">img</span> <span class="n">src</span><span class="o">=</span><span class="s2">&quot;mathematica.png&quot;</span> <span class="n">alt</span><span class="o">=</span><span class="s2">&quot;Early Mathematica Interface&quot;</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;width: 250px;&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;center&quot;</span><span class="o">/&gt;</span>
 </pre></div>
 </div>
-</div>
 <p>This method uses standard HTML to embed an image. It is straightforward and allows for extensive customization through HTML attributes like style and class.</p>
-<section id="markdown-image-syntax">
-<h2>Markdown Image Syntax<a class="headerlink" href="#markdown-image-syntax" title="Permalink to this heading">#</a></h2>
+<p class="rubric">Markdown Image Syntax</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>![mathematica](mathematica.png)
 </pre></div>
 </div>
 <p>Markdown provides a simple syntax for embedding images. This method is concise and ideal for use in Markdown cells in Jupyter notebooks.</p>
-</section>
-<section id="html-in-markdown-cell">
-<h2>HTML in Markdown Cell<a class="headerlink" href="#html-in-markdown-cell" title="Permalink to this heading">#</a></h2>
+<p class="rubric">HTML in Markdown Cell</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">img</span> <span class="n">src</span><span class="o">=</span><span class="s2">&quot;https://rtl.berkeley.edu/profiles/openberkeley/themes/openberkeley_theme_brand/assets/images/berkeley_wordmark_blue_175x70.svg&quot;</span> <span class="n">alt</span><span class="o">=</span><span class="s2">&quot;Berkeley Logo&quot;</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;width: 250px;&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;center&quot;</span><span class="o">/&gt;</span>
 </pre></div>
 </div>
 <p>Embedding an image using HTML within a Markdown cell offers the flexibility of HTML while allowing the cell to remain in Markdown mode. This is useful for more complex styling and alignment requirements.</p>
-</section>
-<section id="ipython-display-module">
-<h2>IPython Display Module<a class="headerlink" href="#ipython-display-module" title="Permalink to this heading">#</a></h2>
+<p class="rubric">IPython Display Module</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">Image</span>
 <span class="n">display</span><span class="p">(</span><span class="n">Image</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;mathematica.png&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">250</span><span class="p">))</span>\
 </pre></div>
 </div>
 <p>The IPython.display module provides functions to display images directly in Jupyter notebooks.</p>
-</section>
-<section id="markdown-image-with-attachment">
-<h2>Markdown Image with Attachment<a class="headerlink" href="#markdown-image-with-attachment" title="Permalink to this heading">#</a></h2>
+<p class="rubric">Markdown Image with Attachment</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>![mathematica.png](attachment:5265a161-c705-42fc-a3ed-ec1fde427030.png)
 </pre></div>
 </div>
 <p>This method is used to embed an image as an attachment within a Jupyter notebook. It references the image by its attachment identifier, which is useful for images embedded directly within the notebook file.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-</pre></div>
 </div>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -519,23 +495,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-image-syntax">Markdown Image Syntax</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#html-in-markdown-cell">HTML in Markdown Cell</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ipython-display-module">IPython Display Module</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-image-with-attachment">Markdown Image with Attachment</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>
