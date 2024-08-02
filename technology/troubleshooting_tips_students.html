@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Instructor activity: Generate nbgitpuller link from scratch &#8212; Curriculum Guide</title>
+    <title>Troubleshooting Tips to Use Datahub &#8212; Curriculum Guide</title>
   
   
   
@@ -68,12 +68,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'technology/instructor-activity';</script>
-    <link rel="canonical" href="https://ds-modules.github.io/curriculum-guide/technology/instructor-activity.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'technology/troubleshooting_tips_students';</script>
+    <link rel="canonical" href="https://ds-modules.github.io/curriculum-guide/technology/troubleshooting_tips_students.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Who are we?" href="../general/people.html" />
-    <link rel="prev" title="Troubleshooting Tips to Use Datahub" href="troubleshooting_tips_students.html" />
+    <link rel="next" title="Instructor activity: Generate nbgitpuller link from scratch" href="instructor-activity.html" />
+    <link rel="prev" title="Resources For Students" href="resources.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -232,13 +232,13 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../module/instructor/deploy-help.html">Requesting Deployment Help</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Additional Resources for Students</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="resources.html">Resources for Students</a></li>
-<li class="toctree-l1"><a class="reference internal" href="troubleshooting_tips_students.html">Troubleshooting Tips for Students</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Troubleshooting Tips for Students</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Workshop Resources</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Instructor Activity</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="instructor-activity.html">Instructor Activity</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Reference</span></p>
 <ul class="nav bd-sidenav">
@@ -299,7 +299,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/technology/instructor-activity.md" target="_blank"
+      <li><a href="../_sources/technology/troubleshooting_tips_students.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -381,7 +381,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Instructor activity: Generate nbgitpuller link from scratch</h1>
+    <h1>Troubleshooting Tips to Use Datahub</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -391,8 +391,31 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-1-via-nbgitpuller">Option 1 - via nbgitpuller</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-2-via-jupyter-notebook">Option 2 - via Jupyter notebook</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-the-uc-berkeley-datahub">About the UC Berkeley DataHub:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#before-the-semester-begins">Before the Semester Begins</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#browser-and-internet-check">1. Browser and Internet Check</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#account-setup-and-access">2. Account Setup and Access</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#familiarize-yourself-with-datahub">3. Familiarize Yourself with DataHub</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#during-the-semester">During the Semester</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#accessing-course-materials">1. Accessing Course Materials</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#completing-assignments">2. Completing Assignments</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#collaboration-and-sharing">3. Collaboration and Sharing</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">4. Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#restart-kernel-server-try-restarting-your-kernel-as-a-classic-troubleshooting-step-to-see-if-the-error-goes-away-if-the-problem-persists-restart-your-server">Restart Kernel/Server: Try restarting your kernel as a classic troubleshooting step to see if the error goes away. If the problem persists, restart your server.</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#kill-process-having-too-many-things-open-on-datahub-can-cause-issues-to-check-running-processes-and-kill-them-follow-instructions-in-curriculum-guide">Kill Process: Having too many things open on Datahub can cause issues. To check running processes and kill them follow instructions in Curriculum Guide</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#end-of-the-semester">End of the Semester</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#backup-your-work">1. Backup Your Work</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#clean-up-your-workspace">2. Clean Up Your Workspace</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -404,43 +427,99 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="instructor-activity-generate-nbgitpuller-link-from-scratch">
-<h1>Instructor activity: Generate nbgitpuller link from scratch<a class="headerlink" href="#instructor-activity-generate-nbgitpuller-link-from-scratch" title="Permalink to this heading">#</a></h1>
-<section id="option-1-via-nbgitpuller">
-<h2>Option 1 - via nbgitpuller<a class="headerlink" href="#option-1-via-nbgitpuller" title="Permalink to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Click this <a class="reference external" href="https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fds-modules%2FDatahub-Workshop&amp;branch=main&amp;urlpath=tree%2FDatahub-Workshop%2Firis.ipynb">link</a> to launch a Jupyter notebook. This will clone a repository containing a Jupyter notebook to the home directory of your Berkeley Jupyterhub account.</p></li>
-<li><p>Execute all the cells in the “iris.ipynb” notebook which is located inside “datahub_workshop_feb24” directory</p></li>
-<li><p>(This is  an optional step) Add text as markdown in the notebook. For instance, you could add a header cell that says “Welcome to my first notebook!”</p></li>
-<li><p>(This is an optional step) Clear all the cells (this is relevant in teaching scenario).</p></li>
-<li><p>Download the notebook by selecting “File -&gt; Download” option</p></li>
-<li><p>Login to your Github account. Incase you don’t have an account, try creating a new Github account for the sake of this activity (or collaborate with someone who has a Github account)</p></li>
-<li><p>Create a new Github repository (If you are new to Github, check this <a class="reference external" href="https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories">documentation</a> for detailed steps to create a repository)</p></li>
-<li><p>Upload the notebook to Github repository (Refer to this <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/pushing-to-github.html?highlight=upload#using-the-web-interface">documentation</a> if needed)</p></li>
-<li><p>Install the “Datahub Link Generator” browser extension using this <a class="reference external" href="https://chromewebstore.google.com/detail/datahub-link-generator/lnaihiajhgbdabdnghflmjnamjkojpke?hl=en&amp;authuser=1">link</a>. Please follow the steps in the <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#nbgitpuller-plugin">documentation</a> to make the extension visible in your browser</p></li>
-<li><p>Generate a new nbgitpuller link by entering the following details in the input fields and clicking the button “Copy nbgitpuller link”
-“JupyterHub URL”: “<a class="reference external" href="https://datahub.berkeley.edu/">https://datahub.berkeley.edu/</a>”,
-“Open In”: “Classic Notebook”</p></li>
-<li><p>Share the nbgitpuller link with another collaborator who is attending the workshop</p></li>
-</ul>
+  <section class="tex2jax_ignore mathjax_ignore" id="troubleshooting-tips-to-use-datahub">
+<h1>Troubleshooting Tips to Use Datahub<a class="headerlink" href="#troubleshooting-tips-to-use-datahub" title="Permalink to this heading">#</a></h1>
+<section id="about-the-uc-berkeley-datahub">
+<h2>About the UC Berkeley DataHub:<a class="headerlink" href="#about-the-uc-berkeley-datahub" title="Permalink to this heading">#</a></h2>
+<p>The DataHub is UC Berkeley’s implementation of Jupyterhub and is a free service made available to UC Berkeley students to provide a small amount of computing and storage on a virtual machine running in the cloud. This guide provides an overview of the tasks you will need to complete before the semester begins, during the semester, and at the end of the semester. This high-level information will help you navigate your coursework effectively using the UC Berkeley DataHub.</p>
+<section id="before-the-semester-begins">
+<h3>Before the Semester Begins<a class="headerlink" href="#before-the-semester-begins" title="Permalink to this heading">#</a></h3>
+<section id="browser-and-internet-check">
+<h4>1. Browser and Internet Check<a class="headerlink" href="#browser-and-internet-check" title="Permalink to this heading">#</a></h4>
+<p>Browser Compatibility: Ensure you are using a compatible web browser (Chrome, Firefox, Safari) that is updated to the latest version.
+Internet Connection: Verify you have a stable internet connection to access DataHub smoothly.</p>
 </section>
-<section id="option-2-via-jupyter-notebook">
-<h2>Option 2 - via Jupyter notebook<a class="headerlink" href="#option-2-via-jupyter-notebook" title="Permalink to this heading">#</a></h2>
+<section id="account-setup-and-access">
+<h4>2. Account Setup and Access<a class="headerlink" href="#account-setup-and-access" title="Permalink to this heading">#</a></h4>
+<p>Activate CalNet ID: Ensure your CalNet ID is activated and functioning properly.
+Access DataHub: Go to <a class="reference external" href="http://datahub.berkeley.edu">datahub.berkeley.edu</a> and log in with your CalNet ID to verify you can access the platform. ( and allow Bcourses to authenticate “DataHub is requesting access to your account”.)</p>
+</section>
+<section id="familiarize-yourself-with-datahub">
+<h4>3. Familiarize Yourself with DataHub<a class="headerlink" href="#familiarize-yourself-with-datahub" title="Permalink to this heading">#</a></h4>
+<p>Overview: Review student resources to understand the varied features of DataHub.
+Interface Tour: Explore the DataHub interface, including the JupyterLab and RStudio environments.</p>
+</section>
+</section>
+<section id="during-the-semester">
+<h3>During the Semester<a class="headerlink" href="#during-the-semester" title="Permalink to this heading">#</a></h3>
+<section id="accessing-course-materials">
+<h4>1. Accessing Course Materials<a class="headerlink" href="#accessing-course-materials" title="Permalink to this heading">#</a></h4>
+<p>Course Hub: Use nbgitpuller links shared by your course instructors to launch notebooks in DataHub
+Notebooks and Scripts: Open and work on Jupyter Notebooks, R scripts, or other files as provided by your instructor.
+To manage files in JupyterHub:
+To upload a file, click the “Upload” button in the JupyterHub interface and select the file from your local machine.
+To download a file, right-click on the file in the JupyterHub interface and select the “Download” option.</p>
+</section>
+<section id="completing-assignments">
+<h4>2. Completing Assignments<a class="headerlink" href="#completing-assignments" title="Permalink to this heading">#</a></h4>
+<p>Regular Use: Regularly log in to DataHub to complete assignments, run analyses, and work on projects.
+Save Work: Save your progress frequently. It’s good practice to manually save your work as well.
+Check Storage Space: Delete unnecessary files and constantly check the storage size of the home directory.  You can do this by opening a Terminal, and executing du -sh
+Don’t Duplicate Shared Directory Content: If your course work requires shared directories where instructors are storing large datasets, don’t create a copy of the files in your home directory. Always, read data from the shared directory.
+Do Your Work in Sub Directories: Create a sub directory for each assignment and do your work there. Avoid working on assignments from the root directory as they may lead to data issues if done wrongly.</p>
+</section>
+<section id="collaboration-and-sharing">
+<h4>3. Collaboration and Sharing<a class="headerlink" href="#collaboration-and-sharing" title="Permalink to this heading">#</a></h4>
+<p>Note: Datahub doesn’t have collaboration tools at this time as we are continuously testing the latest updates.
+Instructor Feedback: Share your work with instructors or TAs for feedback by downloading and submitting your notebooks as required.</p>
+</section>
+<section id="troubleshooting">
+<h4>4. Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this heading">#</a></h4>
+<section id="restart-kernel-server-try-restarting-your-kernel-as-a-classic-troubleshooting-step-to-see-if-the-error-goes-away-if-the-problem-persists-restart-your-server">
+<h5>Restart Kernel/Server: Try restarting your kernel as a classic troubleshooting step to see if the error goes away. If the problem persists, restart your server.<a class="headerlink" href="#restart-kernel-server-try-restarting-your-kernel-as-a-classic-troubleshooting-step-to-see-if-the-error-goes-away-if-the-problem-persists-restart-your-server" title="Permalink to this heading">#</a></h5>
+</section>
+<section id="kill-process-having-too-many-things-open-on-datahub-can-cause-issues-to-check-running-processes-and-kill-them-follow-instructions-in-curriculum-guide">
+<h5>Kill Process: Having too many things open on Datahub can cause issues. To check running processes and kill them follow instructions in Curriculum Guide<a class="headerlink" href="#kill-process-having-too-many-things-open-on-datahub-can-cause-issues-to-check-running-processes-and-kill-them-follow-instructions-in-curriculum-guide" title="Permalink to this heading">#</a></h5>
+<p>** UI Based Approach: **</p>
 <ul class="simple">
-<li><p>Click this <a class="reference external" href="https://drive.google.com/drive/u/1/folders/12qOYTF3JELjBuofxsC4ktLBZFt2GD1TG">link</a> to download a PDF containing python code</p></li>
-<li><p>Login to <a class="reference external" href="https://datahub.berkeley.edu/">https://datahub.berkeley.edu/</a></p></li>
-<li><p>Launch a new notebook by selecting “Python 3 (ipykernel)” option from launcher (If required, refer to this <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/creating-notebooks.html?highlight=notebook#create-a-blank-notebook">documentation</a>)</p></li>
-<li><p>Copy paste the code from the PDF to the new notebook</p></li>
-<li><p>Save the notebook</p></li>
-<li><p>Download the notebook by selecting “File -&gt; Download” option</p></li>
-<li><p>Login to your Github account. Incase you don’t have an account, try creating a new Github account for the sake of this activity (or collaborate with someone who has a Github account)</p></li>
-<li><p>Create a new Github repository (If you are new to Github, check this <a class="reference external" href="https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories">documentation</a> for detailed steps). Upload the downloaded notebook to this Github repository.</p></li>
-<li><p>Install the “Datahub Link Generator” browser extension using this <a class="reference external" href="https://chromewebstore.google.com/detail/datahub-link-generator/lnaihiajhgbdabdnghflmjnamjkojpke?hl=en&amp;authuser=1">link</a>. Please follow the steps in the <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html?highlight=nbgitpuller#nbgitpuller-plugin">documentation</a> to make the extension visible in your browser</p></li>
-<li><p>Generate a new nbgitpuller link by entering the following details in the input fields and clicking the button “Copy nbgitpuller link”
-“JupyterHub URL”: “<a class="reference external" href="https://datahub.berkeley.edu/">https://datahub.berkeley.edu/</a>”,
-“Open In”: “Classic Notebook”</p></li>
-<li><p>Share the nbgitpuller link with another collaborator who is attending the workshop</p></li>
+<li><p>In Notebook - click Jupyter Icon in UR to get to ”tree”</p></li>
+<li><p>In “tree” click running processes tab</p></li>
+<li><p>Right click on any process to kill it ( or Kill all). In Lab you can see running processes in tab on left with this icon</p></li>
 </ul>
+<p>** CLI approach: **</p>
+<ul class="simple">
+<li><p>Open the terminal in Datahub.</p></li>
+<li><p>Use the command ps aux to list all running processes.</p></li>
+<li><p>Find the process ID (PID) of the processes you want to stop.</p></li>
+<li><p>Use the command kill <PID> to terminate those processes.</p></li>
+<li><p>Repeat these steps as necessary to manage your system resources.</p></li>
+</ul>
+<p>Support: Reach out to course TAs for technical help, and they will contact infrastructure staff if they are unable to resolve your issue.</p>
+<p>What if I can’t access DataHub?
+Ensure your CalNet ID is active and try logging in again. If the problem persists, inform your TA or check out this guide for additional help.
+How do I install additional packages?
+Use !pip install package-name in a Jupyter Notebook cell for Python packages, or install.packages(“package-name”) in the R console.</p>
+<p>Can I use DataHub off-campus?
+Yes, you can access DataHub from anywhere with an internet connection.
+What should I do if I encounter a technical issue?
+First, try restarting your kernel. If the issue persists, contact your course TA,  and if they can’t resolve it they will reach out to DataHub staff.</p>
+</section>
+</section>
+</section>
+<section id="end-of-the-semester">
+<h3>End of the Semester<a class="headerlink" href="#end-of-the-semester" title="Permalink to this heading">#</a></h3>
+<section id="backup-your-work">
+<h4>1. Backup Your Work<a class="headerlink" href="#backup-your-work" title="Permalink to this heading">#</a></h4>
+<p>Backup coursework: Back up your notebooks and data to either your personal device or an external storage service like Google Drive, Dropbox.
+User Home Directory Archiving: Files unused for 90 days will be archived and stored in a low cost storage. You will need to open a request with the DataHub team to retrieve your unused files.</p>
+</section>
+<section id="clean-up-your-workspace">
+<h4>2. Clean Up Your Workspace<a class="headerlink" href="#clean-up-your-workspace" title="Permalink to this heading">#</a></h4>
+<p>Clean Up: Clean up your DataHub workspace by deleting unnecessary files and folders.
+Feedback: Provide feedback on your experience with the DataHub team to help improve the service for future students.
+Additional Resources</p>
+</section>
+</section>
 </section>
 </section>
 
@@ -476,20 +555,20 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="troubleshooting_tips_students.html"
+       href="resources.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Troubleshooting Tips to Use Datahub</p>
+        <p class="prev-next-title">Resources For Students</p>
       </div>
     </a>
     <a class="right-next"
-       href="../general/people.html"
+       href="instructor-activity.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Who are we?</p>
+        <p class="prev-next-title">Instructor activity: Generate nbgitpuller link from scratch</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -511,8 +590,31 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-1-via-nbgitpuller">Option 1 - via nbgitpuller</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#option-2-via-jupyter-notebook">Option 2 - via Jupyter notebook</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about-the-uc-berkeley-datahub">About the UC Berkeley DataHub:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#before-the-semester-begins">Before the Semester Begins</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#browser-and-internet-check">1. Browser and Internet Check</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#account-setup-and-access">2. Account Setup and Access</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#familiarize-yourself-with-datahub">3. Familiarize Yourself with DataHub</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#during-the-semester">During the Semester</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#accessing-course-materials">1. Accessing Course Materials</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#completing-assignments">2. Completing Assignments</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#collaboration-and-sharing">3. Collaboration and Sharing</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting">4. Troubleshooting</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#restart-kernel-server-try-restarting-your-kernel-as-a-classic-troubleshooting-step-to-see-if-the-error-goes-away-if-the-problem-persists-restart-your-server">Restart Kernel/Server: Try restarting your kernel as a classic troubleshooting step to see if the error goes away. If the problem persists, restart your server.</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#kill-process-having-too-many-things-open-on-datahub-can-cause-issues-to-check-running-processes-and-kill-them-follow-instructions-in-curriculum-guide">Kill Process: Having too many things open on Datahub can cause issues. To check running processes and kill them follow instructions in Curriculum Guide</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#end-of-the-semester">End of the Semester</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#backup-your-work">1. Backup Your Work</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#clean-up-your-workspace">2. Clean Up Your Workspace</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
