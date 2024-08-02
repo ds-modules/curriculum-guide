@@ -20,67 +20,40 @@ format: jb-book
 root: intro
 title: Home
 parts:
-- caption: Getting started about the Campus Jupyterhub
+- caption: Getting started with DataHub tools
   chapters:
-  - file: technology/pedagogy-and-technology
-    title: Pedagogy and Technology
-    sections:
-    - file: technology/pedagogy-and-technology/introduction-to-jupyter
-      title: Introduction to Jupyter
-    - file: technology/pedagogy-and-technology/notebook-zero
-      title: Notebook Zero
-    - file: technology/r-datahub
-      title: R DataHub
-    - file: technology/shiny
-      title: Shiny  
-    - file: technology/quarto
-      title: Quarto  
-    - file: faq/jupyterhub-intro
-      title: Datahub Frequently Asked Questions (FAQ)
-    - file: faq/onboarding
-      title: Onboarding new users into the Hub
-    - file: technology/jupyter/install-packages
-      title: Using Packages in Jupyter Hub
-    - file: faq/admin
-      title: Exploring admin privileges in the Hub
-    - file: faq/changerequirements
-      title: Changing existing requirements in the Hub
-    - file: faq/troubleshoot
-      title: Troubleshooting issues in the JupyterHub service
-    - file: technology/jupyter/troubleshoot-nbgitpuller
-      title: Troubleshooting issues in the nbgitpuller service
-    - file: technology/jupyter/python-errors
-      title: Troubleshooting issues in the Python Code
-    - file: faq/features
-      title: Requesting new features in the Hub
-    - file: faq/share
-      title: Sharing information about the Hub
-    - file: technology/pedagogy-and-technology/options-launch-rkernel
-      title: Options to Launch R Kernel
-    - file: technology/using-ai-llm
-      title: Using Generative AI in Datahub
-  - file: technology/jupyter/large-datasets
-    title: Working with Large Datasets
+  - file: technology/pedagogy-and-technology/introduction-to-jupyter
+    title: Introduction to Jupyter
+  - file: technology/r-datahub
+    title: R DataHub
+  - file: technology/shiny
+    title: Shiny  
+  - file: technology/quarto
+    title: Quarto
+  - file: workflow/use-retrolab
+    title: Launch Jupyter notebooks using RetroLab interface
+  - file: workflow/use-realtimecollaboration
+    title: Use Real Time Collaboration (RTC)
+  - file: workflow/use-realtimefilesharing
+    title: Use Real Time File Sharing
+  - file: workflow/launch-vscode.md
+    title: Launch VSCode Editor
+  - file: technology/pedagogy-and-technology/options-launch-rkernel
+    title: Options to Launch R Kernel
 - caption: Workflow Basics
   chapters:
   - file: workflow/creating-notebooks
     title: Creating Assignments
+  - file: technology/pedagogy-and-technology/notebook-zero
+    title: Notebook Zero
   - file: workflow/accessibility
-    title: Creating Accessible Notebook Experience
+    title: Create Accessible Notebook Experience
   - file: workflow/pushing-to-github
-    title: Uploading Files to Github
+    title: Upload Files to Github
   - file: workflow/distributing-notebooks
-    title: Distributing Assignments
-  - file: workflow/use-retrolab
-    title: Launch Jupyter notebooks using RetroLab interface!
+    title: Distribute Assignments
   - file: workflow/collecting-grading-assignments
-    title: Collecting and Grading Assignments
-  - file: workflow/use-realtimecollaboration
-    title: Using Real Time Collaboration (RTC)
-  - file: workflow/use-realtimefilesharing.md
-    title: Using Real Time File Sharing
-  - file: workflow/launch-vscode.md
-    title: Launch VSCode Editor
+    title: Collect and Grade Assignments
   - file: workflow/download_notebook_as_pdf.md
     title: Download Jupyter Notebook as PDF
   - file: workflow/download-archive.md
@@ -88,10 +61,39 @@ parts:
   - file: workflow/performance_issue.md
     title: Best Practices to Avoid Performance Issues
   - file: workflow/securely-push-github
-    title: Securely Pushing Changes to Github
-#  - file: workflow/bestpractices
-#    title: Instructional Design Best Practices for Creating Jupyter Notebooks
-
+    title: Securely Push Changes to Github
+  - file: faq/share
+    title: Sharing information about the Hub
+  - file: technology/using-ai-llm
+    title: Use Generative AI in Datahub
+  - file: technology/jupyter/large-datasets
+    title: Working with Large Datasets
+  - file: workflow/bestpractices
+    title: Instructional Design Best Practices for Creating Jupyter Notebooks
+- caption: Datahub Frequently Asked Questions (FAQ)
+  chapters:  
+  - file: faq/onboarding
+    title: Onboarding new users into the Hub
+  - file: technology/jupyter/install-packages
+    title: Using Packages in Jupyter Hub
+  - file: faq/admin
+    title: Explore elevated privileges in DataHub
+  - file: faq/changerequirements
+    title: Changing existing requirements in the Hub
+  - file: faq/troubleshoot
+    title: Troubleshooting issues in the JupyterHub service
+  - file: technology/jupyter/troubleshoot-nbgitpuller
+    title: Troubleshooting issues in the nbgitpuller service
+  - file: technology/jupyter/python-errors
+    title: Troubleshooting issues in the Python Code
+  - file: faq/features
+    title: Requesting new features in the Hub
+- caption: Resources for Students
+  chapters:
+  - file: technology/resources
+    title: Resources for Students
+  - file: technology/troubleshooting_tips_students
+    title: Troubleshooting Tips for Students
 - caption: Getting Started with Modules and Connectors
   chapters:
   - file: connector/general/what-is-a-connector
@@ -123,12 +125,6 @@ parts:
     title: Developing the Module
   - file: module/instructor/deploy-help
     title: Requesting Deployment Help
-- caption: Additional Resources for Students
-  chapters:
-  - file: technology/resources
-    title: Resources for Students
-  - file: technology/troubleshooting_tips_students
-    title: Troubleshooting Tips for Students
 - caption: Workshop Resources
   chapters:
   - file: technology/instructor-activity
