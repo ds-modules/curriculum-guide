@@ -1,4 +1,4 @@
-# Troubleshooting Tips to Use Datahub
+# Tips to Use Datahub
 
 ## About the UC Berkeley DataHub:  
 
@@ -40,16 +40,16 @@ Note: Datahub doesn’t have collaboration tools at this time as we are continuo
 Instructor Feedback: Share your work with instructors or TAs for feedback by downloading and submitting your notebooks as required.
 
 ##### 4. Troubleshooting
-###### Restart Kernel/Server: Try restarting your kernel as a classic troubleshooting step to see if the error goes away. If the problem persists, restart your server.
+**Restart Kernel/Server:** Try restarting your kernel as a classic troubleshooting step to see if the error goes away. If the problem persists, restart your server.
  
-###### Kill Process: Having too many things open on Datahub can cause issues. To check running processes and kill them follow instructions in Curriculum Guide
+**Kill Process:** Having too many things open on Datahub can cause issues. To check running processes and kill them follow instructions in Curriculum Guide
 
-** UI Based Approach: **
+**UI Based Approach:**
 - In Notebook - click Jupyter Icon in UR to get to ”tree” 
 - In “tree” click running processes tab
 - Right click on any process to kill it ( or Kill all). In Lab you can see running processes in tab on left with this icon
 
-** CLI approach: **
+**CLI approach:**
 - Open the terminal in Datahub.
 - Use the command ps aux to list all running processes.
 - Find the process ID (PID) of the processes you want to stop.
