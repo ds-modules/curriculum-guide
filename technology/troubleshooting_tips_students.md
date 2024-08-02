@@ -2,7 +2,7 @@
 
 ## About the UC Berkeley DataHub:  
 
-The DataHub is UC Berkeley’s implementation of Jupyterhub and is a free service made available to UC Berkeley students to provide a small amount of computing and storage on a virtual machine running in the cloud. This guide provides an overview of the tasks you will need to complete before the semester begins, during the semester, and at the end of the semester. This high-level information will help you navigate your coursework effectively using the UC Berkeley DataHub.
+DataHub is UC Berkeley’s implementation of Jupyterhub and is a free service made available to UC Berkeley students to provide a small amount of computing and storage on a virtual machine running in the cloud. This guide provides an overview of the tasks you will need to complete before the semester begins, during the semester, and at the end of the semester. This high-level information will help you navigate your coursework effectively using the UC Berkeley DataHub.
 
 #### Before the Semester Begins
 
@@ -33,13 +33,18 @@ The DataHub is UC Berkeley’s implementation of Jupyterhub and is a free servic
 **To manage files in JupyterHub:** To upload a file, click the "Upload" button in the JupyterHub interface and select the file from your local machine.To download a file, right-click on the file in the JupyterHub interface and select the "Download" option.
 
 ##### 2. Completing Assignments
-Regular Use: Regularly log in to DataHub to complete assignments, run analyses, and work on projects.
-Save Work: Save your progress frequently. It's good practice to manually save your work as well.
-Check Storage Space: Delete unnecessary files and constantly check the storage size of the home directory.  You can do this by opening a Terminal, and executing du -sh
-Don’t Duplicate Shared Directory Content: If your course work requires shared directories where instructors are storing large datasets, don’t create a copy of the files in your home directory. Always, read data from the shared directory.
-Do Your Work in Sub Directories: Create a sub directory for each assignment and do your work there. Avoid working on assignments from the root directory as they may lead to data issues if done wrongly.
+**Regular Use:** Regularly log in to DataHub to complete assignments, run analyses, and work on projects.
+
+**Save Work:** Save your progress frequently. It's good practice to manually save your work as well.
+
+**Check Storage Space:** Delete unnecessary files and constantly check the storage size of the home directory.  You can do this by opening a Terminal, and executing `du -sh`
+
+**Don’t Duplicate Shared Directory Content:** If your course work requires shared directories where instructors are storing large datasets, don’t create a copy of the files in your home directory. Always, read data from the shared directory.
+
+**Do Your Work in Sub Directories:** Create a sub directory for each assignment and do your work there. Avoid working on assignments from the root directory as they may lead to data issues if done wrongly.
 
 ##### 3. Collaboration and Sharing
+
 ```{note}
 Datahub doesn’t have collaboration tools at this time as we are continuously testing the latest updates.
 ```
