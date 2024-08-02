@@ -127,6 +127,8 @@ parts:
   chapters:
   - file: technology/resources
     title: Resources for Students
+  - file: technology/troubleshooting_tips_students
+    title: Troubleshooting Tips for Students
 - caption: Workshop Resources
   chapters:
   - file: technology/instructor-activity
