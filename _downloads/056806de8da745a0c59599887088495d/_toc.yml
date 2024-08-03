@@ -30,14 +30,14 @@ parts:
     title: Shiny  
   - file: technology/quarto
     title: Quarto
+  - file: workflow/launch-vscode.md
+    title: VSCode
   - file: workflow/use-retrolab
     title: RetroLab
   - file: workflow/use-realtimecollaboration
     title: Real Time Collaboration (RTC)
   - file: workflow/use-realtimefilesharing
     title: Real Time File Sharing
-  - file: workflow/launch-vscode.md
-    title: VSCode
   - file: technology/pedagogy-and-technology/options-launch-rkernel
     title: Options to Launch R
 - caption: Workflow Basics
