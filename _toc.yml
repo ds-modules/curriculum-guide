@@ -23,27 +23,27 @@ parts:
 - caption: Getting started with DataHub tools
   chapters:
   - file: technology/pedagogy-and-technology/introduction-to-jupyter
-    title: Introduction to Jupyter
+    title: Jupyter Notebooks and JupyterHub
   - file: technology/r-datahub
-    title: R DataHub
+    title: R Hub
   - file: technology/shiny
     title: Shiny  
   - file: technology/quarto
     title: Quarto
   - file: workflow/use-retrolab
-    title: Launch Jupyter notebooks using RetroLab interface
+    title: RetroLab
   - file: workflow/use-realtimecollaboration
-    title: Use Real Time Collaboration (RTC)
+    title: Real Time Collaboration (RTC)
   - file: workflow/use-realtimefilesharing
-    title: Use Real Time File Sharing
+    title: Real Time File Sharing
   - file: workflow/launch-vscode.md
-    title: Launch VSCode Editor
+    title: VSCode
   - file: technology/pedagogy-and-technology/options-launch-rkernel
-    title: Options to Launch R Kernel
+    title: Options to Launch R
 - caption: Workflow Basics
   chapters:
   - file: workflow/creating-notebooks
-    title: Creating Assignments
+    title: Create Assignments
   - file: technology/pedagogy-and-technology/notebook-zero
     title: Notebook Zero
   - file: workflow/accessibility
@@ -57,37 +57,37 @@ parts:
   - file: workflow/download_notebook_as_pdf.md
     title: Download Jupyter Notebook as PDF
   - file: workflow/download-archive.md
-    title: Download Files/Folders as archive from Datahub
+    title: Download Datahub home directory contents as archive
   - file: workflow/performance_issue.md
     title: Best Practices to Avoid Performance Issues
   - file: workflow/securely-push-github
     title: Securely Push Changes to Github
-  - file: faq/share
-    title: Sharing information about the Hub
   - file: technology/using-ai-llm
-    title: Use Generative AI in Datahub
+    title: Generative AI Usecase in DataHub
   - file: technology/jupyter/large-datasets
-    title: Working with Large Datasets
+    title: Work with Large Datasets
   - file: workflow/bestpractices
     title: Instructional Design Best Practices for Creating Jupyter Notebooks
+  - file: faq/share
+    title: Sharing information about the Hub
 - caption: Datahub Frequently Asked Questions (FAQ)
   chapters:  
   - file: faq/onboarding
-    title: Onboarding new users into the Hub
+    title: Onboard new users
   - file: technology/jupyter/install-packages
-    title: Using Packages in Jupyter Hub
+    title: Package Installations
   - file: faq/admin
-    title: Explore elevated privileges in DataHub
+    title: Elevated privileges
   - file: faq/changerequirements
-    title: Changing existing requirements in the Hub
+    title: Change existing requirements in the Hub
   - file: faq/troubleshoot
-    title: Troubleshooting issues in the JupyterHub service
+    title: Troubleshoot issues in DataHub
   - file: technology/jupyter/troubleshoot-nbgitpuller
-    title: Troubleshooting issues in the nbgitpuller service
+    title: Troubleshoot issues in Link Generator
   - file: technology/jupyter/python-errors
-    title: Troubleshooting issues in the Python Code
+    title: Troubleshoot issues in the Python Code
   - file: faq/features
-    title: Requesting new features in the Hub
+    title: Request new features in the Hub
 - caption: Resources for Students
   chapters:
   - file: technology/resources
