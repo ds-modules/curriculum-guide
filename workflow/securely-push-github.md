@@ -19,20 +19,12 @@
 
 ### Requesting Access/Installation:
 
-1. **Create a GitHub App**:
-   - Go to GitHub -> Settings -> Developer Settings -> GitHub Apps -> New GitHub App.
-   - Fill in the required details and enable Device Flow.
-   - Set repository permissions to "Read & Write".
-   - Allow installation on "Any account".
-   - Save the `Client ID` and `Public Link` as the admins require this information.
+1. **Install the App**:
+   - Install the [GitHub App](https://github.com/organizations/berkeley-dsep-infra/settings/apps/) tagged to your hub by clicking the green button "install". For Eg: If you are using Data 100 hub then install "data100 Berkeley Datahub Access" Github app
+   - Select specific repositories for which you want to grant read and write access.
 
-2. **Install the App**:
-   - Follow instructions to install the GitHub App on your account or organization.
-   - Select specific repositories to grant access.
-
-3. **Contact Datahub Infra Admins**:
-   - Request admins to add `gh-scoped-creds` to the Datahub instance you are using by using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=package-request&projects=&template=package_request.yml&title=Request+python+package+X+for+class+Y). Here is a [sample request](https://github.com/berkeley-dsep-infra/datahub/issues/4879) for adding `gh-scoped-creds` in Data100 hub. Please don't forget to add `Client ID` and `Public Link`
-
+2. **Contact Datahub Infra Admins**:
+   - Request admins to add `gh-scoped-creds` to the hub's image by specifying the hub you are using via this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=package-request&projects=&template=package_request.yml&title=Request+python+package+X+for+class+Y). Here is a [sample request](https://github.com/berkeley-dsep-infra/datahub/issues/4879) for adding `gh-scoped-creds` in Data100 hub. 
 
 ### Using the Tool:
 
