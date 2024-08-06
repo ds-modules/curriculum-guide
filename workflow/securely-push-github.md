@@ -19,8 +19,8 @@
 
 ### Requesting Access/Installation:
 
-1. **Install the App**:
-   - Install the [GitHub App](https://github.com/organizations/berkeley-dsep-infra/settings/apps/) tagged to your hub by clicking the green button "install". For Eg: If you are using Data 100 hub then install "data100 Berkeley Datahub Access" Github app
+1. **Install the GithHub App**:
+   - Reach out to infra admins inorder to get the URL for the GitHub app that you need to install. Click the green button "install" after navigating to the app URL to install the app.
    - Select specific repositories for which you want to grant read and write access.
 
 2. **Contact Datahub Infra Admins**:
