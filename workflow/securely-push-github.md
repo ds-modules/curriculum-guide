@@ -20,10 +20,10 @@
 ### Requesting Access/Installation:
 
 1. **Install the GithHub App**:
-   - Reach out to infra admins inorder to get the URL for the GitHub app that you need to install. Click the green button "install" after navigating to the app URL to install the app.
+   - Reach out to infra admins inorder to get the URL for the GitHub app that you need to install. Click the green button "install" after navigating to the app URL to install the app. Eg: Here is the list of [GitHub apps](https://github.com/organizations/berkeley-dsep-infra/settings/apps/) created for varied hubs.
    - Select specific repositories for which you want to grant read and write access.
 
-2. **Contact Datahub Infra Admins**:
+2. **Add gh-scoped-creds Package to Hub Image**:
    - Request admins to add `gh-scoped-creds` to the hub's image by specifying the hub you are using via this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&labels=package-request&projects=&template=package_request.yml&title=Request+python+package+X+for+class+Y). Here is a [sample request](https://github.com/berkeley-dsep-infra/datahub/issues/4879) for adding `gh-scoped-creds` in Data100 hub. 
 
 ### Using the Tool:
