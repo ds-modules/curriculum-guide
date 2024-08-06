@@ -440,24 +440,15 @@ document.write(`
 <section id="requesting-access-installation">
 <h3>Requesting Access/Installation:<a class="headerlink" href="#requesting-access-installation" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p><strong>Create a GitHub App</strong>:</p>
+<li><p><strong>Install the GithHub App</strong>:</p>
 <ul class="simple">
-<li><p>Go to GitHub -&gt; Settings -&gt; Developer Settings -&gt; GitHub Apps -&gt; New GitHub App.</p></li>
-<li><p>Fill in the required details and enable Device Flow.</p></li>
-<li><p>Set repository permissions to “Read &amp; Write”.</p></li>
-<li><p>Allow installation on “Any account”.</p></li>
-<li><p>Save the <code class="docutils literal notranslate"><span class="pre">Client</span> <span class="pre">ID</span></code> and <code class="docutils literal notranslate"><span class="pre">Public</span> <span class="pre">Link</span></code> as the admins require this information.</p></li>
+<li><p>Reach out to infra admins inorder to get the URL for the GitHub app that you need to install. Click the green button “install” after navigating to the app URL to install the app. Eg: Here is the list of <a class="reference external" href="https://github.com/organizations/berkeley-dsep-infra/settings/apps/">GitHub apps</a> created for varied hubs.</p></li>
+<li><p>Select specific repositories for which you want to grant read and write access.</p></li>
 </ul>
 </li>
-<li><p><strong>Install the App</strong>:</p>
+<li><p><strong>Add gh-scoped-creds Package to Hub Image</strong>:</p>
 <ul class="simple">
-<li><p>Follow instructions to install the GitHub App on your account or organization.</p></li>
-<li><p>Select specific repositories to grant access.</p></li>
-</ul>
-</li>
-<li><p><strong>Contact Datahub Infra Admins</strong>:</p>
-<ul class="simple">
-<li><p>Request admins to add <code class="docutils literal notranslate"><span class="pre">gh-scoped-creds</span></code> to the Datahub instance you are using by using this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&amp;labels=package-request&amp;projects=&amp;template=package_request.yml&amp;title=Request+python+package+X+for+class+Y">template</a>. Here is a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/4879">sample request</a> for adding <code class="docutils literal notranslate"><span class="pre">gh-scoped-creds</span></code> in Data100 hub. Please don’t forget to add <code class="docutils literal notranslate"><span class="pre">Client</span> <span class="pre">ID</span></code> and <code class="docutils literal notranslate"><span class="pre">Public</span> <span class="pre">Link</span></code></p></li>
+<li><p>Request admins to add <code class="docutils literal notranslate"><span class="pre">gh-scoped-creds</span></code> to the hub’s image by specifying the hub you are using via this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg%2Cshaneknapp&amp;labels=package-request&amp;projects=&amp;template=package_request.yml&amp;title=Request+python+package+X+for+class+Y">template</a>. Here is a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/4879">sample request</a> for adding <code class="docutils literal notranslate"><span class="pre">gh-scoped-creds</span></code> in Data100 hub.</p></li>
 </ul>
 </li>
 </ol>
