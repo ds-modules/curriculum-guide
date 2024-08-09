@@ -368,7 +368,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -384,6 +386,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-updates">General Updates</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#datahub-support-overview">DataHub - Support Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#datahub-common-requests">Datahub - Common Requests</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#other-updates">Other Updates</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -395,52 +408,57 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="get-yourself-onboarded-to-datahub">
 <h1>Get yourself onboarded to DataHub<a class="headerlink" href="#get-yourself-onboarded-to-datahub" title="Permalink to this heading">#</a></h1>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>**I am instructor planning to teach using Datahub. What should I know prior to the start of the semester?**
-
-Dear Instructor, Datahub team is available to support you through this process. Sharing few onboarding tips that would make it easy for you to get familiar with Datahub and interact with the support team.
-
-- **Github Issues:** The best way to request help with the Datahub is handled through filing an issue on the github page for the datahub deployment: https://github.com/berkeley-dsep-infra/datahub/issues
-- **Slack Channel:** For urgent troubleshooting, you or your course staff can also use uctech.slack.com (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to touch base with the infra team. 
-- **Documentation:** You can also refer to the FAQ section of this support documentation where we regularly update solutions to some of the reported issues.
- - **Packages:** Check whether all the needed Python/R packages along with their required versions are installed in the instructional hubs you use for teaching. If certain packages are not present, please use the following [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&amp;labels=package-request&amp;template=package_request.yml&amp;title=Request+python+package+X+for+class+Y) to make a request to the support team.  
-- **Elevated Privileges:** Do you want your instructional staff to troubleshoot student servers when they have issues. You can get elevated privileges which allows for viewing and accessing student servers in DataHub. If you need to access student servers, You can use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&amp;labels=support&amp;template=admin_request.yml) to make the request for the requested hub.
-- **Big Assignments / High Usage times:** You can share the important date(s)/time(s) for workshops/exams/assignments etc. in your course the compute requirement is greater than regular usage during this semester. You can provide us with the required information using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&amp;labels=support&amp;template=resourcescheduler.yml&amp;title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29).
-- **Newsletter:** Are you interested to learn about some of the latest infrastructure changes, case studies of faculty doing interesting work, and scheduled workshops related to Datahub and other tools part of Berkeley Data Science Teaching Stack? If yes, Check our [newsletter](https://ucberkeleydatahub.substack.com/p/january-edition-of-berkeley-datahub) and subscribe to it if you think the information shared is useful! Some new things to know about are,
-- **Datahub Link Generator Plugin:** There is a [plugin in the Google Chrome store](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) which helps with generating distributable links from Github. 
-
-Finally, provide us with any [feedback](https://github.com/berkeley-dsep-infra/datahub/issues/new) that will help us improve our hub operations. We want to ensure that you have a smooth experience teaching this semester. 
-
-**How can I learn more about Datahub to onboard myself?**
-
-- If you are new to Datahub and want to know more, checkout [here](https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F). 
-
-- If you are interested in learning more about the configuration of various Berkeley hubs, you can checkout [UC Berkeley&#39;s JupyterHubs documentation](https://docs.datahub.berkeley.edu/en/latest/).
-
-- If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this [Zero to JupyterHub with Kubernetes documentation](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
-
-**What languages are supported by the hub?**
-
-Datahub primarily supports three languages - **Python, R and, Julia**. However, We also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, Share your exact requirement over an email to [Eric Van Dusen](mailto:ericvd@berkeley.edu)/[Balaji Alwar](mailto:balajialwar@berkeley.edu) or raise a Github [issue](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
-
-**How many hubs across the campus exist? Which courses use them extensively?**
-
-We have 15+ hubs which cater to the diverse needs of the campus audience. We have the [vanilla DataHub](https://datahub.berkeley.edu/), which serves multiple departments/courses across the campus. We also have separate hubs for courses such as Data 8, Data 100, Public health, etc., serving the instructional needs. You can learn more about some of the hubs deployed through this [link](https://docs.datahub.berkeley.edu/en/latest/users/hubs.html).
-
-**What is the default Memory/CPU requirement for every hub?**
-
-[DataHub](https://datahub.berkeley.edu/) has a memory of 1 GB, which should meet the teaching/research needs of most of our users. If you are interested to know more about the memory consumption in your instance, Please follow the steps below,
-
-- Look at the top right corner of your Python/R notebook for the term memory. It will highlight the amount of memory you had consumed against the total memory available for your server. 
-- If your consumed memory is greater than the available memory for your instance then your server will crash resulting in you either optimizing your workflow to be less compute intensive or requesting additional RAM,
-
-```{figure} ../images/memory.png
-:width: 500px
-:align: center
-:name: Available Memory
-
-Here is where you can find the memory related details!
-</pre></div>
-</div>
+<p><strong>I am instructor planning to teach using Datahub. What should I know prior to the start of the semester?</strong></p>
+<section id="general-updates">
+<h2>General Updates<a class="headerlink" href="#general-updates" title="Permalink to this heading">#</a></h2>
+<p><strong>Proactive Support Requests:</strong> Please submit support requests for software changes and resource allocations before instruction begins. This helps us to ensure that your requests can be accommodated and will not disrupt other course environments. Ideal time frames to make requests are either <strong>before the start or during the first two weeks of the semester</strong>. We recommend this timeline to ensure that we make minimal changes to the hub infrastructure when the courses are ongoing.</p>
+<p><strong>Assignment Deadlines:</strong> Please try to schedule assignments during regular working hours so that infrastructure staff can troubleshoot hubs if something goes wrong.</p>
+<p><strong>Test Assignments in Advance:</strong> Please try to test assignments and notebooks on the hub before giving them to students. This will allow time for the infra team to fix any issues you discover.</p>
+<p><strong>Export to PDF Using WebPDF:</strong> We recommend using the “Save and Export Notebook as -&gt; WebPDF” option to convert Jupyter notebooks to PDF. We have resolved the image rendering issues previously encountered with this method and are hoping for a smoother conversion process. For more details on PDF conversion, please refer to the <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/download_notebook_as_pdf.html">documentation</a>.</p>
+<p><strong>Using Language Models in Assignments:</strong> If you plan to incorporate language models into your assignments then please schedule a consultation with the infra team before releasing the assignments to students. For more details, please refer to the <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/technology/using-ai-llm.html">documentation</a>.</p>
+<p><strong>Datahub Link Generator:</strong> A Berkeley specific fork of nbgitpuller browser extension called <a class="reference external" href="https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en">“Datahub Link Generator”</a> has been developed with few additional features. Please uninstall the old extension and reinstall the <a class="reference external" href="https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en">latest version</a> in Chrome so that you can get the recent updates and support. We encourage you to review this <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html#datahub-link-generator-chrome-extension">documentation</a> which provides detailed steps to generate assignment links through the new extension.</p>
+<p><strong>Backup Students’ Data:</strong> We recommend that you inform students to back up their data (notebooks and datasets) on their local devices before the end of the semester. We have prepared <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/download-archive.html">download instructions</a> on how students can retrieve all of their archived files.  We receive a lot of student requests to retrieve their files after the completion of the semester. Any upfront communication from your end about backing up their files will hopefully ease the workload for us.</p>
+<p><strong>Otter Grader Upgrade:</strong> If you are interested in moving to the latest versions of otter-grader then please reach out to <a class="reference external" href="mailto:sean&#46;smorris&#37;&#52;&#48;berkeley&#46;edu">sean<span>&#46;</span>smorris<span>&#64;</span>berkeley<span>&#46;</span>edu</a> and <a class="reference external" href="mailto:ericvd&#37;&#52;&#48;berkeley&#46;edu">ericvd<span>&#64;</span>berkeley<span>&#46;</span>edu</a>.</p>
+</section>
+<section id="datahub-support-overview">
+<h2>DataHub - Support Overview<a class="headerlink" href="#datahub-support-overview" title="Permalink to this heading">#</a></h2>
+<p><strong>GitHub Issues:</strong> The best way for instructional staff to request help with the DataHub is through filing an issue using the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">GitHub templates</a>.</p>
+<p><strong>Slack Channel:</strong> If you have anything you’d like to discuss with w/the infra team, please join the Slack channel. Access <a class="reference external" href="http://uctech.slack.com/">uctech.slack.com</a> (anyone with a <a class="reference external" href="http://berkeley.edu">berkeley.edu</a> account can get in) and join the #ucb-datahubs channel to interact with the infra team.</p>
+<p><strong>Datahub Service Lead:</strong> In addition, you can reach out to Balaji Alwar <a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">balajialwar<span>&#64;</span>berkeley<span>&#46;</span>edu</a> directly if there are time-sensitive issues.</p>
+</section>
+<section id="datahub-common-requests">
+<h2>Datahub - Common Requests<a class="headerlink" href="#datahub-common-requests" title="Permalink to this heading">#</a></h2>
+<p><strong>Packages:</strong> Please test your assignments for hub compatibility before the start of the semester. Check whether all the needed Python/R packages and their required versions are installed. If not, please use the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&amp;labels=package-request&amp;template=package_request.yml&amp;title=Request+python+package+X+for+class+Y">package request template</a> to raise a request to the infra team.  The Infra team requires at least 2 business days for a turnaround on support requests such as this.</p>
+<p><strong>Elevated Privilege Access:</strong> You can use this <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&amp;labels=support&amp;template=admin_request.yml">GitHub template</a> to request <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/faq/admin.html?highlight=admin">elevated privileges</a> for course staff to troubleshoot student servers in the requested hub.</p>
+<p><strong>Big Assignments / High Use times:</strong> You can share the important date(s)/time(s) for workshops/exams/assignments etc. when you expect the resource requirement to be greater than usual. We will review your request and get back to you directly about the feasibility of increasing resources. You can provide us with all the relevant information using the <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&amp;labels=support&amp;template=resourcescheduler.yml&amp;title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29">calendar event scheduling template</a>.</p>
+</section>
+<section id="other-updates">
+<h2>Other Updates<a class="headerlink" href="#other-updates" title="Permalink to this heading">#</a></h2>
+<p><strong>a11y Documentation:</strong> For further insights into improving the accessibility of the Jupyter Notebook/Lab experience for students, please review this <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/accessibility.html?highlight=accessibility">documentation</a> that provides a few tips for improving the accessibility of the notebooks.</p>
+<p><strong>JupyterLab a11y Checker:</strong>  Please check out the <a class="reference external" href="https://pypi.org/project/jupyterlab-a11y-checker/">JupyterLab a11y-checker extension</a> that performs multiple accessibility checks on Jupyter notebook/Lab cells containing images and headings. It  does the following, a) Verifies the presence of alt-text for images, ensuring that visually impaired users can understand their content, b) Calculates the colour contrast ratio to ensure readability for low-vision users and c) Evaluates the heading structure to align with WCAG standards, ensuring that headers (h1, h2, etc.) are appropriately structured for optimal accessibility.</p>
+<p>Finally, provide us with any feedback that will help us improve our hub operations. We want to ensure that you have a smooth experience teaching this semester.</p>
+<p><strong>How can I learn more about Datahub to onboard myself?</strong></p>
+<ul class="simple">
+<li><p>If you are new to Datahub and want to know more, checkout <a class="reference external" href="https://datahub.berkeley.edu/hub/login?next=%2Fhub%2F">here</a>.</p></li>
+<li><p>If you are interested in learning more about the configuration of various Berkeley hubs, you can checkout <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/">UC Berkeley’s JupyterHubs documentation</a>.</p></li>
+<li><p>If you want to set up a hub infrastructure at your end and are interested in learning more about the technical details, use this <a class="reference external" href="https://zero-to-jupyterhub.readthedocs.io/en/latest/">Zero to JupyterHub with Kubernetes documentation</a>.</p></li>
+</ul>
+<p><strong>What languages are supported by the hub?</strong></p>
+<p>Datahub primarily supports three languages - <strong>Python, R and, Julia</strong>. However, We also support other languages on a case-to-case basis. If you have a unique requirement for using a different programming language as part of your hub, Share your exact requirement over an email to <a class="reference external" href="mailto:ericvd&#37;&#52;&#48;berkeley&#46;edu">Eric Van Dusen</a>/<a class="reference external" href="mailto:balajialwar&#37;&#52;&#48;berkeley&#46;edu">Balaji Alwar</a> or raise a Github <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new/choose">issue</a>.</p>
+<p><strong>How many hubs across the campus exist? Which courses use them extensively?</strong></p>
+<p>We have 15+ hubs which cater to the diverse needs of the campus audience. We have the <a class="reference external" href="https://datahub.berkeley.edu/">vanilla DataHub</a>, which serves multiple departments/courses across the campus. We also have separate hubs for courses such as Data 8, Data 100, Public health, etc., serving the instructional needs. You can learn more about some of the hubs deployed through this <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/users/hubs.html">link</a>.</p>
+<p><strong>What is the default Memory/CPU requirement for every hub?</strong></p>
+<p><a class="reference external" href="https://datahub.berkeley.edu/">DataHub</a> has a memory of 1 GB, which should meet the teaching/research needs of most of our users. If you are interested to know more about the memory consumption in your instance, Please follow the steps below,</p>
+<ul class="simple">
+<li><p>Look at the top right corner of your Python/R notebook for the term memory. It will highlight the amount of memory you had consumed against the total memory available for your server.</p></li>
+<li><p>If your consumed memory is greater than the available memory for your instance then your server will crash resulting in you either optimizing your workflow to be less compute intensive or requesting additional RAM,</p></li>
+</ul>
+<figure class="align-center" id="available-memory">
+<a class="reference internal image-reference" href="../_images/memory.png"><img alt="../_images/memory.png" src="../_images/memory.png" style="width: 500px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">Here is where you can find the memory related details!</span><a class="headerlink" href="#available-memory" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 <p>Please contact us if your course/research has more complex computation requiring increased capacity.</p>
 <p><strong>What are the different services offered?</strong></p>
 <p>We offer UI for Classic Jupyter Notebook, RStudio and JupyterLab across different hubs. You can learn more about the varied services offered through this jupyterhubs services <a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/users/services.html">documentation</a>.</p>
@@ -495,7 +513,7 @@ We recommend that you use the following options,</p>
 <figure class="align-center" id="downloading-notebook-as-a-pdf">
 <a class="reference internal image-reference" href="../_images/downloadhtml.PNG"><img alt="../_images/downloadhtml.PNG" src="../_images/downloadhtml.PNG" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 23 </span><span class="caption-text">Here is where you can find the option to download the Python notebook as a PDF!</span><a class="headerlink" href="#downloading-notebook-as-a-pdf" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Here is where you can find the option to download the Python notebook as a PDF!</span><a class="headerlink" href="#downloading-notebook-as-a-pdf" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <ul class="simple">
@@ -504,17 +522,18 @@ We recommend that you use the following options,</p>
 <figure class="align-center" id="downloading-r-notebook-as-a-pdf">
 <a class="reference internal image-reference" href="../_images/knitting.PNG"><img alt="../_images/knitting.PNG" src="../_images/knitting.PNG" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 24 </span><span class="caption-text">Here is where you can find the option to download the R file!</span><a class="headerlink" href="#downloading-r-notebook-as-a-pdf" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 25 </span><span class="caption-text">Here is where you can find the option to download the R file!</span><a class="headerlink" href="#downloading-r-notebook-as-a-pdf" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id1">
 <a class="reference internal image-reference" href="../_images/knittingpdf.PNG"><img alt="../_images/knittingpdf.PNG" src="../_images/knittingpdf.PNG" style="width: 500px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 25 </span><span class="caption-text">Here is where you can find the option to specify the download format as PDF!</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 26 </span><span class="caption-text">Here is where you can find the option to specify the download format as PDF!</span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <p><strong>How do I get access to elevated privileges if I am not able to publish the bcourses site?</strong></p>
 <p>As a policy, we provide elevated privileges to users <strong>only</strong> through their bcourses affiliation. It makes it easy for us to ensure that the right stakeholders have the elevated privileges for a particular course. If you are not using bcourses site for your course and worry that it might be confusing for your students,please create a banner in your bcourses site highlighing that you are not using bcourses for your course work. If you need more input, please contact the support team.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -575,6 +594,23 @@ We recommend that you use the following options,</p>
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-updates">General Updates</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#datahub-support-overview">DataHub - Support Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#datahub-common-requests">Datahub - Common Requests</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#other-updates">Other Updates</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
