@@ -368,7 +368,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -384,6 +386,29 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-usecases">Example Usecases</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-interactive-lecture-notes">1. Creating Interactive Lecture Notes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#building-course-websites">2. Building Course Websites</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#designing-assignments-and-projects">3. Designing Assignments and Projects</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#automating-grading-with-gradescope">4. Automating Grading with Gradescope</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#authoring-books-and-manuals">5. Authoring Books and Manuals</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-workflow-for-beginner-instructors">General Workflow for Beginner Instructors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quarto-command-line-conversion">Quarto Command-Line Conversion</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-jupyter-notebook-and-quarto-markdown-file-to-html">Convert Jupyter notebook and Quarto Markdown file to HTML</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-jupyter-notebook-and-quarto-markdown-to-pdf">Convert Jupyter notebook and Quarto Markdown to PDF</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-qmd-file-to-pdf">Convert qmd file to PDF</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quarto-integration-with-ide">Quarto integration with IDE</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -395,16 +420,93 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="use-quarto-to-produce-scientific-and-technical-documentation">
 <h1>Use Quarto to produce scientific and technical documentation<a class="headerlink" href="#use-quarto-to-produce-scientific-and-technical-documentation" title="Permalink to this heading">#</a></h1>
-<p>Quarto is the latest update to the R Studio interface which allows creating scientific and technical documentation which instructors can use as part of their coursework. Quarto generates .qmd files which is used to produce publication worthy documentation. Quarto uses knitr when R is executed inorder to produce .qmd files.</p>
+<p>Quarto is an open-source publishing system that is particularly valuable for instructors who want to create dynamic, interactive course materials. Whether you’re developing lecture notes, assignments, or entire textbooks, Quarto provides a powerful, flexible platform that integrates code, data, and narrative, making it ideal for educational settings. It supports a variety of programming languages, including R, Python, Julia, and Observable JavaScript, enabling instructors to design course content that actively engages students through hands-on coding exercises and real-time data analysis.</p>
 <figure class="align-center" id="convert-r-markdown-assignments-labs-with-quarto-to-produce-pdfs">
 <a class="reference internal image-reference" href="../_images/Quarto.gif"><img alt="../_images/Quarto.gif" src="../_images/Quarto.gif" style="width: 500px;" /></a>
 </figure>
-<p>Stat 20 instructor Andrew Bray uses Quarto to generate <a class="reference external" href="http://stat20.org">stat20.org</a> which sits on top of netlify which internally uses Quarto as part of the CI/CD. There is also a quarto component in the gradescope autograder as the container infrastructure needs to simulate Datahub environment inorder to run the code containing .qmd files.</p>
+<section id="example-usecases">
+<h2>Example Usecases<a class="headerlink" href="#example-usecases" title="Permalink to this heading">#</a></h2>
+<section id="creating-interactive-lecture-notes">
+<h3>1. Creating Interactive Lecture Notes<a class="headerlink" href="#creating-interactive-lecture-notes" title="Permalink to this heading">#</a></h3>
+<p>Use Case: Developing lecture notes that integrate code, data, and narrative.
+How Quarto Helps: Quarto allows you to write notes in Markdown (.qmd files) with embedded code snippets. These snippets can generate live outputs like tables, plots, and calculations directly within the notes.</p>
+</section>
+<section id="building-course-websites">
+<h3>2. Building Course Websites<a class="headerlink" href="#building-course-websites" title="Permalink to this heading">#</a></h3>
+<p>Use Case: Hosting all course materials online in a single, accessible location.
+How Quarto Helps: Use Quarto to render your Markdown files into a static site, which can be deployed on platforms like Netlify. This site can include lecture notes, assignments, schedules, and more.
+Eg: Stat 20 instructor Andrew Bray uses Quarto to generate <a class="reference external" href="http://stat20.org">stat20.org</a>. Quarto is used to create and manage course materials, which are then rendered into a static website. This website is deployed on Netlify, a popular platform for hosting and deploying static sites. Netlify’s Continuous Integration/Continuous Deployment (CI/CD) pipeline automates the process of building and deploying your site whenever you update your Quarto files. This ensures that any changes you make to your course materials are automatically reflected on the live website without additional manual steps.</p>
+</section>
+<section id="designing-assignments-and-projects">
+<h3>3. Designing Assignments and Projects<a class="headerlink" href="#designing-assignments-and-projects" title="Permalink to this heading">#</a></h3>
+<p>Use Case: Creating assignments where students interact with code and data directly.
+How Quarto Helps: Quarto enables you to build assignments in .qmd files that include executable code. Students can run and modify this code to complete their tasks, making the assignments more interactive and practical.</p>
+</section>
+<section id="automating-grading-with-gradescope">
+<h3>4. Automating Grading with Gradescope<a class="headerlink" href="#automating-grading-with-gradescope" title="Permalink to this heading">#</a></h3>
+<p>Use Case: Efficiently grading assignments that involve coding and data analysis.
+How Quarto Helps: Integrate Quarto into the Gradescope autograder to automatically run and check the code in student submissions. The autograder can simulate environments like Datahub, ensuring consistency in grading.</p>
+</section>
+<section id="authoring-books-and-manuals">
+<h3>5. Authoring Books and Manuals<a class="headerlink" href="#authoring-books-and-manuals" title="Permalink to this heading">#</a></h3>
+<p>Use Case: Writing textbooks, lab manuals, or comprehensive guides.
+How Quarto Helps: Quarto supports long-form content creation, allowing you to compile multiple .qmd files into a cohesive book. You can include live code examples and data analysis, making your book interactive.</p>
+</section>
+</section>
+<section id="general-workflow-for-beginner-instructors">
+<h2>General Workflow for Beginner Instructors<a class="headerlink" href="#general-workflow-for-beginner-instructors" title="Permalink to this heading">#</a></h2>
+<p>Imagine you’re preparing a lecture on data visualization. You start by writing your notes in a simple Markdown file (.qmd), adding a few basic code examples that generate charts. You then use Quarto to render these notes as a PDF handout and an HTML page for your course website.</p>
+</section>
+<section id="quarto-command-line-conversion">
+<h2>Quarto Command-Line Conversion<a class="headerlink" href="#quarto-command-line-conversion" title="Permalink to this heading">#</a></h2>
+<section id="convert-jupyter-notebook-and-quarto-markdown-file-to-html">
+<h3>Convert Jupyter notebook and Quarto Markdown file to HTML<a class="headerlink" href="#convert-jupyter-notebook-and-quarto-markdown-file-to-html" title="Permalink to this heading">#</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">quarto</span> <span class="n">render</span> <span class="n">my</span><span class="o">-</span><span class="n">notebook</span><span class="o">.</span><span class="n">ipynb</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span>
+</pre></div>
+</div>
+<p>The above command converts your Jupyter Notebook (.ipynb) into an HTML file.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">quarto</span> <span class="n">render</span> <span class="n">my</span><span class="o">-</span><span class="n">document</span><span class="o">.</span><span class="n">qmd</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span>
+</pre></div>
+</div>
+<p>The above command converts your Quarto Markdown file (.qmd) into an HTML file.</p>
+</section>
+<section id="convert-jupyter-notebook-and-quarto-markdown-to-pdf">
+<h3>Convert Jupyter notebook and Quarto Markdown to PDF<a class="headerlink" href="#convert-jupyter-notebook-and-quarto-markdown-to-pdf" title="Permalink to this heading">#</a></h3>
+<p><strong>Option 1:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">quarto</span> <span class="n">render</span> <span class="n">my</span><span class="o">-</span><span class="n">homework</span><span class="o">.</span><span class="n">ipynb</span> <span class="o">--</span><span class="n">to</span> <span class="n">pdf</span>
+</pre></div>
+</div>
+<p>The above command converts your Jupyter Notebook (.ipynb) into a PDF file.</p>
+<p><strong>Option 2:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">quarto</span> <span class="n">render</span> <span class="n">my</span><span class="o">-</span><span class="n">homework</span><span class="o">.</span><span class="n">ipynb</span> <span class="o">--</span><span class="n">to</span> <span class="n">typst</span>
+</pre></div>
+</div>
+<p>The above command converts your Jupyter Notebook (.ipynb) into a PDF file with a much cleaner output. It uses typst underneath.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Typst is a modern typesetting system designed to provide a user-friendly alternative to traditional typesetting tools like LaTeX. It is intended for authors, researchers, and anyone who needs to produce documents with precise formatting and layout control, but without the steep learning curve often associated with traditional typesetting systems. For more details, check out <a class="reference external" href="https://typst.app/">typst webpage</a></p>
+</div>
+</section>
+<section id="convert-qmd-file-to-pdf">
+<h3>Convert qmd file to PDF<a class="headerlink" href="#convert-qmd-file-to-pdf" title="Permalink to this heading">#</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">quarto</span> <span class="n">render</span> <span class="n">my</span><span class="o">-</span><span class="n">document</span><span class="o">.</span><span class="n">qmd</span> <span class="o">--</span><span class="n">to</span> <span class="n">pdf</span>
+</pre></div>
+</div>
+<p>The above command converts your Quarto Markdown (. qmd) into a PDF.</p>
 <p>For more information about Quarto, Read <a class="reference external" href="https://quarto.org/">here</a></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Quarto can be used in integration with Jupyter Lab. Read more about it <a class="reference external" href="https://quarto.org/docs/tools/jupyter-lab.html">here</a></p>
 </div>
+</section>
+</section>
+<section id="quarto-integration-with-ide">
+<h2>Quarto integration with IDE<a class="headerlink" href="#quarto-integration-with-ide" title="Permalink to this heading">#</a></h2>
+<p>Quarto integrates seamlessly with several popular Integrated Development Environments (IDEs) such as RStudio, VSCode and JupyterLab. You can visit this <a class="reference external" href="https://quarto.org/docs/get-started/">website</a> to learn more about how it integrates with IDEs.</p>
+<p><strong>RSudio:</strong> In RStudio, you can create, edit, and render Quarto documents (.qmd files) directly, leveraging its rich IDE features.
+<strong>Jupyter:</strong> In JupyterLab, you can convert Jupyter notebooks to various formats using Quarto’s command-line tools, enhancing interactive notebook workflows.
+<strong>VSCode:</strong> Check whether VSCode and <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=quarto.quarto">VSCode Quarto extension</a> is enabled in the hub. If yes, you can render and preview quarto documents. You can have syntax highlighting and command line tools to convert to varied documents.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -465,6 +567,35 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-usecases">Example Usecases</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-interactive-lecture-notes">1. Creating Interactive Lecture Notes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#building-course-websites">2. Building Course Websites</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#designing-assignments-and-projects">3. Designing Assignments and Projects</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#automating-grading-with-gradescope">4. Automating Grading with Gradescope</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#authoring-books-and-manuals">5. Authoring Books and Manuals</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-workflow-for-beginner-instructors">General Workflow for Beginner Instructors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quarto-command-line-conversion">Quarto Command-Line Conversion</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-jupyter-notebook-and-quarto-markdown-file-to-html">Convert Jupyter notebook and Quarto Markdown file to HTML</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-jupyter-notebook-and-quarto-markdown-to-pdf">Convert Jupyter notebook and Quarto Markdown to PDF</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#convert-qmd-file-to-pdf">Convert qmd file to PDF</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quarto-integration-with-ide">Quarto integration with IDE</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
