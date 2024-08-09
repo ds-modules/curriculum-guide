@@ -1,20 +1,48 @@
 # Get yourself onboarded to DataHub
 
-```
 **I am instructor planning to teach using Datahub. What should I know prior to the start of the semester?**
 
-Dear Instructor, Datahub team is available to support you through this process. Sharing few onboarding tips that would make it easy for you to get familiar with Datahub and interact with the support team.
 
-- **Github Issues:** The best way to request help with the Datahub is handled through filing an issue on the github page for the datahub deployment: https://github.com/berkeley-dsep-infra/datahub/issues
-- **Slack Channel:** For urgent troubleshooting, you or your course staff can also use uctech.slack.com (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to touch base with the infra team. 
-- **Documentation:** You can also refer to the FAQ section of this support documentation where we regularly update solutions to some of the reported issues.
- - **Packages:** Check whether all the needed Python/R packages along with their required versions are installed in the instructional hubs you use for teaching. If certain packages are not present, please use the following [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=package-request&template=package_request.yml&title=Request+python+package+X+for+class+Y) to make a request to the support team.  
-- **Elevated Privileges:** Do you want your instructional staff to troubleshoot student servers when they have issues. You can get elevated privileges which allows for viewing and accessing student servers in DataHub. If you need to access student servers, You can use this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=support&template=admin_request.yml) to make the request for the requested hub.
-- **Big Assignments / High Usage times:** You can share the important date(s)/time(s) for workshops/exams/assignments etc. in your course the compute requirement is greater than regular usage during this semester. You can provide us with the required information using this [template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=support&template=resourcescheduler.yml&title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29).
-- **Newsletter:** Are you interested to learn about some of the latest infrastructure changes, case studies of faculty doing interesting work, and scheduled workshops related to Datahub and other tools part of Berkeley Data Science Teaching Stack? If yes, Check our [newsletter](https://ucberkeleydatahub.substack.com/p/january-edition-of-berkeley-datahub) and subscribe to it if you think the information shared is useful! Some new things to know about are,
-- **Datahub Link Generator Plugin:** There is a [plugin in the Google Chrome store](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) which helps with generating distributable links from Github. 
+##### General Updates
 
-Finally, provide us with any [feedback](https://github.com/berkeley-dsep-infra/datahub/issues/new) that will help us improve our hub operations. We want to ensure that you have a smooth experience teaching this semester. 
+**Proactive Support Requests:** Please submit support requests for software changes and resource allocations before instruction begins. This helps us to ensure that your requests can be accommodated and will not disrupt other course environments. Ideal time frames to make requests are either **before the start or during the first two weeks of the semester**. We recommend this timeline to ensure that we make minimal changes to the hub infrastructure when the courses are ongoing.
+
+**Assignment Deadlines:** Please try to schedule assignments during regular working hours so that infrastructure staff can troubleshoot hubs if something goes wrong.
+
+**Test Assignments in Advance:** Please try to test assignments and notebooks on the hub before giving them to students. This will allow time for the infra team to fix any issues you discover.
+
+**Export to PDF Using WebPDF:** We recommend using the “Save and Export Notebook as -> WebPDF” option to convert Jupyter notebooks to PDF. We have resolved the image rendering issues previously encountered with this method and are hoping for a smoother conversion process. For more details on PDF conversion, please refer to the [documentation](https://ds-modules.github.io/curriculum-guide/workflow/download_notebook_as_pdf.html).
+
+**Using Language Models in Assignments:** If you plan to incorporate language models into your assignments then please schedule a consultation with the infra team before releasing the assignments to students. For more details, please refer to the [documentation](https://ds-modules.github.io/curriculum-guide/technology/using-ai-llm.html).
+
+**Datahub Link Generator:** A Berkeley specific fork of nbgitpuller browser extension called [“Datahub Link Generator”](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) has been developed with few additional features. Please uninstall the old extension and reinstall the [latest version](https://chromewebstore.google.com/detail/datahub-link-generator/ijbgangngghdanhcnaliiobbiffocahf?hl=en) in Chrome so that you can get the recent updates and support. We encourage you to review this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/distributing-notebooks.html#datahub-link-generator-chrome-extension) which provides detailed steps to generate assignment links through the new extension.
+
+**Backup Students' Data:** We recommend that you inform students to back up their data (notebooks and datasets) on their local devices before the end of the semester. We have prepared [download instructions](https://ds-modules.github.io/curriculum-guide/workflow/download-archive.html) on how students can retrieve all of their archived files.  We receive a lot of student requests to retrieve their files after the completion of the semester. Any upfront communication from your end about backing up their files will hopefully ease the workload for us.
+
+**Otter Grader Upgrade:** If you are interested in moving to the latest versions of otter-grader then please reach out to sean.smorris@berkeley.edu and ericvd@berkeley.edu.
+
+##### DataHub - Support Overview 
+
+**GitHub Issues:** The best way for instructional staff to request help with the DataHub is through filing an issue using the [GitHub templates](https://github.com/berkeley-dsep-infra/datahub/issues/new/choose).
+
+**Slack Channel:** If you have anything you'd like to discuss with w/the infra team, please join the Slack channel. Access [uctech.slack.com](http://uctech.slack.com/) (anyone with a berkeley.edu account can get in) and join the #ucb-datahubs channel to interact with the infra team. 
+
+**Datahub Service Lead:** In addition, you can reach out to Balaji Alwar <balajialwar@berkeley.edu> directly if there are time-sensitive issues.
+
+##### Datahub - Common Requests 
+**Packages:** Please test your assignments for hub compatibility before the start of the semester. Check whether all the needed Python/R packages and their required versions are installed. If not, please use the [package request template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=package-request&template=package_request.yml&title=Request+python+package+X+for+class+Y) to raise a request to the infra team.  The Infra team requires at least 2 business days for a turnaround on support requests such as this.
+
+**Elevated Privilege Access:** You can use this [GitHub template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=balajialg&labels=support&template=admin_request.yml) to request [elevated privileges](https://ds-modules.github.io/curriculum-guide/faq/admin.html?highlight=admin) for course staff to troubleshoot student servers in the requested hub. 
+
+**Big Assignments / High Use times:** You can share the important date(s)/time(s) for workshops/exams/assignments etc. when you expect the resource requirement to be greater than usual. We will review your request and get back to you directly about the feasibility of increasing resources. You can provide us with all the relevant information using the [calendar event scheduling template](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=felder%2Cbalajialg&labels=support&template=resourcescheduler.yml&title=Increase+compute+resources+for+Course+XXX+between+specific+date%28s%29%2Ftime%28s%29).
+
+##### Other Updates
+
+**a11y Documentation:** For further insights into improving the accessibility of the Jupyter Notebook/Lab experience for students, please review this [documentation](https://ds-modules.github.io/curriculum-guide/workflow/accessibility.html?highlight=accessibility) that provides a few tips for improving the accessibility of the notebooks.
+
+**JupyterLab a11y Checker:**  Please check out the [JupyterLab a11y-checker extension](https://pypi.org/project/jupyterlab-a11y-checker/) that performs multiple accessibility checks on Jupyter notebook/Lab cells containing images and headings. It  does the following, a) Verifies the presence of alt-text for images, ensuring that visually impaired users can understand their content, b) Calculates the colour contrast ratio to ensure readability for low-vision users and c) Evaluates the heading structure to align with WCAG standards, ensuring that headers (h1, h2, etc.) are appropriately structured for optimal accessibility.
+
+Finally, provide us with any feedback that will help us improve our hub operations. We want to ensure that you have a smooth experience teaching this semester.
 
 **How can I learn more about Datahub to onboard myself?**
 
