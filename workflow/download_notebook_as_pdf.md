@@ -67,3 +67,8 @@ The IPython.display module provides functions to display images directly in Jupy
 This method is used to embed an image as an attachment within a Jupyter notebook. It references the image by its attachment identifier, which is useful for images embedded directly within the notebook file.
 
 ````
+
+```{warning}
+All image links referred as part of the Jupyter Notebook should be adhering to https and not http. Serving http content within https pages are referred to as mixed content requests. Modern browsers consider a lot of these sorts of requests to be a security risk and will refuse to load them when using default security settings. For more information, check [here](https://www.cloudflare.com/learning/ssl/what-is-mixed-content/)
+
+````
