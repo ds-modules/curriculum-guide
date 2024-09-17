@@ -60,6 +60,11 @@ parts:
     title: Download Datahub home directory contents as archive
   - file: workflow/performance_issue.md
     title: Best Practices to Avoid Performance Issues
+  - file: workflow/calculate-compute-cost.ipynb
+    title: Calculate GCP cost for compute intensive scenarios
+    sections: 
+      - url: https://dev.datahub.berkeley.edu/user/balajialwar/voila/render/data100%20cloud%20cost%20calculator/data100_cloudcost_calculator.ipynb?
+        title: "Launch Cloud Cost Calculator Widget"
   - file: workflow/securely-push-github
     title: Securely Push Changes to Github
   - file: technology/using-ai-llm
