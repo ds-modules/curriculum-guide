@@ -1,0 +1,679 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>&lt;no title&gt; &#8212; Curriculum Guide</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-470CXFNJ3W"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-470CXFNJ3W');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'workflow/calculate-compute-cost';</script>
+    <link rel="canonical" href="https://ds-modules.github.io/curriculum-guide/workflow/calculate-compute-cost.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Using gh-scoped-creds to securely push changes to Github repository" href="securely-push-github.html" />
+    <link rel="prev" title="Best Practices to Avoid Performance Issues in Datahub" href="performance_issue.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to the UC Berkeley Data Science Curriculum Guide!
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting started with DataHub tools</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../technology/pedagogy-and-technology/introduction-to-jupyter.html">Jupyter Notebooks and JupyterHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/r-datahub.html">R Hub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/shiny.html">Shiny</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/quarto.html">Quarto</a></li>
+<li class="toctree-l1"><a class="reference internal" href="launch-vscode.html">VSCode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use-retrolab.html">RetroLab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use-realtimecollaboration.html">Real Time Collaboration (RTC)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use-realtimefilesharing.html">Use Realtime file sharing using SyncThing</a></li>
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../technology/pedagogy-and-technology/options-launch-rkernel.html">Options to Launch R</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Workflow Basics</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="creating-notebooks.html">Create Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/pedagogy-and-technology/notebook-zero.html">Notebook Zero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accessibility.html">Creating Accessible Notebook Experience</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="pushing-to-github.html">Upload Files to Github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="distributing-notebooks.html">Distribute Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="collecting-grading-assignments.html">Collect and Grade Assignments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download_notebook_as_pdf.html">Download Jupyter Notebook as PDF</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download-archive.html">Download Datahub home directory contents as archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance_issue.html">Best Practices to Avoid Performance Issues</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://dev.datahub.berkeley.edu/user/balajialwar/voila/render/data100%20cloud%20cost%20calculator/data100_cloudcost_calculator.ipynb?">Launch Cloud Cost Calculator Widget</a></li>
+<li class="toctree-l1"><a class="reference internal" href="securely-push-github.html">Securely Push Changes to Github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/using-ai-llm.html">Generative AI Usecase in DataHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/jupyter/large-datasets.html">Work with Large Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bestpractices.html">Instructional Design Best Practices for Creating Jupyter Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/share.html">Sharing information about the Hub</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Datahub Frequently Asked Questions (FAQ)</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../faq/onboarding.html">Onboard new users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/jupyter/install-packages.html">Package Installations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/admin.html">Elevated privileges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/changerequirements.html">Change existing requirements in the Hub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/troubleshoot.html">Troubleshoot issues in DataHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/jupyter/troubleshoot-nbgitpuller.html">Troubleshoot issues in Link Generator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/jupyter/python-errors.html">Troubleshoot issues in the Python Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/features.html">Request new features in the Hub</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Resources for Students</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../technology/resources.html">Resources for Students</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../technology/troubleshooting_tips_students.html">Troubleshooting Tips for Students</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started with Modules and Connectors</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../connector/general/what-is-a-connector.html">What is a Connector course?</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../connector/general/previous-connectors.html">Previous Connectors</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../module/general/what-is-a-module.html">What is a Data Science Module?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dec/general/what-is-a-data-enabled-course.html">What is a Data-Enabled Course?</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Creating a Connector</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/logistics.html">Logistics, Rooms, and Technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/syllabus-design.html">Designing Your Syllabus</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/student-help.html">Requesting Student Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/communication-channels.html">Joining Communication Channels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../connector/instructor/checklist.html">Pre-Semester Checklist</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Creating a Module</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../module/instructor/preplanning.html">Pre-Planning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/instructor/develop.html">Developing the Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/instructor/deploy-help.html">Requesting Deployment Help</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Workshop Resources</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../technology/instructor-activity.html">Instructor Activity</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../general/people.html">People</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/terms-and-abbreviations.html">Terms and Abbreviations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/contact.html">Contact</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/workflow/calculate-compute-cost.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1><no title></h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <h1 style="text-align: center;">Data 100 GCP cloud cost simulator widget</h1>
+<p style="text-align: center;">
+This interactive widget allows you to calculate the cost for running CPU heavy workloads in standard virtual machine vs CPU optimized machine
+</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="c1"># Data for the table</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Type of node&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;n2-highcpu-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-96&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-96&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-96&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-96&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-96&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highcpu-96&quot;</span><span class="p">,</span> 
+        <span class="s2">&quot;n2-highmem-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highmem-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highmem-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highmem-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highmem-32&quot;</span><span class="p">,</span> <span class="s2">&quot;n2-highmem-32&quot;</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Number of CPUs allocated per student&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;4 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span><span class="p">,</span> <span class="s2">&quot;2 CPU&quot;</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Estimate of the total number of students running CPU based workloads&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="mi">1200</span><span class="p">,</span> <span class="mi">600</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">1200</span><span class="p">,</span> <span class="mi">600</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">1200</span><span class="p">,</span> <span class="mi">600</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">1200</span><span class="p">,</span> <span class="mi">600</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">1200</span><span class="p">,</span> <span class="mi">600</span><span class="p">,</span> <span class="mi">400</span><span class="p">,</span> <span class="mi">1200</span><span class="p">,</span> <span class="mi">600</span><span class="p">,</span> <span class="mi">400</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;# of students allocated per node&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="mi">8</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">16</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Total number of nodes allocated&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="mi">150</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">38</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">38</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">38</span><span class="p">,</span> <span class="mi">25</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Node cost per day&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="mf">27.9</span><span class="p">,</span> <span class="mf">27.9</span><span class="p">,</span> <span class="mf">27.9</span><span class="p">,</span> <span class="mf">27.9</span><span class="p">,</span> <span class="mf">27.9</span><span class="p">,</span> <span class="mf">27.9</span><span class="p">,</span> <span class="mf">83.73</span><span class="p">,</span> <span class="mf">83.73</span><span class="p">,</span> <span class="mf">83.73</span><span class="p">,</span> <span class="mf">83.73</span><span class="p">,</span> <span class="mf">83.73</span><span class="p">,</span> <span class="mf">83.73</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">51</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Number of days&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">12</span>
+    <span class="p">],</span>
+    <span class="s2">&quot;Total Cost (12 days)&quot;</span><span class="p">:</span> <span class="p">[</span>
+        <span class="mi">50220</span><span class="p">,</span> <span class="mi">25110</span><span class="p">,</span> <span class="mi">16740</span><span class="p">,</span> <span class="mi">25110</span><span class="p">,</span> <span class="mi">12555</span><span class="p">,</span> <span class="mi">8370</span><span class="p">,</span> <span class="mi">50238</span><span class="p">,</span> <span class="mi">25119</span><span class="p">,</span> <span class="mi">16746</span><span class="p">,</span> <span class="mi">25119</span><span class="p">,</span> <span class="mf">12559.5</span><span class="p">,</span> <span class="mi">8373</span><span class="p">,</span> <span class="mi">91800</span><span class="p">,</span> <span class="mi">45900</span><span class="p">,</span> <span class="mi">23256</span><span class="p">,</span> <span class="mi">45900</span><span class="p">,</span> <span class="mi">23256</span><span class="p">,</span> <span class="mi">15300</span>
+    <span class="p">]</span>
+<span class="p">}</span>
+
+<span class="c1"># Creating the DataFrame</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">Layout</span>
+
+<span class="c1"># Pricing data for the latest instance costs in the Iowa Central region (us-central1)</span>
+<span class="n">NODE_PRICING</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;n2-highcpu-32&#39;</span><span class="p">:</span> <span class="mf">27.93</span><span class="p">,</span>  <span class="c1"># Latest price for n2-highcpu-32</span>
+    <span class="s1">&#39;n2-highcpu-96&#39;</span><span class="p">:</span> <span class="mf">83.73</span><span class="p">,</span>  <span class="c1"># Latest price for n2-highcpu-96</span>
+    <span class="s1">&#39;n2-highmem-32&#39;</span><span class="p">:</span> <span class="mf">50.31</span><span class="p">,</span>  <span class="c1"># Latest price for n2-highmem-32</span>
+<span class="p">}</span>
+
+<span class="c1"># Function to calculate the total number of nodes and total cost</span>
+<span class="k">def</span> <span class="nf">calculate_total_cost</span><span class="p">(</span><span class="n">node_type</span><span class="p">,</span> <span class="n">num_cpus</span><span class="p">,</span> <span class="n">num_students</span><span class="p">,</span> <span class="n">num_days</span><span class="p">):</span>
+    <span class="c1"># Extract the number of CPUs in the node from the node type (e.g., 32 or 96)</span>
+    <span class="n">node_capacity</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">node_type</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&#39;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+    
+    <span class="c1"># Calculate the number of students allocated per node</span>
+    <span class="n">students_per_node</span> <span class="o">=</span> <span class="n">node_capacity</span> <span class="o">/</span> <span class="n">num_cpus</span>
+    
+    <span class="c1"># Calculate the total number of nodes needed</span>
+    <span class="n">total_nodes</span> <span class="o">=</span> <span class="n">num_students</span> <span class="o">/</span> <span class="n">students_per_node</span>
+    
+    <span class="c1"># Get the node cost from the pricing dictionary</span>
+    <span class="n">node_cost</span> <span class="o">=</span> <span class="n">NODE_PRICING</span><span class="p">[</span><span class="n">node_type</span><span class="p">]</span>
+    
+    <span class="c1"># Calculate the total cost for the given number of days</span>
+    <span class="n">total_cost</span> <span class="o">=</span> <span class="n">total_nodes</span> <span class="o">*</span> <span class="n">node_cost</span> <span class="o">*</span> <span class="n">num_days</span>
+    
+    <span class="k">return</span> <span class="n">total_nodes</span><span class="p">,</span> <span class="n">total_cost</span>
+
+<span class="c1"># Callback function for the button</span>
+<span class="k">def</span> <span class="nf">on_button_click</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
+    <span class="n">node_type</span> <span class="o">=</span> <span class="n">node_type_dropdown</span><span class="o">.</span><span class="n">value</span>
+    <span class="n">num_cpus</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num_cpus_dropdown</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span>  <span class="c1"># Extracting the number of CPUs (2 or 4)</span>
+    <span class="n">num_students</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">students_input</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+    <span class="n">num_days</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">num_days_input</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+    
+    <span class="c1"># Calculate total nodes and total cost</span>
+    <span class="n">total_nodes</span><span class="p">,</span> <span class="n">total_cost</span> <span class="o">=</span> <span class="n">calculate_total_cost</span><span class="p">(</span><span class="n">node_type</span><span class="p">,</span> <span class="n">num_cpus</span><span class="p">,</span> <span class="n">num_students</span><span class="p">,</span> <span class="n">num_days</span><span class="p">)</span>
+    
+    <span class="c1"># Show result in text box</span>
+    <span class="n">result_text</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Total nodes allocated: </span><span class="si">{</span><span class="n">total_nodes</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="se">\n</span><span class="s2">Total cost for </span><span class="si">{</span><span class="n">num_days</span><span class="si">}</span><span class="s2"> days: $</span><span class="si">{</span><span class="n">total_cost</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span>
+
+<span class="c1"># Widget elements</span>
+<span class="n">node_type_dropdown</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;n2-highcpu-32&#39;</span><span class="p">,</span> <span class="s1">&#39;n2-highcpu-96&#39;</span><span class="p">,</span> <span class="s1">&#39;n2-highmem-32&#39;</span><span class="p">],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;n2-highcpu-32&#39;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Node Type:&#39;</span><span class="p">,</span>
+    <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span>
+    <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;80%&#39;</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">num_cpus_dropdown</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+    <span class="n">options</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;2 CPU&#39;</span><span class="p">,</span> <span class="s1">&#39;4 CPU&#39;</span><span class="p">],</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;4 CPU&#39;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;CPUs per Student:&#39;</span><span class="p">,</span>
+    <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span>
+    <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;80%&#39;</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">students_input</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntText</span><span class="p">(</span>
+    <span class="n">value</span><span class="o">=</span><span class="mi">1200</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Total Students:&#39;</span><span class="p">,</span>
+    <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span>
+    <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;80%&#39;</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">num_days_input</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">IntText</span><span class="p">(</span>
+    <span class="n">value</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Number of Days:&#39;</span><span class="p">,</span>
+    <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">},</span>
+    <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;80%&#39;</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">calculate_button</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Calculate Total Cost&#39;</span><span class="p">,</span>
+    <span class="n">button_style</span><span class="o">=</span><span class="s1">&#39;success&#39;</span><span class="p">,</span>
+    <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;50%&#39;</span><span class="p">)</span>  <span class="c1"># Set button width to 50% of the container width</span>
+<span class="p">)</span>
+
+<span class="c1"># Improved result text box with larger size, center alignment, and padding for better spacing</span>
+<span class="n">result_text</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Textarea</span><span class="p">(</span>
+    <span class="n">value</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span>
+    <span class="n">description</span><span class="o">=</span><span class="s1">&#39;Result:&#39;</span><span class="p">,</span>
+    <span class="n">disabled</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s1">&#39;80%&#39;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s1">&#39;100px&#39;</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s1">&#39;10px&#39;</span><span class="p">),</span>
+    <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;description_width&#39;</span><span class="p">:</span> <span class="s1">&#39;initial&#39;</span><span class="p">,</span> <span class="s1">&#39;text-align&#39;</span><span class="p">:</span> <span class="s1">&#39;center&#39;</span><span class="p">}</span>
+<span class="p">)</span>
+
+<span class="c1"># Attach the click event handler</span>
+<span class="n">calculate_button</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">on_button_click</span><span class="p">)</span>
+
+<span class="c1"># Organize widgets in a vertical and horizontal layout with proper spacing</span>
+<span class="n">inputs_box</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span>
+    <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">node_type_dropdown</span><span class="p">,</span> <span class="n">num_cpus_dropdown</span><span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s1">&#39;10px&#39;</span><span class="p">)),</span>
+    <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">students_input</span><span class="p">,</span> <span class="n">num_days_input</span><span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s1">&#39;10px&#39;</span><span class="p">)),</span>
+    <span class="n">calculate_button</span>
+<span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">padding</span><span class="o">=</span><span class="s1">&#39;10px&#39;</span><span class="p">,</span> <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">))</span>
+
+<span class="c1"># Final layout for displaying widgets and result</span>
+<span class="n">final_layout</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span>
+    <span class="n">inputs_box</span><span class="p">,</span>
+    <span class="n">result_text</span>
+<span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">Layout</span><span class="p">(</span><span class="n">padding</span><span class="o">=</span><span class="s1">&#39;10px&#39;</span><span class="p">,</span> <span class="n">align_items</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">))</span>
+
+<span class="c1"># Display the entire widget setup</span>
+<span class="n">display</span><span class="p">(</span><span class="n">final_layout</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_1853</span><span class="o">/</span><span class="mf">2300274380.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">Layout</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> 
+<span class="nn">      5 # Pricing data for the latest instance costs</span> in <span class="ni">the Iowa Central region </span><span class="nt">(us-central1)</span>
+
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;ipywidgets&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./workflow"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="performance_issue.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Best Practices to Avoid Performance Issues in Datahub</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="securely-push-github.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Using gh-scoped-creds to securely push changes to Github repository</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Christopher Pyles and Balaji Alwar
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

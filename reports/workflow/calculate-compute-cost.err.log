@@ -1,0 +1,141 @@
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.7.17/x64/lib/python3.7/site-packages/jupyter_cache/executors/utils.py", line 64, in single_nb_execution
+    **kwargs,
+  File "/opt/hostedtoolcache/Python/3.7.17/x64/lib/python3.7/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/opt/hostedtoolcache/Python/3.7.17/x64/lib/python3.7/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/opt/hostedtoolcache/Python/3.7.17/x64/lib/python3.7/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/opt/hostedtoolcache/Python/3.7.17/x64/lib/python3.7/asyncio/base_events.py", line 587, in run_until_complete
+    return future.result()
+  File "/opt/hostedtoolcache/Python/3.7.17/x64/lib/python3.7/site-packages/nbclient/client.py", line 664, in async_execute
+    cell, index, execution_count=self.code_cells_executed + 1
+  File "/opt/hostedtoolcache/Python/3.7.17/x64/lib/python3.7/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/opt/hostedtoolcache/Python/3.7.17/x64/lib/python3.7/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+import ipywidgets as widgets
+from IPython.display import display
+from ipywidgets import Layout
+
+# Pricing data for the latest instance costs in the Iowa Central region (us-central1)
+NODE_PRICING = {
+    'n2-highcpu-32': 27.93,  # Latest price for n2-highcpu-32
+    'n2-highcpu-96': 83.73,  # Latest price for n2-highcpu-96
+    'n2-highmem-32': 50.31,  # Latest price for n2-highmem-32
+}
+
+# Function to calculate the total number of nodes and total cost
+def calculate_total_cost(node_type, num_cpus, num_students, num_days):
+    # Extract the number of CPUs in the node from the node type (e.g., 32 or 96)
+    node_capacity = int(node_type.split('-')[-1])
+    
+    # Calculate the number of students allocated per node
+    students_per_node = node_capacity / num_cpus
+    
+    # Calculate the total number of nodes needed
+    total_nodes = num_students / students_per_node
+    
+    # Get the node cost from the pricing dictionary
+    node_cost = NODE_PRICING[node_type]
+    
+    # Calculate the total cost for the given number of days
+    total_cost = total_nodes * node_cost * num_days
+    
+    return total_nodes, total_cost
+
+# Callback function for the button
+def on_button_click(b):
+    node_type = node_type_dropdown.value
+    num_cpus = int(num_cpus_dropdown.value.split()[0])  # Extracting the number of CPUs (2 or 4)
+    num_students = int(students_input.value)
+    num_days = int(num_days_input.value)
+    
+    # Calculate total nodes and total cost
+    total_nodes, total_cost = calculate_total_cost(node_type, num_cpus, num_students, num_days)
+    
+    # Show result in text box
+    result_text.value = f"Total nodes allocated: {total_nodes:.2f}\nTotal cost for {num_days} days: ${total_cost:.2f}"
+
+# Widget elements
+node_type_dropdown = widgets.Dropdown(
+    options=['n2-highcpu-32', 'n2-highcpu-96', 'n2-highmem-32'],
+    value='n2-highcpu-32',
+    description='Node Type:',
+    style={'description_width': 'initial'},
+    layout=Layout(width='80%')
+)
+
+num_cpus_dropdown = widgets.Dropdown(
+    options=['2 CPU', '4 CPU'],
+    value='4 CPU',
+    description='CPUs per Student:',
+    style={'description_width': 'initial'},
+    layout=Layout(width='80%')
+)
+
+students_input = widgets.IntText(
+    value=1200,
+    description='Total Students:',
+    style={'description_width': 'initial'},
+    layout=Layout(width='80%')
+)
+
+num_days_input = widgets.IntText(
+    value=12,
+    description='Number of Days:',
+    style={'description_width': 'initial'},
+    layout=Layout(width='80%')
+)
+
+calculate_button = widgets.Button(
+    description='Calculate Total Cost',
+    button_style='success',
+    layout=Layout(width='50%')  # Set button width to 50% of the container width
+)
+
+# Improved result text box with larger size, center alignment, and padding for better spacing
+result_text = widgets.Textarea(
+    value='',
+    description='Result:',
+    disabled=True,
+    layout=Layout(width='80%', height='100px', padding='10px'),
+    style={'description_width': 'initial', 'text-align': 'center'}
+)
+
+# Attach the click event handler
+calculate_button.on_click(on_button_click)
+
+# Organize widgets in a vertical and horizontal layout with proper spacing
+inputs_box = widgets.VBox([
+    widgets.VBox([node_type_dropdown, num_cpus_dropdown], layout=Layout(align_items='center', padding='10px')),
+    widgets.VBox([students_input, num_days_input], layout=Layout(align_items='center', padding='10px')),
+    calculate_button
+], layout=Layout(padding='10px', align_items='center', width='100%'))
+
+# Final layout for displaying widgets and result
+final_layout = widgets.VBox([
+    inputs_box,
+    result_text
+], layout=Layout(padding='10px', align_items='center'))
+
+# Display the entire widget setup
+display(final_layout)
+
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+[0;32m/tmp/ipykernel_1853/2300274380.py[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0;32mimport[0m [0mipywidgets[0m [0;32mas[0m [0mwidgets[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      2[0m [0;32mfrom[0m [0mIPython[0m[0;34m.[0m[0mdisplay[0m [0;32mimport[0m [0mdisplay[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      3[0m [0;32mfrom[0m [0mipywidgets[0m [0;32mimport[0m [0mLayout[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0;34m[0m[0m
+[1;32m      5[0m [0;31m# Pricing data for the latest instance costs in the Iowa Central region (us-central1)[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mModuleNotFoundError[0m: No module named 'ipywidgets'
+ModuleNotFoundError: No module named 'ipywidgets'
+
