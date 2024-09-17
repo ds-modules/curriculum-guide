@@ -6,33 +6,43 @@ A few methods of storing datasets are outlined below. The choice of method depen
 
 ##### GitHub
 
-Datasets and the corresponding Jupyter Notebook can be stored in a folder on GitHub. You can then create a nbgitpuller link for the entire folder. When students click this link, the entire folder will appear on their JupyterHub account.
+Datasets and the corresponding Jupyter Notebook can be stored in a folder on GitHub. You can then create a nbgitpuller link for the entire folder. When students click this link, the entire folder will appear on their DataHub account.
 
 ##### Outside Hosts
 
-You can store the data on an online host such as Box, Google Drive, or even GitHub. The `datascience` package contains a [read\_table\(\)](http://data8.org/datascience/_autosummary/datascience.tables.Table.read_table.html#datascience.tables.Table.read_table%29\) function for the [Tables](http://data8.org/datascience/tables.html%29\) data structure. This function will load the data from a given URL.
+You can store the data on an online host such as Box, Google Drive, or even GitHub.
 
 ##### Direct Upload
 
-Students can directly upload data files to their JupyterHub account. This method can get messy if notebooks expect the data to be stored at a certain filepath and students upload the files to a different location. Therefore, we recommend using the other methods listed on this page.
+Students can directly upload data files to their DataHub account. This method can get messy if notebooks expect the data to be stored at a certain filepath and students upload the files to a different location. Therefore, we recommend using the other methods listed on this page.
 
 ### Larger Datasets \(tens of MBs to several GBs\)
 
-Our current recommendation is to keep the file size of the datasets below 100 GB. We recommend the following approaches to all instructors/students who plan to use large datasets for their teaching/learning plans.
+Our current recommendation is to keep the file size of the datasets below 100 MB. We recommend the following approaches to all instructors/students who plan to use large datasets for their teaching/learning plans.
 
-#### The Shared directory (Credits: 2i2c)
+#### Shared directory
 
-##### shared
+In scenarios where you have large datasets or commonly used libraries, a shared directory can serve as a centralized location for these resources. This prevents the need for duplicating files across multiple user spaces, saving disk space and bandwidth.
 
-The shared folder allows read only access to the data stored for all users. You can read dataset from the shared folder while no write operations can be performed.
+**Shared Directory**: The shared folder allows read only access to the students enrolled in your course. Students can read the dataset from the shared folder while no write operations can be performed. The shared directories will be mounted to `/home/jovyan` user path.
 
-Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.
+```{note}
+By default, students cannot write to shared directories. While configuration can be modified to allow students to write to the shared directories, it is generally not recommended. Allowing write access to a shared directory can lead to students accidentally overwriting each other’s work, especially if they’re working simultaneously. Typically, instructors prefer that students save their work in their home directories and then upload the necessary files to a centralized drive or repository. Having said that, We can enable read access for students if you as an instructor is okay with the risks involved.
+```
 
-##### shared-readwrite
+**Shared-ReadWrite Directory** As an instructor, you'll have both read and write access to a "shared-readwrite" directory. You can upload datasets there, and they will automatically be updated in the "shared" directory, which is accessible to all students with read-only permissions. 
 
-shared-readwrite directory is accessible only for **administrators**. This directory allows admins read and write access to the stored data. Any data stored in the shared-readwrite appears in the shared folder for all users. 
+```{note}
+This setup streamlines the workflow: you upload datasets to the "shared-readwrite" directory, and students can immediately access them in the "shared" directory and read it.
+```
 
-Instructors using Stat 159 and Biology hubs use the shared directories extensively.
+Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=type%3A+enhancement&template=featurerequest.md) if you want shared directories enabled for your course. You need to provide the bcourses id for your course and the DataHub URL so that the shared directories appear on the hub you use with appropriate permissions for the folks enrolled in your course roster in bcourses.
+
+Eg:`compss-214a-readwrite` and `compss-214a` are the shared-readwrite and shared directories for the COMPSS-214A course.
+
+```{note}
+Students enrolled in your previous offering lose access to the shared directories at the end of the semester
+```
 
 ##### SyncThing
 

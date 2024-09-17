@@ -399,9 +399,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#larger-datasets-tens-of-mbs-to-several-gbs">Larger Datasets (tens of MBs to several GBs)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-shared-directory-credits-2i2c">The Shared directory (Credits: 2i2c)</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#shared">shared</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#shared-readwrite">shared-readwrite</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#shared-directory">Shared directory</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#syncthing">SyncThing</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Outside Hosts</a></li>
 </ul>
@@ -426,32 +424,39 @@ document.write(`
 <h2>Small Datasets (a few MBs)<a class="headerlink" href="#small-datasets-a-few-mbs" title="Permalink to this heading">#</a></h2>
 <section id="github">
 <h3>GitHub<a class="headerlink" href="#github" title="Permalink to this heading">#</a></h3>
-<p>Datasets and the corresponding Jupyter Notebook can be stored in a folder on GitHub. You can then create a nbgitpuller link for the entire folder. When students click this link, the entire folder will appear on their JupyterHub account.</p>
+<p>Datasets and the corresponding Jupyter Notebook can be stored in a folder on GitHub. You can then create a nbgitpuller link for the entire folder. When students click this link, the entire folder will appear on their DataHub account.</p>
 </section>
 <section id="outside-hosts">
 <h3>Outside Hosts<a class="headerlink" href="#outside-hosts" title="Permalink to this heading">#</a></h3>
-<p>You can store the data on an online host such as Box, Google Drive, or even GitHub. The <code class="docutils literal notranslate"><span class="pre">datascience</span></code> package contains a [read_table()](<a class="reference external" href="http://data8.org/datascience/_autosummary/datascience.tables.Table.read_table.html#datascience.tables.Table.read_table%29">http://data8.org/datascience/_autosummary/datascience.tables.Table.read_table.html#datascience.tables.Table.read_table)</a>) function for the [Tables](<a class="reference external" href="http://data8.org/datascience/tables.html%29">http://data8.org/datascience/tables.html)</a>) data structure. This function will load the data from a given URL.</p>
+<p>You can store the data on an online host such as Box, Google Drive, or even GitHub.</p>
 </section>
 <section id="direct-upload">
 <h3>Direct Upload<a class="headerlink" href="#direct-upload" title="Permalink to this heading">#</a></h3>
-<p>Students can directly upload data files to their JupyterHub account. This method can get messy if notebooks expect the data to be stored at a certain filepath and students upload the files to a different location. Therefore, we recommend using the other methods listed on this page.</p>
+<p>Students can directly upload data files to their DataHub account. This method can get messy if notebooks expect the data to be stored at a certain filepath and students upload the files to a different location. Therefore, we recommend using the other methods listed on this page.</p>
 </section>
 </section>
 <section id="larger-datasets-tens-of-mbs-to-several-gbs">
 <h2>Larger Datasets (tens of MBs to several GBs)<a class="headerlink" href="#larger-datasets-tens-of-mbs-to-several-gbs" title="Permalink to this heading">#</a></h2>
-<p>Our current recommendation is to keep the file size of the datasets below 100 GB. We recommend the following approaches to all instructors/students who plan to use large datasets for their teaching/learning plans.</p>
-<section id="the-shared-directory-credits-2i2c">
-<h3>The Shared directory (Credits: 2i2c)<a class="headerlink" href="#the-shared-directory-credits-2i2c" title="Permalink to this heading">#</a></h3>
-<section id="shared">
-<h4>shared<a class="headerlink" href="#shared" title="Permalink to this heading">#</a></h4>
-<p>The shared folder allows read only access to the data stored for all users. You can read dataset from the shared folder while no write operations can be performed.</p>
-<p>Create a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=type%3A+enhancement&amp;template=featurerequest.md">Github Issue</a> if you want your data to be saved in shared folder on JupyterHub directly. Notebooks stored on JupyterHub will be able to access this data.</p>
-</section>
-<section id="shared-readwrite">
-<h4>shared-readwrite<a class="headerlink" href="#shared-readwrite" title="Permalink to this heading">#</a></h4>
-<p>shared-readwrite directory is accessible only for <strong>administrators</strong>. This directory allows admins read and write access to the stored data. Any data stored in the shared-readwrite appears in the shared folder for all users.</p>
-<p>Instructors using Stat 159 and Biology hubs use the shared directories extensively.</p>
-</section>
+<p>Our current recommendation is to keep the file size of the datasets below 100 MB. We recommend the following approaches to all instructors/students who plan to use large datasets for their teaching/learning plans.</p>
+<section id="shared-directory">
+<h3>Shared directory<a class="headerlink" href="#shared-directory" title="Permalink to this heading">#</a></h3>
+<p>In scenarios where you have large datasets or commonly used libraries, a shared directory can serve as a centralized location for these resources. This prevents the need for duplicating files across multiple user spaces, saving disk space and bandwidth.</p>
+<p><strong>Shared Directory</strong>: The shared folder allows read only access to the students enrolled in your course. Students can read the dataset from the shared folder while no write operations can be performed. The shared directories will be mounted to <code class="docutils literal notranslate"><span class="pre">/home/jovyan</span></code> user path.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By default, students cannot write to shared directories. While configuration can be modified to allow students to write to the shared directories, it is generally not recommended. Allowing write access to a shared directory can lead to students accidentally overwriting each other’s work, especially if they’re working simultaneously. Typically, instructors prefer that students save their work in their home directories and then upload the necessary files to a centralized drive or repository. Having said that, We can enable read access for students if you as an instructor is okay with the risks involved.</p>
+</div>
+<p><strong>Shared-ReadWrite Directory</strong> As an instructor, you’ll have both read and write access to a “shared-readwrite” directory. You can upload datasets there, and they will automatically be updated in the “shared” directory, which is accessible to all students with read-only permissions.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This setup streamlines the workflow: you upload datasets to the “shared-readwrite” directory, and students can immediately access them in the “shared” directory and read it.</p>
+</div>
+<p>Create a <a class="reference external" href="https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&amp;labels=type%3A+enhancement&amp;template=featurerequest.md">Github Issue</a> if you want shared directories enabled for your course. You need to provide the bcourses id for your course and the DataHub URL so that the shared directories appear on the hub you use with appropriate permissions for the folks enrolled in your course roster in bcourses.</p>
+<p>Eg:<code class="docutils literal notranslate"><span class="pre">compss-214a-readwrite</span></code> and <code class="docutils literal notranslate"><span class="pre">compss-214a</span></code> are the shared-readwrite and shared directories for the COMPSS-214A course.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Students enrolled in your previous offering lose access to the shared directories at the end of the semester</p>
+</div>
 <section id="syncthing">
 <h4>SyncThing<a class="headerlink" href="#syncthing" title="Permalink to this heading">#</a></h4>
 <p><a class="reference external" href="https://syncthing.net/">SyncThing</a> is an application that allows users to share their files/folders with their collaborators through a dropox like functionality. You can store all your data in the SyncThing folder and share it with your collaborators. They can read data from the application into their Jupyter notebooks. Refer to this <a class="reference external" href="https://ds-modules.github.io/curriculum-guide/workflow/use-realtimefilesharing.html">documentation</a> that explains the approach to share files via SyncThing.</p>
@@ -538,9 +543,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#larger-datasets-tens-of-mbs-to-several-gbs">Larger Datasets (tens of MBs to several GBs)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-shared-directory-credits-2i2c">The Shared directory (Credits: 2i2c)</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#shared">shared</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#shared-readwrite">shared-readwrite</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#shared-directory">Shared directory</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#syncthing">SyncThing</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Outside Hosts</a></li>
 </ul>
