@@ -40,8 +40,9 @@ Create a [Github Issue](https://github.com/berkeley-dsep-infra/datahub/issues/ne
 
 Eg:`compss-214a-readwrite` and `compss-214a` are the shared-readwrite and shared directories for the COMPSS-214A course.
 
-```{note}
-Students enrolled in your previous offering lose access to the shared directories at the end of the semester
+```{warning}
+- Communicate to your students that those enrolled in your previous course offering lose access to the shared directories at the end of the semester. 
+- Please verify that neither you nor your teaching team members are enrolled in multiple roles (e.g., both Teacher and TA) on your course's bCourses site. Being assigned multiple roles may cause errors during hub spawning, as the system attempts to mount multiple shared read-write directories associated with different group roles (e.g., Teacher and TA).
 ```
 
 ##### SyncThing
