@@ -36,7 +36,7 @@ scholar:
 
 # Navigate to https://analytics.google.com, add a new property for your jupyter book and copy the tracking id here.
 html:
-  google_analytics_id: "G-470CXFNJ3W"    # A GA id that can be used to track website views.
+  google_analytics_id: ""   # A GA id that can be used to track website views.
   content_folder_name: /            # The folder where your raw content (notebooks/markdown files) are located
   images_url: /assets/images              # Path to static image files
   css_url: /assets/css                    # Path to static CSS files
