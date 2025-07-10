@@ -1,5 +1,9 @@
 # What is a Data Science Module?
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 A Data Science Module is a short exploration of data science designed to fit into an existing course. Modules give non-data-science students the opportunity to explore data-driven methods in familiar domains.
 
 Each module is designed by a team of CDSS curriculum developers, working closely with the course instructor, and may be taught by either the CDSS team or the instructors themselves.

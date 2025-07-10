@@ -1,9 +1,8 @@
 # Accessing Elevated Privileges in a Hub
 
-```{note}
-Curious about elevated privileges in Datahub? If yes, read below!
-
-```
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
 
 **What does elevated privilege in an hub mean?**
 

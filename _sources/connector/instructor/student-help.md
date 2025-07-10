@@ -1,5 +1,9 @@
 # Getting Student Help
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 There are three main roles through which students can assist with your courses. You may choose to work with students in all, none, or some of the roles. A brief description of each of the student roles is below.
 
 ### Student Developers

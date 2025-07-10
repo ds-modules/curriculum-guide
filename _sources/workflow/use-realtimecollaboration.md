@@ -1,5 +1,9 @@
 # Enabling Real Time Collaboration feature in Datahub
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 [Real-Time Collaboration in Jupyter](https://github.com/jupyterlab/rtc) is one of the most requested functionalities, which has also proven to be a complex use case to develop. A little bit of context about RTC, It was previously deployed as part of the Stat 159 hub during Spring 22. However, we found [severe data corruption issues](https://github.com/berkeley-dsep-infra/datahub/pull/3287) which led to disabling RTC. Many issues were fixed as part of the `jupyter_collaboration` package which is an  extension that enables RTC in the latest Jupyter Lab 4 version. However, a subset of users in the Data 100 SU 23 course were affected with random error messages (snapshotted below) which went away after disabling the `jupyter_collaboration` package.
 
 ```{figure} ../images/rtc_issue.png

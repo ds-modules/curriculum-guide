@@ -1,5 +1,9 @@
 # Uploading Files to GitHub
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 ### What are Git and GitHub?
 
 Git is a version control software that tracks changes in files and allows multiple users to work on the same files in parallel smoothly. Git is often used in conjunction with GitHub, a website that hosts code and files. A repository \(aka repo\) on GitHub holds the files for a specific project. GitHub’s web interface also displays the information that Git tracks, such as which users are working on a file and what changes have been made to the file.

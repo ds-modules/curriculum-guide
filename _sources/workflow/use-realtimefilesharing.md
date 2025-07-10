@@ -1,5 +1,9 @@
 # Use Realtime file sharing using SyncThing
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 Are you a student interested in collaborating with fellow students in a team project? or an instructor who needs to share assignment solutions/course materials with your teaching team that isn't released to students? Datahub currently allows this Dropbox-like functionality to share selected file(s)/folder(s) with collaborators by using a third-party application called [SyncThing](https://syncthing.net/). SyncThing allows users in a hub to create a folder that can be shared with collaborators either part of the same hub or across different hub(s). 
 
 Refer to the below steps to learn how to use SyncThing as part of your workflow,

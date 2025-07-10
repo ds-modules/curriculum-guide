@@ -1,9 +1,8 @@
 # Requesting new features in the Hub
 
-```{note}
-Have suggestions on new ways to improve our offering? If yes, read below!
-
-```
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
 
 **How do I raise a new requirement for the hub?**
 

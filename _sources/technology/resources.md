@@ -1,5 +1,9 @@
 # Resources For Students
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 Students taking a course with a data science component may need extra resources in order to be successful. In this section, we provide information and links to connect students with computers and in-person help.
 
 ### Laptop Lending

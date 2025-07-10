@@ -1,5 +1,9 @@
 # Using generative AI in Jupyter
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 ## Introduction
 
 Jupyter AI integrates generative AI into Jupyter, allowing users to interact with AI models directly within their notebooks. This guide explains how to use Jupyter AI in your teaching and research.

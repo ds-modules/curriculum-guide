@@ -1,5 +1,9 @@
 # Creating Accessible Notebook Experience
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 Improving the accessibility of the notebook experience has consistently been a key priority for the Datahub infrastructure team. This focus stems from the fact that notebooks have presented significant accessibility challenges, including limited compatibility with screen readers and keyboard navigation, difficulties in interpreting content due to color contrast issues, and non-compliance with the [WCAG 2.0 AA standards](https://www.ucop.edu/electronic-accessibility/standards-and-best-practices/levels-of-conformance-a-aa-aaa.html) mandated by the University.
 
 Enhancing the accessibility of the notebook experience involves addressing multiple dimensions:

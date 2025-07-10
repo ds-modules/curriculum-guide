@@ -1,5 +1,9 @@
 # Terms and Abbreviations
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 A list of the many acronyms and terms that you will see in this guide.
 
 * CDSS - Data Science Education Program

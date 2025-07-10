@@ -1,5 +1,9 @@
 # Welcome to the UC Berkeley Data Science Curriculum Guide!
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 ## What is this guide and who is it for?
 
 The information in the guide is primarily intended for 

@@ -1,5 +1,9 @@
 # Shiny
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 [Shiny](https://shiny.rstudio.com/) is a R package which makes it easy to build interactive web apps. R shiny server in Datahub is used to build interactive dashboards. Here is a short demo of a shiny application below,
 
 ```{figure} ../images/shiny_combined.gif

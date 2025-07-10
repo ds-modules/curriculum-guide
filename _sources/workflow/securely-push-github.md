@@ -1,6 +1,9 @@
 # Using gh-scoped-creds to securely push changes to Github repository
 
----
+
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
 
 ## **GitHub Scoped Credentials**
 

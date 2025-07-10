@@ -1,5 +1,9 @@
 ## Troubleshooting Code Cell Errors
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 This category describes errors that occur when running code cells. This list is not exhaustive, but it details some of themost frequent errors that new Notebook users encounter.
 
 #### NameError
