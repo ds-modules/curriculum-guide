@@ -2,7 +2,9 @@
 
 ## The Guide has Moved!
 
-This guide is now located at [ds-modules.github.io/curriculum-guide](https://ds-modules.github.io/curriculum-guide).
+Any changes should be made [here](https://github.com/berkeley-cdss/curriculum-guide).
+
+View the new guide at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/).
 
 ### What is this guide and who is it for?
 
