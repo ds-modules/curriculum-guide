@@ -1,9 +1,8 @@
 # Changing existing requirements
 
-```{note}
-Interested to learn more about how to change the default requirements for your hub? If yes, read below!
-
-```
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
 
 **What should I do if I want to install more packages?**
 

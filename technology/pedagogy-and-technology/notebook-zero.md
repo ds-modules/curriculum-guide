@@ -1,5 +1,9 @@
 # Notebook Zero
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 ### What is "Notebook Zero"?
 
 The term "notebook zero" refers to the first Jupyter Notebook that students are exposed to, which is meant to introducen the basics of Python and the Jupyter environment. This notebook is typically given out as the first assignment, so that students can acclimate themselves to working with Python in Jupyter before they get to the nitty-gritty of data science work.

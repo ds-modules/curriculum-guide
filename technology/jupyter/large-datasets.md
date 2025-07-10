@@ -1,5 +1,9 @@
 # Storing Datasets
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 A few methods of storing datasets are outlined below. The choice of method depends on your preference and the size of the dataset. Keep in mind, regardless of the size of your dataset, each account on DataHub is provided with ~1GB RAM, so this will limit the amount of data that you can read in at any time. If you want to temporarily increase this limit on RAM, please raise a [github issue](https://github.com/berkeley-dsep-infra/datahub/issues/new?assignees=&labels=support&template=higher-resources.md&title=Request+more+RAM+for+class+X).
 
 ### Small Datasets \(a few MBs\)

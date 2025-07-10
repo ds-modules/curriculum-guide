@@ -1,5 +1,9 @@
 # Instructor activity: Generate nbgitpuller link from scratch
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 ## Option 1 - via nbgitpuller
  
 - Click this [link](https://datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fds-modules%2FDatahub-Workshop&branch=main&urlpath=tree%2FDatahub-Workshop%2Firis.ipynb) to launch a Jupyter notebook. This will clone a repository containing a Jupyter notebook to the home directory of your Berkeley Jupyterhub account.

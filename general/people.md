@@ -1,5 +1,9 @@
 # Who are we?
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 Here are the people in involved with Datahub Infrastructure and Modules team
 
 | Name | Role |
@@ -10,11 +14,11 @@ Here are the people in involved with Datahub Infrastructure and Modules team
 | [Ryan Lovett](mailto:rylo@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Jonathan Felder](mailto:felder@berkeley.edu) | Manages JupyterHub Infrastructure |
 | [Greg Meritt](mailto:gmeritt@berkeley.edu) | Manages JupyterHub Infrastructure |
-| [Anthony Suen](mailto:anthonysuen@berkeley.edu) | Co-Curricular Lead |
 
 Previous Contributors:
-Keeley Takimoto
-Gunjan Baid
-Chris Pyles
-Yuvi Panda
+Keeley Takimoto,
+Gunjan Baid,
+Chris Pyles,
+Yuvi Panda,
+Anthony Suen
 

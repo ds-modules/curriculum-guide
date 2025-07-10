@@ -1,5 +1,9 @@
 # Tips to Use Datahub
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 ## About the UC Berkeley DataHub:  
 
 DataHub is UC Berkeley’s implementation of Jupyterhub and is a free service made available to UC Berkeley students to provide a small amount of computing and storage on a virtual machine running in the cloud. This guide provides an overview of the tasks you will need to complete before the semester begins, during the semester, and at the end of the semester. This high-level information will help you navigate your coursework effectively using the UC Berkeley DataHub.

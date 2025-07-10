@@ -1,5 +1,9 @@
 # Steps to launch notebooks using VSCode
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 ### Step 1: Generate nbgitpuller links to launch VSCode Editor in Datahub
 
 Access the ngbitpuller link generator website using this [link](https://jupyterhub.github.io/nbgitpuller/link) and fill in the following details,

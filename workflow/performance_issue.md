@@ -1,5 +1,9 @@
 # Best Practices to Avoid Performance Issues in Datahub
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 Certain large courses or courses with complex software/compute requirements can consume lot of memory/cpu which can result in poor user experience for students and/or increased cloud costs. Some of the commonly reported performance issues are due to one or many  of the following reasons,
 
 - Students are printing large data frames to a notebook directly or trying show a table that is too large in a notebook cell. The way to solve this issue is to recommend students to not print large data directly to a cell in their notebook. In addition, You can slice the datasets to a smaller samples that students don't run into issues even if they print the entire dataset (not ideal). Please always  review your datasets and remove parts of data that are not core to achieving the required learning outcomes for students

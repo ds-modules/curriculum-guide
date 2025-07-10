@@ -1,5 +1,9 @@
 # Using Quarto in DataHub
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 Quarto is an open-source publishing system that is particularly valuable for instructors who want to create dynamic, interactive course materials. Whether you're developing lecture notes, assignments, or entire textbooks, Quarto provides a powerful, flexible platform that integrates code, data, and narrative, making it ideal for educational settings. It supports a variety of programming languages, including R, Python, Julia, and Observable JavaScript, enabling instructors to design course content that actively engages students through hands-on coding exercises and real-time data analysis.
 
 ```{figure} ../images/Quarto.gif

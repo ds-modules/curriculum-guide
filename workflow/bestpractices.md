@@ -1,5 +1,9 @@
 # Instructional Design Best Practices for Creating Jupyter Notebooks
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 Designing an effective strategy for developing and utilizing Jupyter Notebooks as part of your teaching methodology can be a challenging task. Here are some best practices to consider when creating your notebooks:
 
 **Identify Learning Outcomes:** Clearly define the learning outcomes you want to achieve using Jupyter Notebooks for your course or module. Consider the following questions:

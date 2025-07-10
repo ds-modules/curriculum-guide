@@ -1,5 +1,9 @@
 # Requesting Deployment Help
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 Not every instructor has the coding and math experience to feel confident facilitating a module on their own. As an instructor, you can get assistance with one or more of the following roles.
 
 For all services other than Peer Consulting office hours, CDSS provides support on a first-come, first-served basis. To utilize GSI training, student presenters, or lab assistants, please request help from [Eric Van Dusen](mailto:ericvd@berkeley.edu) ASAP.

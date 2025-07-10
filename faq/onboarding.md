@@ -1,7 +1,8 @@
 # Get yourself onboarded to DataHub
 
-**I am instructor planning to teach using Datahub. What should I know prior to the start of the semester?**
-
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
 
 ##### General Updates
 

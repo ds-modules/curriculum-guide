@@ -1,8 +1,8 @@
 # Troubleshooting issues in the Hub
 
-```{note}
-Facing issues with your hub and want to do some basic troubleshooting before escalating issues to us? If yes, read below!
-```
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
 
 One common error is a Jupyter notebook becoming unresponsive. You will know that a notebook is unresponsive. Another type of error is a user not being able to access some part of their JupyterHub account.
 

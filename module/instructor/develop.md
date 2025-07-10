@@ -1,5 +1,9 @@
 # Development
 
+:::{admonition} The Guide has moved!
+The information on this website may be outdated as of July 2025. Please view the new curriculum guide located at [https://curriculum-guide.datahub.berkeley.edu/](https://curriculum-guide.datahub.berkeley.edu/)
+:::
+
 ### Creating The Outline
 
 Each module starts with a meeting between you and a representative of the Modules team, held a semester or two before the course. At the initial meeting, you’ll be asked about the current course content and the four questions from the pre-planning section.
